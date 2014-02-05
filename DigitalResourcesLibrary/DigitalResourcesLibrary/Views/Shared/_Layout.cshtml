@@ -10,25 +10,20 @@
 </head>
 <body>
     <div id="wrapper">
-        <div id="menu">
-            <ul>
-                <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                <li>@Html.ActionLink("Search", "Index", "Home")</li>
-                <li>@Html.ActionLink("About", "About", "Home")</li>
-            </ul>
-        </div>
+        @Html.Partial("_Menu")
         <div id="header">
-            <h1><br>Library Grodno</h1>
+            <h1><br>@ViewRes.Resource.Site_Name</h1>
             <h2></h2>
         </div>
         <div id="content">
+            @Html.Partial("_CultureChooserUserControl")
             @RenderBody()
         </div>
     </div>
 
     <div id="footer">
-        <p id="legal">Copyright &copy; 2014 The Library Grodno. </p>
-        <p id="brand">The Library Grodno</p>
+        <p id="legal">@ViewRes.Resource.Shared_Layout_Site_Copyright </p>
+        <p id="brand">@ViewRes.Resource.Site_Name</p>
     </div>
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
