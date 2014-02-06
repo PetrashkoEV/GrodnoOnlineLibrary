@@ -1,1 +1,30 @@
-﻿
+﻿.top-content {
+    width: 750px;
+	height: 60px;
+	margin: 0 auto;
+    overflow: auto;
+}
+
+.localization-flag {
+    float: right;
+}
+
+.localization-flag ul {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+
+.localization-flag li {
+    display: block !important;
+    float: left !important;
+    height: 60px !important;
+    padding: 0 0 0 2px !important;
+    width: auto !important;
+}
+
+.localization-flag a {
+    padding: 0 !important;
+    width: auto !important;
+    background: none !important;
+}

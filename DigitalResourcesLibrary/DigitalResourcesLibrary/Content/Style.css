@@ -57,10 +57,9 @@ a:hover {
 /* Menu */
 
 #menu {
-	width: 750px;
-	height: 60px;
-	margin: 0 auto;
-	background: url(themes/images/img03.jpg) no-repeat right top;
+    float: left;
+    width: auto;
+    background: url(themes/images/img03.jpg) no-repeat right top;
 }
 
 #menu ul {

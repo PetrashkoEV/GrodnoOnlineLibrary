@@ -35,13 +35,6 @@ namespace DigitalResourcesLibrary
                 if (ci == null)
                 {
                     string langName = Language.RU.ToString(); // Default culture
-                    //Trying to get values ​​from HTTP header
-                    if (HttpContext.Current.Request.UserLanguages != null && 
-                        HttpContext.Current.Request.UserLanguages.Length != 0)
-                    {
-                        //Get the list
-                        langName = HttpContext.Current.Request.UserLanguages[0].Substring(0, 2);
-                    }
                     ci = new CultureInfo(langName);
                     this.Session["Culture"] = ci;
                 }

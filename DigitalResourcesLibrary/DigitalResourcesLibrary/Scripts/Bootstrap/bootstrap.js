@@ -433,7 +433,7 @@
 
   $(document).ready(function () {
       $('.carousel').carousel({
-          interval: 5000
+          interval: 10000
       });
 
       $('.carousel').carousel('cycle');
