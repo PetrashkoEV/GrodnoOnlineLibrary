@@ -430,15 +430,6 @@
       else if (options.interval) data.pause().cycle()
     })
   }
-
-  $(document).ready(function () {
-      $('.carousel').carousel({
-          interval: 10000
-      });
-
-      $('.carousel').carousel('cycle');
-  });
-
   $.fn.carousel.Constructor = Carousel
 
 
@@ -1409,9 +1400,7 @@
     $.fn.tooltip = old
     return this
   }
-      $('body').tooltip({
-          selector: "[rel=tooltip]"
-      });
+  
 
 }(window.jQuery);
 /* ===========================================================
