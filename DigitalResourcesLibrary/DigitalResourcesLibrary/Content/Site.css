@@ -28,3 +28,15 @@
     width: auto !important;
     background: none !important;
 }
+
+.localization-flag img {
+    border-radius: 50%;
+    margin: 3px;
+    padding: 2px;
+    width: 50px;
+    height: 50px;
+}
+
+.localization-flag img:hover {
+    background-color: #505050;
+}

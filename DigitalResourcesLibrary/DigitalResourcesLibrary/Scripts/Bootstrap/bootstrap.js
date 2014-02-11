@@ -1409,6 +1409,9 @@
     $.fn.tooltip = old
     return this
   }
+      $('body').tooltip({
+          selector: "[rel=tooltip]"
+      });
 
 }(window.jQuery);
 /* ===========================================================

@@ -3,6 +3,7 @@
     enum Language
     {
         RU,
-        EN
+        EN,
+        BE
     }
 }
