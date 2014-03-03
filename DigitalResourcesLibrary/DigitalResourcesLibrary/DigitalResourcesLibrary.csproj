@@ -235,6 +235,12 @@
       <CustomToolNamespace>ViewRes</CustomToolNamespace>
     </EmbeddedResource>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DigitalResourcesLibrary.SqlContext\DigitalResourcesLibrary.SqlContext.csproj">
+      <Project>{fbd3a740-2e2c-4616-8006-f079c2a7b3ec}</Project>
+      <Name>DigitalResourcesLibrary.SqlContext</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

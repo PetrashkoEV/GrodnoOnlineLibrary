@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FBD3A740-2E2C-4616-8006-F079C2A7B3EC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DigitalResourcesLibrary.SqlContext</RootNamespace>
+    <AssemblyName>DigitalResourcesLibrary.SqlContext</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.5.0.0\lib\net40\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.8.3.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MySQL\MySQL Connector Net 6.8.3\Assemblies\v4.0\MySql.Data.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MySql.Data.Entity, Version=6.8.3.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MySQL\MySQL Connector Net 6.8.3\Assemblies\v4.0\MySql.Data.Entity.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MySql.Data.Entity.EF6, Version=6.8.3.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MySQL\MySQL Connector Net 6.8.3\Assemblies\v4.0\MySql.Data.Entity.EF6.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Web, Version=6.8.3.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MySQL\MySQL Connector Net 6.8.3\Assemblies\v4.0\MySql.Web.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Concrete\Articles\ArticleLocateRepository.cs" />
+    <Compile Include="Concrete\Articles\ArticleRepository.cs" />
+    <Compile Include="Concrete\Categories\CategoryRepository.cs" />
+    <Compile Include="Concrete\Categories\CategoryLocateRepository.cs" />
+    <Compile Include="Concrete\Locate\LocateRepository.cs" />
+    <Compile Include="Concrete\Role\RoleRepository.cs" />
+    <Compile Include="Concrete\Store\StoreLocateRepository.cs" />
+    <Compile Include="Concrete\Store\StoreRepository.cs" />
+    <Compile Include="Concrete\Tag\TagLocateRepository.cs" />
+    <Compile Include="Concrete\Tag\TagRepository.cs" />
+    <Compile Include="Concrete\User\UserRepository.cs" />
+    <Compile Include="Entities\article.cs">
+      <DependentUpon>DigitalResourcesLibraryEntityDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Entities\articleloc.cs">
+      <DependentUpon>DigitalResourcesLibraryEntityDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Entities\category.cs">
+      <DependentUpon>DigitalResourcesLibraryEntityDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Entities\categoryloc.cs">
+      <DependentUpon>DigitalResourcesLibraryEntityDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Entities\DigitalResourcesLibraryEntityDataModel.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DigitalResourcesLibraryEntityDataModel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Entities\DigitalResourcesLibraryEntityDataModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DigitalResourcesLibraryEntityDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Entities\DigitalResourcesLibraryEntityDataModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DigitalResourcesLibraryEntityDataModel.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Entities\locale.cs">
+      <DependentUpon>DigitalResourcesLibraryEntityDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Entities\role.cs">
+      <DependentUpon>DigitalResourcesLibraryEntityDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Entities\roleview.cs">
+      <DependentUpon>DigitalResourcesLibraryEntityDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Entities\store.cs">
+      <DependentUpon>DigitalResourcesLibraryEntityDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Entities\storeloc.cs">
+      <DependentUpon>DigitalResourcesLibraryEntityDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Entities\tag.cs">
+      <DependentUpon>DigitalResourcesLibraryEntityDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Entities\tagloc.cs">
+      <DependentUpon>DigitalResourcesLibraryEntityDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Entities\user.cs">
+      <DependentUpon>DigitalResourcesLibraryEntityDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Scheme\libdb.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <EntityDeploy Include="Entities\DigitalResourcesLibraryEntityDataModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>DigitalResourcesLibraryEntityDataModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="Entities\DigitalResourcesLibraryEntityDataModel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>DigitalResourcesLibraryEntityDataModel.edmx</DependentUpon>
+      <LastGenOutput>DigitalResourcesLibraryEntityDataModel.Context.cs</LastGenOutput>
+    </None>
+    <None Include="Entities\DigitalResourcesLibraryEntityDataModel.edmx.diagram">
+      <DependentUpon>DigitalResourcesLibraryEntityDataModel.edmx</DependentUpon>
+    </None>
+    <None Include="Entities\DigitalResourcesLibraryEntityDataModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>DigitalResourcesLibraryEntityDataModel.edmx</DependentUpon>
+      <LastGenOutput>DigitalResourcesLibraryEntityDataModel.cs</LastGenOutput>
+    </None>
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigitalResourcesLibrary", "DigitalResourcesLibrary\DigitalResourcesLibrary.csproj", "{27968CE2-40BA-4C92-AE72-B3A18A80A367}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigitalResourcesLibrary.SqlContext", "DigitalResourcesLibrary.SqlContext\DigitalResourcesLibrary.SqlContext.csproj", "{FBD3A740-2E2C-4616-8006-F079C2A7B3EC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{27968CE2-40BA-4C92-AE72-B3A18A80A367}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27968CE2-40BA-4C92-AE72-B3A18A80A367}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27968CE2-40BA-4C92-AE72-B3A18A80A367}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBD3A740-2E2C-4616-8006-F079C2A7B3EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBD3A740-2E2C-4616-8006-F079C2A7B3EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBD3A740-2E2C-4616-8006-F079C2A7B3EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBD3A740-2E2C-4616-8006-F079C2A7B3EC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

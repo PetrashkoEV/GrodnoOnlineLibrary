@@ -3,4 +3,9 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-@ViewRes.Resource.Site_Name
+
+@ViewBag.TitleArticle
+
+@ViewBag.Description
+
+@Html.Raw(ViewBag.Content)
