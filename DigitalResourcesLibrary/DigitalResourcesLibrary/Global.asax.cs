@@ -9,6 +9,7 @@ using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
 using DigitalResourcesLibrary.Enum;
+using DigitalResourcesLibrary.SqlContext.Scheme;
 
 namespace DigitalResourcesLibrary
 {
@@ -25,6 +26,9 @@ namespace DigitalResourcesLibrary
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+            
+            CreateDB bd = new CreateDB();
+            bd.RunScript();
         }
 
         protected void Application_AcquireRequestState(object sender, EventArgs e)

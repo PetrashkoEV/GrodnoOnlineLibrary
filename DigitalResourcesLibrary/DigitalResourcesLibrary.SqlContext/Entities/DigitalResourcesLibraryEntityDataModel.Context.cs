@@ -36,6 +36,5 @@ namespace DigitalResourcesLibrary.SqlContext.Entities
         public DbSet<tag> tag { get; set; }
         public DbSet<tagloc> tagloc { get; set; }
         public DbSet<user> user { get; set; }
-        public DbSet<roleview> roleview { get; set; }
     }
 }

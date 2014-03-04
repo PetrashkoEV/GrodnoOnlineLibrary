@@ -17,7 +17,6 @@ namespace DigitalResourcesLibrary.SqlContext.Entities
         public store()
         {
             this.storeloc = new HashSet<storeloc>();
-            this.tag = new HashSet<tag>();
         }
     
         public int id { get; set; }
@@ -29,6 +28,5 @@ namespace DigitalResourcesLibrary.SqlContext.Entities
         public virtual category category1 { get; set; }
         public virtual user user { get; set; }
         public virtual ICollection<storeloc> storeloc { get; set; }
-        public virtual ICollection<tag> tag { get; set; }
     }
 }

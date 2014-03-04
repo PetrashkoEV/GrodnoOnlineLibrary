@@ -109,9 +109,6 @@
     <Compile Include="Entities\role.cs">
       <DependentUpon>DigitalResourcesLibraryEntityDataModel.tt</DependentUpon>
     </Compile>
-    <Compile Include="Entities\roleview.cs">
-      <DependentUpon>DigitalResourcesLibraryEntityDataModel.tt</DependentUpon>
-    </Compile>
     <Compile Include="Entities\store.cs">
       <DependentUpon>DigitalResourcesLibraryEntityDataModel.tt</DependentUpon>
     </Compile>
@@ -128,9 +125,17 @@
       <DependentUpon>DigitalResourcesLibraryEntityDataModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Scheme\CreateDB.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Scheme\libdb.sql" />
+    <Content Include="Scheme\Scripts\DampDB.sql" />
+    <Content Include="Scheme\Scripts\1DropTable.sql" />
+    <Content Include="Scheme\Scripts\2StartTable.sql" />
+    <Content Include="Scheme\Scripts\3user.sql" />
+    <Content Include="Scheme\Scripts\4tagloc.sql" />
+    <Content Include="Scheme\Scripts\5category.sql" />
+    <Content Include="Scheme\Scripts\6article.sql" />
+    <Content Include="Scheme\Scripts\7store.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config">

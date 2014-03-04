@@ -1,5 +1,7 @@
-﻿using System.Web.Mvc;
+﻿using System.Data.SqlClient;
+using System.Web.Mvc;
 using System.Linq;
+using DigitalResourcesLibrary.SqlContext;
 using DigitalResourcesLibrary.SqlContext.Concrete.Articles;
 
 namespace DigitalResourcesLibrary.Controllers

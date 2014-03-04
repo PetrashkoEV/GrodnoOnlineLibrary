@@ -4,26 +4,20 @@
   <edmx:Runtime>
     <!-- SSDL content -->
     <edmx:StorageModels>
-    <Schema Namespace="digitalresourceslibraryModel.Store" Alias="Self" Provider="MySql.Data.MySqlClient" ProviderManifestToken="5.6" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+    <Schema Namespace="digitalresourceslibraryModel.Store" Alias="Self" Provider="MySql.Data.MySqlClient" ProviderManifestToken="5.1" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
         <EntityContainer Name="digitalresourceslibraryModelStoreContainer">
-          <EntitySet Name="article" EntityType="digitalresourceslibraryModel.Store.article" store:Type="Tables" Schema="digitalresourceslibrary" />
-          <EntitySet Name="article_has_tag" EntityType="digitalresourceslibraryModel.Store.article_has_tag" store:Type="Tables" Schema="digitalresourceslibrary" />
-          <EntitySet Name="articleloc" EntityType="digitalresourceslibraryModel.Store.articleloc" store:Type="Tables" Schema="digitalresourceslibrary" />
-          <EntitySet Name="category" EntityType="digitalresourceslibraryModel.Store.category" store:Type="Tables" Schema="digitalresourceslibrary" />
-          <EntitySet Name="categoryloc" EntityType="digitalresourceslibraryModel.Store.categoryloc" store:Type="Tables" Schema="digitalresourceslibrary" />
-          <EntitySet Name="locale" EntityType="digitalresourceslibraryModel.Store.locale" store:Type="Tables" Schema="digitalresourceslibrary" />
-          <EntitySet Name="role" EntityType="digitalresourceslibraryModel.Store.role" store:Type="Tables" Schema="digitalresourceslibrary" />
-          <EntitySet Name="store" EntityType="digitalresourceslibraryModel.Store.store" store:Type="Tables" Schema="digitalresourceslibrary" />
-          <EntitySet Name="store_has_tag" EntityType="digitalresourceslibraryModel.Store.store_has_tag" store:Type="Tables" Schema="digitalresourceslibrary" />
-          <EntitySet Name="storeloc" EntityType="digitalresourceslibraryModel.Store.storeloc" store:Type="Tables" Schema="digitalresourceslibrary" />
-          <EntitySet Name="tag" EntityType="digitalresourceslibraryModel.Store.tag" store:Type="Tables" Schema="digitalresourceslibrary" />
-          <EntitySet Name="tagloc" EntityType="digitalresourceslibraryModel.Store.tagloc" store:Type="Tables" Schema="digitalresourceslibrary" />
-          <EntitySet Name="user" EntityType="digitalresourceslibraryModel.Store.user" store:Type="Tables" Schema="digitalresourceslibrary" />
-          <EntitySet Name="roleview" EntityType="digitalresourceslibraryModel.Store.roleview" store:Type="Views" store:Schema="digitalresourceslibrary" store:Name="roleview">
-            <DefiningQuery>SELECT
-      `roleview`.`name`
-      FROM `roleview` AS `roleview`</DefiningQuery>
-          </EntitySet>
+          <EntitySet Name="article" EntityType="digitalresourceslibraryModel.Store.article" store:Type="Tables" Schema="db0c0a44d538e4485fa805a2d7015a8542" />
+          <EntitySet Name="article_has_tag" EntityType="digitalresourceslibraryModel.Store.article_has_tag" store:Type="Tables" Schema="db0c0a44d538e4485fa805a2d7015a8542" />
+          <EntitySet Name="articleloc" EntityType="digitalresourceslibraryModel.Store.articleloc" store:Type="Tables" Schema="db0c0a44d538e4485fa805a2d7015a8542" />
+          <EntitySet Name="category" EntityType="digitalresourceslibraryModel.Store.category" store:Type="Tables" Schema="db0c0a44d538e4485fa805a2d7015a8542" />
+          <EntitySet Name="categoryloc" EntityType="digitalresourceslibraryModel.Store.categoryloc" store:Type="Tables" Schema="db0c0a44d538e4485fa805a2d7015a8542" />
+          <EntitySet Name="locale" EntityType="digitalresourceslibraryModel.Store.locale" store:Type="Tables" Schema="db0c0a44d538e4485fa805a2d7015a8542" />
+          <EntitySet Name="role" EntityType="digitalresourceslibraryModel.Store.role" store:Type="Tables" Schema="db0c0a44d538e4485fa805a2d7015a8542" />
+          <EntitySet Name="store" EntityType="digitalresourceslibraryModel.Store.store" store:Type="Tables" Schema="db0c0a44d538e4485fa805a2d7015a8542" />
+          <EntitySet Name="storeloc" EntityType="digitalresourceslibraryModel.Store.storeloc" store:Type="Tables" Schema="db0c0a44d538e4485fa805a2d7015a8542" />
+          <EntitySet Name="tag" EntityType="digitalresourceslibraryModel.Store.tag" store:Type="Tables" Schema="db0c0a44d538e4485fa805a2d7015a8542" />
+          <EntitySet Name="tagloc" EntityType="digitalresourceslibraryModel.Store.tagloc" store:Type="Tables" Schema="db0c0a44d538e4485fa805a2d7015a8542" />
+          <EntitySet Name="user" EntityType="digitalresourceslibraryModel.Store.user" store:Type="Tables" Schema="db0c0a44d538e4485fa805a2d7015a8542" />
           <AssociationSet Name="fk_article_category1" Association="digitalresourceslibraryModel.Store.fk_article_category1">
             <End Role="category" EntitySet="category" />
             <End Role="article" EntitySet="article" />
@@ -64,14 +58,6 @@
             <End Role="category" EntitySet="category" />
             <End Role="store" EntitySet="store" />
           </AssociationSet>
-          <AssociationSet Name="fk_store_has_tag_store1" Association="digitalresourceslibraryModel.Store.fk_store_has_tag_store1">
-            <End Role="store" EntitySet="store" />
-            <End Role="store_has_tag" EntitySet="store_has_tag" />
-          </AssociationSet>
-          <AssociationSet Name="fk_store_has_tag_tag1" Association="digitalresourceslibraryModel.Store.fk_store_has_tag_tag1">
-            <End Role="tag" EntitySet="tag" />
-            <End Role="store_has_tag" EntitySet="store_has_tag" />
-          </AssociationSet>
           <AssociationSet Name="fk_store_user1" Association="digitalresourceslibraryModel.Store.fk_store_user1">
             <End Role="user" EntitySet="user" />
             <End Role="store" EntitySet="store" />
@@ -103,7 +89,7 @@
           </Key>
           <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
           <Property Name="category" Type="uint" Nullable="false" />
-          <Property Name="modified" Type="timestamp" StoreGeneratedPattern="Identity" />
+          <Property Name="modified" Type="timestamp" />
           <Property Name="visible" Type="bool" />
           <Property Name="owner" Type="uint" Nullable="false" />
         </EntityType>
@@ -163,17 +149,9 @@
           </Key>
           <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
           <Property Name="category" Type="uint" Nullable="false" />
-          <Property Name="modified" Type="timestamp" StoreGeneratedPattern="Identity" />
+          <Property Name="modified" Type="timestamp" />
           <Property Name="visible" Type="bool" />
           <Property Name="owner" Type="uint" Nullable="false" />
-        </EntityType>
-        <EntityType Name="store_has_tag">
-          <Key>
-            <PropertyRef Name="store_id" />
-            <PropertyRef Name="tag_id" />
-          </Key>
-          <Property Name="store_id" Type="int" Nullable="false" />
-          <Property Name="tag_id" Type="int" Nullable="false" />
         </EntityType>
         <EntityType Name="storeloc">
           <Key>
@@ -213,15 +191,6 @@
           <Property Name="active" Type="bit" Nullable="false" />
           <Property Name="password" Type="varchar" Nullable="false" MaxLength="45" />
           <Property Name="role_id" Type="uint" Nullable="false" />
-        </EntityType>
-        <!--Errors Found During Generation:
-      warning 6002: The table/view 'def.digitalresourceslibrary.roleview' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
-      -->
-        <EntityType Name="roleview">
-          <Key>
-            <PropertyRef Name="name" />
-          </Key>
-          <Property Name="name" Type="varchar" Nullable="false" MaxLength="45" />
         </EntityType>
         <Association Name="fk_article_category1">
           <End Role="category" Type="digitalresourceslibraryModel.Store.category" Multiplicity="1">
@@ -358,34 +327,6 @@
             </Principal>
             <Dependent Role="store">
               <PropertyRef Name="category" />
-            </Dependent>
-          </ReferentialConstraint>
-        </Association>
-        <Association Name="fk_store_has_tag_store1">
-          <End Role="store" Type="digitalresourceslibraryModel.Store.store" Multiplicity="1">
-            <OnDelete Action="Cascade" />
-          </End>
-          <End Role="store_has_tag" Type="digitalresourceslibraryModel.Store.store_has_tag" Multiplicity="*" />
-          <ReferentialConstraint>
-            <Principal Role="store">
-              <PropertyRef Name="id" />
-            </Principal>
-            <Dependent Role="store_has_tag">
-              <PropertyRef Name="store_id" />
-            </Dependent>
-          </ReferentialConstraint>
-        </Association>
-        <Association Name="fk_store_has_tag_tag1">
-          <End Role="tag" Type="digitalresourceslibraryModel.Store.tag" Multiplicity="1">
-            <OnDelete Action="Cascade" />
-          </End>
-          <End Role="store_has_tag" Type="digitalresourceslibraryModel.Store.store_has_tag" Multiplicity="*" />
-          <ReferentialConstraint>
-            <Principal Role="tag">
-              <PropertyRef Name="id" />
-            </Principal>
-            <Dependent Role="store_has_tag">
-              <PropertyRef Name="tag_id" />
             </Dependent>
           </ReferentialConstraint>
         </Association>
@@ -545,11 +486,6 @@
             <End Role="article" EntitySet="article" />
             <End Role="tag" EntitySet="tag" />
           </AssociationSet>
-          <AssociationSet Name="store_has_tag" Association="digitalresourceslibraryModel.store_has_tag">
-            <End Role="store" EntitySet="store" />
-            <End Role="tag" EntitySet="tag" />
-          </AssociationSet>
-          <EntitySet Name="roleview" EntityType="digitalresourceslibraryModel.roleview" />
         </EntityContainer>
         <EntityType Name="article">
           <Key>
@@ -557,7 +493,7 @@
           </Key>
           <Property Type="Int32" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Type="Int64" Name="category" Nullable="false" />
-          <Property Type="DateTime" Name="modified" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="DateTime" Name="modified" />
           <Property Type="Boolean" Name="visible" />
           <Property Type="Int64" Name="owner" Nullable="false" />
           <NavigationProperty Name="category1" Relationship="digitalresourceslibraryModel.fk_article_category1" FromRole="article" ToRole="category" />
@@ -627,13 +563,12 @@
           </Key>
           <Property Type="Int32" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Type="Int64" Name="category" Nullable="false" />
-          <Property Type="DateTime" Name="modified" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="DateTime" Name="modified" />
           <Property Type="Boolean" Name="visible" />
           <Property Type="Int64" Name="owner" Nullable="false" />
           <NavigationProperty Name="category1" Relationship="digitalresourceslibraryModel.fk_store_category1" FromRole="store" ToRole="category" />
           <NavigationProperty Name="user" Relationship="digitalresourceslibraryModel.fk_store_user1" FromRole="store" ToRole="user" />
           <NavigationProperty Name="storeloc" Relationship="digitalresourceslibraryModel.fk_storeloc_store1" FromRole="store" ToRole="storeloc" />
-          <NavigationProperty Name="tag" Relationship="digitalresourceslibraryModel.store_has_tag" FromRole="store" ToRole="tag" />
         </EntityType>
         <EntityType Name="storeloc">
           <Key>
@@ -658,7 +593,6 @@
           <Property Type="String" Name="meta" MaxLength="255" FixedLength="false" Unicode="false" />
           <NavigationProperty Name="tagloc" Relationship="digitalresourceslibraryModel.fk_tagloc_tag1" FromRole="tag" ToRole="tagloc" />
           <NavigationProperty Name="article" Relationship="digitalresourceslibraryModel.article_has_tag" FromRole="tag" ToRole="article" />
-          <NavigationProperty Name="store" Relationship="digitalresourceslibraryModel.store_has_tag" FromRole="tag" ToRole="store" />
         </EntityType>
         <EntityType Name="tagloc">
           <Key>
@@ -878,16 +812,6 @@
           <End Type="digitalresourceslibraryModel.article" Role="article" Multiplicity="*" />
           <End Type="digitalresourceslibraryModel.tag" Role="tag" Multiplicity="*" />
         </Association>
-        <Association Name="store_has_tag">
-          <End Type="digitalresourceslibraryModel.store" Role="store" Multiplicity="*" />
-          <End Type="digitalresourceslibraryModel.tag" Role="tag" Multiplicity="*" />
-        </Association>
-        <EntityType Name="roleview">
-          <Key>
-            <PropertyRef Name="name" />
-          </Key>
-          <Property Type="String" Name="name" Nullable="false" MaxLength="45" FixedLength="false" Unicode="false" />
-        </EntityType>
         </Schema>
     </edmx:ConceptualModels>
     <!-- C-S mapping content -->
@@ -1010,21 +934,6 @@
               <ScalarProperty Name="id" ColumnName="article_id" />
             </EndProperty>
           </AssociationSetMapping>
-          <AssociationSetMapping Name="store_has_tag" TypeName="digitalresourceslibraryModel.store_has_tag" StoreEntitySet="store_has_tag">
-            <EndProperty Name="tag">
-              <ScalarProperty Name="id" ColumnName="tag_id" />
-            </EndProperty>
-            <EndProperty Name="store">
-              <ScalarProperty Name="id" ColumnName="store_id" />
-            </EndProperty>
-          </AssociationSetMapping>
-          <EntitySetMapping Name="roleview">
-            <EntityTypeMapping TypeName="digitalresourceslibraryModel.roleview">
-              <MappingFragment StoreEntitySet="roleview">
-                <ScalarProperty Name="name" ColumnName="name" />
-              </MappingFragment>
-            </EntityTypeMapping>
-          </EntitySetMapping>
         </EntityContainerMapping>
       </Mapping>
     </edmx:Mappings>

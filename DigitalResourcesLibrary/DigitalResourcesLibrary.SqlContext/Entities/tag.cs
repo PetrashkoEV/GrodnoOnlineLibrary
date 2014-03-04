@@ -18,7 +18,6 @@ namespace DigitalResourcesLibrary.SqlContext.Entities
         {
             this.tagloc = new HashSet<tagloc>();
             this.article = new HashSet<article>();
-            this.store = new HashSet<store>();
         }
     
         public int id { get; set; }
@@ -26,6 +25,5 @@ namespace DigitalResourcesLibrary.SqlContext.Entities
     
         public virtual ICollection<tagloc> tagloc { get; set; }
         public virtual ICollection<article> article { get; set; }
-        public virtual ICollection<store> store { get; set; }
     }
 }
