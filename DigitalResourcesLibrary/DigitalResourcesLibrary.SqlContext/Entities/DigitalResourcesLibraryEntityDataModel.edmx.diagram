@@ -4,18 +4,18 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="22665f7bc2494b12ae69a3c0ece46181" Name="Diagram1" ZoomLevel="82">
-        <EntityTypeShape EntityType="digitalresourceslibraryModel.article" Width="1.5" PointX="13.25" PointY="17" />
-        <EntityTypeShape EntityType="digitalresourceslibraryModel.articleloc" Width="1.5" PointX="5.5" PointY="18.125" />
-        <EntityTypeShape EntityType="digitalresourceslibraryModel.category" Width="1.5" PointX="8.25" PointY="20.625" />
-        <EntityTypeShape EntityType="digitalresourceslibraryModel.categoryloc" Width="1.5" PointX="5.5" PointY="22.5" />
-        <EntityTypeShape EntityType="digitalresourceslibraryModel.locale" Width="1.5" PointX="9.2669909676848867" PointY="3.361543537751559" />
-        <EntityTypeShape EntityType="digitalresourceslibraryModel.role" Width="1.5" PointX="8.125" PointY="32" />
-        <EntityTypeShape EntityType="digitalresourceslibraryModel.store" Width="1.5" PointX="7.875" PointY="25.375" />
-        <EntityTypeShape EntityType="digitalresourceslibraryModel.storeloc" Width="1.5" PointX="11.875" PointY="25.75" />
-        <EntityTypeShape EntityType="digitalresourceslibraryModel.tag" Width="1.5" PointX="11.875" PointY="29.25" />
-        <EntityTypeShape EntityType="digitalresourceslibraryModel.tagloc" Width="1.5" PointX="7.75" PointY="29.125" />
-        <EntityTypeShape EntityType="digitalresourceslibraryModel.user" Width="1.5" PointX="1.5" PointY="31.875" />
+      <Diagram DiagramId="22665f7bc2494b12ae69a3c0ece46181" Name="Diagram1" ZoomLevel="15">
+        <EntityTypeShape EntityType="digitalresourceslibraryModel.article" Width="1.5" PointX="6.94649273480591" PointY="20.948166946390721" />
+        <EntityTypeShape EntityType="digitalresourceslibraryModel.articleloc" Width="1.5" PointX="4.6587676818756236" PointY="21.324671501910625" />
+        <EntityTypeShape EntityType="digitalresourceslibraryModel.category" Width="1.5" PointX="5.5552414737433384" PointY="27.801796970796676" />
+        <EntityTypeShape EntityType="digitalresourceslibraryModel.categoryloc" Width="1.5" PointX="8.79753061234836" PointY="17.740683295643276" />
+        <EntityTypeShape EntityType="digitalresourceslibraryModel.locale" Width="1.5" PointX="10.685911628737074" PointY="29.243250875381403" />
+        <EntityTypeShape EntityType="digitalresourceslibraryModel.role" Width="1.5" PointX="0.78717301450072452" PointY="12.796952179072868" />
+        <EntityTypeShape EntityType="digitalresourceslibraryModel.store" Width="1.5" PointX="10.163444676512594" PointY="18.386104830720512" />
+        <EntityTypeShape EntityType="digitalresourceslibraryModel.storeloc" Width="1.5" PointX="10.197009432221302" PointY="3.6487824486795732" />
+        <EntityTypeShape EntityType="digitalresourceslibraryModel.tag" Width="1.5" PointX="10.455282188232655" PointY="7.8920328504834476" />
+        <EntityTypeShape EntityType="digitalresourceslibraryModel.tagloc" Width="1.5" PointX="11.116543873733164" PointY="8.708285872222989" />
+        <EntityTypeShape EntityType="digitalresourceslibraryModel.user" Width="1.5" PointX="2.3757457818723031" PointY="29.651201396086812" />
         <AssociationConnector Association="digitalresourceslibraryModel.fk_article_category1" />
         <AssociationConnector Association="digitalresourceslibraryModel.fk_article_user1" />
         <AssociationConnector Association="digitalresourceslibraryModel.fk_articleloc_article1" />
