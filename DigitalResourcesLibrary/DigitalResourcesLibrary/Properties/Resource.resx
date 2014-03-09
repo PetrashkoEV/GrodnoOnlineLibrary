@@ -136,10 +136,10 @@
     <value>Third Slide</value>
   </data>
   <data name="Shared_Error_Body" xml:space="preserve">
-    <value>An error occurred while processing your request.</value>
+    <value>Sorry, an error occurred while processing your request.</value>
   </data>
   <data name="Shared_Error_Title" xml:space="preserve">
-    <value>Error</value>
+    <value>Server Error</value>
   </data>
   <data name="Shared_Layout_Site_Copyright" xml:space="preserve">
     <value>Copyright &amp;copy; {0} The Library Grodno.</value>

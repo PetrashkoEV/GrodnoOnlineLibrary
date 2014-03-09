@@ -4,33 +4,33 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="22665f7bc2494b12ae69a3c0ece46181" Name="Diagram1" ZoomLevel="15">
-        <EntityTypeShape EntityType="digitalresourceslibraryModel.article" Width="1.5" PointX="6.94649273480591" PointY="20.948166946390721" />
-        <EntityTypeShape EntityType="digitalresourceslibraryModel.articleloc" Width="1.5" PointX="4.6587676818756236" PointY="21.324671501910625" />
-        <EntityTypeShape EntityType="digitalresourceslibraryModel.category" Width="1.5" PointX="5.5552414737433384" PointY="27.801796970796676" />
-        <EntityTypeShape EntityType="digitalresourceslibraryModel.categoryloc" Width="1.5" PointX="8.79753061234836" PointY="17.740683295643276" />
-        <EntityTypeShape EntityType="digitalresourceslibraryModel.locale" Width="1.5" PointX="10.685911628737074" PointY="29.243250875381403" />
-        <EntityTypeShape EntityType="digitalresourceslibraryModel.role" Width="1.5" PointX="0.78717301450072452" PointY="12.796952179072868" />
-        <EntityTypeShape EntityType="digitalresourceslibraryModel.store" Width="1.5" PointX="10.163444676512594" PointY="18.386104830720512" />
-        <EntityTypeShape EntityType="digitalresourceslibraryModel.storeloc" Width="1.5" PointX="10.197009432221302" PointY="3.6487824486795732" />
-        <EntityTypeShape EntityType="digitalresourceslibraryModel.tag" Width="1.5" PointX="10.455282188232655" PointY="7.8920328504834476" />
-        <EntityTypeShape EntityType="digitalresourceslibraryModel.tagloc" Width="1.5" PointX="11.116543873733164" PointY="8.708285872222989" />
-        <EntityTypeShape EntityType="digitalresourceslibraryModel.user" Width="1.5" PointX="2.3757457818723031" PointY="29.651201396086812" />
-        <AssociationConnector Association="digitalresourceslibraryModel.fk_article_category1" />
-        <AssociationConnector Association="digitalresourceslibraryModel.fk_article_user1" />
-        <AssociationConnector Association="digitalresourceslibraryModel.fk_articleloc_article1" />
-        <AssociationConnector Association="digitalresourceslibraryModel.fk_articleloc_locale1" />
-        <AssociationConnector Association="digitalresourceslibraryModel.fk_category_category" />
-        <AssociationConnector Association="digitalresourceslibraryModel.fk_categoryloc_category1" />
-        <AssociationConnector Association="digitalresourceslibraryModel.fk_store_category1" />
-        <AssociationConnector Association="digitalresourceslibraryModel.fk_categoryloc_locale1" />
-        <AssociationConnector Association="digitalresourceslibraryModel.fk_storeloc_locale1" />
-        <AssociationConnector Association="digitalresourceslibraryModel.fk_tagloc_locale1" />
-        <AssociationConnector Association="digitalresourceslibraryModel.fk_user_role1" />
-        <AssociationConnector Association="digitalresourceslibraryModel.fk_store_user1" />
-        <AssociationConnector Association="digitalresourceslibraryModel.fk_storeloc_store1" />
-        <AssociationConnector Association="digitalresourceslibraryModel.fk_tagloc_tag1" />
-        <AssociationConnector Association="digitalresourceslibraryModel.article_has_tag" />
+      <Diagram DiagramId="e353d59e3218444292babd5a6cba638b" Name="Diagram1">
+        <EntityTypeShape EntityType="DigitalResourcesLibraryEntityModel.article" Width="1.5" PointX="3" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DigitalResourcesLibraryEntityModel.articleloc" Width="1.5" PointX="8.25" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DigitalResourcesLibraryEntityModel.category" Width="1.5" PointX="0.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DigitalResourcesLibraryEntityModel.categoryloc" Width="1.5" PointX="6" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="DigitalResourcesLibraryEntityModel.locale" Width="1.5" PointX="6" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DigitalResourcesLibraryEntityModel.role" Width="1.5" PointX="1.5" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DigitalResourcesLibraryEntityModel.store" Width="1.5" PointX="6" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DigitalResourcesLibraryEntityModel.storeloc" Width="1.5" PointX="8.25" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DigitalResourcesLibraryEntityModel.tag" Width="1.5" PointX="5.25" PointY="11.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DigitalResourcesLibraryEntityModel.tagloc" Width="1.5" PointX="7.5" PointY="12" IsExpanded="true" />
+        <EntityTypeShape EntityType="DigitalResourcesLibraryEntityModel.user" Width="1.5" PointX="3.75" PointY="3.625" IsExpanded="true" />
+        <AssociationConnector Association="DigitalResourcesLibraryEntityModel.fk_article_category1" ManuallyRouted="false" />
+        <AssociationConnector Association="DigitalResourcesLibraryEntityModel.fk_article_user1" ManuallyRouted="false" />
+        <AssociationConnector Association="DigitalResourcesLibraryEntityModel.fk_articleloc_article1" ManuallyRouted="false" />
+        <AssociationConnector Association="DigitalResourcesLibraryEntityModel.fk_articleloc_locale1" ManuallyRouted="false" />
+        <AssociationConnector Association="DigitalResourcesLibraryEntityModel.fk_category_category" ManuallyRouted="false" />
+        <AssociationConnector Association="DigitalResourcesLibraryEntityModel.fk_categoryloc_category1" ManuallyRouted="false" />
+        <AssociationConnector Association="DigitalResourcesLibraryEntityModel.fk_store_category1" ManuallyRouted="false" />
+        <AssociationConnector Association="DigitalResourcesLibraryEntityModel.fk_categoryloc_locale1" ManuallyRouted="false" />
+        <AssociationConnector Association="DigitalResourcesLibraryEntityModel.fk_storeloc_locale1" ManuallyRouted="false" />
+        <AssociationConnector Association="DigitalResourcesLibraryEntityModel.fk_tagloc_locale1" ManuallyRouted="false" />
+        <AssociationConnector Association="DigitalResourcesLibraryEntityModel.fk_user_role1" ManuallyRouted="false" />
+        <AssociationConnector Association="DigitalResourcesLibraryEntityModel.fk_store_user1" ManuallyRouted="false" />
+        <AssociationConnector Association="DigitalResourcesLibraryEntityModel.fk_storeloc_store1" ManuallyRouted="false" />
+        <AssociationConnector Association="DigitalResourcesLibraryEntityModel.fk_tagloc_tag1" ManuallyRouted="false" />
+        <AssociationConnector Association="DigitalResourcesLibraryEntityModel.article_has_tag" ManuallyRouted="false" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

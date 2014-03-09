@@ -1,9 +1,9 @@
 ﻿@model System.Web.Mvc.HandleErrorInfo
 
 @{
-    ViewBag.Title = "Error";
+    ViewBag.Title = ViewRes.Resource.Shared_Error_Title;
 }
 
-Sorry, an error occurred while processing your request.
+@ViewRes.Resource.Shared_Error_Body
 
 <h3>@Model.Exception.Message</h3>

@@ -25,12 +25,8 @@ namespace DigitalResourcesLibrary.Controllers
 
         public ActionResult About()
         {
-            /*ArticleLocateRepository repository = new ArticleLocateRepository();
-            ViewBag.Content = repository.Entity.FirstOrDefault().content;
-            ViewBag.Description = repository.Entity.FirstOrDefault().description;
-            ViewBag.TitleArticle = repository.Entity.FirstOrDefault().title;*/
             var article = articleService.GetArticle();
-            return View(new ArticleModel());
+            return View(article);
         }
     }
 }

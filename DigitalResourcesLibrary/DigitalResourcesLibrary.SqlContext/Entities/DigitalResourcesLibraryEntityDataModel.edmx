@@ -4,81 +4,81 @@
   <edmx:Runtime>
     <!-- SSDL content -->
     <edmx:StorageModels>
-    <Schema Namespace="digitalresourceslibraryModel.Store" Alias="Self" Provider="MySql.Data.MySqlClient" ProviderManifestToken="5.1" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
-        <EntityContainer Name="digitalresourceslibraryModelStoreContainer">
-          <EntitySet Name="article" EntityType="digitalresourceslibraryModel.Store.article" store:Type="Tables" Schema="db0c0a44d538e4485fa805a2d7015a8542" />
-          <EntitySet Name="article_has_tag" EntityType="digitalresourceslibraryModel.Store.article_has_tag" store:Type="Tables" Schema="db0c0a44d538e4485fa805a2d7015a8542" />
-          <EntitySet Name="articleloc" EntityType="digitalresourceslibraryModel.Store.articleloc" store:Type="Tables" Schema="db0c0a44d538e4485fa805a2d7015a8542" />
-          <EntitySet Name="category" EntityType="digitalresourceslibraryModel.Store.category" store:Type="Tables" Schema="db0c0a44d538e4485fa805a2d7015a8542" />
-          <EntitySet Name="categoryloc" EntityType="digitalresourceslibraryModel.Store.categoryloc" store:Type="Tables" Schema="db0c0a44d538e4485fa805a2d7015a8542" />
-          <EntitySet Name="locale" EntityType="digitalresourceslibraryModel.Store.locale" store:Type="Tables" Schema="db0c0a44d538e4485fa805a2d7015a8542" />
-          <EntitySet Name="role" EntityType="digitalresourceslibraryModel.Store.role" store:Type="Tables" Schema="db0c0a44d538e4485fa805a2d7015a8542" />
-          <EntitySet Name="store" EntityType="digitalresourceslibraryModel.Store.store" store:Type="Tables" Schema="db0c0a44d538e4485fa805a2d7015a8542" />
-          <EntitySet Name="storeloc" EntityType="digitalresourceslibraryModel.Store.storeloc" store:Type="Tables" Schema="db0c0a44d538e4485fa805a2d7015a8542" />
-          <EntitySet Name="tag" EntityType="digitalresourceslibraryModel.Store.tag" store:Type="Tables" Schema="db0c0a44d538e4485fa805a2d7015a8542" />
-          <EntitySet Name="tagloc" EntityType="digitalresourceslibraryModel.Store.tagloc" store:Type="Tables" Schema="db0c0a44d538e4485fa805a2d7015a8542" />
-          <EntitySet Name="user" EntityType="digitalresourceslibraryModel.Store.user" store:Type="Tables" Schema="db0c0a44d538e4485fa805a2d7015a8542" />
-          <AssociationSet Name="fk_article_category1" Association="digitalresourceslibraryModel.Store.fk_article_category1">
+      <Schema Namespace="DigitalResourcesLibraryEntityModel.Store" Alias="Self" Provider="MySql.Data.MySqlClient" ProviderManifestToken="5.1" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+        <EntityContainer Name="DigitalResourcesLibraryEntityModelStoreContainer">
+          <EntitySet Name="article" EntityType="DigitalResourcesLibraryEntityModel.Store.article" store:Type="Tables" Schema="db0c0a44d538e4485fa805a2d7015a8542" />
+          <EntitySet Name="article_has_tag" EntityType="DigitalResourcesLibraryEntityModel.Store.article_has_tag" store:Type="Tables" Schema="db0c0a44d538e4485fa805a2d7015a8542" />
+          <EntitySet Name="articleloc" EntityType="DigitalResourcesLibraryEntityModel.Store.articleloc" store:Type="Tables" Schema="db0c0a44d538e4485fa805a2d7015a8542" />
+          <EntitySet Name="category" EntityType="DigitalResourcesLibraryEntityModel.Store.category" store:Type="Tables" Schema="db0c0a44d538e4485fa805a2d7015a8542" />
+          <EntitySet Name="categoryloc" EntityType="DigitalResourcesLibraryEntityModel.Store.categoryloc" store:Type="Tables" Schema="db0c0a44d538e4485fa805a2d7015a8542" />
+          <EntitySet Name="locale" EntityType="DigitalResourcesLibraryEntityModel.Store.locale" store:Type="Tables" Schema="db0c0a44d538e4485fa805a2d7015a8542" />
+          <EntitySet Name="role" EntityType="DigitalResourcesLibraryEntityModel.Store.role" store:Type="Tables" Schema="db0c0a44d538e4485fa805a2d7015a8542" />
+          <EntitySet Name="store" EntityType="DigitalResourcesLibraryEntityModel.Store.store" store:Type="Tables" Schema="db0c0a44d538e4485fa805a2d7015a8542" />
+          <EntitySet Name="storeloc" EntityType="DigitalResourcesLibraryEntityModel.Store.storeloc" store:Type="Tables" Schema="db0c0a44d538e4485fa805a2d7015a8542" />
+          <EntitySet Name="tag" EntityType="DigitalResourcesLibraryEntityModel.Store.tag" store:Type="Tables" Schema="db0c0a44d538e4485fa805a2d7015a8542" />
+          <EntitySet Name="tagloc" EntityType="DigitalResourcesLibraryEntityModel.Store.tagloc" store:Type="Tables" Schema="db0c0a44d538e4485fa805a2d7015a8542" />
+          <EntitySet Name="user" EntityType="DigitalResourcesLibraryEntityModel.Store.user" store:Type="Tables" Schema="db0c0a44d538e4485fa805a2d7015a8542" />
+          <AssociationSet Name="fk_article_category1" Association="DigitalResourcesLibraryEntityModel.Store.fk_article_category1">
             <End Role="category" EntitySet="category" />
             <End Role="article" EntitySet="article" />
           </AssociationSet>
-          <AssociationSet Name="fk_article_has_tag_article1" Association="digitalresourceslibraryModel.Store.fk_article_has_tag_article1">
+          <AssociationSet Name="fk_article_has_tag_article1" Association="DigitalResourcesLibraryEntityModel.Store.fk_article_has_tag_article1">
             <End Role="article" EntitySet="article" />
             <End Role="article_has_tag" EntitySet="article_has_tag" />
           </AssociationSet>
-          <AssociationSet Name="fk_article_has_tag_tag1" Association="digitalresourceslibraryModel.Store.fk_article_has_tag_tag1">
+          <AssociationSet Name="fk_article_has_tag_tag1" Association="DigitalResourcesLibraryEntityModel.Store.fk_article_has_tag_tag1">
             <End Role="tag" EntitySet="tag" />
             <End Role="article_has_tag" EntitySet="article_has_tag" />
           </AssociationSet>
-          <AssociationSet Name="fk_article_user1" Association="digitalresourceslibraryModel.Store.fk_article_user1">
+          <AssociationSet Name="fk_article_user1" Association="DigitalResourcesLibraryEntityModel.Store.fk_article_user1">
             <End Role="user" EntitySet="user" />
             <End Role="article" EntitySet="article" />
           </AssociationSet>
-          <AssociationSet Name="fk_articleloc_article1" Association="digitalresourceslibraryModel.Store.fk_articleloc_article1">
+          <AssociationSet Name="fk_articleloc_article1" Association="DigitalResourcesLibraryEntityModel.Store.fk_articleloc_article1">
             <End Role="article" EntitySet="article" />
             <End Role="articleloc" EntitySet="articleloc" />
           </AssociationSet>
-          <AssociationSet Name="fk_articleloc_locale1" Association="digitalresourceslibraryModel.Store.fk_articleloc_locale1">
+          <AssociationSet Name="fk_articleloc_locale1" Association="DigitalResourcesLibraryEntityModel.Store.fk_articleloc_locale1">
             <End Role="locale" EntitySet="locale" />
             <End Role="articleloc" EntitySet="articleloc" />
           </AssociationSet>
-          <AssociationSet Name="fk_category_category" Association="digitalresourceslibraryModel.Store.fk_category_category">
+          <AssociationSet Name="fk_category_category" Association="DigitalResourcesLibraryEntityModel.Store.fk_category_category">
             <End Role="category" EntitySet="category" />
             <End Role="category1" EntitySet="category" />
           </AssociationSet>
-          <AssociationSet Name="fk_categoryloc_category1" Association="digitalresourceslibraryModel.Store.fk_categoryloc_category1">
+          <AssociationSet Name="fk_categoryloc_category1" Association="DigitalResourcesLibraryEntityModel.Store.fk_categoryloc_category1">
             <End Role="category" EntitySet="category" />
             <End Role="categoryloc" EntitySet="categoryloc" />
           </AssociationSet>
-          <AssociationSet Name="fk_categoryloc_locale1" Association="digitalresourceslibraryModel.Store.fk_categoryloc_locale1">
+          <AssociationSet Name="fk_categoryloc_locale1" Association="DigitalResourcesLibraryEntityModel.Store.fk_categoryloc_locale1">
             <End Role="locale" EntitySet="locale" />
             <End Role="categoryloc" EntitySet="categoryloc" />
           </AssociationSet>
-          <AssociationSet Name="fk_store_category1" Association="digitalresourceslibraryModel.Store.fk_store_category1">
+          <AssociationSet Name="fk_store_category1" Association="DigitalResourcesLibraryEntityModel.Store.fk_store_category1">
             <End Role="category" EntitySet="category" />
             <End Role="store" EntitySet="store" />
           </AssociationSet>
-          <AssociationSet Name="fk_store_user1" Association="digitalresourceslibraryModel.Store.fk_store_user1">
+          <AssociationSet Name="fk_store_user1" Association="DigitalResourcesLibraryEntityModel.Store.fk_store_user1">
             <End Role="user" EntitySet="user" />
             <End Role="store" EntitySet="store" />
           </AssociationSet>
-          <AssociationSet Name="fk_storeloc_locale1" Association="digitalresourceslibraryModel.Store.fk_storeloc_locale1">
+          <AssociationSet Name="fk_storeloc_locale1" Association="DigitalResourcesLibraryEntityModel.Store.fk_storeloc_locale1">
             <End Role="locale" EntitySet="locale" />
             <End Role="storeloc" EntitySet="storeloc" />
           </AssociationSet>
-          <AssociationSet Name="fk_storeloc_store1" Association="digitalresourceslibraryModel.Store.fk_storeloc_store1">
+          <AssociationSet Name="fk_storeloc_store1" Association="DigitalResourcesLibraryEntityModel.Store.fk_storeloc_store1">
             <End Role="store" EntitySet="store" />
             <End Role="storeloc" EntitySet="storeloc" />
           </AssociationSet>
-          <AssociationSet Name="fk_tagloc_locale1" Association="digitalresourceslibraryModel.Store.fk_tagloc_locale1">
+          <AssociationSet Name="fk_tagloc_locale1" Association="DigitalResourcesLibraryEntityModel.Store.fk_tagloc_locale1">
             <End Role="locale" EntitySet="locale" />
             <End Role="tagloc" EntitySet="tagloc" />
           </AssociationSet>
-          <AssociationSet Name="fk_tagloc_tag1" Association="digitalresourceslibraryModel.Store.fk_tagloc_tag1">
+          <AssociationSet Name="fk_tagloc_tag1" Association="DigitalResourcesLibraryEntityModel.Store.fk_tagloc_tag1">
             <End Role="tag" EntitySet="tag" />
             <End Role="tagloc" EntitySet="tagloc" />
           </AssociationSet>
-          <AssociationSet Name="fk_user_role1" Association="digitalresourceslibraryModel.Store.fk_user_role1">
+          <AssociationSet Name="fk_user_role1" Association="DigitalResourcesLibraryEntityModel.Store.fk_user_role1">
             <End Role="role" EntitySet="role" />
             <End Role="user" EntitySet="user" />
           </AssociationSet>
@@ -193,10 +193,10 @@
           <Property Name="role_id" Type="uint" Nullable="false" />
         </EntityType>
         <Association Name="fk_article_category1">
-          <End Role="category" Type="digitalresourceslibraryModel.Store.category" Multiplicity="1">
+          <End Role="category" Type="DigitalResourcesLibraryEntityModel.Store.category" Multiplicity="1">
             <OnDelete Action="Cascade" />
           </End>
-          <End Role="article" Type="digitalresourceslibraryModel.Store.article" Multiplicity="*" />
+          <End Role="article" Type="DigitalResourcesLibraryEntityModel.Store.article" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="category">
               <PropertyRef Name="id" />
@@ -207,10 +207,10 @@
           </ReferentialConstraint>
         </Association>
         <Association Name="fk_article_has_tag_article1">
-          <End Role="article" Type="digitalresourceslibraryModel.Store.article" Multiplicity="1">
+          <End Role="article" Type="DigitalResourcesLibraryEntityModel.Store.article" Multiplicity="1">
             <OnDelete Action="Cascade" />
           </End>
-          <End Role="article_has_tag" Type="digitalresourceslibraryModel.Store.article_has_tag" Multiplicity="*" />
+          <End Role="article_has_tag" Type="DigitalResourcesLibraryEntityModel.Store.article_has_tag" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="article">
               <PropertyRef Name="id" />
@@ -221,10 +221,10 @@
           </ReferentialConstraint>
         </Association>
         <Association Name="fk_article_has_tag_tag1">
-          <End Role="tag" Type="digitalresourceslibraryModel.Store.tag" Multiplicity="1">
+          <End Role="tag" Type="DigitalResourcesLibraryEntityModel.Store.tag" Multiplicity="1">
             <OnDelete Action="Cascade" />
           </End>
-          <End Role="article_has_tag" Type="digitalresourceslibraryModel.Store.article_has_tag" Multiplicity="*" />
+          <End Role="article_has_tag" Type="DigitalResourcesLibraryEntityModel.Store.article_has_tag" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="tag">
               <PropertyRef Name="id" />
@@ -235,8 +235,8 @@
           </ReferentialConstraint>
         </Association>
         <Association Name="fk_article_user1">
-          <End Role="user" Type="digitalresourceslibraryModel.Store.user" Multiplicity="1" />
-          <End Role="article" Type="digitalresourceslibraryModel.Store.article" Multiplicity="*" />
+          <End Role="user" Type="DigitalResourcesLibraryEntityModel.Store.user" Multiplicity="1" />
+          <End Role="article" Type="DigitalResourcesLibraryEntityModel.Store.article" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="user">
               <PropertyRef Name="id" />
@@ -247,10 +247,10 @@
           </ReferentialConstraint>
         </Association>
         <Association Name="fk_articleloc_article1">
-          <End Role="article" Type="digitalresourceslibraryModel.Store.article" Multiplicity="1">
+          <End Role="article" Type="DigitalResourcesLibraryEntityModel.Store.article" Multiplicity="1">
             <OnDelete Action="Cascade" />
           </End>
-          <End Role="articleloc" Type="digitalresourceslibraryModel.Store.articleloc" Multiplicity="*" />
+          <End Role="articleloc" Type="DigitalResourcesLibraryEntityModel.Store.articleloc" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="article">
               <PropertyRef Name="id" />
@@ -261,10 +261,10 @@
           </ReferentialConstraint>
         </Association>
         <Association Name="fk_articleloc_locale1">
-          <End Role="locale" Type="digitalresourceslibraryModel.Store.locale" Multiplicity="1">
+          <End Role="locale" Type="DigitalResourcesLibraryEntityModel.Store.locale" Multiplicity="1">
             <OnDelete Action="Cascade" />
           </End>
-          <End Role="articleloc" Type="digitalresourceslibraryModel.Store.articleloc" Multiplicity="*" />
+          <End Role="articleloc" Type="DigitalResourcesLibraryEntityModel.Store.articleloc" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="locale">
               <PropertyRef Name="id" />
@@ -275,10 +275,10 @@
           </ReferentialConstraint>
         </Association>
         <Association Name="fk_category_category">
-          <End Role="category" Type="digitalresourceslibraryModel.Store.category" Multiplicity="0..1">
+          <End Role="category" Type="DigitalResourcesLibraryEntityModel.Store.category" Multiplicity="0..1">
             <OnDelete Action="Cascade" />
           </End>
-          <End Role="category1" Type="digitalresourceslibraryModel.Store.category" Multiplicity="*" />
+          <End Role="category1" Type="DigitalResourcesLibraryEntityModel.Store.category" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="category">
               <PropertyRef Name="id" />
@@ -289,10 +289,10 @@
           </ReferentialConstraint>
         </Association>
         <Association Name="fk_categoryloc_category1">
-          <End Role="category" Type="digitalresourceslibraryModel.Store.category" Multiplicity="1">
+          <End Role="category" Type="DigitalResourcesLibraryEntityModel.Store.category" Multiplicity="1">
             <OnDelete Action="Cascade" />
           </End>
-          <End Role="categoryloc" Type="digitalresourceslibraryModel.Store.categoryloc" Multiplicity="*" />
+          <End Role="categoryloc" Type="DigitalResourcesLibraryEntityModel.Store.categoryloc" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="category">
               <PropertyRef Name="id" />
@@ -303,10 +303,10 @@
           </ReferentialConstraint>
         </Association>
         <Association Name="fk_categoryloc_locale1">
-          <End Role="locale" Type="digitalresourceslibraryModel.Store.locale" Multiplicity="1">
+          <End Role="locale" Type="DigitalResourcesLibraryEntityModel.Store.locale" Multiplicity="1">
             <OnDelete Action="Cascade" />
           </End>
-          <End Role="categoryloc" Type="digitalresourceslibraryModel.Store.categoryloc" Multiplicity="*" />
+          <End Role="categoryloc" Type="DigitalResourcesLibraryEntityModel.Store.categoryloc" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="locale">
               <PropertyRef Name="id" />
@@ -317,10 +317,10 @@
           </ReferentialConstraint>
         </Association>
         <Association Name="fk_store_category1">
-          <End Role="category" Type="digitalresourceslibraryModel.Store.category" Multiplicity="1">
+          <End Role="category" Type="DigitalResourcesLibraryEntityModel.Store.category" Multiplicity="1">
             <OnDelete Action="Cascade" />
           </End>
-          <End Role="store" Type="digitalresourceslibraryModel.Store.store" Multiplicity="*" />
+          <End Role="store" Type="DigitalResourcesLibraryEntityModel.Store.store" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="category">
               <PropertyRef Name="id" />
@@ -331,10 +331,10 @@
           </ReferentialConstraint>
         </Association>
         <Association Name="fk_store_user1">
-          <End Role="user" Type="digitalresourceslibraryModel.Store.user" Multiplicity="1">
+          <End Role="user" Type="DigitalResourcesLibraryEntityModel.Store.user" Multiplicity="1">
             <OnDelete Action="Cascade" />
           </End>
-          <End Role="store" Type="digitalresourceslibraryModel.Store.store" Multiplicity="*" />
+          <End Role="store" Type="DigitalResourcesLibraryEntityModel.Store.store" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="user">
               <PropertyRef Name="id" />
@@ -345,10 +345,10 @@
           </ReferentialConstraint>
         </Association>
         <Association Name="fk_storeloc_locale1">
-          <End Role="locale" Type="digitalresourceslibraryModel.Store.locale" Multiplicity="1">
+          <End Role="locale" Type="DigitalResourcesLibraryEntityModel.Store.locale" Multiplicity="1">
             <OnDelete Action="Cascade" />
           </End>
-          <End Role="storeloc" Type="digitalresourceslibraryModel.Store.storeloc" Multiplicity="*" />
+          <End Role="storeloc" Type="DigitalResourcesLibraryEntityModel.Store.storeloc" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="locale">
               <PropertyRef Name="id" />
@@ -359,10 +359,10 @@
           </ReferentialConstraint>
         </Association>
         <Association Name="fk_storeloc_store1">
-          <End Role="store" Type="digitalresourceslibraryModel.Store.store" Multiplicity="1">
+          <End Role="store" Type="DigitalResourcesLibraryEntityModel.Store.store" Multiplicity="1">
             <OnDelete Action="Cascade" />
           </End>
-          <End Role="storeloc" Type="digitalresourceslibraryModel.Store.storeloc" Multiplicity="*" />
+          <End Role="storeloc" Type="DigitalResourcesLibraryEntityModel.Store.storeloc" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="store">
               <PropertyRef Name="id" />
@@ -373,8 +373,8 @@
           </ReferentialConstraint>
         </Association>
         <Association Name="fk_tagloc_locale1">
-          <End Role="locale" Type="digitalresourceslibraryModel.Store.locale" Multiplicity="1" />
-          <End Role="tagloc" Type="digitalresourceslibraryModel.Store.tagloc" Multiplicity="*" />
+          <End Role="locale" Type="DigitalResourcesLibraryEntityModel.Store.locale" Multiplicity="1" />
+          <End Role="tagloc" Type="DigitalResourcesLibraryEntityModel.Store.tagloc" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="locale">
               <PropertyRef Name="id" />
@@ -385,10 +385,10 @@
           </ReferentialConstraint>
         </Association>
         <Association Name="fk_tagloc_tag1">
-          <End Role="tag" Type="digitalresourceslibraryModel.Store.tag" Multiplicity="1">
+          <End Role="tag" Type="DigitalResourcesLibraryEntityModel.Store.tag" Multiplicity="1">
             <OnDelete Action="Cascade" />
           </End>
-          <End Role="tagloc" Type="digitalresourceslibraryModel.Store.tagloc" Multiplicity="*" />
+          <End Role="tagloc" Type="DigitalResourcesLibraryEntityModel.Store.tagloc" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="tag">
               <PropertyRef Name="id" />
@@ -399,8 +399,8 @@
           </ReferentialConstraint>
         </Association>
         <Association Name="fk_user_role1">
-          <End Role="role" Type="digitalresourceslibraryModel.Store.role" Multiplicity="1" />
-          <End Role="user" Type="digitalresourceslibraryModel.Store.user" Multiplicity="*" />
+          <End Role="role" Type="DigitalResourcesLibraryEntityModel.Store.role" Multiplicity="1" />
+          <End Role="user" Type="DigitalResourcesLibraryEntityModel.Store.user" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="role">
               <PropertyRef Name="id" />
@@ -410,79 +410,80 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
-      </Schema></edmx:StorageModels>
+      </Schema>
+    </edmx:StorageModels>
     <!-- CSDL content -->
     <edmx:ConceptualModels>
-      <Schema Namespace="digitalresourceslibraryModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+      <Schema Namespace="DigitalResourcesLibraryEntityModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
         <EntityContainer Name="digitalresourceslibraryEntities" annotation:LazyLoadingEnabled="true">
-          <EntitySet Name="article" EntityType="digitalresourceslibraryModel.article" />
-          <EntitySet Name="articleloc" EntityType="digitalresourceslibraryModel.articleloc" />
-          <EntitySet Name="category" EntityType="digitalresourceslibraryModel.category" />
-          <EntitySet Name="categoryloc" EntityType="digitalresourceslibraryModel.categoryloc" />
-          <EntitySet Name="locale" EntityType="digitalresourceslibraryModel.locale" />
-          <EntitySet Name="role" EntityType="digitalresourceslibraryModel.role" />
-          <EntitySet Name="store" EntityType="digitalresourceslibraryModel.store" />
-          <EntitySet Name="storeloc" EntityType="digitalresourceslibraryModel.storeloc" />
-          <EntitySet Name="tag" EntityType="digitalresourceslibraryModel.tag" />
-          <EntitySet Name="tagloc" EntityType="digitalresourceslibraryModel.tagloc" />
-          <EntitySet Name="user" EntityType="digitalresourceslibraryModel.user" />
-          <AssociationSet Name="fk_article_category1" Association="digitalresourceslibraryModel.fk_article_category1">
+          <EntitySet Name="article" EntityType="DigitalResourcesLibraryEntityModel.article" />
+          <EntitySet Name="articleloc" EntityType="DigitalResourcesLibraryEntityModel.articleloc" />
+          <EntitySet Name="category" EntityType="DigitalResourcesLibraryEntityModel.category" />
+          <EntitySet Name="categoryloc" EntityType="DigitalResourcesLibraryEntityModel.categoryloc" />
+          <EntitySet Name="locale" EntityType="DigitalResourcesLibraryEntityModel.locale" />
+          <EntitySet Name="role" EntityType="DigitalResourcesLibraryEntityModel.role" />
+          <EntitySet Name="store" EntityType="DigitalResourcesLibraryEntityModel.store" />
+          <EntitySet Name="storeloc" EntityType="DigitalResourcesLibraryEntityModel.storeloc" />
+          <EntitySet Name="tag" EntityType="DigitalResourcesLibraryEntityModel.tag" />
+          <EntitySet Name="tagloc" EntityType="DigitalResourcesLibraryEntityModel.tagloc" />
+          <EntitySet Name="user" EntityType="DigitalResourcesLibraryEntityModel.user" />
+          <AssociationSet Name="fk_article_category1" Association="DigitalResourcesLibraryEntityModel.fk_article_category1">
             <End Role="category" EntitySet="category" />
             <End Role="article" EntitySet="article" />
           </AssociationSet>
-          <AssociationSet Name="fk_article_user1" Association="digitalresourceslibraryModel.fk_article_user1">
+          <AssociationSet Name="fk_article_user1" Association="DigitalResourcesLibraryEntityModel.fk_article_user1">
             <End Role="user" EntitySet="user" />
             <End Role="article" EntitySet="article" />
           </AssociationSet>
-          <AssociationSet Name="fk_articleloc_article1" Association="digitalresourceslibraryModel.fk_articleloc_article1">
+          <AssociationSet Name="fk_articleloc_article1" Association="DigitalResourcesLibraryEntityModel.fk_articleloc_article1">
             <End Role="article" EntitySet="article" />
             <End Role="articleloc" EntitySet="articleloc" />
           </AssociationSet>
-          <AssociationSet Name="fk_articleloc_locale1" Association="digitalresourceslibraryModel.fk_articleloc_locale1">
+          <AssociationSet Name="fk_articleloc_locale1" Association="DigitalResourcesLibraryEntityModel.fk_articleloc_locale1">
             <End Role="locale" EntitySet="locale" />
             <End Role="articleloc" EntitySet="articleloc" />
           </AssociationSet>
-          <AssociationSet Name="fk_category_category" Association="digitalresourceslibraryModel.fk_category_category">
+          <AssociationSet Name="fk_category_category" Association="DigitalResourcesLibraryEntityModel.fk_category_category">
             <End Role="category" EntitySet="category" />
             <End Role="category1" EntitySet="category" />
           </AssociationSet>
-          <AssociationSet Name="fk_categoryloc_category1" Association="digitalresourceslibraryModel.fk_categoryloc_category1">
+          <AssociationSet Name="fk_categoryloc_category1" Association="DigitalResourcesLibraryEntityModel.fk_categoryloc_category1">
             <End Role="category" EntitySet="category" />
             <End Role="categoryloc" EntitySet="categoryloc" />
           </AssociationSet>
-          <AssociationSet Name="fk_store_category1" Association="digitalresourceslibraryModel.fk_store_category1">
+          <AssociationSet Name="fk_store_category1" Association="DigitalResourcesLibraryEntityModel.fk_store_category1">
             <End Role="category" EntitySet="category" />
             <End Role="store" EntitySet="store" />
           </AssociationSet>
-          <AssociationSet Name="fk_categoryloc_locale1" Association="digitalresourceslibraryModel.fk_categoryloc_locale1">
+          <AssociationSet Name="fk_categoryloc_locale1" Association="DigitalResourcesLibraryEntityModel.fk_categoryloc_locale1">
             <End Role="locale" EntitySet="locale" />
             <End Role="categoryloc" EntitySet="categoryloc" />
           </AssociationSet>
-          <AssociationSet Name="fk_storeloc_locale1" Association="digitalresourceslibraryModel.fk_storeloc_locale1">
+          <AssociationSet Name="fk_storeloc_locale1" Association="DigitalResourcesLibraryEntityModel.fk_storeloc_locale1">
             <End Role="locale" EntitySet="locale" />
             <End Role="storeloc" EntitySet="storeloc" />
           </AssociationSet>
-          <AssociationSet Name="fk_tagloc_locale1" Association="digitalresourceslibraryModel.fk_tagloc_locale1">
+          <AssociationSet Name="fk_tagloc_locale1" Association="DigitalResourcesLibraryEntityModel.fk_tagloc_locale1">
             <End Role="locale" EntitySet="locale" />
             <End Role="tagloc" EntitySet="tagloc" />
           </AssociationSet>
-          <AssociationSet Name="fk_user_role1" Association="digitalresourceslibraryModel.fk_user_role1">
+          <AssociationSet Name="fk_user_role1" Association="DigitalResourcesLibraryEntityModel.fk_user_role1">
             <End Role="role" EntitySet="role" />
             <End Role="user" EntitySet="user" />
           </AssociationSet>
-          <AssociationSet Name="fk_store_user1" Association="digitalresourceslibraryModel.fk_store_user1">
+          <AssociationSet Name="fk_store_user1" Association="DigitalResourcesLibraryEntityModel.fk_store_user1">
             <End Role="user" EntitySet="user" />
             <End Role="store" EntitySet="store" />
           </AssociationSet>
-          <AssociationSet Name="fk_storeloc_store1" Association="digitalresourceslibraryModel.fk_storeloc_store1">
+          <AssociationSet Name="fk_storeloc_store1" Association="DigitalResourcesLibraryEntityModel.fk_storeloc_store1">
             <End Role="store" EntitySet="store" />
             <End Role="storeloc" EntitySet="storeloc" />
           </AssociationSet>
-          <AssociationSet Name="fk_tagloc_tag1" Association="digitalresourceslibraryModel.fk_tagloc_tag1">
+          <AssociationSet Name="fk_tagloc_tag1" Association="DigitalResourcesLibraryEntityModel.fk_tagloc_tag1">
             <End Role="tag" EntitySet="tag" />
             <End Role="tagloc" EntitySet="tagloc" />
           </AssociationSet>
-          <AssociationSet Name="article_has_tag" Association="digitalresourceslibraryModel.article_has_tag">
+          <AssociationSet Name="article_has_tag" Association="DigitalResourcesLibraryEntityModel.article_has_tag">
             <End Role="article" EntitySet="article" />
             <End Role="tag" EntitySet="tag" />
           </AssociationSet>
@@ -491,138 +492,138 @@
           <Key>
             <PropertyRef Name="id" />
           </Key>
-          <Property Type="Int32" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Type="Int64" Name="category" Nullable="false" />
-          <Property Type="DateTime" Name="modified" />
-          <Property Type="Boolean" Name="visible" />
-          <Property Type="Int64" Name="owner" Nullable="false" />
-          <NavigationProperty Name="category1" Relationship="digitalresourceslibraryModel.fk_article_category1" FromRole="article" ToRole="category" />
-          <NavigationProperty Name="user" Relationship="digitalresourceslibraryModel.fk_article_user1" FromRole="article" ToRole="user" />
-          <NavigationProperty Name="articleloc" Relationship="digitalresourceslibraryModel.fk_articleloc_article1" FromRole="article" ToRole="articleloc" />
-          <NavigationProperty Name="tag" Relationship="digitalresourceslibraryModel.article_has_tag" FromRole="article" ToRole="tag" />
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="category" Type="Int64" Nullable="false" />
+          <Property Name="modified" Type="DateTime" />
+          <Property Name="visible" Type="Boolean" />
+          <Property Name="owner" Type="Int64" Nullable="false" />
+          <NavigationProperty Name="category1" Relationship="DigitalResourcesLibraryEntityModel.fk_article_category1" FromRole="article" ToRole="category" />
+          <NavigationProperty Name="user" Relationship="DigitalResourcesLibraryEntityModel.fk_article_user1" FromRole="article" ToRole="user" />
+          <NavigationProperty Name="articleloc" Relationship="DigitalResourcesLibraryEntityModel.fk_articleloc_article1" FromRole="article" ToRole="articleloc" />
+          <NavigationProperty Name="tag" Relationship="DigitalResourcesLibraryEntityModel.article_has_tag" FromRole="article" ToRole="tag" />
         </EntityType>
         <EntityType Name="articleloc">
           <Key>
             <PropertyRef Name="article" />
             <PropertyRef Name="locale" />
           </Key>
-          <Property Type="Int32" Name="article" Nullable="false" />
-          <Property Type="Int32" Name="locale" Nullable="false" />
-          <Property Type="String" Name="content" MaxLength="16777215" FixedLength="false" Unicode="false" />
-          <Property Type="String" Name="description" MaxLength="5000" FixedLength="false" Unicode="false" />
-          <Property Type="String" Name="title" MaxLength="1000" FixedLength="false" Unicode="false" />
-          <NavigationProperty Name="article1" Relationship="digitalresourceslibraryModel.fk_articleloc_article1" FromRole="articleloc" ToRole="article" />
-          <NavigationProperty Name="locale1" Relationship="digitalresourceslibraryModel.fk_articleloc_locale1" FromRole="articleloc" ToRole="locale" />
+          <Property Name="article" Type="Int32" Nullable="false" />
+          <Property Name="locale" Type="Int32" Nullable="false" />
+          <Property Name="content" Type="String" MaxLength="16777215" Unicode="false" FixedLength="false" />
+          <Property Name="description" Type="String" MaxLength="5000" Unicode="false" FixedLength="false" />
+          <Property Name="title" Type="String" MaxLength="1000" Unicode="false" FixedLength="false" />
+          <NavigationProperty Name="article1" Relationship="DigitalResourcesLibraryEntityModel.fk_articleloc_article1" FromRole="articleloc" ToRole="article" />
+          <NavigationProperty Name="locale1" Relationship="DigitalResourcesLibraryEntityModel.fk_articleloc_locale1" FromRole="articleloc" ToRole="locale" />
         </EntityType>
         <EntityType Name="category">
           <Key>
             <PropertyRef Name="id" />
           </Key>
-          <Property Type="Int64" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Type="Int64" Name="parent" />
-          <NavigationProperty Name="article" Relationship="digitalresourceslibraryModel.fk_article_category1" FromRole="category" ToRole="article" />
-          <NavigationProperty Name="category1" Relationship="digitalresourceslibraryModel.fk_category_category" FromRole="category" ToRole="category1" />
-          <NavigationProperty Name="category2" Relationship="digitalresourceslibraryModel.fk_category_category" FromRole="category1" ToRole="category" />
-          <NavigationProperty Name="categoryloc" Relationship="digitalresourceslibraryModel.fk_categoryloc_category1" FromRole="category" ToRole="categoryloc" />
-          <NavigationProperty Name="store" Relationship="digitalresourceslibraryModel.fk_store_category1" FromRole="category" ToRole="store" />
+          <Property Name="id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="parent" Type="Int64" />
+          <NavigationProperty Name="article" Relationship="DigitalResourcesLibraryEntityModel.fk_article_category1" FromRole="category" ToRole="article" />
+          <NavigationProperty Name="category1" Relationship="DigitalResourcesLibraryEntityModel.fk_category_category" FromRole="category" ToRole="category1" />
+          <NavigationProperty Name="category2" Relationship="DigitalResourcesLibraryEntityModel.fk_category_category" FromRole="category1" ToRole="category" />
+          <NavigationProperty Name="categoryloc" Relationship="DigitalResourcesLibraryEntityModel.fk_categoryloc_category1" FromRole="category" ToRole="categoryloc" />
+          <NavigationProperty Name="store" Relationship="DigitalResourcesLibraryEntityModel.fk_store_category1" FromRole="category" ToRole="store" />
         </EntityType>
         <EntityType Name="categoryloc">
           <Key>
             <PropertyRef Name="category" />
             <PropertyRef Name="locale" />
           </Key>
-          <Property Type="String" Name="value" MaxLength="1000" FixedLength="false" Unicode="false" />
-          <Property Type="Int64" Name="category" Nullable="false" />
-          <Property Type="Int32" Name="locale" Nullable="false" />
-          <NavigationProperty Name="category1" Relationship="digitalresourceslibraryModel.fk_categoryloc_category1" FromRole="categoryloc" ToRole="category" />
-          <NavigationProperty Name="locale1" Relationship="digitalresourceslibraryModel.fk_categoryloc_locale1" FromRole="categoryloc" ToRole="locale" />
+          <Property Name="value" Type="String" MaxLength="1000" Unicode="false" FixedLength="false" />
+          <Property Name="category" Type="Int64" Nullable="false" />
+          <Property Name="locale" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="category1" Relationship="DigitalResourcesLibraryEntityModel.fk_categoryloc_category1" FromRole="categoryloc" ToRole="category" />
+          <NavigationProperty Name="locale1" Relationship="DigitalResourcesLibraryEntityModel.fk_categoryloc_locale1" FromRole="categoryloc" ToRole="locale" />
         </EntityType>
         <EntityType Name="locale">
           <Key>
             <PropertyRef Name="id" />
           </Key>
-          <Property Type="Int32" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Type="String" Name="locale1" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
-          <Property Type="String" Name="language" Nullable="false" MaxLength="45" FixedLength="false" Unicode="false" />
-          <NavigationProperty Name="articleloc" Relationship="digitalresourceslibraryModel.fk_articleloc_locale1" FromRole="locale" ToRole="articleloc" />
-          <NavigationProperty Name="categoryloc" Relationship="digitalresourceslibraryModel.fk_categoryloc_locale1" FromRole="locale" ToRole="categoryloc" />
-          <NavigationProperty Name="storeloc" Relationship="digitalresourceslibraryModel.fk_storeloc_locale1" FromRole="locale" ToRole="storeloc" />
-          <NavigationProperty Name="tagloc" Relationship="digitalresourceslibraryModel.fk_tagloc_locale1" FromRole="locale" ToRole="tagloc" />
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="locale1" Type="String" Nullable="false" MaxLength="10" Unicode="false" FixedLength="false" />
+          <Property Name="language" Type="String" Nullable="false" MaxLength="45" Unicode="false" FixedLength="false" />
+          <NavigationProperty Name="articleloc" Relationship="DigitalResourcesLibraryEntityModel.fk_articleloc_locale1" FromRole="locale" ToRole="articleloc" />
+          <NavigationProperty Name="categoryloc" Relationship="DigitalResourcesLibraryEntityModel.fk_categoryloc_locale1" FromRole="locale" ToRole="categoryloc" />
+          <NavigationProperty Name="storeloc" Relationship="DigitalResourcesLibraryEntityModel.fk_storeloc_locale1" FromRole="locale" ToRole="storeloc" />
+          <NavigationProperty Name="tagloc" Relationship="DigitalResourcesLibraryEntityModel.fk_tagloc_locale1" FromRole="locale" ToRole="tagloc" />
         </EntityType>
         <EntityType Name="role">
           <Key>
             <PropertyRef Name="id" />
           </Key>
-          <Property Type="Int64" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Type="String" Name="name" Nullable="false" MaxLength="45" FixedLength="false" Unicode="false" />
-          <NavigationProperty Name="user" Relationship="digitalresourceslibraryModel.fk_user_role1" FromRole="role" ToRole="user" />
+          <Property Name="id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="name" Type="String" Nullable="false" MaxLength="45" Unicode="false" FixedLength="false" />
+          <NavigationProperty Name="user" Relationship="DigitalResourcesLibraryEntityModel.fk_user_role1" FromRole="role" ToRole="user" />
         </EntityType>
         <EntityType Name="store">
           <Key>
             <PropertyRef Name="id" />
           </Key>
-          <Property Type="Int32" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Type="Int64" Name="category" Nullable="false" />
-          <Property Type="DateTime" Name="modified" />
-          <Property Type="Boolean" Name="visible" />
-          <Property Type="Int64" Name="owner" Nullable="false" />
-          <NavigationProperty Name="category1" Relationship="digitalresourceslibraryModel.fk_store_category1" FromRole="store" ToRole="category" />
-          <NavigationProperty Name="user" Relationship="digitalresourceslibraryModel.fk_store_user1" FromRole="store" ToRole="user" />
-          <NavigationProperty Name="storeloc" Relationship="digitalresourceslibraryModel.fk_storeloc_store1" FromRole="store" ToRole="storeloc" />
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="category" Type="Int64" Nullable="false" />
+          <Property Name="modified" Type="DateTime" />
+          <Property Name="visible" Type="Boolean" />
+          <Property Name="owner" Type="Int64" Nullable="false" />
+          <NavigationProperty Name="category1" Relationship="DigitalResourcesLibraryEntityModel.fk_store_category1" FromRole="store" ToRole="category" />
+          <NavigationProperty Name="user" Relationship="DigitalResourcesLibraryEntityModel.fk_store_user1" FromRole="store" ToRole="user" />
+          <NavigationProperty Name="storeloc" Relationship="DigitalResourcesLibraryEntityModel.fk_storeloc_store1" FromRole="store" ToRole="storeloc" />
         </EntityType>
         <EntityType Name="storeloc">
           <Key>
             <PropertyRef Name="store" />
             <PropertyRef Name="locale" />
           </Key>
-          <Property Type="Int32" Name="store" Nullable="false" />
-          <Property Type="Int32" Name="locale" Nullable="false" />
-          <Property Type="Binary" Name="data" MaxLength="Max" FixedLength="false" />
-          <Property Type="String" Name="description" MaxLength="5000" FixedLength="false" Unicode="false" />
-          <Property Type="String" Name="title" MaxLength="1000" FixedLength="false" Unicode="false" />
-          <Property Type="String" Name="filename" MaxLength="500" FixedLength="false" Unicode="false" />
-          <Property Type="String" Name="type" MaxLength="100" FixedLength="false" Unicode="false" />
-          <NavigationProperty Name="locale1" Relationship="digitalresourceslibraryModel.fk_storeloc_locale1" FromRole="storeloc" ToRole="locale" />
-          <NavigationProperty Name="store1" Relationship="digitalresourceslibraryModel.fk_storeloc_store1" FromRole="storeloc" ToRole="store" />
+          <Property Name="store" Type="Int32" Nullable="false" />
+          <Property Name="locale" Type="Int32" Nullable="false" />
+          <Property Name="data" Type="Binary" MaxLength="Max" FixedLength="false" />
+          <Property Name="description" Type="String" MaxLength="5000" Unicode="false" FixedLength="false" />
+          <Property Name="title" Type="String" MaxLength="1000" Unicode="false" FixedLength="false" />
+          <Property Name="filename" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+          <Property Name="type" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+          <NavigationProperty Name="locale1" Relationship="DigitalResourcesLibraryEntityModel.fk_storeloc_locale1" FromRole="storeloc" ToRole="locale" />
+          <NavigationProperty Name="store1" Relationship="DigitalResourcesLibraryEntityModel.fk_storeloc_store1" FromRole="storeloc" ToRole="store" />
         </EntityType>
         <EntityType Name="tag">
           <Key>
             <PropertyRef Name="id" />
           </Key>
-          <Property Type="Int32" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Type="String" Name="meta" MaxLength="255" FixedLength="false" Unicode="false" />
-          <NavigationProperty Name="tagloc" Relationship="digitalresourceslibraryModel.fk_tagloc_tag1" FromRole="tag" ToRole="tagloc" />
-          <NavigationProperty Name="article" Relationship="digitalresourceslibraryModel.article_has_tag" FromRole="tag" ToRole="article" />
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="meta" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+          <NavigationProperty Name="tagloc" Relationship="DigitalResourcesLibraryEntityModel.fk_tagloc_tag1" FromRole="tag" ToRole="tagloc" />
+          <NavigationProperty Name="article" Relationship="DigitalResourcesLibraryEntityModel.article_has_tag" FromRole="tag" ToRole="article" />
         </EntityType>
         <EntityType Name="tagloc">
           <Key>
             <PropertyRef Name="tag" />
             <PropertyRef Name="locale" />
           </Key>
-          <Property Type="Int32" Name="tag" Nullable="false" />
-          <Property Type="Int32" Name="locale" Nullable="false" />
-          <Property Type="String" Name="value" Nullable="false" MaxLength="45" FixedLength="false" Unicode="false" />
-          <NavigationProperty Name="locale1" Relationship="digitalresourceslibraryModel.fk_tagloc_locale1" FromRole="tagloc" ToRole="locale" />
-          <NavigationProperty Name="tag1" Relationship="digitalresourceslibraryModel.fk_tagloc_tag1" FromRole="tagloc" ToRole="tag" />
+          <Property Name="tag" Type="Int32" Nullable="false" />
+          <Property Name="locale" Type="Int32" Nullable="false" />
+          <Property Name="value" Type="String" Nullable="false" MaxLength="45" Unicode="false" FixedLength="false" />
+          <NavigationProperty Name="locale1" Relationship="DigitalResourcesLibraryEntityModel.fk_tagloc_locale1" FromRole="tagloc" ToRole="locale" />
+          <NavigationProperty Name="tag1" Relationship="DigitalResourcesLibraryEntityModel.fk_tagloc_tag1" FromRole="tagloc" ToRole="tag" />
         </EntityType>
         <EntityType Name="user">
           <Key>
             <PropertyRef Name="id" />
           </Key>
-          <Property Type="Int64" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Type="String" Name="name" Nullable="false" MaxLength="255" FixedLength="false" Unicode="false" />
-          <Property Type="Boolean" Name="active" Nullable="false" />
-          <Property Type="String" Name="password" Nullable="false" MaxLength="45" FixedLength="false" Unicode="false" />
-          <Property Type="Int64" Name="role_id" Nullable="false" />
-          <NavigationProperty Name="article" Relationship="digitalresourceslibraryModel.fk_article_user1" FromRole="user" ToRole="article" />
-          <NavigationProperty Name="role" Relationship="digitalresourceslibraryModel.fk_user_role1" FromRole="user" ToRole="role" />
-          <NavigationProperty Name="store" Relationship="digitalresourceslibraryModel.fk_store_user1" FromRole="user" ToRole="store" />
+          <Property Name="id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="name" Type="String" Nullable="false" MaxLength="255" Unicode="false" FixedLength="false" />
+          <Property Name="active" Type="Boolean" Nullable="false" />
+          <Property Name="password" Type="String" Nullable="false" MaxLength="45" Unicode="false" FixedLength="false" />
+          <Property Name="role_id" Type="Int64" Nullable="false" />
+          <NavigationProperty Name="article" Relationship="DigitalResourcesLibraryEntityModel.fk_article_user1" FromRole="user" ToRole="article" />
+          <NavigationProperty Name="role" Relationship="DigitalResourcesLibraryEntityModel.fk_user_role1" FromRole="user" ToRole="role" />
+          <NavigationProperty Name="store" Relationship="DigitalResourcesLibraryEntityModel.fk_store_user1" FromRole="user" ToRole="store" />
         </EntityType>
         <Association Name="fk_article_category1">
-          <End Type="digitalresourceslibraryModel.category" Role="category" Multiplicity="1">
+          <End Role="category" Type="DigitalResourcesLibraryEntityModel.category" Multiplicity="1">
             <OnDelete Action="Cascade" />
           </End>
-          <End Type="digitalresourceslibraryModel.article" Role="article" Multiplicity="*" />
+          <End Role="article" Type="DigitalResourcesLibraryEntityModel.article" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="category">
               <PropertyRef Name="id" />
@@ -633,8 +634,8 @@
           </ReferentialConstraint>
         </Association>
         <Association Name="fk_article_user1">
-          <End Type="digitalresourceslibraryModel.user" Role="user" Multiplicity="1" />
-          <End Type="digitalresourceslibraryModel.article" Role="article" Multiplicity="*" />
+          <End Role="user" Type="DigitalResourcesLibraryEntityModel.user" Multiplicity="1" />
+          <End Role="article" Type="DigitalResourcesLibraryEntityModel.article" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="user">
               <PropertyRef Name="id" />
@@ -645,10 +646,10 @@
           </ReferentialConstraint>
         </Association>
         <Association Name="fk_articleloc_article1">
-          <End Type="digitalresourceslibraryModel.article" Role="article" Multiplicity="1">
+          <End Role="article" Type="DigitalResourcesLibraryEntityModel.article" Multiplicity="1">
             <OnDelete Action="Cascade" />
           </End>
-          <End Type="digitalresourceslibraryModel.articleloc" Role="articleloc" Multiplicity="*" />
+          <End Role="articleloc" Type="DigitalResourcesLibraryEntityModel.articleloc" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="article">
               <PropertyRef Name="id" />
@@ -659,10 +660,10 @@
           </ReferentialConstraint>
         </Association>
         <Association Name="fk_articleloc_locale1">
-          <End Type="digitalresourceslibraryModel.locale" Role="locale" Multiplicity="1">
+          <End Role="locale" Type="DigitalResourcesLibraryEntityModel.locale" Multiplicity="1">
             <OnDelete Action="Cascade" />
           </End>
-          <End Type="digitalresourceslibraryModel.articleloc" Role="articleloc" Multiplicity="*" />
+          <End Role="articleloc" Type="DigitalResourcesLibraryEntityModel.articleloc" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="locale">
               <PropertyRef Name="id" />
@@ -673,10 +674,10 @@
           </ReferentialConstraint>
         </Association>
         <Association Name="fk_category_category">
-          <End Type="digitalresourceslibraryModel.category" Role="category" Multiplicity="0..1">
+          <End Role="category" Type="DigitalResourcesLibraryEntityModel.category" Multiplicity="0..1">
             <OnDelete Action="Cascade" />
           </End>
-          <End Type="digitalresourceslibraryModel.category" Role="category1" Multiplicity="*" />
+          <End Role="category1" Type="DigitalResourcesLibraryEntityModel.category" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="category">
               <PropertyRef Name="id" />
@@ -687,10 +688,10 @@
           </ReferentialConstraint>
         </Association>
         <Association Name="fk_categoryloc_category1">
-          <End Type="digitalresourceslibraryModel.category" Role="category" Multiplicity="1">
+          <End Role="category" Type="DigitalResourcesLibraryEntityModel.category" Multiplicity="1">
             <OnDelete Action="Cascade" />
           </End>
-          <End Type="digitalresourceslibraryModel.categoryloc" Role="categoryloc" Multiplicity="*" />
+          <End Role="categoryloc" Type="DigitalResourcesLibraryEntityModel.categoryloc" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="category">
               <PropertyRef Name="id" />
@@ -701,10 +702,10 @@
           </ReferentialConstraint>
         </Association>
         <Association Name="fk_store_category1">
-          <End Type="digitalresourceslibraryModel.category" Role="category" Multiplicity="1">
+          <End Role="category" Type="DigitalResourcesLibraryEntityModel.category" Multiplicity="1">
             <OnDelete Action="Cascade" />
           </End>
-          <End Type="digitalresourceslibraryModel.store" Role="store" Multiplicity="*" />
+          <End Role="store" Type="DigitalResourcesLibraryEntityModel.store" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="category">
               <PropertyRef Name="id" />
@@ -715,10 +716,10 @@
           </ReferentialConstraint>
         </Association>
         <Association Name="fk_categoryloc_locale1">
-          <End Type="digitalresourceslibraryModel.locale" Role="locale" Multiplicity="1">
+          <End Role="locale" Type="DigitalResourcesLibraryEntityModel.locale" Multiplicity="1">
             <OnDelete Action="Cascade" />
           </End>
-          <End Type="digitalresourceslibraryModel.categoryloc" Role="categoryloc" Multiplicity="*" />
+          <End Role="categoryloc" Type="DigitalResourcesLibraryEntityModel.categoryloc" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="locale">
               <PropertyRef Name="id" />
@@ -729,10 +730,10 @@
           </ReferentialConstraint>
         </Association>
         <Association Name="fk_storeloc_locale1">
-          <End Type="digitalresourceslibraryModel.locale" Role="locale" Multiplicity="1">
+          <End Role="locale" Type="DigitalResourcesLibraryEntityModel.locale" Multiplicity="1">
             <OnDelete Action="Cascade" />
           </End>
-          <End Type="digitalresourceslibraryModel.storeloc" Role="storeloc" Multiplicity="*" />
+          <End Role="storeloc" Type="DigitalResourcesLibraryEntityModel.storeloc" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="locale">
               <PropertyRef Name="id" />
@@ -743,8 +744,8 @@
           </ReferentialConstraint>
         </Association>
         <Association Name="fk_tagloc_locale1">
-          <End Type="digitalresourceslibraryModel.locale" Role="locale" Multiplicity="1" />
-          <End Type="digitalresourceslibraryModel.tagloc" Role="tagloc" Multiplicity="*" />
+          <End Role="locale" Type="DigitalResourcesLibraryEntityModel.locale" Multiplicity="1" />
+          <End Role="tagloc" Type="DigitalResourcesLibraryEntityModel.tagloc" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="locale">
               <PropertyRef Name="id" />
@@ -755,8 +756,8 @@
           </ReferentialConstraint>
         </Association>
         <Association Name="fk_user_role1">
-          <End Type="digitalresourceslibraryModel.role" Role="role" Multiplicity="1" />
-          <End Type="digitalresourceslibraryModel.user" Role="user" Multiplicity="*" />
+          <End Role="role" Type="DigitalResourcesLibraryEntityModel.role" Multiplicity="1" />
+          <End Role="user" Type="DigitalResourcesLibraryEntityModel.user" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="role">
               <PropertyRef Name="id" />
@@ -767,10 +768,10 @@
           </ReferentialConstraint>
         </Association>
         <Association Name="fk_store_user1">
-          <End Type="digitalresourceslibraryModel.user" Role="user" Multiplicity="1">
+          <End Role="user" Type="DigitalResourcesLibraryEntityModel.user" Multiplicity="1">
             <OnDelete Action="Cascade" />
           </End>
-          <End Type="digitalresourceslibraryModel.store" Role="store" Multiplicity="*" />
+          <End Role="store" Type="DigitalResourcesLibraryEntityModel.store" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="user">
               <PropertyRef Name="id" />
@@ -781,10 +782,10 @@
           </ReferentialConstraint>
         </Association>
         <Association Name="fk_storeloc_store1">
-          <End Type="digitalresourceslibraryModel.store" Role="store" Multiplicity="1">
+          <End Role="store" Type="DigitalResourcesLibraryEntityModel.store" Multiplicity="1">
             <OnDelete Action="Cascade" />
           </End>
-          <End Type="digitalresourceslibraryModel.storeloc" Role="storeloc" Multiplicity="*" />
+          <End Role="storeloc" Type="DigitalResourcesLibraryEntityModel.storeloc" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="store">
               <PropertyRef Name="id" />
@@ -795,10 +796,10 @@
           </ReferentialConstraint>
         </Association>
         <Association Name="fk_tagloc_tag1">
-          <End Type="digitalresourceslibraryModel.tag" Role="tag" Multiplicity="1">
+          <End Role="tag" Type="DigitalResourcesLibraryEntityModel.tag" Multiplicity="1">
             <OnDelete Action="Cascade" />
           </End>
-          <End Type="digitalresourceslibraryModel.tagloc" Role="tagloc" Multiplicity="*" />
+          <End Role="tagloc" Type="DigitalResourcesLibraryEntityModel.tagloc" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="tag">
               <PropertyRef Name="id" />
@@ -809,129 +810,129 @@
           </ReferentialConstraint>
         </Association>
         <Association Name="article_has_tag">
-          <End Type="digitalresourceslibraryModel.article" Role="article" Multiplicity="*" />
-          <End Type="digitalresourceslibraryModel.tag" Role="tag" Multiplicity="*" />
+          <End Role="article" Type="DigitalResourcesLibraryEntityModel.article" Multiplicity="*" />
+          <End Role="tag" Type="DigitalResourcesLibraryEntityModel.tag" Multiplicity="*" />
         </Association>
-        </Schema>
+      </Schema>
     </edmx:ConceptualModels>
     <!-- C-S mapping content -->
     <edmx:Mappings>
       <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
-        <EntityContainerMapping StorageEntityContainer="digitalresourceslibraryModelStoreContainer" CdmEntityContainer="digitalresourceslibraryEntities">
+        <EntityContainerMapping StorageEntityContainer="DigitalResourcesLibraryEntityModelStoreContainer" CdmEntityContainer="digitalresourceslibraryEntities">
           <EntitySetMapping Name="article">
-            <EntityTypeMapping TypeName="digitalresourceslibraryModel.article">
+            <EntityTypeMapping TypeName="DigitalResourcesLibraryEntityModel.article">
               <MappingFragment StoreEntitySet="article">
-                <ScalarProperty Name="owner" ColumnName="owner" />
-                <ScalarProperty Name="visible" ColumnName="visible" />
-                <ScalarProperty Name="modified" ColumnName="modified" />
-                <ScalarProperty Name="category" ColumnName="category" />
                 <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="category" ColumnName="category" />
+                <ScalarProperty Name="modified" ColumnName="modified" />
+                <ScalarProperty Name="visible" ColumnName="visible" />
+                <ScalarProperty Name="owner" ColumnName="owner" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="articleloc">
-            <EntityTypeMapping TypeName="digitalresourceslibraryModel.articleloc">
+            <EntityTypeMapping TypeName="DigitalResourcesLibraryEntityModel.articleloc">
               <MappingFragment StoreEntitySet="articleloc">
-                <ScalarProperty Name="title" ColumnName="title" />
-                <ScalarProperty Name="description" ColumnName="description" />
-                <ScalarProperty Name="content" ColumnName="content" />
-                <ScalarProperty Name="locale" ColumnName="locale" />
                 <ScalarProperty Name="article" ColumnName="article" />
+                <ScalarProperty Name="locale" ColumnName="locale" />
+                <ScalarProperty Name="content" ColumnName="content" />
+                <ScalarProperty Name="description" ColumnName="description" />
+                <ScalarProperty Name="title" ColumnName="title" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="category">
-            <EntityTypeMapping TypeName="digitalresourceslibraryModel.category">
+            <EntityTypeMapping TypeName="DigitalResourcesLibraryEntityModel.category">
               <MappingFragment StoreEntitySet="category">
-                <ScalarProperty Name="parent" ColumnName="parent" />
                 <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="parent" ColumnName="parent" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="categoryloc">
-            <EntityTypeMapping TypeName="digitalresourceslibraryModel.categoryloc">
+            <EntityTypeMapping TypeName="DigitalResourcesLibraryEntityModel.categoryloc">
               <MappingFragment StoreEntitySet="categoryloc">
-                <ScalarProperty Name="locale" ColumnName="locale" />
-                <ScalarProperty Name="category" ColumnName="category" />
                 <ScalarProperty Name="value" ColumnName="value" />
+                <ScalarProperty Name="category" ColumnName="category" />
+                <ScalarProperty Name="locale" ColumnName="locale" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="locale">
-            <EntityTypeMapping TypeName="digitalresourceslibraryModel.locale">
+            <EntityTypeMapping TypeName="DigitalResourcesLibraryEntityModel.locale">
               <MappingFragment StoreEntitySet="locale">
-                <ScalarProperty Name="language" ColumnName="language" />
-                <ScalarProperty Name="locale1" ColumnName="locale" />
                 <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="locale1" ColumnName="locale" />
+                <ScalarProperty Name="language" ColumnName="language" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="role">
-            <EntityTypeMapping TypeName="digitalresourceslibraryModel.role">
+            <EntityTypeMapping TypeName="DigitalResourcesLibraryEntityModel.role">
               <MappingFragment StoreEntitySet="role">
-                <ScalarProperty Name="name" ColumnName="name" />
                 <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="name" ColumnName="name" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="store">
-            <EntityTypeMapping TypeName="digitalresourceslibraryModel.store">
+            <EntityTypeMapping TypeName="DigitalResourcesLibraryEntityModel.store">
               <MappingFragment StoreEntitySet="store">
-                <ScalarProperty Name="owner" ColumnName="owner" />
-                <ScalarProperty Name="visible" ColumnName="visible" />
-                <ScalarProperty Name="modified" ColumnName="modified" />
-                <ScalarProperty Name="category" ColumnName="category" />
                 <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="category" ColumnName="category" />
+                <ScalarProperty Name="modified" ColumnName="modified" />
+                <ScalarProperty Name="visible" ColumnName="visible" />
+                <ScalarProperty Name="owner" ColumnName="owner" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="storeloc">
-            <EntityTypeMapping TypeName="digitalresourceslibraryModel.storeloc">
+            <EntityTypeMapping TypeName="DigitalResourcesLibraryEntityModel.storeloc">
               <MappingFragment StoreEntitySet="storeloc">
-                <ScalarProperty Name="type" ColumnName="type" />
-                <ScalarProperty Name="filename" ColumnName="filename" />
-                <ScalarProperty Name="title" ColumnName="title" />
-                <ScalarProperty Name="description" ColumnName="description" />
-                <ScalarProperty Name="data" ColumnName="data" />
-                <ScalarProperty Name="locale" ColumnName="locale" />
                 <ScalarProperty Name="store" ColumnName="store" />
+                <ScalarProperty Name="locale" ColumnName="locale" />
+                <ScalarProperty Name="data" ColumnName="data" />
+                <ScalarProperty Name="description" ColumnName="description" />
+                <ScalarProperty Name="title" ColumnName="title" />
+                <ScalarProperty Name="filename" ColumnName="filename" />
+                <ScalarProperty Name="type" ColumnName="type" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="tag">
-            <EntityTypeMapping TypeName="digitalresourceslibraryModel.tag">
+            <EntityTypeMapping TypeName="DigitalResourcesLibraryEntityModel.tag">
               <MappingFragment StoreEntitySet="tag">
-                <ScalarProperty Name="meta" ColumnName="meta" />
                 <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="meta" ColumnName="meta" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="tagloc">
-            <EntityTypeMapping TypeName="digitalresourceslibraryModel.tagloc">
+            <EntityTypeMapping TypeName="DigitalResourcesLibraryEntityModel.tagloc">
               <MappingFragment StoreEntitySet="tagloc">
-                <ScalarProperty Name="value" ColumnName="value" />
-                <ScalarProperty Name="locale" ColumnName="locale" />
                 <ScalarProperty Name="tag" ColumnName="tag" />
+                <ScalarProperty Name="locale" ColumnName="locale" />
+                <ScalarProperty Name="value" ColumnName="value" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="user">
-            <EntityTypeMapping TypeName="digitalresourceslibraryModel.user">
+            <EntityTypeMapping TypeName="DigitalResourcesLibraryEntityModel.user">
               <MappingFragment StoreEntitySet="user">
-                <ScalarProperty Name="role_id" ColumnName="role_id" />
-                <ScalarProperty Name="password" ColumnName="password" />
-                <ScalarProperty Name="active" ColumnName="active" />
-                <ScalarProperty Name="name" ColumnName="name" />
                 <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="active" ColumnName="active" />
+                <ScalarProperty Name="password" ColumnName="password" />
+                <ScalarProperty Name="role_id" ColumnName="role_id" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
-          <AssociationSetMapping Name="article_has_tag" TypeName="digitalresourceslibraryModel.article_has_tag" StoreEntitySet="article_has_tag">
-            <EndProperty Name="tag">
-              <ScalarProperty Name="id" ColumnName="tag_id" />
-            </EndProperty>
+          <AssociationSetMapping Name="article_has_tag" TypeName="DigitalResourcesLibraryEntityModel.article_has_tag" StoreEntitySet="article_has_tag">
             <EndProperty Name="article">
               <ScalarProperty Name="id" ColumnName="article_id" />
+            </EndProperty>
+            <EndProperty Name="tag">
+              <ScalarProperty Name="id" ColumnName="tag_id" />
             </EndProperty>
           </AssociationSetMapping>
         </EntityContainerMapping>
