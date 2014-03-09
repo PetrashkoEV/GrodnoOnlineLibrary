@@ -1,13 +1,16 @@
 ﻿using System.Data.SqlClient;
 using System.Web.Mvc;
 using System.Linq;
-using DigitalResourcesLibrary.SqlContext;
-using DigitalResourcesLibrary.SqlContext.Concrete.Articles;
+using DigitalResourcesLibrary.DataContext.EnumLanguage;
+using DigitalResourcesLibrary.DataContext.Helper;
+using DigitalResourcesLibrary.DataContext.Services;
+
 
 namespace DigitalResourcesLibrary.Controllers
 {
     public class HomeController : Controller
     {
+        private ArticleService articleService = new ArticleService();
         //
         // GET: /Home/
 
@@ -21,11 +24,12 @@ namespace DigitalResourcesLibrary.Controllers
 
         public ActionResult About()
         {
-            ArticleLocateRepository repository = new ArticleLocateRepository();
+            /*ArticleLocateRepository repository = new ArticleLocateRepository();
             ViewBag.Content = repository.Entity.FirstOrDefault().content;
             ViewBag.Description = repository.Entity.FirstOrDefault().description;
-            ViewBag.TitleArticle = repository.Entity.FirstOrDefault().title;
-            return View();
+            ViewBag.TitleArticle = repository.Entity.FirstOrDefault().title;*/
+            var article = articleService.GetArticle();
+            return View(article);
         }
     }
 }

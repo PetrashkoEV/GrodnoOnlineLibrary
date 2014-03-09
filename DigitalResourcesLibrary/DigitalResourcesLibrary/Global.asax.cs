@@ -8,8 +8,7 @@ using System.Web.Http;
 using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
-using DigitalResourcesLibrary.Enum;
-using DigitalResourcesLibrary.SqlContext.Scheme;
+using DigitalResourcesLibrary.DataContext.EnumLanguage;
 
 namespace DigitalResourcesLibrary
 {
@@ -38,7 +37,7 @@ namespace DigitalResourcesLibrary
                 CultureInfo ci = (CultureInfo)this.Session["Culture"];
                 if (ci == null)
                 {
-                    string langName = Language.RU.ToString(); // Default culture
+                    string langName = Language.ru.ToString(); // Default culture
                     ci = new CultureInfo(langName);
                     this.Session["Culture"] = ci;
                 }

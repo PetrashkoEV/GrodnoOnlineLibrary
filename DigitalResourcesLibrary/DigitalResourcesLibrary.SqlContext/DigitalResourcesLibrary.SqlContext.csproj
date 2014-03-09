@@ -121,6 +121,17 @@
     <Compile Include="Entities\user.cs">
       <DependentUpon>DigitalResourcesLibraryEntityDataModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="Interface\Articles\IArticleRepository.cs" />
+    <Compile Include="Interface\Articles\IArticleLocateRepository.cs" />
+    <Compile Include="Interface\Categories\ICategoryRepository.cs" />
+    <Compile Include="Interface\Categories\ICategoryLocateRepository.cs" />
+    <Compile Include="Interface\Locate\ILocateRepository.cs" />
+    <Compile Include="Interface\Role\IRoleRepository.cs" />
+    <Compile Include="Interface\Store\IStoreRepository.cs" />
+    <Compile Include="Interface\Store\IStoreLocateRepository.cs" />
+    <Compile Include="Interface\Tag\ITagRepository.cs" />
+    <Compile Include="Interface\Tag\ITagLocateRepository.cs" />
+    <Compile Include="Interface\User\IUserRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Scheme\CreateDB.cs" />
   </ItemGroup>

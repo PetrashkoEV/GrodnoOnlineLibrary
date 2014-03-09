@@ -132,7 +132,6 @@
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\LocalizationController.cs" />
-    <Compile Include="Enum\Language.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -213,7 +212,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
@@ -236,9 +234,9 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DigitalResourcesLibrary.SqlContext\DigitalResourcesLibrary.SqlContext.csproj">
-      <Project>{fbd3a740-2e2c-4616-8006-f079c2a7b3ec}</Project>
-      <Name>DigitalResourcesLibrary.SqlContext</Name>
+    <ProjectReference Include="..\DigitalResourcesLibrary.DataContext\DigitalResourcesLibrary.DataContext.csproj">
+      <Project>{148eb356-4270-4a56-9661-e04e3ba355f0}</Project>
+      <Name>DigitalResourcesLibrary.DataContext</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

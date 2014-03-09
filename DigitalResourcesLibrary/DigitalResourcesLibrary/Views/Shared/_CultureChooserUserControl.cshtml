@@ -1,22 +1,21 @@
 ﻿<div class="localization-flag">
     <ul>
         <li>
-            <a href="@Url.RouteUrl("", new RouteValueDictionary(new { action = "ChangeCulture", controller = "Localization", lang = "RU", returnUrl = this.Request.RawUrl })) " >
+            <a href="@Url.RouteUrl("", new RouteValueDictionary(new { action = "ChangeCulture", controller = "Base", lang = "ru", returnUrl = this.Request.RawUrl })) " >
                 <img src="~/Content/themes/images/Russia.png" alt="Русский язык" 
                     rel="tooltip" data-placement="bottom" data-original-title="Русский язык"/>
             </a>
         </li>
-
         <li>
-            <a href="@Url.RouteUrl("", new RouteValueDictionary(new { action = "ChangeCulture", controller = "Localization", lang = "EN", returnUrl = this.Request.RawUrl }))">
-                <img src="~/Content/themes/images/United-States.png" alt="English"
-                     rel="tooltip" data-placement="bottom" data-original-title="English"/>
+            <a href="@Url.RouteUrl("", new RouteValueDictionary(new { action = "ChangeCulture", controller = "Base", lang = "be", returnUrl = this.Request.RawUrl }))">
+                <img src="~/Content/themes/images/Belarus.png" alt="Беларуская мова"
+                     rel="tooltip" data-placement="bottom" data-original-title="Беларуская мова"/>
             </a>
         </li>
         <li>
-            <a href="@Url.RouteUrl("", new RouteValueDictionary(new { action = "ChangeCulture", controller = "Localization", lang = "BE", returnUrl = this.Request.RawUrl }))">
-                <img src="~/Content/themes/images/Belarus.png" alt="Беларуская мова"
-                    rel="tooltip" data-placement="bottom" data-original-title="Беларуская мова"/>
+            <a href="@Url.RouteUrl("", new RouteValueDictionary(new { action = "ChangeCulture", controller = "Base", lang = "en", returnUrl = this.Request.RawUrl }))">
+                <img src="~/Content/themes/images/United-States.png" alt="English"
+                     rel="tooltip" data-placement="bottom" data-original-title="English"/>
             </a>
         </li>
     </ul>

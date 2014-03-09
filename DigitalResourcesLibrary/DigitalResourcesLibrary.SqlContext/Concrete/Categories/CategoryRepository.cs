@@ -4,10 +4,11 @@ using System.Data.Entity;
 using System.Linq;
 using System.Text;
 using DigitalResourcesLibrary.SqlContext.Entities;
+using DigitalResourcesLibrary.SqlContext.Interface.Categories;
 
 namespace DigitalResourcesLibrary.SqlContext.Concrete.Categories
 {
-    public class CategoryRepository
+    public class CategoryRepository : ICategoryRepository
     {
         private digitalresourceslibraryEntities _dataContext = new digitalresourceslibraryEntities();
 

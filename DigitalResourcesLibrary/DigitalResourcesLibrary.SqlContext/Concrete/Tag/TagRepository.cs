@@ -4,10 +4,11 @@ using System.Data.Entity;
 using System.Linq;
 using System.Text;
 using DigitalResourcesLibrary.SqlContext.Entities;
+using DigitalResourcesLibrary.SqlContext.Interface.Tag;
 
 namespace DigitalResourcesLibrary.SqlContext.Concrete.Tag
 {
-    public class TagRepository
+    public class TagRepository : ITagRepository
     {
         private digitalresourceslibraryEntities _dataContext = new digitalresourceslibraryEntities();
 

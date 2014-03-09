@@ -22,8 +22,8 @@ namespace DigitalResourcesLibrary.SqlContext.Scheme
 
         private string pathFolder = @"E:\Diplom\GrodnoOnlineLibrary\DigitalResourcesLibrary\DigitalResourcesLibrary.SqlContext\Scheme\Scripts";
 
-        public string ConnectingString1 = "server=localhost;user id=root;password=root;persistsecurityinfo=True;database=digitalresourceslibrary";
-        public string ConnectingString = "server=0c0a44d5-38e4-485f-a805-a2d7015a8542.mysql.sequelizer.com;database=db0c0a44d538e4485fa805a2d7015a8542;uid=gjasovdawjqgvvkf;pwd=kAamz7vSCsKcFfokpeWgvcUr8PUsUyRK4HnMMM3rbqpppgBWgBaUbrYhNQmSkc6e";
+        public string ConnectingString = "server=localhost;user id=root;password=root;persistsecurityinfo=True;database=digitalresourceslibrary";
+        public string ConnectingString1 = "server=0c0a44d5-38e4-485f-a805-a2d7015a8542.mysql.sequelizer.com;database=db0c0a44d538e4485fa805a2d7015a8542;uid=gjasovdawjqgvvkf;pwd=kAamz7vSCsKcFfokpeWgvcUr8PUsUyRK4HnMMM3rbqpppgBWgBaUbrYhNQmSkc6e";
 
         public void RunScript()
         {

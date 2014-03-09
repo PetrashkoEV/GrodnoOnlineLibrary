@@ -4,7 +4,7 @@ using System.Globalization;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
-using DigitalResourcesLibrary.Enum;
+using DigitalResourcesLibrary.DataContext.EnumLanguage;
 
 namespace DigitalResourcesLibrary.Controllers
 {
@@ -17,12 +17,12 @@ namespace DigitalResourcesLibrary.Controllers
         {
             if (lang == null)
             {
-                lang = Language.RU.ToString();
+                lang = Language.ru.ToString();
             }
 
-            if (lang.Equals(Language.RU.ToString()) || 
-                lang.Equals(Language.EN.ToString()) ||
-                lang.Equals(Language.BE.ToString()))
+            if (lang.Equals(Language.ru.ToString()) || 
+                lang.Equals(Language.en.ToString()) ||
+                lang.Equals(Language.be.ToString()))
             {
                 Session["Culture"] = new CultureInfo(lang);
             }
