@@ -1,17 +1,9 @@
-﻿@{
-    Layout = null;
+﻿@model System.Web.Mvc.HandleErrorInfo
+
+@{
+    ViewBag.Title = "Error";
 }
 
-<!DOCTYPE html>
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title>@ViewRes.Resource.Shared_Error_Title</title>
-</head>
-<body>
-    <hgroup>
-        <h1>@ViewRes.Resource.Shared_Error_Title</h1>
-        <h2>@ViewRes.Resource.Shared_Error_Body</h2>
-    </hgroup>
-</body>
-</html>
+Sorry, an error occurred while processing your request.
+
+<h3>@Model.Exception.Message</h3>

@@ -3,6 +3,7 @@ using System.Web.Mvc;
 using System.Linq;
 using DigitalResourcesLibrary.DataContext.EnumLanguage;
 using DigitalResourcesLibrary.DataContext.Helper;
+using DigitalResourcesLibrary.DataContext.Model;
 using DigitalResourcesLibrary.DataContext.Services;
 
 
@@ -29,7 +30,7 @@ namespace DigitalResourcesLibrary.Controllers
             ViewBag.Description = repository.Entity.FirstOrDefault().description;
             ViewBag.TitleArticle = repository.Entity.FirstOrDefault().title;*/
             var article = articleService.GetArticle();
-            return View(article);
+            return View(new ArticleModel());
         }
     }
 }

@@ -8,6 +8,7 @@ using System.Web.Http;
 using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
+using DigitalResourcesLibrary.Attribute;
 using DigitalResourcesLibrary.DataContext.EnumLanguage;
 
 namespace DigitalResourcesLibrary
@@ -22,9 +23,11 @@ namespace DigitalResourcesLibrary
             AreaRegistration.RegisterAllAreas();
 
             WebApiConfig.Register(GlobalConfiguration.Configuration);
+            GlobalFilters.Filters.Add(new HandleAllErrorAttribute());
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+            
             
             /*CreateDB bd = new CreateDB();
             bd.RunScript();*/
