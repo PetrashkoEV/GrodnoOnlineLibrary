@@ -1,9 +1,4 @@
-﻿using System.Data.SqlClient;
-using System.Web.Mvc;
-using System.Linq;
-using DigitalResourcesLibrary.DataContext.EnumLanguage;
-using DigitalResourcesLibrary.DataContext.Helper;
-using DigitalResourcesLibrary.DataContext.Model;
+﻿using System.Web.Mvc;
 using DigitalResourcesLibrary.DataContext.Services;
 
 
