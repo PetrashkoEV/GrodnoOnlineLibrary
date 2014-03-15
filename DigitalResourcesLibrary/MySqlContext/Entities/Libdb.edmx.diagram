@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="127c31eec48c4804aca0f7b92e796fba" Name="Diagram1">
+        <EntityTypeShape EntityType="LibDbModel.article" Width="1.5" PointX="3" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibDbModel.articleloc" Width="1.5" PointX="5.25" PointY="10.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibDbModel.category" Width="1.5" PointX="0.75" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibDbModel.categoryloc" Width="1.5" PointX="6" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibDbModel.locale" Width="1.5" PointX="3" PointY="11.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibDbModel.role" Width="1.5" PointX="1.5" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibDbModel.store" Width="1.5" PointX="3" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibDbModel.storeloc" Width="1.5" PointX="5.25" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibDbModel.tag" Width="1.5" PointX="8.25" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibDbModel.tagloc" Width="1.5" PointX="10.5" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibDbModel.user" Width="1.5" PointX="0.75" PointY="3.25" IsExpanded="true" />
+        <AssociationConnector Association="LibDbModel.fk_article_category1" ManuallyRouted="false" />
+        <AssociationConnector Association="LibDbModel.fk_article_user1" ManuallyRouted="false" />
+        <AssociationConnector Association="LibDbModel.fk_articleloc_article1" ManuallyRouted="false" />
+        <AssociationConnector Association="LibDbModel.fk_articleloc_locale1" ManuallyRouted="false" />
+        <AssociationConnector Association="LibDbModel.fk_category_category" ManuallyRouted="false" />
+        <AssociationConnector Association="LibDbModel.fk_categoryloc_category1" ManuallyRouted="false" />
+        <AssociationConnector Association="LibDbModel.fk_store_category1" ManuallyRouted="false" />
+        <AssociationConnector Association="LibDbModel.fk_categoryloc_locale1" ManuallyRouted="false" />
+        <AssociationConnector Association="LibDbModel.fk_storeloc_locale1" ManuallyRouted="false" />
+        <AssociationConnector Association="LibDbModel.fk_tagloc_locale1" ManuallyRouted="false" />
+        <AssociationConnector Association="LibDbModel.fk_user_role1" ManuallyRouted="false" />
+        <AssociationConnector Association="LibDbModel.fk_store_user1" ManuallyRouted="false" />
+        <AssociationConnector Association="LibDbModel.fk_storeloc_store1" ManuallyRouted="false" />
+        <AssociationConnector Association="LibDbModel.fk_tagloc_tag1" ManuallyRouted="false" />
+        <AssociationConnector Association="LibDbModel.article_has_tag" ManuallyRouted="false" />
+        <AssociationConnector Association="LibDbModel.store_has_tag" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

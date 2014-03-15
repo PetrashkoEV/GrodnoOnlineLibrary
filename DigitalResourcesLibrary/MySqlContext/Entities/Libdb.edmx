@@ -1,0 +1,1023 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="LibDbModel.Store" Alias="Self" Provider="MySql.Data.MySqlClient" ProviderManifestToken="5.1" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityContainer Name="LibDbModelStoreContainer">
+          <EntitySet Name="article" EntityType="LibDbModel.Store.article" store:Type="Tables" Schema="db0c0a44d538e4485fa805a2d7015a8542" />
+          <EntitySet Name="article_has_tag" EntityType="LibDbModel.Store.article_has_tag" store:Type="Tables" Schema="db0c0a44d538e4485fa805a2d7015a8542" />
+          <EntitySet Name="articleloc" EntityType="LibDbModel.Store.articleloc" store:Type="Tables" Schema="db0c0a44d538e4485fa805a2d7015a8542" />
+          <EntitySet Name="category" EntityType="LibDbModel.Store.category" store:Type="Tables" Schema="db0c0a44d538e4485fa805a2d7015a8542" />
+          <EntitySet Name="categoryloc" EntityType="LibDbModel.Store.categoryloc" store:Type="Tables" Schema="db0c0a44d538e4485fa805a2d7015a8542" />
+          <EntitySet Name="locale" EntityType="LibDbModel.Store.locale" store:Type="Tables" Schema="db0c0a44d538e4485fa805a2d7015a8542" />
+          <EntitySet Name="role" EntityType="LibDbModel.Store.role" store:Type="Tables" Schema="db0c0a44d538e4485fa805a2d7015a8542" />
+          <EntitySet Name="store" EntityType="LibDbModel.Store.store" store:Type="Tables" Schema="db0c0a44d538e4485fa805a2d7015a8542" />
+          <EntitySet Name="store_has_tag" EntityType="LibDbModel.Store.store_has_tag" store:Type="Tables" Schema="db0c0a44d538e4485fa805a2d7015a8542" />
+          <EntitySet Name="storeloc" EntityType="LibDbModel.Store.storeloc" store:Type="Tables" Schema="db0c0a44d538e4485fa805a2d7015a8542" />
+          <EntitySet Name="tag" EntityType="LibDbModel.Store.tag" store:Type="Tables" Schema="db0c0a44d538e4485fa805a2d7015a8542" />
+          <EntitySet Name="tagloc" EntityType="LibDbModel.Store.tagloc" store:Type="Tables" Schema="db0c0a44d538e4485fa805a2d7015a8542" />
+          <EntitySet Name="user" EntityType="LibDbModel.Store.user" store:Type="Tables" Schema="db0c0a44d538e4485fa805a2d7015a8542" />
+          <AssociationSet Name="fk_article_category1" Association="LibDbModel.Store.fk_article_category1">
+            <End Role="category" EntitySet="category" />
+            <End Role="article" EntitySet="article" />
+          </AssociationSet>
+          <AssociationSet Name="fk_article_has_tag_article1" Association="LibDbModel.Store.fk_article_has_tag_article1">
+            <End Role="article" EntitySet="article" />
+            <End Role="article_has_tag" EntitySet="article_has_tag" />
+          </AssociationSet>
+          <AssociationSet Name="fk_article_has_tag_tag1" Association="LibDbModel.Store.fk_article_has_tag_tag1">
+            <End Role="tag" EntitySet="tag" />
+            <End Role="article_has_tag" EntitySet="article_has_tag" />
+          </AssociationSet>
+          <AssociationSet Name="fk_article_user1" Association="LibDbModel.Store.fk_article_user1">
+            <End Role="user" EntitySet="user" />
+            <End Role="article" EntitySet="article" />
+          </AssociationSet>
+          <AssociationSet Name="fk_articleloc_article1" Association="LibDbModel.Store.fk_articleloc_article1">
+            <End Role="article" EntitySet="article" />
+            <End Role="articleloc" EntitySet="articleloc" />
+          </AssociationSet>
+          <AssociationSet Name="fk_articleloc_locale1" Association="LibDbModel.Store.fk_articleloc_locale1">
+            <End Role="locale" EntitySet="locale" />
+            <End Role="articleloc" EntitySet="articleloc" />
+          </AssociationSet>
+          <AssociationSet Name="fk_category_category" Association="LibDbModel.Store.fk_category_category">
+            <End Role="category" EntitySet="category" />
+            <End Role="category1" EntitySet="category" />
+          </AssociationSet>
+          <AssociationSet Name="fk_categoryloc_category1" Association="LibDbModel.Store.fk_categoryloc_category1">
+            <End Role="category" EntitySet="category" />
+            <End Role="categoryloc" EntitySet="categoryloc" />
+          </AssociationSet>
+          <AssociationSet Name="fk_categoryloc_locale1" Association="LibDbModel.Store.fk_categoryloc_locale1">
+            <End Role="locale" EntitySet="locale" />
+            <End Role="categoryloc" EntitySet="categoryloc" />
+          </AssociationSet>
+          <AssociationSet Name="fk_store_category1" Association="LibDbModel.Store.fk_store_category1">
+            <End Role="category" EntitySet="category" />
+            <End Role="store" EntitySet="store" />
+          </AssociationSet>
+          <AssociationSet Name="fk_store_has_tag_store1" Association="LibDbModel.Store.fk_store_has_tag_store1">
+            <End Role="store" EntitySet="store" />
+            <End Role="store_has_tag" EntitySet="store_has_tag" />
+          </AssociationSet>
+          <AssociationSet Name="fk_store_has_tag_tag1" Association="LibDbModel.Store.fk_store_has_tag_tag1">
+            <End Role="tag" EntitySet="tag" />
+            <End Role="store_has_tag" EntitySet="store_has_tag" />
+          </AssociationSet>
+          <AssociationSet Name="fk_store_user1" Association="LibDbModel.Store.fk_store_user1">
+            <End Role="user" EntitySet="user" />
+            <End Role="store" EntitySet="store" />
+          </AssociationSet>
+          <AssociationSet Name="fk_storeloc_locale1" Association="LibDbModel.Store.fk_storeloc_locale1">
+            <End Role="locale" EntitySet="locale" />
+            <End Role="storeloc" EntitySet="storeloc" />
+          </AssociationSet>
+          <AssociationSet Name="fk_storeloc_store1" Association="LibDbModel.Store.fk_storeloc_store1">
+            <End Role="store" EntitySet="store" />
+            <End Role="storeloc" EntitySet="storeloc" />
+          </AssociationSet>
+          <AssociationSet Name="fk_tagloc_locale1" Association="LibDbModel.Store.fk_tagloc_locale1">
+            <End Role="locale" EntitySet="locale" />
+            <End Role="tagloc" EntitySet="tagloc" />
+          </AssociationSet>
+          <AssociationSet Name="fk_tagloc_tag1" Association="LibDbModel.Store.fk_tagloc_tag1">
+            <End Role="tag" EntitySet="tag" />
+            <End Role="tagloc" EntitySet="tagloc" />
+          </AssociationSet>
+          <AssociationSet Name="fk_user_role1" Association="LibDbModel.Store.fk_user_role1">
+            <End Role="role" EntitySet="role" />
+            <End Role="user" EntitySet="user" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="article">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="category" Type="uint" Nullable="false" />
+          <Property Name="modified" Type="timestamp" />
+          <Property Name="visible" Type="bool" />
+          <Property Name="owner" Type="uint" Nullable="false" />
+        </EntityType>
+        <EntityType Name="article_has_tag">
+          <Key>
+            <PropertyRef Name="article_id" />
+            <PropertyRef Name="tag_id" />
+          </Key>
+          <Property Name="article_id" Type="int" Nullable="false" />
+          <Property Name="tag_id" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="articleloc">
+          <Key>
+            <PropertyRef Name="article" />
+            <PropertyRef Name="locale" />
+          </Key>
+          <Property Name="article" Type="int" Nullable="false" />
+          <Property Name="locale" Type="int" Nullable="false" />
+          <Property Name="content" Type="mediumtext" />
+          <Property Name="description" Type="varchar" MaxLength="5000" />
+          <Property Name="title" Type="varchar" />
+        </EntityType>
+        <EntityType Name="category">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="uint" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="parent" Type="uint" />
+        </EntityType>
+        <EntityType Name="categoryloc">
+          <Key>
+            <PropertyRef Name="category" />
+            <PropertyRef Name="locale" />
+          </Key>
+          <Property Name="value" Type="varchar" />
+          <Property Name="category" Type="uint" Nullable="false" />
+          <Property Name="locale" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="locale">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="locale" Type="varchar" Nullable="false" MaxLength="10" />
+          <Property Name="language" Type="varchar" Nullable="false" MaxLength="45" />
+        </EntityType>
+        <EntityType Name="role">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="uint" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="name" Type="varchar" Nullable="false" MaxLength="45" />
+        </EntityType>
+        <EntityType Name="store">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="category" Type="uint" Nullable="false" />
+          <Property Name="modified" Type="timestamp" />
+          <Property Name="visible" Type="bool" />
+          <Property Name="owner" Type="uint" Nullable="false" />
+        </EntityType>
+        <EntityType Name="store_has_tag">
+          <Key>
+            <PropertyRef Name="store_id" />
+            <PropertyRef Name="tag_id" />
+          </Key>
+          <Property Name="store_id" Type="int" Nullable="false" />
+          <Property Name="tag_id" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="storeloc">
+          <Key>
+            <PropertyRef Name="store" />
+            <PropertyRef Name="locale" />
+          </Key>
+          <Property Name="store" Type="int" Nullable="false" />
+          <Property Name="locale" Type="int" Nullable="false" />
+          <Property Name="data" Type="mediumblob" />
+          <Property Name="description" Type="varchar" MaxLength="5000" />
+          <Property Name="title" Type="varchar" />
+          <Property Name="filename" Type="varchar" MaxLength="500" />
+          <Property Name="type" Type="varchar" MaxLength="100" />
+        </EntityType>
+        <EntityType Name="tag">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="meta" Type="varchar" MaxLength="255" />
+        </EntityType>
+        <EntityType Name="tagloc">
+          <Key>
+            <PropertyRef Name="tag" />
+            <PropertyRef Name="locale" />
+          </Key>
+          <Property Name="tag" Type="int" Nullable="false" />
+          <Property Name="locale" Type="int" Nullable="false" />
+          <Property Name="value" Type="varchar" Nullable="false" MaxLength="45" />
+        </EntityType>
+        <EntityType Name="user">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="uint" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="name" Type="varchar" Nullable="false" MaxLength="255" />
+          <Property Name="active" Type="bit" Nullable="false" />
+          <Property Name="password" Type="varchar" Nullable="false" MaxLength="45" />
+          <Property Name="role_id" Type="uint" Nullable="false" />
+        </EntityType>
+        <Association Name="fk_article_category1">
+          <End Role="category" Type="LibDbModel.Store.category" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="article" Type="LibDbModel.Store.article" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="category">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="article">
+              <PropertyRef Name="category" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_article_has_tag_article1">
+          <End Role="article" Type="LibDbModel.Store.article" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="article_has_tag" Type="LibDbModel.Store.article_has_tag" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="article">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="article_has_tag">
+              <PropertyRef Name="article_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_article_has_tag_tag1">
+          <End Role="tag" Type="LibDbModel.Store.tag" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="article_has_tag" Type="LibDbModel.Store.article_has_tag" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="tag">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="article_has_tag">
+              <PropertyRef Name="tag_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_article_user1">
+          <End Role="user" Type="LibDbModel.Store.user" Multiplicity="1" />
+          <End Role="article" Type="LibDbModel.Store.article" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="user">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="article">
+              <PropertyRef Name="owner" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_articleloc_article1">
+          <End Role="article" Type="LibDbModel.Store.article" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="articleloc" Type="LibDbModel.Store.articleloc" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="article">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="articleloc">
+              <PropertyRef Name="article" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_articleloc_locale1">
+          <End Role="locale" Type="LibDbModel.Store.locale" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="articleloc" Type="LibDbModel.Store.articleloc" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="locale">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="articleloc">
+              <PropertyRef Name="locale" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_category_category">
+          <End Role="category" Type="LibDbModel.Store.category" Multiplicity="0..1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="category1" Type="LibDbModel.Store.category" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="category">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="category1">
+              <PropertyRef Name="parent" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_categoryloc_category1">
+          <End Role="category" Type="LibDbModel.Store.category" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="categoryloc" Type="LibDbModel.Store.categoryloc" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="category">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="categoryloc">
+              <PropertyRef Name="category" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_categoryloc_locale1">
+          <End Role="locale" Type="LibDbModel.Store.locale" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="categoryloc" Type="LibDbModel.Store.categoryloc" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="locale">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="categoryloc">
+              <PropertyRef Name="locale" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_store_category1">
+          <End Role="category" Type="LibDbModel.Store.category" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="store" Type="LibDbModel.Store.store" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="category">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="store">
+              <PropertyRef Name="category" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_store_has_tag_store1">
+          <End Role="store" Type="LibDbModel.Store.store" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="store_has_tag" Type="LibDbModel.Store.store_has_tag" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="store">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="store_has_tag">
+              <PropertyRef Name="store_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_store_has_tag_tag1">
+          <End Role="tag" Type="LibDbModel.Store.tag" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="store_has_tag" Type="LibDbModel.Store.store_has_tag" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="tag">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="store_has_tag">
+              <PropertyRef Name="tag_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_store_user1">
+          <End Role="user" Type="LibDbModel.Store.user" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="store" Type="LibDbModel.Store.store" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="user">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="store">
+              <PropertyRef Name="owner" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_storeloc_locale1">
+          <End Role="locale" Type="LibDbModel.Store.locale" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="storeloc" Type="LibDbModel.Store.storeloc" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="locale">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="storeloc">
+              <PropertyRef Name="locale" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_storeloc_store1">
+          <End Role="store" Type="LibDbModel.Store.store" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="storeloc" Type="LibDbModel.Store.storeloc" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="store">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="storeloc">
+              <PropertyRef Name="store" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_tagloc_locale1">
+          <End Role="locale" Type="LibDbModel.Store.locale" Multiplicity="1" />
+          <End Role="tagloc" Type="LibDbModel.Store.tagloc" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="locale">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="tagloc">
+              <PropertyRef Name="locale" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_tagloc_tag1">
+          <End Role="tag" Type="LibDbModel.Store.tag" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="tagloc" Type="LibDbModel.Store.tagloc" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="tag">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="tagloc">
+              <PropertyRef Name="tag" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_user_role1">
+          <End Role="role" Type="LibDbModel.Store.role" Multiplicity="1" />
+          <End Role="user" Type="LibDbModel.Store.user" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="role">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="user">
+              <PropertyRef Name="role_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="LibDbModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="LibDbEntities" p1:LazyLoadingEnabled="true">
+          <EntitySet Name="article" EntityType="LibDbModel.article" />
+          <EntitySet Name="articleloc" EntityType="LibDbModel.articleloc" />
+          <EntitySet Name="category" EntityType="LibDbModel.category" />
+          <EntitySet Name="categoryloc" EntityType="LibDbModel.categoryloc" />
+          <EntitySet Name="locale" EntityType="LibDbModel.locale" />
+          <EntitySet Name="role" EntityType="LibDbModel.role" />
+          <EntitySet Name="store" EntityType="LibDbModel.store" />
+          <EntitySet Name="storeloc" EntityType="LibDbModel.storeloc" />
+          <EntitySet Name="tag" EntityType="LibDbModel.tag" />
+          <EntitySet Name="tagloc" EntityType="LibDbModel.tagloc" />
+          <EntitySet Name="user" EntityType="LibDbModel.user" />
+          <AssociationSet Name="fk_article_category1" Association="LibDbModel.fk_article_category1">
+            <End Role="category" EntitySet="category" />
+            <End Role="article" EntitySet="article" />
+          </AssociationSet>
+          <AssociationSet Name="fk_article_user1" Association="LibDbModel.fk_article_user1">
+            <End Role="user" EntitySet="user" />
+            <End Role="article" EntitySet="article" />
+          </AssociationSet>
+          <AssociationSet Name="fk_articleloc_article1" Association="LibDbModel.fk_articleloc_article1">
+            <End Role="article" EntitySet="article" />
+            <End Role="articleloc" EntitySet="articleloc" />
+          </AssociationSet>
+          <AssociationSet Name="fk_articleloc_locale1" Association="LibDbModel.fk_articleloc_locale1">
+            <End Role="locale" EntitySet="locale" />
+            <End Role="articleloc" EntitySet="articleloc" />
+          </AssociationSet>
+          <AssociationSet Name="fk_category_category" Association="LibDbModel.fk_category_category">
+            <End Role="category" EntitySet="category" />
+            <End Role="category1" EntitySet="category" />
+          </AssociationSet>
+          <AssociationSet Name="fk_categoryloc_category1" Association="LibDbModel.fk_categoryloc_category1">
+            <End Role="category" EntitySet="category" />
+            <End Role="categoryloc" EntitySet="categoryloc" />
+          </AssociationSet>
+          <AssociationSet Name="fk_store_category1" Association="LibDbModel.fk_store_category1">
+            <End Role="category" EntitySet="category" />
+            <End Role="store" EntitySet="store" />
+          </AssociationSet>
+          <AssociationSet Name="fk_categoryloc_locale1" Association="LibDbModel.fk_categoryloc_locale1">
+            <End Role="locale" EntitySet="locale" />
+            <End Role="categoryloc" EntitySet="categoryloc" />
+          </AssociationSet>
+          <AssociationSet Name="fk_storeloc_locale1" Association="LibDbModel.fk_storeloc_locale1">
+            <End Role="locale" EntitySet="locale" />
+            <End Role="storeloc" EntitySet="storeloc" />
+          </AssociationSet>
+          <AssociationSet Name="fk_tagloc_locale1" Association="LibDbModel.fk_tagloc_locale1">
+            <End Role="locale" EntitySet="locale" />
+            <End Role="tagloc" EntitySet="tagloc" />
+          </AssociationSet>
+          <AssociationSet Name="fk_user_role1" Association="LibDbModel.fk_user_role1">
+            <End Role="role" EntitySet="role" />
+            <End Role="user" EntitySet="user" />
+          </AssociationSet>
+          <AssociationSet Name="fk_store_user1" Association="LibDbModel.fk_store_user1">
+            <End Role="user" EntitySet="user" />
+            <End Role="store" EntitySet="store" />
+          </AssociationSet>
+          <AssociationSet Name="fk_storeloc_store1" Association="LibDbModel.fk_storeloc_store1">
+            <End Role="store" EntitySet="store" />
+            <End Role="storeloc" EntitySet="storeloc" />
+          </AssociationSet>
+          <AssociationSet Name="fk_tagloc_tag1" Association="LibDbModel.fk_tagloc_tag1">
+            <End Role="tag" EntitySet="tag" />
+            <End Role="tagloc" EntitySet="tagloc" />
+          </AssociationSet>
+          <AssociationSet Name="article_has_tag" Association="LibDbModel.article_has_tag">
+            <End Role="article" EntitySet="article" />
+            <End Role="tag" EntitySet="tag" />
+          </AssociationSet>
+          <AssociationSet Name="store_has_tag" Association="LibDbModel.store_has_tag">
+            <End Role="store" EntitySet="store" />
+            <End Role="tag" EntitySet="tag" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="article">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="category" Type="Int64" Nullable="false" />
+          <Property Name="modified" Type="DateTime" />
+          <Property Name="visible" Type="Boolean" />
+          <Property Name="owner" Type="Int64" Nullable="false" />
+          <NavigationProperty Name="category1" Relationship="LibDbModel.fk_article_category1" FromRole="article" ToRole="category" />
+          <NavigationProperty Name="user" Relationship="LibDbModel.fk_article_user1" FromRole="article" ToRole="user" />
+          <NavigationProperty Name="articleloc" Relationship="LibDbModel.fk_articleloc_article1" FromRole="article" ToRole="articleloc" />
+          <NavigationProperty Name="tag" Relationship="LibDbModel.article_has_tag" FromRole="article" ToRole="tag" />
+        </EntityType>
+        <EntityType Name="articleloc">
+          <Key>
+            <PropertyRef Name="article" />
+            <PropertyRef Name="locale" />
+          </Key>
+          <Property Name="article" Type="Int32" Nullable="false" />
+          <Property Name="locale" Type="Int32" Nullable="false" />
+          <Property Name="content" Type="String" MaxLength="16777215" Unicode="false" FixedLength="false" />
+          <Property Name="description" Type="String" MaxLength="5000" Unicode="false" FixedLength="false" />
+          <Property Name="title" Type="String" MaxLength="1000" Unicode="false" FixedLength="false" />
+          <NavigationProperty Name="article1" Relationship="LibDbModel.fk_articleloc_article1" FromRole="articleloc" ToRole="article" />
+          <NavigationProperty Name="locale1" Relationship="LibDbModel.fk_articleloc_locale1" FromRole="articleloc" ToRole="locale" />
+        </EntityType>
+        <EntityType Name="category">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int64" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="parent" Type="Int64" />
+          <NavigationProperty Name="article" Relationship="LibDbModel.fk_article_category1" FromRole="category" ToRole="article" />
+          <NavigationProperty Name="category1" Relationship="LibDbModel.fk_category_category" FromRole="category" ToRole="category1" />
+          <NavigationProperty Name="category2" Relationship="LibDbModel.fk_category_category" FromRole="category1" ToRole="category" />
+          <NavigationProperty Name="categoryloc" Relationship="LibDbModel.fk_categoryloc_category1" FromRole="category" ToRole="categoryloc" />
+          <NavigationProperty Name="store" Relationship="LibDbModel.fk_store_category1" FromRole="category" ToRole="store" />
+        </EntityType>
+        <EntityType Name="categoryloc">
+          <Key>
+            <PropertyRef Name="category" />
+            <PropertyRef Name="locale" />
+          </Key>
+          <Property Name="value" Type="String" MaxLength="1000" Unicode="false" FixedLength="false" />
+          <Property Name="category" Type="Int64" Nullable="false" />
+          <Property Name="locale" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="category1" Relationship="LibDbModel.fk_categoryloc_category1" FromRole="categoryloc" ToRole="category" />
+          <NavigationProperty Name="locale1" Relationship="LibDbModel.fk_categoryloc_locale1" FromRole="categoryloc" ToRole="locale" />
+        </EntityType>
+        <EntityType Name="locale">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="locale1" Type="String" Nullable="false" MaxLength="10" Unicode="false" FixedLength="false" />
+          <Property Name="language" Type="String" Nullable="false" MaxLength="45" Unicode="false" FixedLength="false" />
+          <NavigationProperty Name="articleloc" Relationship="LibDbModel.fk_articleloc_locale1" FromRole="locale" ToRole="articleloc" />
+          <NavigationProperty Name="categoryloc" Relationship="LibDbModel.fk_categoryloc_locale1" FromRole="locale" ToRole="categoryloc" />
+          <NavigationProperty Name="storeloc" Relationship="LibDbModel.fk_storeloc_locale1" FromRole="locale" ToRole="storeloc" />
+          <NavigationProperty Name="tagloc" Relationship="LibDbModel.fk_tagloc_locale1" FromRole="locale" ToRole="tagloc" />
+        </EntityType>
+        <EntityType Name="role">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int64" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="name" Type="String" Nullable="false" MaxLength="45" Unicode="false" FixedLength="false" />
+          <NavigationProperty Name="user" Relationship="LibDbModel.fk_user_role1" FromRole="role" ToRole="user" />
+        </EntityType>
+        <EntityType Name="store">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="category" Type="Int64" Nullable="false" />
+          <Property Name="modified" Type="DateTime" />
+          <Property Name="visible" Type="Boolean" />
+          <Property Name="owner" Type="Int64" Nullable="false" />
+          <NavigationProperty Name="category1" Relationship="LibDbModel.fk_store_category1" FromRole="store" ToRole="category" />
+          <NavigationProperty Name="user" Relationship="LibDbModel.fk_store_user1" FromRole="store" ToRole="user" />
+          <NavigationProperty Name="storeloc" Relationship="LibDbModel.fk_storeloc_store1" FromRole="store" ToRole="storeloc" />
+          <NavigationProperty Name="tag" Relationship="LibDbModel.store_has_tag" FromRole="store" ToRole="tag" />
+        </EntityType>
+        <EntityType Name="storeloc">
+          <Key>
+            <PropertyRef Name="store" />
+            <PropertyRef Name="locale" />
+          </Key>
+          <Property Name="store" Type="Int32" Nullable="false" />
+          <Property Name="locale" Type="Int32" Nullable="false" />
+          <Property Name="data" Type="Binary" MaxLength="Max" FixedLength="false" />
+          <Property Name="description" Type="String" MaxLength="5000" Unicode="false" FixedLength="false" />
+          <Property Name="title" Type="String" MaxLength="1000" Unicode="false" FixedLength="false" />
+          <Property Name="filename" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+          <Property Name="type" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+          <NavigationProperty Name="locale1" Relationship="LibDbModel.fk_storeloc_locale1" FromRole="storeloc" ToRole="locale" />
+          <NavigationProperty Name="store1" Relationship="LibDbModel.fk_storeloc_store1" FromRole="storeloc" ToRole="store" />
+        </EntityType>
+        <EntityType Name="tag">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="meta" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+          <NavigationProperty Name="tagloc" Relationship="LibDbModel.fk_tagloc_tag1" FromRole="tag" ToRole="tagloc" />
+          <NavigationProperty Name="article" Relationship="LibDbModel.article_has_tag" FromRole="tag" ToRole="article" />
+          <NavigationProperty Name="store" Relationship="LibDbModel.store_has_tag" FromRole="tag" ToRole="store" />
+        </EntityType>
+        <EntityType Name="tagloc">
+          <Key>
+            <PropertyRef Name="tag" />
+            <PropertyRef Name="locale" />
+          </Key>
+          <Property Name="tag" Type="Int32" Nullable="false" />
+          <Property Name="locale" Type="Int32" Nullable="false" />
+          <Property Name="value" Type="String" Nullable="false" MaxLength="45" Unicode="false" FixedLength="false" />
+          <NavigationProperty Name="locale1" Relationship="LibDbModel.fk_tagloc_locale1" FromRole="tagloc" ToRole="locale" />
+          <NavigationProperty Name="tag1" Relationship="LibDbModel.fk_tagloc_tag1" FromRole="tagloc" ToRole="tag" />
+        </EntityType>
+        <EntityType Name="user">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int64" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="name" Type="String" Nullable="false" MaxLength="255" Unicode="false" FixedLength="false" />
+          <Property Name="active" Type="Boolean" Nullable="false" />
+          <Property Name="password" Type="String" Nullable="false" MaxLength="45" Unicode="false" FixedLength="false" />
+          <Property Name="role_id" Type="Int64" Nullable="false" />
+          <NavigationProperty Name="article" Relationship="LibDbModel.fk_article_user1" FromRole="user" ToRole="article" />
+          <NavigationProperty Name="role" Relationship="LibDbModel.fk_user_role1" FromRole="user" ToRole="role" />
+          <NavigationProperty Name="store" Relationship="LibDbModel.fk_store_user1" FromRole="user" ToRole="store" />
+        </EntityType>
+        <Association Name="fk_article_category1">
+          <End Role="category" Type="LibDbModel.category" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="article" Type="LibDbModel.article" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="category">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="article">
+              <PropertyRef Name="category" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_article_user1">
+          <End Role="user" Type="LibDbModel.user" Multiplicity="1" />
+          <End Role="article" Type="LibDbModel.article" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="user">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="article">
+              <PropertyRef Name="owner" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_articleloc_article1">
+          <End Role="article" Type="LibDbModel.article" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="articleloc" Type="LibDbModel.articleloc" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="article">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="articleloc">
+              <PropertyRef Name="article" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_articleloc_locale1">
+          <End Role="locale" Type="LibDbModel.locale" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="articleloc" Type="LibDbModel.articleloc" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="locale">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="articleloc">
+              <PropertyRef Name="locale" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_category_category">
+          <End Role="category" Type="LibDbModel.category" Multiplicity="0..1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="category1" Type="LibDbModel.category" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="category">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="category1">
+              <PropertyRef Name="parent" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_categoryloc_category1">
+          <End Role="category" Type="LibDbModel.category" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="categoryloc" Type="LibDbModel.categoryloc" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="category">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="categoryloc">
+              <PropertyRef Name="category" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_store_category1">
+          <End Role="category" Type="LibDbModel.category" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="store" Type="LibDbModel.store" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="category">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="store">
+              <PropertyRef Name="category" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_categoryloc_locale1">
+          <End Role="locale" Type="LibDbModel.locale" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="categoryloc" Type="LibDbModel.categoryloc" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="locale">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="categoryloc">
+              <PropertyRef Name="locale" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_storeloc_locale1">
+          <End Role="locale" Type="LibDbModel.locale" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="storeloc" Type="LibDbModel.storeloc" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="locale">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="storeloc">
+              <PropertyRef Name="locale" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_tagloc_locale1">
+          <End Role="locale" Type="LibDbModel.locale" Multiplicity="1" />
+          <End Role="tagloc" Type="LibDbModel.tagloc" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="locale">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="tagloc">
+              <PropertyRef Name="locale" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_user_role1">
+          <End Role="role" Type="LibDbModel.role" Multiplicity="1" />
+          <End Role="user" Type="LibDbModel.user" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="role">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="user">
+              <PropertyRef Name="role_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_store_user1">
+          <End Role="user" Type="LibDbModel.user" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="store" Type="LibDbModel.store" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="user">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="store">
+              <PropertyRef Name="owner" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_storeloc_store1">
+          <End Role="store" Type="LibDbModel.store" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="storeloc" Type="LibDbModel.storeloc" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="store">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="storeloc">
+              <PropertyRef Name="store" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_tagloc_tag1">
+          <End Role="tag" Type="LibDbModel.tag" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="tagloc" Type="LibDbModel.tagloc" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="tag">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="tagloc">
+              <PropertyRef Name="tag" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="article_has_tag">
+          <End Role="article" Type="LibDbModel.article" Multiplicity="*" />
+          <End Role="tag" Type="LibDbModel.tag" Multiplicity="*" />
+        </Association>
+        <Association Name="store_has_tag">
+          <End Role="store" Type="LibDbModel.store" Multiplicity="*" />
+          <End Role="tag" Type="LibDbModel.tag" Multiplicity="*" />
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="LibDbModelStoreContainer" CdmEntityContainer="LibDbEntities">
+          <EntitySetMapping Name="article">
+            <EntityTypeMapping TypeName="LibDbModel.article">
+              <MappingFragment StoreEntitySet="article">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="category" ColumnName="category" />
+                <ScalarProperty Name="modified" ColumnName="modified" />
+                <ScalarProperty Name="visible" ColumnName="visible" />
+                <ScalarProperty Name="owner" ColumnName="owner" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="articleloc">
+            <EntityTypeMapping TypeName="LibDbModel.articleloc">
+              <MappingFragment StoreEntitySet="articleloc">
+                <ScalarProperty Name="article" ColumnName="article" />
+                <ScalarProperty Name="locale" ColumnName="locale" />
+                <ScalarProperty Name="content" ColumnName="content" />
+                <ScalarProperty Name="description" ColumnName="description" />
+                <ScalarProperty Name="title" ColumnName="title" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="category">
+            <EntityTypeMapping TypeName="LibDbModel.category">
+              <MappingFragment StoreEntitySet="category">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="parent" ColumnName="parent" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="categoryloc">
+            <EntityTypeMapping TypeName="LibDbModel.categoryloc">
+              <MappingFragment StoreEntitySet="categoryloc">
+                <ScalarProperty Name="value" ColumnName="value" />
+                <ScalarProperty Name="category" ColumnName="category" />
+                <ScalarProperty Name="locale" ColumnName="locale" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="locale">
+            <EntityTypeMapping TypeName="LibDbModel.locale">
+              <MappingFragment StoreEntitySet="locale">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="locale1" ColumnName="locale" />
+                <ScalarProperty Name="language" ColumnName="language" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="role">
+            <EntityTypeMapping TypeName="LibDbModel.role">
+              <MappingFragment StoreEntitySet="role">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="name" ColumnName="name" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="store">
+            <EntityTypeMapping TypeName="LibDbModel.store">
+              <MappingFragment StoreEntitySet="store">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="category" ColumnName="category" />
+                <ScalarProperty Name="modified" ColumnName="modified" />
+                <ScalarProperty Name="visible" ColumnName="visible" />
+                <ScalarProperty Name="owner" ColumnName="owner" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="storeloc">
+            <EntityTypeMapping TypeName="LibDbModel.storeloc">
+              <MappingFragment StoreEntitySet="storeloc">
+                <ScalarProperty Name="store" ColumnName="store" />
+                <ScalarProperty Name="locale" ColumnName="locale" />
+                <ScalarProperty Name="data" ColumnName="data" />
+                <ScalarProperty Name="description" ColumnName="description" />
+                <ScalarProperty Name="title" ColumnName="title" />
+                <ScalarProperty Name="filename" ColumnName="filename" />
+                <ScalarProperty Name="type" ColumnName="type" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tag">
+            <EntityTypeMapping TypeName="LibDbModel.tag">
+              <MappingFragment StoreEntitySet="tag">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="meta" ColumnName="meta" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tagloc">
+            <EntityTypeMapping TypeName="LibDbModel.tagloc">
+              <MappingFragment StoreEntitySet="tagloc">
+                <ScalarProperty Name="tag" ColumnName="tag" />
+                <ScalarProperty Name="locale" ColumnName="locale" />
+                <ScalarProperty Name="value" ColumnName="value" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="user">
+            <EntityTypeMapping TypeName="LibDbModel.user">
+              <MappingFragment StoreEntitySet="user">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="active" ColumnName="active" />
+                <ScalarProperty Name="password" ColumnName="password" />
+                <ScalarProperty Name="role_id" ColumnName="role_id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <AssociationSetMapping Name="article_has_tag" TypeName="LibDbModel.article_has_tag" StoreEntitySet="article_has_tag">
+            <EndProperty Name="article">
+              <ScalarProperty Name="id" ColumnName="article_id" />
+            </EndProperty>
+            <EndProperty Name="tag">
+              <ScalarProperty Name="id" ColumnName="tag_id" />
+            </EndProperty>
+          </AssociationSetMapping>
+          <AssociationSetMapping Name="store_has_tag" TypeName="LibDbModel.store_has_tag" StoreEntitySet="store_has_tag">
+            <EndProperty Name="store">
+              <ScalarProperty Name="id" ColumnName="store_id" />
+            </EndProperty>
+            <EndProperty Name="tag">
+              <ScalarProperty Name="id" ColumnName="tag_id" />
+            </EndProperty>
+          </AssociationSetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="False" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

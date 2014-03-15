@@ -4,8 +4,8 @@ using System.Linq;
 using System.Text;
 using DigitalResourcesLibrary.DataContext.Helper;
 using DigitalResourcesLibrary.DataContext.Model;
-using DigitalResourcesLibrary.SqlContext.Concrete.Articles;
-using DigitalResourcesLibrary.SqlContext.Interface.Articles;
+using MySqlContext.Concrete.Articles;
+using MySqlContext.Interface.Articles;
 
 namespace DigitalResourcesLibrary.DataContext.Services
 {
