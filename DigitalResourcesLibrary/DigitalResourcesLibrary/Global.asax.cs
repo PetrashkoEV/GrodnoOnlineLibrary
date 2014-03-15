@@ -1,11 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
+using System.Threading;
 using System.Web;
 using System.Web.Http;
 using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
+using DigitalResourcesLibrary.Attribute;
+using DigitalResourcesLibrary.DataContext.EnumLanguage;
 
 namespace DigitalResourcesLibrary
 {
@@ -19,9 +23,31 @@ namespace DigitalResourcesLibrary
             AreaRegistration.RegisterAllAreas();
 
             WebApiConfig.Register(GlobalConfiguration.Configuration);
+            GlobalFilters.Filters.Add(new HandleAllErrorAttribute());
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+
+
+            /*CreateDB bd = new CreateDB();
+            bd.RunScript();*/
+        }
+
+        protected void Application_AcquireRequestState(object sender, EventArgs e)
+        {
+            if (HttpContext.Current.Session != null)
+            {
+                CultureInfo ci = (CultureInfo)this.Session["Culture"];
+                if (ci == null)
+                {
+                    string langName = Language.ru.ToString(); // Default culture
+                    ci = new CultureInfo(langName);
+                    this.Session["Culture"] = ci;
+                }
+                //Establish a culture for each request
+                Thread.CurrentThread.CurrentUICulture = ci;
+                Thread.CurrentThread.CurrentCulture = CultureInfo.CreateSpecificCulture(ci.Name);
+            }
         }
     }
 }
