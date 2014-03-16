@@ -106,30 +106,13 @@ a:hover {
 }
 
 #header h1 {
-	float: left;
-	width: 104px;
 	height: 110px;
-	padding: 104px 100px 0 20px;
+	padding: 0 100px 104px 20px;
 	background: url(themes/images/img04.jpg) no-repeat;
 	line-height: 32px;
 	font-size: 30px;
 	font-style: italic;
-	color: #715558;
-}
-
-#header h2 {
-	float: right;
-	width: 494px;
-	height: 34px;
-	padding: 180px 20px 0 0;
-	background: url(themes/images/img05.jpg) no-repeat;
-	text-transform: lowercase;
-	text-align: right;
-	letter-spacing: -1px;
-	font-size: 22px;
-	font-weight: normal;
-	font-style: italic;
-	color: #FFFFFF;
+	color: #000000;
 }
 
 /* Content */
