@@ -147,6 +147,9 @@
   <data name="Shared_Menu_About" xml:space="preserve">
     <value>About</value>
   </data>
+  <data name="Shared_Menu_Article" xml:space="preserve">
+    <value>Articles</value>
+  </data>
   <data name="Shared_Menu_Home" xml:space="preserve">
     <value>Home</value>
   </data>

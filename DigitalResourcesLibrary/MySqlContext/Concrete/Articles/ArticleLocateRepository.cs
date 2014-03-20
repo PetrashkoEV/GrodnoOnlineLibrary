@@ -20,5 +20,10 @@ namespace MySqlContext.Concrete.Articles
                 return _dataContext.articleloc;
             }
         }
+
+        public articleloc GetArticleById(int id)
+        {
+            return Entity.FirstOrDefault(item => item.article == id);
+        }
     }
 }

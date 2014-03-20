@@ -9,5 +9,7 @@ namespace MySqlContext.Interface.Articles
         {
             get;
         }
+
+        articleloc GetArticleById(int id);
     }
 }

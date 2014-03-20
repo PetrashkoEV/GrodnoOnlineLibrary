@@ -1,4 +1,5 @@
 ﻿using System.Web.Mvc;
+using DigitalResourcesLibrary.DataContext.Interfaces;
 using DigitalResourcesLibrary.DataContext.Services;
 
 
@@ -6,7 +7,7 @@ namespace DigitalResourcesLibrary.Controllers
 {
     public class HomeController : Controller
     {
-        private ArticleService articleService = new ArticleService();
+        private readonly IArticleService _articleService = new ArticleService();
         //
         // GET: /Home/
 
@@ -20,7 +21,7 @@ namespace DigitalResourcesLibrary.Controllers
 
         public ActionResult About()
         {
-            var article = articleService.GetArticle();
+            var article = _articleService.GetArticleById(3);
             return View(article);
         }
     }

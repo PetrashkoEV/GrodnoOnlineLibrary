@@ -16,7 +16,6 @@ body {
 
 h2 {
 	padding-left: 20px;
-	background: url(themes/images/img07.jpg) no-repeat left center;
 	font-size: 22px;
 }
 
@@ -219,4 +218,10 @@ a:hover {
 	padding: 10px 0 0 0;
 	letter-spacing: -1px;
 	font-size: 24px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #715558;
+    margin: 0;
+    padding: 0;
 }
