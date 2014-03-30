@@ -1,0 +1,26 @@
+﻿@model DigitalResourcesLibrary.DataContext.Model.Article.ArticleModel
+@{
+    ViewBag.Title = "Post";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div id="posts">
+    <h2 class="title">@Model.Title</h2>
+    <div class="story">
+        <div class="media-content">
+            <video id="my_video_1" class="video-js vjs-default-skin" controls preload="auto" width="auto" height="264"
+                data-setup="{}">
+                <source src="~/Content/themes/video.mp4" type='video/mp4'>
+                Video tag not supported. Download the video <a href="~/Content/themes/video.mp4">here</a>.
+            </video>
+            <br>
+            <audio preload="auto" controls>
+                <source src="~/Content/themes/audio.mp3" />
+                Audio tag not supported. Download the audio <a href="~/Content/themes/audio.mp3">here</a>.
+            </audio>
+        </div>
+        @Html.Raw(Model.Content)
+    </div>
+</div>
+@Html.Partial("Template/CategoriesPartialView")
+<div style="clear: both;"></div>

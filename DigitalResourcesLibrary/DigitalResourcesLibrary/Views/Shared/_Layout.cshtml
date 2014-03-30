@@ -3,8 +3,11 @@
 <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
-    <title>@ViewBag.Title</title>
 
+    <title>@ViewBag.Title</title>
+    
+    <link href="http://vjs.zencdn.net/4.5/video-js.css" rel="stylesheet">
+    <script src="http://vjs.zencdn.net/4.5/video.js"></script>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
 </head>
@@ -23,9 +26,12 @@
         <p id="legal">@Html.Raw(ViewRes.Resource.Shared_Layout_Site_Copyright) </p>
         <p id="brand">@ViewRes.Resource.Site_Name</p>
     </div>
+
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)
+
+    @Scripts.Render("~/bundles/audioplayer")
     @Scripts.Render("~/bundles/loadpage")
     <script type="text/javascript">
         LoadPage();

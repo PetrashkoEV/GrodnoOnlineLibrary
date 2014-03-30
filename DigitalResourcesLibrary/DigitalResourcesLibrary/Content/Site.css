@@ -40,3 +40,14 @@
 .localization-flag img:hover {
     background-color: #505050;
 }
+
+/*flash player http://www.videojs.com/ */
+.vjs-default-skin .vjs-play-progress,
+.vjs-default-skin .vjs-volume-level { background-color: #00a5ff }
+.vjs-default-skin .vjs-control-bar, .vjs-default-skin .vjs-big-play-button { background: rgba(0,0,0,1) }
+.vjs-default-skin .vjs-slider { background: rgba(0,0,0,0.3333333333333333) }
+.vjs-default-skin .vjs-control-bar { font-size: 101% }
+
+.media-content {
+    width: 510px;
+  }

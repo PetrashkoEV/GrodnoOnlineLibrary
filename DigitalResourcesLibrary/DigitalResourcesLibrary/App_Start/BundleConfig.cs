@@ -26,12 +26,16 @@ namespace DigitalResourcesLibrary
             bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
                         "~/Scripts/Bootstrap/bootstrap.js"));
 
+            bundles.Add(new ScriptBundle("~/bundles/audioplayer").Include(
+                        "~/Scripts/audioplayer.js"));
+
             bundles.Add(new ScriptBundle("~/bundles/loadpage").Include(
                         "~/Scripts/LoadPage.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
-                        "~/Content/Site.css",
                         "~/Content/themes/bootstrap/bootstrap.css",
+                        "~/Content/themes/bootstrap/audio.css",
+                        "~/Content/Site.css",
                         "~/Content/Style.css"));
 
         }
