@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Data.Entity;
 using System.Linq;
 using System.Text;
@@ -18,6 +19,16 @@ namespace MySqlContext.Concrete.Store
             {
                 return _dataContext.store;
             }
+        }
+
+        public store Find(int id)
+        {
+            return Entity.Find(id);
+        }
+
+        public IEnumerable<byte[]> FindFile(int id)
+        {
+            return Entity.Find(id).storeloc.Select(item => item.data);
         }
     }
 }

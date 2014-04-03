@@ -1,6 +1,6 @@
 ﻿using System.Globalization;
 using System.Web.Mvc;
-using DigitalResourcesLibrary.DataContext.EnumLanguage;
+using DigitalResourcesLibrary.DataContext.Enums;
 
 namespace DigitalResourcesLibrary.Controllers
 {

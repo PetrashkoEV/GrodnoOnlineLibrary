@@ -153,6 +153,9 @@
   <data name="Shared_Menu_Search" xml:space="preserve">
     <value>Search</value>
   </data>
+  <data name="Site_Domen" xml:space="preserve">
+    <value>http://librarygrodno.apphb.com</value>
+  </data>
   <data name="Site_Name" xml:space="preserve">
     <value>Library Grodno</value>
   </data>

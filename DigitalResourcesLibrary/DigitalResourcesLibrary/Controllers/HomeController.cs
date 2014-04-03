@@ -21,8 +21,7 @@ namespace DigitalResourcesLibrary.Controllers
 
         public ActionResult About()
         {
-            var article = _articleService.GetArticleById(3);
-            return View(article);
+            return View();
         }
     }
 }

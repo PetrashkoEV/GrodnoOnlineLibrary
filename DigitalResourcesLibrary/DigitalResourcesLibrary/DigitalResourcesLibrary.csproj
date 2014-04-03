@@ -143,6 +143,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Attribute\HandleAllErrorAttribute.cs" />
+    <Compile Include="Controllers\FilesController.cs" />
     <Compile Include="Controllers\SearchController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\LocalizationController.cs" />
@@ -168,7 +169,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\Style.css" />
-    <Content Include="Content\themes\audio.mp3" />
     <Content Include="Content\themes\bootstrap\bootstrap.css" />
     <Content Include="Content\themes\bootstrap\bootstrap.min.css" />
     <Content Include="Content\themes\bootstrap\audio.css" />
@@ -188,7 +188,6 @@
     <Content Include="Content\themes\images\Russia.png" />
     <Content Include="Content\themes\images\spacer.gif" />
     <Content Include="Content\themes\images\United-States.png" />
-    <Content Include="Content\themes\video.mp4" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />

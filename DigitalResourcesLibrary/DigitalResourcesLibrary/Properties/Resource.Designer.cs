@@ -169,6 +169,15 @@ namespace ViewRes {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to http://librarygrodno.apphb.com.
+        /// </summary>
+        public static string Site_Domen {
+            get {
+                return ResourceManager.GetString("Site_Domen", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Library Grodno.
         /// </summary>
         public static string Site_Name {

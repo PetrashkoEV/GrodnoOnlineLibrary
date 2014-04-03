@@ -118,22 +118,31 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Home_Index_FirstSlide_Body" xml:space="preserve">
-    <value>Принимаясь за дело, соберись с духом.</value>
+    <value>Горад мой, бяссонніца мая!
+Як жа не спяваць табе, скажы!
+Свеціш майму Краю, як маяк,
+на яго заходняе мяжы</value>
   </data>
   <data name="Home_Index_FirstSlide_Title" xml:space="preserve">
-    <value>Первый слайд</value>
+    <value>Данута Бічэль</value>
   </data>
   <data name="Home_Index_SecondSlide_Body" xml:space="preserve">
-    <value>Часами измеряется время, а временем жизнь человеческая; но чем, скажи, измеришь ты глубину Восточного океана?</value>
+    <value>Добры дзень, мой горад родны,
+Мой з маленства, назаўжды, 
+Ты прыбраны сёння Гродна, 
+У скверы, паркі і сады.</value>
   </data>
   <data name="Home_Index_SecondSlide_Title" xml:space="preserve">
-    <value>Второй слайд</value>
+    <value>Міхась Васілёк</value>
   </data>
   <data name="Home_Index_ThirdSlide_Body" xml:space="preserve">
-    <value>Многие вещи нам непонятны не потому, что наши понятия слабы; но потому, что сии вещи не входят в круг наших понятий.</value>
+    <value>Мала ў песнях ты апеты,
+Смела ж хочацца сказаць, 
+Шмат тут родзіцца паэтаў,
+Каб пра родны край спяваць.</value>
   </data>
   <data name="Home_Index_ThirdSlide_Title" xml:space="preserve">
-    <value>Третий слайд</value>
+    <value>Міхась Васілёк</value>
   </data>
   <data name="Shared_Error_Body" xml:space="preserve">
     <value>Произошла ошибка при обработке запроса. Пожалуйста обратитесь к администратору.</value>
@@ -157,6 +166,6 @@
     <value>Поиск</value>
   </data>
   <data name="Site_Name" xml:space="preserve">
-    <value>Библиотека Гродно</value>
+    <value>Электронная библиотека. "Гродно - информация для всех"</value>
   </data>
 </root>
