@@ -10,20 +10,23 @@ namespace MySqlContext.Concrete.Search
 {
     public class SearchRepository : ISearchRepository
     {
+        private const int MaxCountSearch = 5;
+
         private string ConnectionString
         {
             get
             {
                 var conString = ConfigurationManager.ConnectionStrings["SpxinksLibDb"];
-                string strConnString = conString.ConnectionString;
-                return strConnString;
+                return conString.ConnectionString;
             }
         }
 
         public List<string> AutoComplite(string searchString)
         {
-            var query = "select id, title, description, storeId " +
-                        "from SearchArticle where match('@title *" + searchString + "*');";
+            var query = "SELECT id, title, description, storeId " +
+                        "FROM SearchArticle " +
+                        "WHERE match('@title *" + searchString + "*') " +
+                        "LIMIT " + MaxCountSearch + ";";
 
             var result = new List<string>();
             using (var connection = new MySqlConnection(ConnectionString))

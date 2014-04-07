@@ -5,18 +5,20 @@
 }
 
 <div id="posts">
-    
-    <div class="navbar">
-        <div class="navbar-inner">
-            <form class="navbar-search pull-left">
-                @Html.TextBoxFor(model => model.SearchModel.SearchText, null, new
-                {
-                    @class="search-query", placeholder="Search", id="autocompleteRepository"
-                })
-            </form>
-            <button class="btn" type="submit">@ViewRes.Resource.Shared_Menu_Search</button>
+    @using (Html.BeginForm())
+    {
+        <div class="navbar">
+            <div class="navbar-inner">
+                <form class="navbar-search pull-left">
+                    @Html.TextBoxFor(model => model.SearchModel.SearchText, null, new
+                    {
+                        @class = "search-query", placeholder = "Search", id = "autocompleteRepository"
+                    })
+                </form>
+                <button class="btn" type="submit">@ViewRes.Resource.Shared_Menu_Search</button>
+            </div>
         </div>
-    </div>
+    }
 
     @foreach (var article in Model.ArticleModels)
     {

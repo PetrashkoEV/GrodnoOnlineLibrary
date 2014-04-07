@@ -27,6 +27,12 @@ namespace DigitalResourcesLibrary.Controllers
             return View(result);
         }
 
+        [HttpPost]
+        public ActionResult Index(SearchViewModel model)
+        {
+            return RedirectToAction("Index");
+        }
+
         public ActionResult Post(int id)
         {
             var article = _articleService.GetArticleById(id);
