@@ -1,7 +1,7 @@
 ﻿.top-content {
     width: 750px;
-	height: 60px;
-	margin: 0 auto;
+    height: 60px;
+    margin: 0 auto;
     overflow: auto;
 }
 
@@ -9,45 +9,105 @@
     float: right;
 }
 
-.localization-flag ul {
-    list-style: none outside none;
-    margin: 0;
-    padding: 0;
-}
+    .localization-flag ul {
+        list-style: none outside none;
+        margin: 0;
+        padding: 0;
+    }
 
-.localization-flag li {
-    display: block !important;
-    float: left !important;
-    height: 60px !important;
-    padding: 0 0 0 2px !important;
-    width: auto !important;
-}
+    .localization-flag li {
+        display: block !important;
+        float: left !important;
+        height: 60px !important;
+        padding: 0 0 0 2px !important;
+        width: auto !important;
+    }
 
-.localization-flag a {
-    padding: 0 !important;
-    width: auto !important;
-    background: none !important;
-}
+    .localization-flag a {
+        padding: 0 !important;
+        width: auto !important;
+        background: none !important;
+    }
 
-.localization-flag img {
-    border-radius: 50%;
-    margin: 3px;
-    padding: 2px;
-    width: 50px;
-    height: 50px;
-}
+    .localization-flag img {
+        border-radius: 50%;
+        margin: 3px;
+        padding: 2px;
+        width: 50px;
+        height: 50px;
+    }
 
-.localization-flag img:hover {
-    background-color: #505050;
-}
+        .localization-flag img:hover {
+            background-color: #505050;
+        }
+
 
 /*flash player http://www.videojs.com/ */
 .vjs-default-skin .vjs-play-progress,
-.vjs-default-skin .vjs-volume-level { background-color: #00a5ff }
-.vjs-default-skin .vjs-control-bar, .vjs-default-skin .vjs-big-play-button { background: rgba(0,0,0,1) }
-.vjs-default-skin .vjs-slider { background: rgba(0,0,0,0.3333333333333333) }
-.vjs-default-skin .vjs-control-bar { font-size: 101% }
+.vjs-default-skin .vjs-volume-level {
+    background-color: #00a5ff;
+}
+
+.vjs-default-skin .vjs-control-bar, .vjs-default-skin .vjs-big-play-button {
+    background: rgba(0,0,0,1);
+}
+
+.vjs-default-skin .vjs-slider {
+    background: rgba(0,0,0,0.3333333333333333);
+}
+
+.vjs-default-skin .vjs-control-bar {
+    font-size: 101%;
+}
 
 .media-content {
     width: 510px;
-  }
+}
+
+
+/*autocomplit http://sourcery.devbridge.com/components/jquery-autocomplete/#download*/
+.autocomplete-suggestions {
+    background-clip: padding-box;
+    background-color: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    display: none;
+    float: left;
+    left: 0;
+    list-style: none outside none;
+    margin: 2px 0 0;
+    min-width: 160px;
+    padding: 5px 0;
+    position: absolute;
+    top: 100%;
+    z-index: 1000;
+}
+
+.autocomplete-suggestion {
+    clear: both;
+    color: #333333;
+    display: block;
+    font-weight: normal;
+    line-height: 20px;
+    padding: 3px 20px;
+    white-space: nowrap;
+}
+
+    .autocomplete-suggestion:hover {
+        background-color: #0081C2;
+        background-image: linear-gradient(to bottom, #0088CC, #0077B3);
+        background-repeat: repeat-x;
+        color: #FFFFFF;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+.autocomplete-selected {
+    background: #F0F0F0;
+}
+
+.autocomplete-suggestions strong {
+    font-weight: normal;
+    color: #3399FF;
+}

@@ -27,7 +27,8 @@ namespace DigitalResourcesLibrary
                         "~/Scripts/Bootstrap/bootstrap.js"));
 
             bundles.Add(new ScriptBundle("~/bundles/audioplayer").Include(
-                        "~/Scripts/audioplayer.js"));
+                        "~/Scripts/audioplayer.js",
+                        "~/Scripts/jquery.autocomplete.js"));
 
             bundles.Add(new ScriptBundle("~/bundles/loadpage").Include(
                         "~/Scripts/LoadPage.js"));
