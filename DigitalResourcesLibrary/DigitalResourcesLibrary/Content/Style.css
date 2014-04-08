@@ -161,32 +161,38 @@ a:hover {
 	width: 220px;
 }
 
-#links ul {
+#links .block ul.categories {
 	margin: 0;
 	padding: 0;
 	list-style: none;
 }
 
-#links li ul {
+#links h2 {
+	font-size: 1.3em;
+}
+
+
+#links .block {
+    width: 100%;
+    height: auto;
+}
+
+#links .block .categories {
 	padding: 15px 20px 30px 20px;
 	background: url(themes/images/img08.jpg) repeat-x;
 }
 
-#links li li {
+#links .block ul.categories li {
 	padding: 3px 0;
 	background: url(themes/images/img06.gif) repeat-x left bottom;
 }
 
-#links li a {
+#links .block ul.categories li a {
 	background: none;
 }
 
-#links li i {
+#links .block ul.categories li i {
 	font-size: smaller;
-}
-
-#links h2 {
-	font-size: 1.3em;
 }
 
 /* Footer */
