@@ -177,7 +177,7 @@ a:hover {
     height: auto;
 }
 
-#links .block .categories {
+#links .block ul.categories {
 	padding: 15px 20px 30px 20px;
 	background: url(themes/images/img08.jpg) repeat-x;
 }
