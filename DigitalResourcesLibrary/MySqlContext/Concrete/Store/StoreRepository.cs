@@ -41,14 +41,21 @@ namespace MySqlContext.Concrete.Store
                                         id = item.id,
                                         modified = item.modified,
                                         user = item.user,
-                                        storeloc = (List<storeloc>)_storeLocateRepository.Entity.Where(storeitem => storeitem.store == item.id && storeitem.locale == locateId)
-                                                                                         .Select(storeitem => new storeloc
-                                                                                         {
-                                                                                             store = storeitem.store,
-                                                                                             locale = locateId,
-                                                                                             title = storeitem.title,
-                                                                                             description = storeitem.description
-                                                                                         })
+                                        //storeloc = (List<storeloc>)_storeLocateRepository.Entity.Where(storeitem => storeitem.store == item.id && storeitem.locale == locateId)
+                                        //                                                 .Select(storeitem => new storeloc
+                                        //                                                 {
+                                        //                                                     store = storeitem.store,
+                                        //                                                     locale = locateId,
+                                        //                                                     title = storeitem.title,
+                                        //                                                     description = storeitem.description
+                                        //                                                 })
+                                        storeloc = item.storeloc.Where(storeitem => storeitem.store == item.id && storeitem.locale == locateId).Select(storeitem => new storeloc
+                                        {
+                                            store = storeitem.store,
+                                            locale = locateId,
+                                            title = storeitem.title,
+                                            description = storeitem.description
+                                        }) as ICollection<storeloc>
                                     });
             return result;
         }
