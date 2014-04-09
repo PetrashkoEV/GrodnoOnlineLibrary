@@ -9,5 +9,7 @@ namespace MySqlContext.Interface.Store
         {
             get;
         }
+
+        storeloc GetArticleById(int id);
     }
 }

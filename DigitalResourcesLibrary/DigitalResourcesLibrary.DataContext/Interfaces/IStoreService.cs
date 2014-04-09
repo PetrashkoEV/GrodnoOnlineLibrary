@@ -7,9 +7,9 @@ using DigitalResourcesLibrary.DataContext.Model.Documents;
 
 namespace DigitalResourcesLibrary.DataContext.Interfaces
 {
-    public interface IArticleService
+    public interface IStoreService
     {
-        ArticleModel GetArticleById(int id);
+        StoreModel GetArticleById(int id);
         List<DocumentModel> FindByCategoryes(List<long> allCategory);
     }
 }

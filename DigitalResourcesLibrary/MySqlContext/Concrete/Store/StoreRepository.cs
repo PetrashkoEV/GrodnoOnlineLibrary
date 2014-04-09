@@ -11,14 +11,21 @@ namespace MySqlContext.Concrete.Store
 {
     public class StoreRepository : IStoreRepository
     {
-        private LibDbEntities _dataContext = new LibDbEntities();
-        private IStoreLocateRepository _storeLocateRepository = new StoreLocateRepository();
+        private readonly LibDbEntities _dataContext = new LibDbEntities();
 
         public DbSet<store> Entity
         {
             get
             {
                 return _dataContext.store;
+            }
+        }
+
+        public DbSet<storeloc> EntityStoresLocate
+        {
+            get
+            {
+                return _dataContext.storeloc;
             }
         }
 
@@ -32,32 +39,28 @@ namespace MySqlContext.Concrete.Store
             return Entity.Find(id).storeloc.Select(item => item.data);
         }
 
-        public IQueryable<store> FindByCategoryes(List<long> categoryesId, int locateId)
+        public IQueryable<store> FindByCategoryes(List<long> categoryesId)
         {
             var result = Entity.Where(item => categoryesId.Contains(item.category))
-                                .OrderBy(item => item.modified)
                                 .Select(item => new store
                                     {
                                         id = item.id,
                                         modified = item.modified,
-                                        user = item.user,
-                                        //storeloc = (List<storeloc>)_storeLocateRepository.Entity.Where(storeitem => storeitem.store == item.id && storeitem.locale == locateId)
-                                        //                                                 .Select(storeitem => new storeloc
-                                        //                                                 {
-                                        //                                                     store = storeitem.store,
-                                        //                                                     locale = locateId,
-                                        //                                                     title = storeitem.title,
-                                        //                                                     description = storeitem.description
-                                        //                                                 })
-                                        storeloc = item.storeloc.Where(storeitem => storeitem.store == item.id && storeitem.locale == locateId).Select(storeitem => new storeloc
-                                        {
-                                            store = storeitem.store,
-                                            locale = locateId,
-                                            title = storeitem.title,
-                                            description = storeitem.description
-                                        }) as ICollection<storeloc>
+                                        user = item.user
                                     });
             return result;
+        }
+
+        public IQueryable<storeloc> GetStoreLocById(long id, int locateId)
+        {
+            return EntityStoresLocate.Where(item => item.store == id && item.locale == locateId)
+                    .Select(item => new storeloc
+                    {
+                        store = item.store,
+                        locale = locateId,
+                        title = item.title,
+                        description = item.description
+                    });
         }
     }
 }

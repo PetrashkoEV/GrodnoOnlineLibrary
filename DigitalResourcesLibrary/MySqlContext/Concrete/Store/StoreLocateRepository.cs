@@ -19,5 +19,10 @@ namespace MySqlContext.Concrete.Store
                 return _dataContext.storeloc;
             }
         }
+
+        public storeloc GetArticleById(int id)
+        {
+            return Entity.FirstOrDefault(item => item.store == id);
+        }
     }
 }
