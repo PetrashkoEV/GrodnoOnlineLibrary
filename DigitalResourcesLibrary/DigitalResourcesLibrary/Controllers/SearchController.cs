@@ -21,8 +21,8 @@ namespace DigitalResourcesLibrary.Controllers
         {
             var result = new SearchViewModel
             {
-                ArticleModels =
-                    _articleService.GetSummaryAllArticle(LocalizationHelper.GetLocalizationLanguage().GetHashCode())
+                /*ArticleModels =
+                    _articleService.GetSummaryAllArticle(LocalizationHelper.GetLocalizationLanguage().GetHashCode())*/
             };
             return View(result);
         }
@@ -31,6 +31,15 @@ namespace DigitalResourcesLibrary.Controllers
         public ActionResult Index(SearchViewModel model)
         {
             return RedirectToAction("Index");
+        }
+
+        public ActionResult Search(int id)
+        {
+            var result = new SearchViewModel
+            {
+                Documents = _searchServices.SearchDocumentsByCategory(id)
+            };
+            return View(result);
         }
 
         public ActionResult Post(int id)

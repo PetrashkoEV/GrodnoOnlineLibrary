@@ -1,12 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using DigitalResourcesLibrary.DataContext.Enums;
 
-namespace DigitalResourcesLibrary.DataContext.Model.Article
+namespace DigitalResourcesLibrary.DataContext.Model.Documents
 {
-    public class ArticleModel
+    public class StoreModel
     {
         public int Id { get; set; }
         public Language Locale { get; set; }

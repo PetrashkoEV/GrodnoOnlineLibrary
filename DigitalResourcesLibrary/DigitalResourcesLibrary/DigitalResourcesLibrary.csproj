@@ -238,6 +238,7 @@
     <Content Include="Views\Search\Index.cshtml" />
     <Content Include="Views\Shared\Template\CategoriesPartialView.cshtml" />
     <Content Include="Views\Search\Post.cshtml" />
+    <Content Include="Views\Search\Search.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

@@ -59,11 +59,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Enums\Language.cs" />
+    <Compile Include="Enums\TypeDocument.cs" />
     <Compile Include="Helper\LocalizationHelper.cs" />
+    <Compile Include="Helper\TypeDocumentsHelper.cs" />
     <Compile Include="Interfaces\ISearchServices.cs" />
     <Compile Include="Interfaces\IArticleService.cs" />
     <Compile Include="Interfaces\IFileService.cs" />
-    <Compile Include="Model\Article\ArticleModel.cs" />
+    <Compile Include="Model\Documents\StoreModel.cs" />
+    <Compile Include="Model\Documents\ArticleModel.cs" />
+    <Compile Include="Model\Documents\DocumentModel.cs" />
     <Compile Include="Model\RoleModel.cs" />
     <Compile Include="Model\SearchModel.cs" />
     <Compile Include="Model\UserModel.cs" />

@@ -5,7 +5,7 @@ using System.Text;
 using DigitalResourcesLibrary.DataContext.Helper;
 using DigitalResourcesLibrary.DataContext.Interfaces;
 using DigitalResourcesLibrary.DataContext.Model;
-using DigitalResourcesLibrary.DataContext.Model.Article;
+using DigitalResourcesLibrary.DataContext.Model.Documents;
 using MySqlContext.Concrete.Articles;
 using MySqlContext.Interface.Articles;
 

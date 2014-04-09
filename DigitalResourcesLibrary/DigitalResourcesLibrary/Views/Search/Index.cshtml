@@ -19,19 +19,22 @@
             </div>
         </div>
     }
-
-    @foreach (var article in Model.ArticleModels)
+    
+    @if (Model.Documents != null)
     {
-        <div class="post">
-            <h2 class="title">@Html.ActionLink(article.Title, "Post", new { id = article.Id })</h2>
-            <div class="story">
-                <p>@article.Description</p>
-            </div>
-            <div class="meta">
-                <p class="date">Posted on @article.ModifiedDate by @article.User.Name</p>
-                @*<p class="file">Filed under <a href="#">Uncategorized</a> | <a href="#">Edit</a> | <a href="#">28 Comments</a></p>*@
-            </div>
-        </div>
+        foreach (var article in Model.Documents)
+         {
+             <div class="post">
+                 <h2 class="title">@Html.ActionLink(article.Title, "Post", new {id = article.Id})</h2>
+                 <div class="story">
+                     <p>@article.Description</p>
+                 </div>
+                 <div class="meta">
+                     <p class="date">Posted on @article.ModifiedDate by @article.User.Name</p>
+                     @*<p class="file">Filed under <a href="#">Uncategorized</a> | <a href="#">Edit</a> | <a href="#">28 Comments</a></p>*@
+                 </div>
+             </div>
+         }
     }
 </div>
 @Html.Partial("Template/CategoriesPartialView")
