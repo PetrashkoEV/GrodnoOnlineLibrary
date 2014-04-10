@@ -19,9 +19,9 @@ namespace DigitalResourcesLibrary.DataContext.Services
         private readonly IStoreRepository _storeRepository = new StoreRepository();
         private readonly IStoreLocateRepository _storeLocateRepository = new StoreLocateRepository();
 
-        public StoreModel GetArticleById(int id)
+        public StoreModel GetStoreById(int id)
         {
-            var item = _storeLocateRepository.GetArticleById(id);
+            var item = _storeLocateRepository.GetStoreById(id);
             return new StoreModel
             {
                 Id = item.store,
@@ -48,22 +48,29 @@ namespace DigitalResourcesLibrary.DataContext.Services
             // this step is executed another question
             foreach (var store in listStore)
             {
-                var storeloc = store.storeloc.FirstOrDefault();
-                if (storeloc != null)
+                listDocuments.Add(new DocumentModel
                 {
-                    listDocuments.Add(new DocumentModel
-                    {
-                        Id = store.id,
-                        TypeDocument = TypeDocumentsHelper.GeTypeDocument("store"),
-                        ModifiedDate = store.modified.Value,
-                        User = new UserModel
-                        {
-                            Name = store.user.name
-                        }
-                    });
-                }
+                    Id = store.id,
+                    TypeDocument = TypeDocumentsHelper.GeTypeDocument("store"), /*refactor*/
+                    ModifiedDate = store.modified.Value,
+                });
             }
-            return listDocuments; 
+            return listDocuments;
+        }
+
+        public DocumentModel FindContentStoreById(int id)
+        {
+            var storeRes = _storeLocateRepository.GetStoreByIdWithoutData(id, _curentLocate.GetHashCode());
+            var result = new DocumentModel();
+            if (storeRes != null)
+            {
+                result = new DocumentModel
+                {
+                    Title = storeRes.title,
+                    Description = storeRes.description
+                };
+            }
+            return result;
         }
     }
 }

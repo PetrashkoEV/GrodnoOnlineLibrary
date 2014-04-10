@@ -1,0 +1,14 @@
+﻿@model DigitalResourcesLibrary.DataContext.Model.Documents.ArticleModel
+@{
+    ViewBag.Title = "Post";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div id="posts">
+    <h2 class="title">@Model.Title</h2>
+    <div class="story">
+        @Html.Raw(Model.Content)
+    </div>
+</div>
+@Html.Partial("Template/CategoriesTemplate")
+<div style="clear: both;"></div>

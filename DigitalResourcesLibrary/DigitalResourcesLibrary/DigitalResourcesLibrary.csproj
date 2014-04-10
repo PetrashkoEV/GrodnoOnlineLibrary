@@ -143,6 +143,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Attribute\HandleAllErrorAttribute.cs" />
+    <Compile Include="Controllers\DocumentsController.cs" />
     <Compile Include="Controllers\FilesController.cs" />
     <Compile Include="Controllers\SearchController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
@@ -236,9 +237,11 @@
     <Content Include="Views\Shared\_CultureChooserUserControl.cshtml" />
     <Content Include="Views\Shared\_Menu.cshtml" />
     <Content Include="Views\Search\Index.cshtml" />
-    <Content Include="Views\Shared\Template\CategoriesPartialView.cshtml" />
-    <Content Include="Views\Search\Post.cshtml" />
+    <Content Include="Views\Shared\Template\CategoriesTemplate.cshtml" />
     <Content Include="Views\Search\Search.cshtml" />
+    <Content Include="Views\Shared\Template\SearchDocumentTemplate.cshtml" />
+    <Content Include="Views\Documents\Article.cshtml" />
+    <Content Include="Views\Documents\Store.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

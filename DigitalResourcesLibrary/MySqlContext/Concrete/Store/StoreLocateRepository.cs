@@ -20,9 +20,18 @@ namespace MySqlContext.Concrete.Store
             }
         }
 
-        public storeloc GetArticleById(int id)
+        public storeloc GetStoreById(int id)
         {
             return Entity.FirstOrDefault(item => item.store == id);
+        }
+
+        public storeloclight GetStoreByIdWithoutData(int id, int locateId)
+        {
+            return Entity.Where(item => item.store == id && item.locale == locateId).Select(item => new storeloclight
+            {
+                title = item.title,
+                description = item.description
+            }).FirstOrDefault();
         }
     }
 }

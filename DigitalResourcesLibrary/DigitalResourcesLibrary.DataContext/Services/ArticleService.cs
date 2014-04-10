@@ -55,10 +55,6 @@ namespace DigitalResourcesLibrary.DataContext.Services
                         Description = articleLoc.description,
                         Title = articleLoc.title,
                         Locale = _curentLocate,
-                        User = new UserModel
-                        {
-                            Name = article.user.name
-                        }
                     });
                 }
             }

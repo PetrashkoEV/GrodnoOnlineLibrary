@@ -21,14 +21,6 @@ namespace MySqlContext.Concrete.Store
             }
         }
 
-        public DbSet<storeloc> EntityStoresLocate
-        {
-            get
-            {
-                return _dataContext.storeloc;
-            }
-        }
-
         public store Find(int id)
         {
             return Entity.Find(id);
@@ -41,26 +33,9 @@ namespace MySqlContext.Concrete.Store
 
         public IQueryable<store> FindByCategoryes(List<long> categoryesId)
         {
-            var result = Entity.Where(item => categoryesId.Contains(item.category))
-                                .Select(item => new store
-                                    {
-                                        id = item.id,
-                                        modified = item.modified,
-                                        user = item.user
-                                    });
+            var result = Entity.Where(item => categoryesId.Contains(item.category));
             return result;
         }
 
-        public IQueryable<storeloc> GetStoreLocById(long id, int locateId)
-        {
-            return EntityStoresLocate.Where(item => item.store == id && item.locale == locateId)
-                    .Select(item => new storeloc
-                    {
-                        store = item.store,
-                        locale = locateId,
-                        title = item.title,
-                        description = item.description
-                    });
-        }
     }
 }

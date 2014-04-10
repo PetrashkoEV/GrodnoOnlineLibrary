@@ -137,6 +137,7 @@
     <Compile Include="Concrete\Role\RoleRepository.cs" />
     <Compile Include="Concrete\Search\SearchRepository.cs" />
     <Compile Include="Concrete\Store\StoreLocateRepository.cs" />
+    <Compile Include="Concrete\storeloclight.cs" />
     <Compile Include="Concrete\Store\StoreRepository.cs" />
     <Compile Include="Concrete\Tag\TagLocateRepository.cs" />
     <Compile Include="Concrete\Tag\TagRepository.cs" />

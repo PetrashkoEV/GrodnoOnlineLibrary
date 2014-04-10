@@ -10,7 +10,7 @@ namespace DigitalResourcesLibrary.DataContext.Helper
 
         public static TypeDocument GeTypeDocument(string typeDocumentsString)
         {
-            if (String.Compare(typeDocumentsString, Article, StringComparison.CurrentCultureIgnoreCase) != 0)
+            if (String.Compare(typeDocumentsString, Article, StringComparison.CurrentCultureIgnoreCase) == 0)
             {
                 return TypeDocument.Article;
             }

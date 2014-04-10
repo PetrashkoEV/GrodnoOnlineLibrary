@@ -23,8 +23,8 @@ namespace MySqlContext.Concrete.Search
 
         public List<string> AutoComplite(string searchString)
         {
-            var query = "SELECT id, title, description, storeId " +
-                        "FROM SearchArticle " +
+            var query = "SELECT id, title " +
+                        "FROM SearchRepository " +
                         "WHERE match('@title *" + searchString + "*') " +
                         "LIMIT " + MaxCountSearch + ";";
 
