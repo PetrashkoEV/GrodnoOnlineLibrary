@@ -1,7 +1,16 @@
-﻿<div id="links">
+﻿@using System.Globalization
+@{
+    var dateNow = DateTime.Now;
+}
+<div id="links">
     <div class="block">
         <h2>Archives</h2>
         <ul class="categories">
+            
+            @for (int i = 0; i < 1; i++)
+            {
+                <li><a href="#">@dateNow.ToString("MMMM yyyy", new CultureInfo("be"))</a></li>
+            }
             <li><a href="#">February 2007</a> <i>(22)</i></li>
             <li><a href="#">January 2007</a> <i>(31)</i></li>
             <li><a href="#">December 2006</a> <i>(31)</i></li>
