@@ -15,9 +15,13 @@ namespace DigitalResourcesLibrary.DataContext.Services
 {
     public class StoreServices : IStoreService
     {
+        public int CountStore { get; set; }
+
         private readonly Language _curentLocate = LocalizationHelper.GetLocalizationLanguage();
         private readonly IStoreRepository _storeRepository = new StoreRepository();
         private readonly IStoreLocateRepository _storeLocateRepository = new StoreLocateRepository();
+
+        private readonly int _countNewsOnPage = DocumentsHelper.CountNewsOnPage;
 
         public StoreModel GetStoreById(int id)
         {
@@ -38,9 +42,11 @@ namespace DigitalResourcesLibrary.DataContext.Services
             };
         }
 
-        public List<DocumentModel> FindByCategoryes(List<long> allCategory)
+        public List<DocumentModel> FindByCategoryes(List<long> allCategory, int page)
         {
-            var listStore = _storeRepository.FindByCategoryes(allCategory);
+            var listStoreAll = _storeRepository.FindByCategoryes(allCategory);
+            CountStore = listStoreAll.Count();
+            var listStore = listStoreAll.Take(_countNewsOnPage * page);
 
             var listDocuments = new List<DocumentModel>();
 

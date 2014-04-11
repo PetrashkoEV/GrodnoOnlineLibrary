@@ -12,5 +12,7 @@ namespace DigitalResourcesLibrary.Models
     {
         public List<DocumentModel> Documents { get; set; }
         public SearchModel SearchModel { get; set; }
+        public int CountPages { get; set; }
+        public int VisitedPage { get; set; }
     }
 }

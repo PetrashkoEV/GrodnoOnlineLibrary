@@ -1,6 +1,9 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using DigitalResourcesLibrary.DataContext.Enums;
+using DigitalResourcesLibrary.DataContext.Helper;
 using DigitalResourcesLibrary.DataContext.Interfaces;
 using DigitalResourcesLibrary.DataContext.Model.Documents;
 using MySqlContext.Concrete.Search;
@@ -13,53 +16,45 @@ namespace DigitalResourcesLibrary.DataContext.Services
         private readonly ISearchRepository _searchRepository = new SearchRepository();
         private readonly IArticleService _articleService = new ArticleService();
         private readonly IStoreService _storeService = new StoreServices();
-
-        private int countNews = 5;
+        private readonly int _countNewsOnPage = DocumentsHelper.CountNewsOnPage;
 
         public List<string> AutoComplete(string search)
         {
             return _searchRepository.AutoComplite(search);
         }
 
-        public List<DocumentModel> SearchDocumentsByCategory(int categoryId)
+        public List<DocumentModel> SearchDocumentsByCategory(int categoryId, int page)
         {
             var allCategory = new List<long> {categoryId};
 
             var allCollectionResult = new List<DocumentModel>();
-            allCollectionResult.AddRange(_articleService.FindByCategoryes(allCategory)); // all article entries with the category
-            allCollectionResult.AddRange(_storeService.FindByCategoryes(allCategory)); // all store entries with the category
+            allCollectionResult.AddRange(_articleService.FindByCategoryes(allCategory, page)); // all article entries with the category
+            allCollectionResult.AddRange(_storeService.FindByCategoryes(allCategory, page)); // all store entries with the category
 
-            allCollectionResult.OrderBy(item => item.ModifiedDate);
+            var result = allCollectionResult
+                .OrderByDescending(item => item.ModifiedDate)
+                .Skip(_countNewsOnPage * (page - 1))
+                .Where( item =>
+                        (item.TypeDocument == TypeDocument.Article) ||
+                        (_storeService.FindContentStoreById(item.Id).Title != null))
+                .Take(_countNewsOnPage).ToList();
 
-            // allocation interval for displaying news
-            var result = new List<DocumentModel>();
-            var countCollection = 0;
-            foreach (var documentModel in allCollectionResult)
+            foreach (var documentModel in result)
             {
-                if (countCollection < countNews)
+                if (documentModel.TypeDocument == TypeDocument.Store)
                 {
-                    if (documentModel.TypeDocument == TypeDocument.Store)
-                    {
-                        var store = _storeService.FindContentStoreById(documentModel.Id); // get light store model without byte data
-                        if (store.Title != null && store.Description != null) // no value for the current locale
-                        {
-                            documentModel.Title = store.Title;
-                            documentModel.Description = store.Description;
-                            result.Add(documentModel);
-                            countCollection++;
-                        }
-                    }
-                    else
-                    {
-                        result.Add(documentModel);
-                        countCollection++;
-                    }
-                    
+                    var store = _storeService.FindContentStoreById(documentModel.Id);
+                    documentModel.Title = store.Title;
+                    documentModel.Description = store.Description;
                 }
             }
-
             return result;
         }
 
+        public int CountPages()
+        {
+            return
+                (int) Math.Ceiling((_articleService.CountArticle + _storeService.CountStore)/(double) _countNewsOnPage);
+        }
     }
 }

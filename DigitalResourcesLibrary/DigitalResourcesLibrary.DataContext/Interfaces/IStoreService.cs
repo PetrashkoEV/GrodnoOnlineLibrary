@@ -10,6 +10,11 @@ namespace DigitalResourcesLibrary.DataContext.Interfaces
     public interface IStoreService
     {
         /// <summary>
+        /// The total number of elements. Updated only after the search operation
+        /// </summary>
+        int CountStore { get;}
+
+        /// <summary>
         /// Getting the Store Model by Id
         /// </summary>
         /// <param name="id">Identificator store</param>
@@ -17,17 +22,18 @@ namespace DigitalResourcesLibrary.DataContext.Interfaces
         StoreModel GetStoreById(int id);
 
         /// <summary>
-        /// Search all the data for categories
-        /// </summary>
-        /// <param name="allCategory">List categories</param>
-        /// <returns>List all store data</returns>
-        List<DocumentModel> FindByCategoryes(List<long> allCategory);
-
-        /// <summary>
         /// Search Title and Desription StoreLocate table by Id
         /// </summary>
         /// <param name="id">Identificator store</param>
         /// <returns>Ligth version storelocate model</returns>
         DocumentModel FindContentStoreById(int id);
+
+        /// <summary>
+        /// Search all the data for categories
+        /// </summary>
+        /// <param name="allCategory">List categories</param>
+        /// <param name="page">Number curent page</param>
+        /// <returns>List all store data</returns>
+        List<DocumentModel> FindByCategoryes(List<long> allCategory, int page);
     }
 }

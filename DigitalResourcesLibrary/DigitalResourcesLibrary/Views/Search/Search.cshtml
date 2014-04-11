@@ -21,23 +21,17 @@
             </div>
         </div>
     }
-    
-    @foreach (var item in Model.Documents)
+    @if (Model.Documents != null && Model.Documents.Count != 0)
     {
-        @Html.Partial("Template/SearchDocumentTemplate", item)
+        foreach (var item in Model.Documents)
+        {
+            @Html.Partial("SearchTemplate/DocumentTemplate", item)
+        }
+         
+        @Html.Partial("SearchTemplate/PaginationTemplate", Model)
     }
-    
-    <div class="pagination">
-        <ul>
-            <li class="disabled"><a href="#">&laquo;</a></li>
-            <li class="active"><a href="#">1</a></li>
-            <li ><a href="#">2</a></li>
-            <li ><a href="#">3</a></li>
-            <li ><a href="#">4</a></li>
-            <li ><a href="#">4</a></li>
-            <li ><a href="#">&laquo;</a></li>
-        </ul>
-    </div>
+
+
 </div>
 @Html.Partial("Template/CategoriesTemplate")
 <div style="clear: both;"></div>

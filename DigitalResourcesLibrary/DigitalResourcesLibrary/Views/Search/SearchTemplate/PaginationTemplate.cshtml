@@ -1,0 +1,34 @@
+﻿@model DigitalResourcesLibrary.Models.SearchViewModel
+<div class="pagination">
+    <ul>
+        @if (Model.VisitedPage == 1)
+        {
+            <li class="disabled">@Html.ActionLink("<", "Search", new { id = 3, page = 1 }, null)</li>
+        }
+        else
+        {
+            <li>@Html.ActionLink("<", "Search", new { id = 3, page = 1 }, null)</li>
+        }
+
+        @for (int i = 1; i <= Model.CountPages; i++)
+        {
+            if (i == Model.VisitedPage)
+            {
+            <li class='active'>@Html.ActionLink(i.ToString(), "Search", new { id = 3, page = i }, null)</li>
+            }
+            else
+            { 
+            <li>@Html.ActionLink(i.ToString(), "Search", new { id = 3, page = i }, null)</li>
+            }
+        }
+
+        @if (Model.VisitedPage == Model.CountPages)
+        {
+            <li class="disabled">@Html.ActionLink(">", "Search", new { id = 3, page = Model.CountPages }, null)</li>
+        }
+        else
+        {
+            <li>@Html.ActionLink(">", "Search", new { id = 3, page = Model.CountPages }, null)</li>
+        }
+    </ul>
+</div>

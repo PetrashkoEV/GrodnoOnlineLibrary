@@ -14,9 +14,12 @@ namespace DigitalResourcesLibrary.DataContext.Services
 {
     public class ArticleService: IArticleService
     {
+        public int CountArticle { get; set; }
         private readonly Language _curentLocate = LocalizationHelper.GetLocalizationLanguage();
         private readonly IArticleRepository _articleRepository = new ArticleRepository();
         private readonly IArticleLocateRepository _articleLocateRepository = new ArticleLocateRepository();
+
+        private readonly int _countNewsOnPage = DocumentsHelper.CountNewsOnPage;
 
         public ArticleModel GetArticleById(int id)
         {
@@ -36,9 +39,11 @@ namespace DigitalResourcesLibrary.DataContext.Services
                 };
         }
 
-        public List<DocumentModel> FindByCategoryes(List<long> allCategory)
+        public List<DocumentModel> FindByCategoryes(List<long> allCategory, int page)
         {
-            var articleList = _articleRepository.FindByCategoryes(allCategory);
+            var articleListAll = _articleRepository.FindByCategoryes(allCategory);
+            CountArticle = articleListAll.Count();
+            var articleList = articleListAll.Take(_countNewsOnPage * page);
 
             var listDocuments = new List<DocumentModel>();
             int curentLocateId = _curentLocate.GetHashCode();

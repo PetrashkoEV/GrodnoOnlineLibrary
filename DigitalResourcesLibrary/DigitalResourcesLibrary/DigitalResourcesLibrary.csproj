@@ -239,9 +239,10 @@
     <Content Include="Views\Search\Index.cshtml" />
     <Content Include="Views\Shared\Template\CategoriesTemplate.cshtml" />
     <Content Include="Views\Search\Search.cshtml" />
-    <Content Include="Views\Shared\Template\SearchDocumentTemplate.cshtml" />
     <Content Include="Views\Documents\Article.cshtml" />
     <Content Include="Views\Documents\Store.cshtml" />
+    <Content Include="Views\Search\SearchTemplate\PaginationTemplate.cshtml" />
+    <Content Include="Views\Search\SearchTemplate\DocumentTemplate.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

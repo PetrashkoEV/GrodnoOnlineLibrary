@@ -6,6 +6,11 @@ namespace DigitalResourcesLibrary.DataContext.Interfaces
     public interface ISearchServices
     {
         /// <summary>
+        /// The total number of elements. Updated only after the search operation
+        /// </summary>
+        int CountPages();
+
+        /// <summary>
         /// Full-text search in the database
         /// </summary>
         /// <param name="search">string is to be searched</param>
@@ -16,7 +21,8 @@ namespace DigitalResourcesLibrary.DataContext.Interfaces
         /// Search all the data (article, store table) for top-level categories
         /// </summary>
         /// <param name="categoryId">Identificator top-level category</param>
+        /// <param name="page">Number curent page</param>
         /// <returns>List Documents Model</returns>
-        List<DocumentModel> SearchDocumentsByCategory(int categoryId);
+        List<DocumentModel> SearchDocumentsByCategory(int categoryId, int page);
     }
 }

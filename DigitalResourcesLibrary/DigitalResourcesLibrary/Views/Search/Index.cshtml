@@ -20,33 +20,17 @@
         </div>
     }
     
-    @if (Model.Documents != null)
+    @if (Model.Documents != null && Model.Documents.Count != 0)
     {
-        foreach (var article in Model.Documents)
+         foreach (var item in Model.Documents)
          {
-             <div class="post">
-                 <h2 class="title">@Html.ActionLink(article.Title, "Post", new {id = article.Id})</h2>
-                 <div class="story">
-                     <p>@article.Description</p>
-                 </div>
-                 <div class="meta">
-                     <p class="date">Posted on @article.ModifiedDate </p>
-                     @*<p class="file">Filed under <a href="#">Uncategorized</a> | <a href="#">Edit</a> | <a href="#">28 Comments</a></p>*@
-                 </div>
-             </div>
+             @Html.Partial("SearchTemplate/DocumentTemplate", item)
          }
+         @Html.Partial("SearchTemplate/PaginationTemplate", Model)
     }
     
-    <div class="pagination ">
-        <ul>
-            <li class="disabled"><a href="#">&laquo;</a></li>
-            <li class="active"><a href="#">1</a></li>
-            <li ><a href="#">2</a></li>
-            <li ><a href="#">3</a></li>
-            <li ><a href="#">4</a></li>
-            <li ><a href="#">&laquo;</a></li>
-        </ul>
-    </div>
+    
+
 </div>
 @Html.Partial("Template/CategoriesTemplate")
 <div style="clear: both;"></div>

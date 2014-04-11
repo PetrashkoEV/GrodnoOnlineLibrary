@@ -61,6 +61,7 @@
     <Compile Include="Enums\Language.cs" />
     <Compile Include="Enums\TypeDocument.cs" />
     <Compile Include="Helper\LocalizationHelper.cs" />
+    <Compile Include="Helper\DocumentsHelper.cs" />
     <Compile Include="Helper\TypeDocumentsHelper.cs" />
     <Compile Include="Interfaces\IStoreService.cs" />
     <Compile Include="Interfaces\ISearchServices.cs" />

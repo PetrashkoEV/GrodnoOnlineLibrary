@@ -135,6 +135,9 @@
   <data name="Home_Index_ThirdSlide_Title" xml:space="preserve">
     <value>Third Slide</value>
   </data>
+  <data name="Search_PostedDate" xml:space="preserve">
+    <value>Posted on</value>
+  </data>
   <data name="Shared_Error_Body" xml:space="preserve">
     <value>Sorry, an error occurred while processing your request.</value>
   </data>
@@ -152,6 +155,12 @@
   </data>
   <data name="Shared_Menu_Search" xml:space="preserve">
     <value>Search</value>
+  </data>
+  <data name="Shared_Template_Archives_Title" xml:space="preserve">
+    <value>Archives</value>
+  </data>
+  <data name="Shared_Template_Categories_Title" xml:space="preserve">
+    <value>Categories</value>
   </data>
   <data name="Site_Domen" xml:space="preserve">
     <value>http://librarygrodno.apphb.com</value>

@@ -1,25 +1,26 @@
 ﻿@using System.Globalization
+@using DigitalResourcesLibrary.DataContext.Helper
 @{
+    const int countMounth = 5;
     var dateNow = DateTime.Now;
+    var date = new List<DateTime>();
+    for (int i = 0; i < countMounth; i++)
+    {
+        date.Add(dateNow.AddMonths(-i));
+    }
 }
 <div id="links">
     <div class="block">
-        <h2>Archives</h2>
+        <h2>@ViewRes.Resource.Shared_Template_Archives_Title</h2>
         <ul class="categories">
-            
-            @for (int i = 0; i < 1; i++)
+            @for (int i = 0; i < countMounth; i++)
             {
-                <li><a href="#">@dateNow.ToString("MMMM yyyy", new CultureInfo("be"))</a></li>
+                <li><a href="#">@date[i].ToString("MMMM yyyy", new CultureInfo(LocalizationHelper.GetLocalizationLanguage().ToString()))</a></li>
             }
-            <li><a href="#">February 2007</a> <i>(22)</i></li>
-            <li><a href="#">January 2007</a> <i>(31)</i></li>
-            <li><a href="#">December 2006</a> <i>(31)</i></li>
-            <li><a href="#">November 2006</a> <i>(30)</i></li>
-            <li><a href="#">October 2006</a> <i>(31)</i></li>
         </ul>
     </div>
     <div class="block">
-        <h2>Categories</h2>
+        <h2>@ViewRes.Resource.Shared_Template_Categories_Title</h2>
         <ul class="ul-treefree ul-dropfree">
             <li>
                 @Html.ActionLink("Lorem ipsum dolor sit amet, consectetuer adipiscing elit.", "Search", "Search", new { id = 3 }, null)

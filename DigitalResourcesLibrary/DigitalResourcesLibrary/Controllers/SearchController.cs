@@ -16,9 +16,14 @@ namespace DigitalResourcesLibrary.Controllers
         //
         // GET: /Article/
 
-        public ActionResult Index()
+        public ActionResult Index(int id)
         {
-            var result = new SearchViewModel(); /*!!!!!populate*/
+            var result = new SearchViewModel
+            {
+                Documents = _searchServices.SearchDocumentsByCategory(id, 1),
+                CountPages = _searchServices.CountPages(),
+                VisitedPage = 1
+            };
             return View(result);
         }
 
@@ -29,11 +34,13 @@ namespace DigitalResourcesLibrary.Controllers
             return RedirectToAction("Index");
         }
 
-        public ActionResult Search(int id)
+        public ActionResult Search(int id, int page)
         {
             var result = new SearchViewModel
             {
-                Documents = _searchServices.SearchDocumentsByCategory(id)
+                Documents = _searchServices.SearchDocumentsByCategory(id, page),
+                CountPages = _searchServices.CountPages(),
+                VisitedPage = page
             };
             return View(result);
         }

@@ -1,0 +1,36 @@
+﻿@using System.Globalization
+@using System.Text.RegularExpressions
+@using DigitalResourcesLibrary.DataContext.Enums
+@using DigitalResourcesLibrary.DataContext.Helper
+@model DigitalResourcesLibrary.DataContext.Model.Documents.DocumentModel
+
+@helper Truncate(string input, int length)
+{
+    string inputstring = Regex.Replace(input, @"<[^>]*>", String.Empty);
+
+    if (inputstring.Length <= length)
+    {
+        @inputstring
+    } else {
+        @inputstring.Substring(0, length)<text>...</text>
+    }
+}
+
+<div class="post">
+    <h2 class="title">
+        @if (Model.TypeDocument == TypeDocument.Article)
+        {
+            @Html.ActionLink(Model.Title, "Article", "Documents", new { id = Model.Id }, null)
+        }
+        else
+        {
+            @Html.ActionLink(Model.Title, "Store", "Documents", new { id = Model.Id }, null)
+        }
+    </h2>
+    <div class="story">
+        <p>@Truncate(Model.Description, 210)</p>
+    </div>
+    <div class="meta">
+        <p class="date">@ViewRes.Resource.Search_PostedDate @Model.ModifiedDate.ToString("d MMMM yyy 'at' H:mm",new CultureInfo(LocalizationHelper.GetLocalizationLanguage().ToString()))</p>
+     </div>
+</div>

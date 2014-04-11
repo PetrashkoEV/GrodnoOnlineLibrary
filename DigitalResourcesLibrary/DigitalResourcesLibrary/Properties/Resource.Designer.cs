@@ -115,6 +115,15 @@ namespace ViewRes {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Posted on.
+        /// </summary>
+        public static string Search_PostedDate {
+            get {
+                return ResourceManager.GetString("Search_PostedDate", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Sorry, an error occurred while processing your request..
         /// </summary>
         public static string Shared_Error_Body {
@@ -165,6 +174,24 @@ namespace ViewRes {
         public static string Shared_Menu_Search {
             get {
                 return ResourceManager.GetString("Shared_Menu_Search", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Archives.
+        /// </summary>
+        public static string Shared_Template_Archives_Title {
+            get {
+                return ResourceManager.GetString("Shared_Template_Archives_Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Categories.
+        /// </summary>
+        public static string Shared_Template_Categories_Title {
+            get {
+                return ResourceManager.GetString("Shared_Template_Categories_Title", resourceCulture);
             }
         }
         
