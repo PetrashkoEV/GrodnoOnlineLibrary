@@ -1,0 +1,29 @@
+﻿@model DigitalResourcesLibrary.Models.SearchViewModel
+@using System.Globalization
+@using DigitalResourcesLibrary.DataContext.Helper
+@{
+    const int countMounth = 5;
+    var dateNow = DateTime.Now;
+    var date = new List<DateTime>();
+    for (int i = 0; i < countMounth; i++)
+    {
+        date.Add(dateNow.AddMonths(-i));
+    }
+}
+<div id="links">
+    <div class="block">
+        <h2>@ViewRes.Resource.Shared_Template_Archives_Title</h2>
+        <ul class="categories">
+            @for (int i = 0; i < countMounth; i++)
+            {
+                <li><a href="#">@date[i].ToString("MMMM yyyy", new CultureInfo(LocalizationHelper.GetLocalizationLanguage().ToString()))</a></li>
+            }
+        </ul>
+    </div>
+    <div class="block">
+        <h2>@ViewRes.Resource.Shared_Template_Categories_Title</h2>
+        <ul class="ul-treefree ul-dropfree">
+            @Html.Partial("Template/CategoryRecursion", Model.Categories)
+        </ul>
+    </div>
+</div>
