@@ -33,5 +33,13 @@ namespace DigitalResourcesLibrary.DataContext.Interfaces
         /// <param name="page">Number curent page</param>
         /// <returns>List Documents Model</returns>
         List<DocumentModel> SearchDocumentsByDate(DateTime date, int page);
+
+        /// <summary>
+        /// Search all data (article, store table) by search text
+        /// </summary>
+        /// <param name="searchText">Symbols database search</param>
+        /// <param name="page">Number curent page</param>
+        /// <returns>List Documents Model</returns>
+        List<DocumentModel> SearchDocumentsByText(string searchText, int page);
     }
 }

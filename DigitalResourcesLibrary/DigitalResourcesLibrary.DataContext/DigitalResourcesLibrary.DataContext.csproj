@@ -68,6 +68,7 @@
     <Compile Include="Interfaces\ISearchServices.cs" />
     <Compile Include="Interfaces\IArticleService.cs" />
     <Compile Include="Interfaces\IFileService.cs" />
+    <Compile Include="Model\BaseSearchModel.cs" />
     <Compile Include="Model\CategoryModel.cs" />
     <Compile Include="Model\Documents\StoreModel.cs" />
     <Compile Include="Model\Documents\ArticleModel.cs" />

@@ -55,6 +55,12 @@ namespace DigitalResourcesLibrary.DataContext.Services
             return CreationArticleToDisplay(listStoreAll, page);
         }
 
+        public List<DocumentModel> FindByStoreId(List<int> articleIds, int page)
+        {
+            var listStoreAll = _storeRepository.FindByIds(articleIds);
+            return CreationArticleToDisplay(listStoreAll, page);
+        }
+
         /// <summary>
         /// Based storeList formation documents to display the current page
         /// </summary>

@@ -1,4 +1,4 @@
-﻿@model DigitalResourcesLibrary.Models.SearchViewModel
+﻿@model List<DigitalResourcesLibrary.DataContext.Model.CategoryModel>
 @using System.Globalization
 @using DigitalResourcesLibrary.DataContext.Helper
 @{
@@ -29,7 +29,7 @@
     <div class="block">
         <h2>@ViewRes.Resource.Shared_Template_Categories_Title</h2>
         <ul class="ul-treefree ul-dropfree">
-            @Html.Partial("Template/CategoryRecursion", Model.Categories)
+            @Html.Partial("Template/CategoryRecursion", Model)
         </ul>
     </div>
 </div>

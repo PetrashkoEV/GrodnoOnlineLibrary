@@ -42,5 +42,11 @@ namespace MySqlContext.Concrete.Store
             var result = Entity.Where(item => item.modified.Value.Year == date.Year && item.modified.Value.Month == date.Month);
             return result;
         }
+
+        public IQueryable<store> FindByIds(List<int> articleIds)
+        {
+            var result = Entity.Where(item => articleIds.Contains(item.id));
+            return result;
+        }
     }
 }

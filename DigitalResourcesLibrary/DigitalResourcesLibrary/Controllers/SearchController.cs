@@ -5,6 +5,7 @@ using System.Web;
 using System.Web.Mvc;
 using DigitalResourcesLibrary.DataContext.Helper;
 using DigitalResourcesLibrary.DataContext.Interfaces;
+using DigitalResourcesLibrary.DataContext.Model;
 using DigitalResourcesLibrary.DataContext.Services;
 using DigitalResourcesLibrary.Models;
 
@@ -30,8 +31,11 @@ namespace DigitalResourcesLibrary.Controllers
         [HttpPost]
         public ActionResult Index(SearchViewModel model)
         {
-            /*result search*/
-            return RedirectToAction("Index");
+            int page = 1;
+            model.Documents = _searchServices.SearchDocumentsByText(model.SearchModel.SearchText, page);
+            model.CountPages = _searchServices.CountPages();
+            model.VisitedPage = page;
+            return View("Index", model);
         }
 
         public ActionResult Search(int id, int page)

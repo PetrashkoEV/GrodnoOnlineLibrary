@@ -37,5 +37,12 @@ namespace MySqlContext.Interface.Articles
         /// <param name="date">Date create record in article table</param>
         /// <returns>Article model</returns>
         IQueryable<article> FindByDate(DateTime date);
+
+        /// <summary>
+        /// Search all article by List Ids
+        /// </summary>
+        /// <param name="articleIds">List all article search Id</param>
+        /// <returns>Article model</returns>
+        IQueryable<article> FindByIds(List<int> articleIds);
     }
 }

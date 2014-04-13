@@ -2,6 +2,7 @@
 using MySqlContext.Concrete;
 using MySqlContext.Concrete.Store;
 using MySqlContext.Entities;
+using MySqlContext.Model;
 
 namespace MySqlContext.Interface.Store
 {

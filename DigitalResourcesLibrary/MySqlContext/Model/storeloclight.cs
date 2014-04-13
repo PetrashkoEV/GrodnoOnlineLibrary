@@ -1,4 +1,4 @@
-namespace MySqlContext.Concrete
+namespace MySqlContext.Model
 {
     public class storeloclight
     {

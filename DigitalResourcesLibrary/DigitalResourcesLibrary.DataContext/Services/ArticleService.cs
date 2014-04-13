@@ -52,6 +52,12 @@ namespace DigitalResourcesLibrary.DataContext.Services
             return CreationArticleToDisplay(articleListAll, page);
         }
 
+        public List<DocumentModel> FindByArticleId(List<int> articleIds, int page)
+        {
+            var articleListAll = _articleRepository.FindByIds(articleIds);
+            return CreationArticleToDisplay(articleListAll, page);
+        }
+
         /// <summary>
         /// Based articleList formation documents to display the current page
         /// </summary>

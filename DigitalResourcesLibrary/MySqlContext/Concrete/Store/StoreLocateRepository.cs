@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using MySqlContext.Entities;
 using MySqlContext.Interface.Store;
+using MySqlContext.Model;
 
 namespace MySqlContext.Concrete.Store
 {

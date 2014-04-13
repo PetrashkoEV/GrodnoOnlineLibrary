@@ -137,7 +137,7 @@
     <Compile Include="Concrete\Role\RoleRepository.cs" />
     <Compile Include="Concrete\Search\SearchRepository.cs" />
     <Compile Include="Concrete\Store\StoreLocateRepository.cs" />
-    <Compile Include="Concrete\storeloclight.cs" />
+    <Compile Include="Model\storeloclight.cs" />
     <Compile Include="Concrete\Store\StoreRepository.cs" />
     <Compile Include="Concrete\Tag\TagLocateRepository.cs" />
     <Compile Include="Concrete\Tag\TagRepository.cs" />
@@ -205,6 +205,7 @@
     <Compile Include="Interface\Tag\ITagLocateRepository.cs" />
     <Compile Include="Interface\Tag\ITagRepository.cs" />
     <Compile Include="Interface\User\IUserRepository.cs" />
+    <Compile Include="Model\SphinxSearchResult.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Scheme\CreateDB.cs" />
   </ItemGroup>

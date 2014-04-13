@@ -3,7 +3,7 @@ using DigitalResourcesLibrary.DataContext.Enums;
 
 namespace DigitalResourcesLibrary.DataContext.Model.Documents
 {
-    public class ArticleModel
+    public class ArticleModel : BaseSearchModel
     {
         public int Id { get; set; }
         public Language Locale { get; set; }

@@ -44,5 +44,12 @@ namespace MySqlContext.Interface.Store
         /// <returns>Store model</returns>
         IQueryable<store> FindByDate(DateTime date);
 
+        /// <summary>
+        /// Search all store by List Ids
+        /// </summary>
+        /// <param name="articleIds">List all store search Id</param>
+        /// <returns>Store model</returns>
+        IQueryable<store> FindByIds(List<int> articleIds);
+
     }
 }
