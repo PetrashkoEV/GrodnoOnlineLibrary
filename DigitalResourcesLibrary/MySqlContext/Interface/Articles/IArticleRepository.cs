@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
 using MySqlContext.Entities;
@@ -29,5 +30,12 @@ namespace MySqlContext.Interface.Articles
         /// <param name="categoryesId">Identificaion category</param>
         /// <returns>Article model</returns>
         IQueryable<article> FindByCategoryes(List<long> categoryesId);
+
+        /// <summary>
+        /// Search all article by date
+        /// </summary>
+        /// <param name="date">Date create record in article table</param>
+        /// <returns>Article model</returns>
+        IQueryable<article> FindByDate(DateTime date);
     }
 }

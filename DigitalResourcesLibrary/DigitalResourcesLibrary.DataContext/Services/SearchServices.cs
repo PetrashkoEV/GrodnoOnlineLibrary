@@ -33,10 +33,37 @@ namespace DigitalResourcesLibrary.DataContext.Services
             allCollectionResult.AddRange(_articleService.FindByCategoryes(allCategory, page)); // all article entries with the category
             allCollectionResult.AddRange(_storeService.FindByCategoryes(allCategory, page)); // all store entries with the category
 
-            var result = allCollectionResult
+            return CreationDocumentsToDisplay(allCollectionResult, page);
+        }
+
+        public List<DocumentModel> SearchDocumentsByDate(DateTime date, int page)
+        {
+            var allCollectionResult = new List<DocumentModel>();
+            allCollectionResult.AddRange(_articleService.FindByDate(date, page)); // all article entries with the category
+            allCollectionResult.AddRange(_storeService.FindByDate(date, page)); // all store entries with the category
+
+            var result = CreationDocumentsToDisplay(allCollectionResult, page);
+            return result;
+        }
+
+        public int CountPages()
+        {
+            return
+                (int) Math.Ceiling((_articleService.CountArticle + _storeService.CountStore)/(double) _countNewsOnPage);
+        }
+
+        /// <summary>
+        /// Based all list documents formation list to display the current page
+        /// </summary>
+        /// <param name="listDocumentModels">Full list of documents</param>
+        /// <param name="page">Number of page</param>
+        /// <returns>List of documents suitable for display on the page</returns>
+        private List<DocumentModel> CreationDocumentsToDisplay(IEnumerable<DocumentModel> listDocumentModels, int page)
+        {
+            var result = listDocumentModels
                 .OrderByDescending(item => item.ModifiedDate)
                 .Skip(_countNewsOnPage * (page - 1))
-                .Where( item =>
+                .Where(item =>
                         (item.TypeDocument == TypeDocument.Article) ||
                         (_storeService.FindContentStoreById(item.Id).Title != null))
                 .Take(_countNewsOnPage).ToList();
@@ -51,12 +78,6 @@ namespace DigitalResourcesLibrary.DataContext.Services
                 }
             }
             return result;
-        }
-
-        public int CountPages()
-        {
-            return
-                (int) Math.Ceiling((_articleService.CountArticle + _storeService.CountStore)/(double) _countNewsOnPage);
         }
     }
 }

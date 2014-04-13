@@ -144,6 +144,9 @@
   <data name="Home_Index_ThirdSlide_Title" xml:space="preserve">
     <value>Міхась Васілёк</value>
   </data>
+  <data name="LeftPanel_All_Archive" xml:space="preserve">
+    <value>Весь архив</value>
+  </data>
   <data name="Search_Documents_Not_Fount" xml:space="preserve">
     <value>Документов удовлетворяющих поиску не найдено</value>
   </data>

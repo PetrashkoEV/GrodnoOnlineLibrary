@@ -16,8 +16,14 @@
         <ul class="categories">
             @for (int i = 0; i < countMounth; i++)
             {
-                <li><a href="#">@date[i].ToString("MMMM yyyy", new CultureInfo(LocalizationHelper.GetLocalizationLanguage().ToString()))</a></li>
+                <li>
+                    @Html.ActionLink(date[i].ToString("MMMM yyyy", new CultureInfo(LocalizationHelper.GetLocalizationLanguage().ToString())),
+                            "SearchByDate", "Search", new { date = date[i], page = 1 }, null)
+                </li>
             }
+            <li>
+                @Html.ActionLink(ViewRes.Resource.LeftPanel_All_Archive, "Index", "Search")
+            </li>
         </ul>
     </div>
     <div class="block">

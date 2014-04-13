@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using DigitalResourcesLibrary.DataContext.Model.Documents;
 
 namespace DigitalResourcesLibrary.DataContext.Interfaces
@@ -24,5 +25,13 @@ namespace DigitalResourcesLibrary.DataContext.Interfaces
         /// <param name="page">Number curent page</param>
         /// <returns>List Documents Model</returns>
         List<DocumentModel> SearchDocumentsByCategory(int categoryId, int page);
+
+        /// <summary>
+        /// Search all data (article, store table) by date
+        /// </summary>
+        /// <param name="date">Identificator top-level category</param>
+        /// <param name="page">Number curent page</param>
+        /// <returns>List Documents Model</returns>
+        List<DocumentModel> SearchDocumentsByDate(DateTime date, int page);
     }
 }

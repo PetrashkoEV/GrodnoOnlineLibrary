@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
 using MySqlContext.Entities;
@@ -35,6 +36,13 @@ namespace MySqlContext.Interface.Store
         /// <param name="categoryesId">Identificaion category</param>
         /// <returns>Store model without model StoreLoc</returns>
         IQueryable<store> FindByCategoryes(List<long> categoryesId);
+
+        /// <summary>
+        /// Search all store by date
+        /// </summary>
+        /// <param name="date">Date create record in store table</param>
+        /// <returns>Store model</returns>
+        IQueryable<store> FindByDate(DateTime date);
 
     }
 }

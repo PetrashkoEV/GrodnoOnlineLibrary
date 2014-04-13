@@ -115,6 +115,15 @@ namespace ViewRes {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to All Archive.
+        /// </summary>
+        public static string LeftPanel_All_Archive {
+            get {
+                return ResourceManager.GetString("LeftPanel_All_Archive", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Documents satisfying the search not found.
         /// </summary>
         public static string Search_Documents_Not_Fount {

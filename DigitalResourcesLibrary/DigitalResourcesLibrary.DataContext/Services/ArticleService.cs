@@ -8,6 +8,7 @@ using DigitalResourcesLibrary.DataContext.Interfaces;
 using DigitalResourcesLibrary.DataContext.Model;
 using DigitalResourcesLibrary.DataContext.Model.Documents;
 using MySqlContext.Concrete.Articles;
+using MySqlContext.Entities;
 using MySqlContext.Interface.Articles;
 
 namespace DigitalResourcesLibrary.DataContext.Services
@@ -42,6 +43,23 @@ namespace DigitalResourcesLibrary.DataContext.Services
         public List<DocumentModel> FindByCategoryes(List<long> allCategory, int page)
         {
             var articleListAll = _articleRepository.FindByCategoryes(allCategory);
+            return CreationArticleToDisplay(articleListAll, page);
+        }
+
+        public List<DocumentModel> FindByDate(DateTime date, int page)
+        {
+            var articleListAll = _articleRepository.FindByDate(date);
+            return CreationArticleToDisplay(articleListAll, page);
+        }
+
+        /// <summary>
+        /// Based articleList formation documents to display the current page
+        /// </summary>
+        /// <param name="articleListAll">Full list of articles</param>
+        /// <param name="page">Number of page</param>
+        /// <returns>List of documents suitable for display on the page</returns>
+        private List<DocumentModel> CreationArticleToDisplay(IQueryable<article> articleListAll, int page)
+        {
             CountArticle = articleListAll.Count();
             var articleList = articleListAll.Take(_countNewsOnPage * page);
 
@@ -64,7 +82,6 @@ namespace DigitalResourcesLibrary.DataContext.Services
                 }
             }
             return listDocuments;
-        }
-    
+        } 
     }
 }

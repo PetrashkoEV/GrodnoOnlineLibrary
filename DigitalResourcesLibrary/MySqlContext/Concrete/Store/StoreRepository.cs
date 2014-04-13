@@ -37,5 +37,10 @@ namespace MySqlContext.Concrete.Store
             return result;
         }
 
+        public IQueryable<store> FindByDate(DateTime date)
+        {
+            var result = Entity.Where(item => item.modified.Value.Year == date.Year && item.modified.Value.Month == date.Month);
+            return result;
+        }
     }
 }

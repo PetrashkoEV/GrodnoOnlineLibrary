@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
 using MySqlContext.Entities;
@@ -29,6 +30,12 @@ namespace MySqlContext.Concrete.Articles
         public IQueryable<article> FindByCategoryes(List<long> categoryesId)
         {
             var result = Entity.Where(item => categoryesId.Contains(item.category));
+            return result;
+        }
+
+        public IQueryable<article> FindByDate(DateTime date)
+        {
+            var result = Entity.Where(item => item.modified.Value.Year == date.Year && item.modified.Value.Month == date.Month);
             return result;
         }
     }

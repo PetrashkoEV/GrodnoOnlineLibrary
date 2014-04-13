@@ -48,6 +48,20 @@ namespace DigitalResourcesLibrary.Controllers
             return View("Index", result);
         }
 
+        public ActionResult SearchByDate(DateTime date, int page)
+        {
+            if (page < 1)
+                page = 1;
+
+            var result = new SearchViewModel
+            {
+                Documents = _searchServices.SearchDocumentsByDate(date, page),
+                CountPages = _searchServices.CountPages(),
+                VisitedPage = page
+            };
+            return View("Index", result);
+        }
+
         public JsonResult AutoComplete(string search)
         {
             var result = _searchServices.AutoComplete(search);

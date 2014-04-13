@@ -9,6 +9,7 @@ using DigitalResourcesLibrary.DataContext.Interfaces;
 using DigitalResourcesLibrary.DataContext.Model;
 using DigitalResourcesLibrary.DataContext.Model.Documents;
 using MySqlContext.Concrete.Store;
+using MySqlContext.Entities;
 using MySqlContext.Interface.Store;
 
 namespace DigitalResourcesLibrary.DataContext.Services
@@ -45,6 +46,23 @@ namespace DigitalResourcesLibrary.DataContext.Services
         public List<DocumentModel> FindByCategoryes(List<long> allCategory, int page)
         {
             var listStoreAll = _storeRepository.FindByCategoryes(allCategory);
+            return CreationArticleToDisplay(listStoreAll, page);
+        }
+
+        public List<DocumentModel> FindByDate(DateTime date, int page)
+        {
+            var listStoreAll = _storeRepository.FindByDate(date);
+            return CreationArticleToDisplay(listStoreAll, page);
+        }
+
+        /// <summary>
+        /// Based storeList formation documents to display the current page
+        /// </summary>
+        /// <param name="listStoreAll">Full list of Store</param>
+        /// <param name="page">Number of page</param>
+        /// <returns>List of documents suitable for display on the page</returns>
+        private List<DocumentModel> CreationArticleToDisplay(IQueryable<store> listStoreAll, int page)
+        {
             CountStore = listStoreAll.Count();
             var listStore = listStoreAll.Take(_countNewsOnPage * page);
 

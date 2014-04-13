@@ -28,5 +28,13 @@ namespace DigitalResourcesLibrary.DataContext.Interfaces
         /// <param name="page">Number curent page</param>
         /// <returns>List all article data</returns>
         List<DocumentModel> FindByCategoryes(List<long> allCategory, int page);
+
+        /// <summary>
+        /// Search all article by date
+        /// </summary>
+        /// <param name="date">Date create record in article table</param>
+        /// <param name="page">Number curent page</param>
+        /// <returns>List all article data</returns>
+        List<DocumentModel> FindByDate(DateTime date, int page);
     }
 }
