@@ -22,15 +22,19 @@
     
     @if (Model.Documents != null && Model.Documents.Count != 0)
     {
-         foreach (var item in Model.Documents)
-         {
-             @Html.Partial("SearchTemplate/DocumentTemplate", item)
-         }
-         @Html.Partial("SearchTemplate/PaginationTemplate", Model)
+        foreach (var item in Model.Documents)
+        {
+            @Html.Partial("SearchTemplate/DocumentTemplate", item)
+        }
+        @Html.Partial("SearchTemplate/PaginationTemplate", Model)
+    }
+    else
+    {
+        @ViewRes.Resource.Search_Documents_Not_Fount
     }
     
     
 
 </div>
-@Html.Partial("Template/CategoriesTemplate")
+@Html.Partial("Template/LeftPanel", Model)
 <div style="clear: both;"></div>

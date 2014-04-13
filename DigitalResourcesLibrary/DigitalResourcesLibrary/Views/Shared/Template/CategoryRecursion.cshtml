@@ -1,0 +1,19 @@
+﻿@model List<DigitalResourcesLibrary.DataContext.Model.CategoryModel>
+
+@foreach (var item in Model)
+{
+    if (item.Name != null)
+    {
+        <li>
+            @Html.ActionLink(item.Name, "Search", "Search", new {id = item.Id}, null)
+
+            @if (item.Subcategory.Count != 0)
+            {
+                <ul>
+                    @Html.Partial("Template/CategoryRecursion", item.Subcategory)
+                </ul>
+            }
+        </li>
+    }
+}
+

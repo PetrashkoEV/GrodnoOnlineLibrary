@@ -237,12 +237,12 @@
     <Content Include="Views\Shared\_CultureChooserUserControl.cshtml" />
     <Content Include="Views\Shared\_Menu.cshtml" />
     <Content Include="Views\Search\Index.cshtml" />
-    <Content Include="Views\Shared\Template\CategoriesTemplate.cshtml" />
-    <Content Include="Views\Search\Search.cshtml" />
+    <Content Include="Views\Shared\Template\LeftPanel.cshtml" />
     <Content Include="Views\Documents\Article.cshtml" />
     <Content Include="Views\Documents\Store.cshtml" />
     <Content Include="Views\Search\SearchTemplate\PaginationTemplate.cshtml" />
     <Content Include="Views\Search\SearchTemplate\DocumentTemplate.cshtml" />
+    <Content Include="Views\Shared\Template\CategoryRecursion.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

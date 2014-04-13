@@ -115,6 +115,15 @@ namespace ViewRes {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Documents satisfying the search not found.
+        /// </summary>
+        public static string Search_Documents_Not_Fount {
+            get {
+                return ResourceManager.GetString("Search_Documents_Not_Fount", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Posted on.
         /// </summary>
         public static string Search_PostedDate {

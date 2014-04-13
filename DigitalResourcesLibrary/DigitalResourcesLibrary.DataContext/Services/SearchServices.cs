@@ -16,6 +16,7 @@ namespace DigitalResourcesLibrary.DataContext.Services
         private readonly ISearchRepository _searchRepository = new SearchRepository();
         private readonly IArticleService _articleService = new ArticleService();
         private readonly IStoreService _storeService = new StoreServices();
+        private readonly ICategoryService _categoryService = new CategoryService();
         private readonly int _countNewsOnPage = DocumentsHelper.CountNewsOnPage;
 
         public List<string> AutoComplete(string search)
@@ -25,7 +26,8 @@ namespace DigitalResourcesLibrary.DataContext.Services
 
         public List<DocumentModel> SearchDocumentsByCategory(int categoryId, int page)
         {
-            var allCategory = new List<long> {categoryId};
+            var allCategory = _categoryService.GetIdAllSybCategory(categoryId);
+            allCategory.Add(categoryId); // add curent category
 
             var allCollectionResult = new List<DocumentModel>();
             allCollectionResult.AddRange(_articleService.FindByCategoryes(allCategory, page)); // all article entries with the category

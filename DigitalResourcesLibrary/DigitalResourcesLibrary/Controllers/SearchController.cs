@@ -36,13 +36,16 @@ namespace DigitalResourcesLibrary.Controllers
 
         public ActionResult Search(int id, int page)
         {
+            if (page < 1)
+                page = 1;
+
             var result = new SearchViewModel
             {
                 Documents = _searchServices.SearchDocumentsByCategory(id, page),
                 CountPages = _searchServices.CountPages(),
                 VisitedPage = page
             };
-            return View(result);
+            return View("Index", result);
         }
 
         public JsonResult AutoComplete(string search)

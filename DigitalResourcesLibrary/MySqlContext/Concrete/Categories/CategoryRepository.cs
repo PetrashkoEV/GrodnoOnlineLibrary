@@ -19,5 +19,15 @@ namespace MySqlContext.Concrete.Categories
                 return _dataContext.category;
             }
         }
+
+        public IQueryable<long> GetAllIdSubCategory(int id)
+        {
+            return Entity.Where(item => item.parent == id).Select(item => item.id);
+        }
+
+        public string GetNameCategoryById(int id, int locateId)
+        {
+            return _dataContext.categoryloc.Where(item => item.category == id && item.locale == locateId).Select(item => item.value).FirstOrDefault();
+        }
     }
 }

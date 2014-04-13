@@ -1,6 +1,7 @@
 ﻿using System.Web.Mvc;
 using DigitalResourcesLibrary.DataContext.Interfaces;
 using DigitalResourcesLibrary.DataContext.Services;
+using DigitalResourcesLibrary.Models;
 
 
 namespace DigitalResourcesLibrary.Controllers
@@ -21,7 +22,7 @@ namespace DigitalResourcesLibrary.Controllers
 
         public ActionResult About()
         {
-            return View();
+            return View(new SearchViewModel());
         }
     }
 }

@@ -3,7 +3,7 @@
     <ul>
         @if (Model.VisitedPage == 1)
         {
-            <li class="disabled">@Html.ActionLink("<", "Search", new { id = 3, page = 1 }, null)</li>
+            <li class="disabled"><a><</a></li>
         }
         else
         {
@@ -14,17 +14,17 @@
         {
             if (i == Model.VisitedPage)
             {
-            <li class='active'>@Html.ActionLink(i.ToString(), "Search", new { id = 3, page = i }, null)</li>
+                <li class='active'><a href="#">@i.ToString()</a></li>
             }
             else
             { 
-            <li>@Html.ActionLink(i.ToString(), "Search", new { id = 3, page = i }, null)</li>
+                <li>@Html.ActionLink(i.ToString(), "Search", new { id = 3, page = i }, null)</li>
             }
         }
 
         @if (Model.VisitedPage == Model.CountPages)
         {
-            <li class="disabled">@Html.ActionLink(">", "Search", new { id = 3, page = Model.CountPages }, null)</li>
+            <li class="disabled"><a>></a></li>
         }
         else
         {
