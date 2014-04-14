@@ -18,7 +18,7 @@
             {
                 <li>
                     @Html.ActionLink(date[i].ToString("MMMM yyyy", new CultureInfo(LocalizationHelper.GetLocalizationLanguage().ToString())),
-                            "SearchByDate", "Search", new { date = date[i], page = 1 }, null)
+                            "SearchByDate", "Search", new { searchValue = date[i], page = 1 }, null)
                 </li>
             }
             <li>

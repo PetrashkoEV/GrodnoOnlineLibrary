@@ -8,7 +8,7 @@ namespace DigitalResourcesLibrary.DataContext.Helper
 {
     public static class DocumentsHelper
     {
-        private static int _count = 10;
+        private static int _count = 2;
 
         public static int CountNewsOnPage
         {

@@ -1,4 +1,21 @@
-﻿@model DigitalResourcesLibrary.Models.SearchViewModel
+﻿@using DigitalResourcesLibrary.DataContext.Enums
+@model DigitalResourcesLibrary.Models.SearchViewModel
+
+@{
+    string action = "";
+    switch (Model.TypeSearch)
+    {
+        case TypeSearchDocuments.Category:
+            action = "SearchByCategory";
+            break;
+        case TypeSearchDocuments.Date:
+            action = "SearchByDate";
+            break;
+        case TypeSearchDocuments.Text:
+            action = "SearchByText";
+            break;
+    }
+}
 <div class="pagination">
     <ul>
         @if (Model.VisitedPage == 1)
@@ -7,7 +24,7 @@
         }
         else
         {
-            <li>@Html.ActionLink("<", "Search", new { id = 3, page = 1 }, null)</li>
+            <li>@Html.ActionLink("<", action, new { searchValue = Model.SearchValue, page = 1 }, null)</li>
         }
 
         @for (int i = 1; i <= Model.CountPages; i++)
@@ -18,7 +35,7 @@
             }
             else
             { 
-                <li>@Html.ActionLink(i.ToString(), "Search", new { id = 3, page = i }, null)</li>
+                <li>@Html.ActionLink(i.ToString(), action, new { searchValue = Model.SearchValue, page = i }, null)</li>
             }
         }
 
@@ -28,7 +45,7 @@
         }
         else
         {
-            <li>@Html.ActionLink(">", "Search", new { id = 3, page = Model.CountPages }, null)</li>
+            <li>@Html.ActionLink(">", action, new { searchValue = Model.SearchValue, page = Model.CountPages }, null)</li>
         }
     </ul>
 </div>

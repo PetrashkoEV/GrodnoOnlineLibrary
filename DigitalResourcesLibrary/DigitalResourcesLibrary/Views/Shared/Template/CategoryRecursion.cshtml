@@ -5,7 +5,7 @@
     if (item.Name != null)
     {
         <li>
-            @Html.ActionLink(item.Name, "Search", "Search", new {id = item.Id}, null)
+            @Html.ActionLink(item.Name, "SearchByCategory", "Search", new {searchValue = item.Id}, null)
 
             @if (item.Subcategory.Count != 0)
             {
