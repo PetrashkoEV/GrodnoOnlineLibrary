@@ -11,7 +11,7 @@ namespace DigitalResourcesLibrary.DataContext.Model.Documents
         public string Description { get; set; }
         public string Title { get; set; }
         public string FileName { get; set; }
-        public string Type { get; set; }
+        public FileType Type { get; set; }
         public DateTime ModifiedDate { get; set; }
         public int Visible { get; set; }
         public UserModel User { get; set; }

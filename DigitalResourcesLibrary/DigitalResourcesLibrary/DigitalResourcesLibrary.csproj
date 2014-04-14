@@ -246,6 +246,9 @@
     <Content Include="Views\Search\SearchTemplate\PaginationTemplate.cshtml" />
     <Content Include="Views\Search\SearchTemplate\DocumentTemplate.cshtml" />
     <Content Include="Views\Shared\Template\CategoryRecursion.cshtml" />
+    <Content Include="Views\Documents\OpenFile\VideoFile.cshtml" />
+    <Content Include="Views\Documents\OpenFile\AudioFile.cshtml" />
+    <Content Include="Views\Documents\OpenFile\DocumentFile.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

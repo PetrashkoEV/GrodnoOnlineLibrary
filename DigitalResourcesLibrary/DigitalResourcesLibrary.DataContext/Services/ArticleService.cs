@@ -28,7 +28,7 @@ namespace DigitalResourcesLibrary.DataContext.Services
             return new ArticleModel
                 {
                     Id = item.article,
-                    LocaleString = item.locale1.locale1,
+                    LocateString = item.locale1.locale1,
                     Content = item.content,
                     Title = item.title,
                     ModifiedDate = item.article1.modified.Value,

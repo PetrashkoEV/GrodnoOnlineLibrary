@@ -58,9 +58,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Enums\FileType.cs" />
     <Compile Include="Enums\Language.cs" />
     <Compile Include="Enums\TypeDocument.cs" />
     <Compile Include="Enums\TypeSearchDocuments.cs" />
+    <Compile Include="Helper\FileHelper.cs" />
     <Compile Include="Helper\LocalizationHelper.cs" />
     <Compile Include="Helper\DocumentsHelper.cs" />
     <Compile Include="Helper\TypeDocumentsHelper.cs" />
