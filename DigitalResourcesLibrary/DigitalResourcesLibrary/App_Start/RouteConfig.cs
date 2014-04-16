@@ -31,7 +31,7 @@ namespace DigitalResourcesLibrary
                 defaults: new { controller = "Search", action = "SearchByCategory" }
             );
 
-            routes.MapRoute(
+            /*routes.MapRoute(
                 name: "SearchByDate",
                 url: "Search/Date/{searchValue}",
                 defaults: new { controller = "Search", action = "SearchByDate", page = 1 }
@@ -39,9 +39,9 @@ namespace DigitalResourcesLibrary
 
             routes.MapRoute(
                 name: "SearchByDateWithPage",
-                url: "Search/Date/{searchValue}/page{page}",
+                url: "Search/Date/{searchValue}/{page}",
                 defaults: new { controller = "Search", action = "SearchByDate" }
-            );
+            );*/
 
             routes.MapRoute(
                 name: "SearchByText",
