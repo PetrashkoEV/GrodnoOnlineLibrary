@@ -30,4 +30,16 @@
         deferRequestBy: 300, // Задержка запроса (мсек), на случай, если мы не хотим слать миллион запросов, пока пользователь печатает. Я обычно ставлю 300.
         onSelect: function (data, value) { }, // Callback функция, срабатывающая на выбор одного из предложенных вариантов,
     });
+
+    $('#tags').multiselect({
+        includeSelectAllOption: true,
+        enableCaseInsensitiveFiltering: true,
+        numberDisplayed: 5,
+        maxHeight: 250,
+        buttonWidth: '245px'
+    });
+
+    $('#format').multiselect({
+        includeSelectAllOption: true
+    });
 }

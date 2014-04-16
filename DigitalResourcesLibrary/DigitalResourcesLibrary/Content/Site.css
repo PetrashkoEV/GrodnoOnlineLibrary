@@ -136,3 +136,8 @@ background-position:-11px 0;
 background-repeat:no-repeat;
 cursor:pointer;
 }
+
+
+.dropdown-menu .multiselect-search {
+    margin-right: 12px;
+}

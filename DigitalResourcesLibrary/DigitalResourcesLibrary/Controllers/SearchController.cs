@@ -15,6 +15,7 @@ namespace DigitalResourcesLibrary.Controllers
     public class SearchController : Controller
     {
         private readonly ISearchServices _searchServices = new SearchServices();
+        private readonly ITagService _tagService = new TagService();
 
         public ActionResult Index()
         {
@@ -97,5 +98,28 @@ namespace DigitalResourcesLibrary.Controllers
             return Json(new { query = search, suggestions = result }, JsonRequestBehavior.AllowGet);
         }
 
+        public ActionResult AdvancedSearch()
+        {
+            var model = new AdvancedSearchViewModel
+            {
+                Tags = _tagService.GetAllTags(),
+                FormatDocuments = new List<FileType>
+                {
+                    FileType.Audio,
+                    FileType.Document,
+                    FileType.Image,
+                    FileType.Other,
+                    FileType.Video
+                }
+            };
+
+            return View(model);
+        }
+
+        [HttpPost]
+        public ActionResult AdvancedSearch(AdvancedSearchViewModel model)
+        {
+            return View("Index");
+        }
     }
 }

@@ -151,6 +151,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\AdvancedSearchViewModel.cs" />
     <Compile Include="Models\BaseSearchModel.cs" />
     <Compile Include="Models\SearchViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -172,6 +173,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\Style.css" />
+    <Content Include="Content\themes\bootstrap\bootstrap-multiselect.css" />
     <Content Include="Content\themes\bootstrap\bootstrap.css" />
     <Content Include="Content\themes\bootstrap\bootstrap.min.css" />
     <Content Include="Content\themes\bootstrap\audio.css" />
@@ -202,6 +204,7 @@
     <Content Include="Content\Site.css" />
     <None Include="Scripts\jquery-1.8.2.intellisense.js" />
     <Content Include="Scripts\audioplayer.js" />
+    <Content Include="Scripts\Bootstrap\bootstrap-multiselect.js" />
     <Content Include="Scripts\Bootstrap\bootstrap.js" />
     <Content Include="Scripts\Bootstrap\bootstrap.min.js" />
     <Content Include="Scripts\jquery-1.8.2.js" />
@@ -249,6 +252,7 @@
     <Content Include="Views\Documents\OpenFile\VideoFile.cshtml" />
     <Content Include="Views\Documents\OpenFile\AudioFile.cshtml" />
     <Content Include="Views\Documents\OpenFile\DocumentFile.cshtml" />
+    <Content Include="Views\Search\AdvancedSearch.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

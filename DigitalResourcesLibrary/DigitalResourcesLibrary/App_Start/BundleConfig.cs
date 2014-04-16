@@ -29,6 +29,7 @@ namespace DigitalResourcesLibrary
             bundles.Add(new ScriptBundle("~/bundles/audioplayer").Include(
                         "~/Scripts/audioplayer.js",
                         "~/Scripts/jquery.autocomplete.js",
+                        "~/Scripts/Bootstrap/bootstrap-multiselect.js",
                         "~/Scripts/ul-drop.js"));
 
             bundles.Add(new ScriptBundle("~/bundles/loadpage").Include(
@@ -37,6 +38,7 @@ namespace DigitalResourcesLibrary
             bundles.Add(new StyleBundle("~/Content/css").Include(
                         "~/Content/themes/bootstrap/bootstrap.css",
                         "~/Content/themes/bootstrap/audio.css",
+                        "~/Content/themes/bootstrap/bootstrap-multiselect.css",
                         "~/Content/Site.css",
                         "~/Content/Style.css"));
 

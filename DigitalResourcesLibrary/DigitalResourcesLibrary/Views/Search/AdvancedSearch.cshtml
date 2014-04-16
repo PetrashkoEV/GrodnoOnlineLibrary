@@ -1,0 +1,41 @@
+﻿@model DigitalResourcesLibrary.Models.AdvancedSearchViewModel
+@{
+    ViewBag.Title = "Posts";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div id="posts">
+    @using (Html.BeginForm())
+    {
+        <div class="navbar">
+            <div class="navbar-inner">
+                <form class="navbar-search pull-left">
+                    @Html.TextBoxFor(model => model.TextSearch, null, new
+                    {
+                        @class = "search-query",
+                        placeholder = "Search",
+                        id = "autocompleteRepository"
+                    })
+                </form>
+                <button class="btn" type="submit">@ViewRes.Resource.Shared_Menu_Search</button>
+            </div>
+        </div>
+    }
+    
+    <select id="tags" class="multiselect" multiple="multiple">
+        <option value="multiselect-all"> Select all</option>
+        @foreach (var tag in Model.Tags)
+        {
+            <option value="@tag.Name">@tag.Name</option>
+        }
+    </select>
+    
+    <select id="format" class="multiselect" multiple="multiple">
+        @foreach (var tag in Model.FormatDocuments)
+        {
+            <option value="@tag.ToString()">@tag.ToString()</option>
+        }
+    </select>
+   
+</div>
+@Html.Partial("Template/LeftPanel", Model.Categories)
+<div style="clear: both;"></div>
