@@ -16,26 +16,29 @@
                         id = "autocompleteRepository"
                     })
                 </form>
+                @Html.TextBoxFor(item => item.FormatDocSelect, null, new { @class = "documentsSelect" })
+                @Html.TextBoxFor(item => item.TagSelect, null, new { @class = "tagSelect" })
                 <button class="btn" type="submit">@ViewRes.Resource.Shared_Menu_Search</button>
             </div>
         </div>
+       
     }
-    
-    <select id="tags" class="multiselect" multiple="multiple">
-        <option value="multiselect-all"> Select all</option>
-        @foreach (var tag in Model.Tags)
-        {
-            <option value="@tag.Name">@tag.Name</option>
-        }
-    </select>
-    
-    <select id="format" class="multiselect" multiple="multiple">
-        @foreach (var tag in Model.FormatDocuments)
-        {
-            <option value="@tag.ToString()">@tag.ToString()</option>
-        }
-    </select>
-   
-</div>
+
+        <select id="tags" class="multiselect" multiple="multiple">
+            <option value="multiselect-all"> Select all</option>
+            @foreach (var tag in Model.Tags)
+            {
+                <option value="@tag.Name">@tag.Name</option>
+            }
+        </select>
+
+        <select id="format" class="multiselect" multiple="multiple">
+            @foreach (var doc in Model.FormatDocuments)
+            {
+                <option value="@doc.ToString()">@doc.ToString()</option>
+            }
+        </select>
+
+    </div>
 @Html.Partial("Template/LeftPanel", Model.Categories)
 <div style="clear: both;"></div>

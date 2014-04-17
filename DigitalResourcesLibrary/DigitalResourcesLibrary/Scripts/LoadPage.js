@@ -36,10 +36,12 @@
         enableCaseInsensitiveFiltering: true,
         numberDisplayed: 5,
         maxHeight: 250,
-        buttonWidth: '245px'
+        buttonWidth: '245px',
+        inputContainer: '.tagSelect'
     });
 
     $('#format').multiselect({
-        includeSelectAllOption: true
+        includeSelectAllOption: true,
+        inputContainer: '.documentsSelect'
     });
 }

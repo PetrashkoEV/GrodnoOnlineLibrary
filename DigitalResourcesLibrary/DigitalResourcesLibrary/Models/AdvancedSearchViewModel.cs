@@ -13,6 +13,10 @@ namespace DigitalResourcesLibrary.Models
 
         public List<TagModel> Tags { get; set; }
 
-        public List<FileType> FormatDocuments { get; set; } 
+        public List<FileType> FormatDocuments { get; set; }
+
+        public string TagSelect { get; set; }
+
+        public string FormatDocSelect { get; set; }
     }
 }

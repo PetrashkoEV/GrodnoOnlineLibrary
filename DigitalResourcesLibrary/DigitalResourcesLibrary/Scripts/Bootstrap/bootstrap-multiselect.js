@@ -157,6 +157,18 @@
                     return selected.substr(0, selected.length - 2);
                 }
             },
+            inputValues: function(options, select) {
+                if (options.length === 0) {
+                    return this.nonSelectedText;
+                }
+                else {
+                    var selected = '';
+                    options.each(function () {
+                        selected += $(this).text() + ';';
+                    });
+                    return selected.substr(0, selected.length - 1);
+                }
+            },
             /**
              * Create a label.
              * 
@@ -197,6 +209,7 @@
             selectedClass: 'active',
             buttonWidth: 'auto',
             buttonContainer: '<div class="btn-group" />',
+            inputContainer: '.tagValue',
             // Maximum height of the dropdown menu.
             // If maximum height is exceeded a scrollbar will be displayed.
             maxHeight: false,
@@ -897,6 +910,8 @@
             
             // Now update the title attribute of the button.
             $('button', this.$container).attr('title', this.options.buttonTitle(options, this.$select));
+
+            $(this.options.inputContainer).val(this.options.inputValues(options, this.$select));
 
         },
 
