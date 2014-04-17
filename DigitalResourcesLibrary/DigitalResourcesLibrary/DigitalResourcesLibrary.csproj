@@ -181,6 +181,9 @@
     <Content Include="Content\themes\images\bootstrap-mdo-sfmoma-01.jpg" />
     <Content Include="Content\themes\images\bootstrap-mdo-sfmoma-02.jpg" />
     <Content Include="Content\themes\images\bootstrap-mdo-sfmoma-03.jpg" />
+    <Content Include="Content\themes\images\bootstrap-mdo-sfmoma-04.jpg" />
+    <Content Include="Content\themes\images\bootstrap-mdo-sfmoma-05.jpg" />
+    <Content Include="Content\themes\images\bootstrap-mdo-sfmoma-06.jpg" />
     <Content Include="Content\themes\images\img01.jpg" />
     <Content Include="Content\themes\images\img02.jpg" />
     <Content Include="Content\themes\images\img03.jpg" />

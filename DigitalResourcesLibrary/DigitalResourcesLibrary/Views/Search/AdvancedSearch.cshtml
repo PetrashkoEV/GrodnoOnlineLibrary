@@ -35,7 +35,7 @@
         <select id="format" class="multiselect" multiple="multiple">
             @foreach (var doc in Model.FormatDocuments)
             {
-                <option value="@doc.ToString()">@doc.ToString()</option>
+                <option value="@doc">@doc</option>
             }
         </select>
 

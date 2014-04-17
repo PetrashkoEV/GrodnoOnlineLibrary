@@ -141,3 +141,7 @@ cursor:pointer;
 .dropdown-menu .multiselect-search {
     margin-right: 12px;
 }
+
+#FormatDocSelect, #TagSelect {
+    display:none;
+}

@@ -10,6 +10,11 @@ namespace DigitalResourcesLibrary.DataContext.Helper
 {
     public static class FileHelper
     {
+        /// <summary>
+        /// Get File type by name 
+        /// </summary>
+        /// <param name="type">Name type file</param>
+        /// <returns>File model</returns>
         public static FileType GeType(string type)
         {
             switch (type)
@@ -23,9 +28,14 @@ namespace DigitalResourcesLibrary.DataContext.Helper
                 case "video/mp4":
                     return FileType.Video;
             }
-            return FileType.Other;
+            return FileType.SelectAll;
         }
 
+        /// <summary>
+        /// Get name type by FileType model
+        /// </summary>
+        /// <param name="type">FileType model</param>
+        /// <returns>name type</returns>
         public static string GeType(FileType type)
         {
             switch (type)
@@ -40,6 +50,16 @@ namespace DigitalResourcesLibrary.DataContext.Helper
                     return "video/mp4";
             }
             return "other";
+        }
+
+        /// <summary>
+        /// Get type by value
+        /// </summary>
+        /// <param name="id">Value model</param>
+        /// <returns>File model</returns>
+        public static FileType GeType(int id)
+        {
+            return (FileType) id;
         }
     }
 }

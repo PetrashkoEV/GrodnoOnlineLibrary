@@ -5,6 +5,7 @@ using System.Linq;
 using DigitalResourcesLibrary.DataContext.Enums;
 using DigitalResourcesLibrary.DataContext.Helper;
 using DigitalResourcesLibrary.DataContext.Interfaces;
+using DigitalResourcesLibrary.DataContext.Model;
 using DigitalResourcesLibrary.DataContext.Model.Documents;
 using MySqlContext.Concrete.Search;
 using MySqlContext.Interface.Search;
@@ -18,6 +19,7 @@ namespace DigitalResourcesLibrary.DataContext.Services
         private readonly IArticleService _articleService = new ArticleService();
         private readonly IStoreService _storeService = new StoreServices();
         private readonly ICategoryService _categoryService = new CategoryService();
+        private readonly ITagService _tagService = new TagService();
         private readonly int _countNewsOnPage = DocumentsHelper.CountNewsOnPage;
         private const int CountSumbolInSearchText = 40;
 
@@ -111,6 +113,11 @@ namespace DigitalResourcesLibrary.DataContext.Services
                 (int) Math.Ceiling((_articleService.CountArticle + _storeService.CountStore)/(double) _countNewsOnPage);
         }
 
+        public void AdvancedSearch(string textSearch, string tagSelect, string formatDocSelect)
+        {
+            var tags = _tagService.TagSelectSplit(tagSelect);
+            var typeDocuments = _tagService.FileTypeSplit(formatDocSelect);
+        }
         /// <summary>
         /// Based all list documents formation list to display the current page
         /// </summary>

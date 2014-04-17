@@ -37,5 +37,6 @@ namespace MySqlContext.Entities
         public DbSet<tag> tag { get; set; }
         public DbSet<tagloc> tagloc { get; set; }
         public DbSet<user> user { get; set; }
+        public DbSet<typefile> typefile { get; set; }
     }
 }

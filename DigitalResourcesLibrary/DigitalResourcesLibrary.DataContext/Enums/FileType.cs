@@ -2,10 +2,10 @@
 {
     public enum FileType
     {
-        Video = 0,
-        Audio = 1,
-        Document = 2,
-        Image = 3,
-        Other = 4
+        SelectAll = 0,
+        Document = 1,
+        Audio = 2,
+        Video = 3,
+        Image = 4
     }
 }

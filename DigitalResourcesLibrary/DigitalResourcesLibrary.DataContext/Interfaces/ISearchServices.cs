@@ -41,5 +41,13 @@ namespace DigitalResourcesLibrary.DataContext.Interfaces
         /// <param name="page">Number curent page</param>
         /// <returns>List Documents Model</returns>
         List<DocumentModel> SearchDocumentsByText(string searchText, int page);
+
+        /// <summary>
+        /// full-text search by category, tag, document format
+        /// </summary>
+        /// <param name="textSearch">Text search</param>
+        /// <param name="tagSelect">Tags</param>
+        /// <param name="formatDocSelect">Format returns document</param>
+        void AdvancedSearch(string textSearch, string tagSelect, string formatDocSelect);
     }
 }

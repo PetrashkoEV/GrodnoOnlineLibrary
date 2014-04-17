@@ -1,4 +1,4 @@
-﻿// Default code generation is disabled for model 'C:\Users\Ridiculous_Genius\Desktop\DigitalResourcesLibrary\DigitalResourcesLibrary\MySqlContext\Entities\Libdb.edmx'. 
+﻿// Default code generation is disabled for model 'E:\Diplom\GrodnoOnlineLibrary\DigitalResourcesLibrary\MySqlContext\Entities\Libdb.edmx'. 
 // To enable default code generation, change the value of the 'Code Generation Strategy' designer
 // property to an alternate value. This property is available in the Properties Window when the model is
 // open in the designer.

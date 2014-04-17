@@ -103,14 +103,7 @@ namespace DigitalResourcesLibrary.Controllers
             var model = new AdvancedSearchViewModel
             {
                 Tags = _tagService.GetAllTags(),
-                FormatDocuments = new List<FileType>
-                {
-                    FileType.Audio,
-                    FileType.Document,
-                    FileType.Image,
-                    FileType.Other,
-                    FileType.Video
-                }
+                FormatDocuments = _tagService.GetAllFileType()
             };
 
             return View(model);
@@ -119,6 +112,7 @@ namespace DigitalResourcesLibrary.Controllers
         [HttpPost]
         public ActionResult AdvancedSearch(AdvancedSearchViewModel model)
         {
+            _searchServices.AdvancedSearch(model.TextSearch, model.TagSelect, model.FormatDocSelect);
             return View("Index");
         }
     }

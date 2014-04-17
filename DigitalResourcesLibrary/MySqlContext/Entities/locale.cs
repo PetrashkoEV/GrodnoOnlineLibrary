@@ -20,6 +20,7 @@ namespace MySqlContext.Entities
             this.categoryloc = new HashSet<categoryloc>();
             this.storeloc = new HashSet<storeloc>();
             this.tagloc = new HashSet<tagloc>();
+            this.typefile = new HashSet<typefile>();
         }
     
         public int id { get; set; }
@@ -30,5 +31,6 @@ namespace MySqlContext.Entities
         public virtual ICollection<categoryloc> categoryloc { get; set; }
         public virtual ICollection<storeloc> storeloc { get; set; }
         public virtual ICollection<tagloc> tagloc { get; set; }
+        public virtual ICollection<typefile> typefile { get; set; }
     }
 }
