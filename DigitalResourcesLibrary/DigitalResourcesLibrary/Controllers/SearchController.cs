@@ -112,8 +112,24 @@ namespace DigitalResourcesLibrary.Controllers
         [HttpPost]
         public ActionResult AdvancedSearch(AdvancedSearchViewModel model)
         {
-            _searchServices.AdvancedSearch(model.TextSearch, model.TagSelect, model.FormatDocSelect);
-            return View("Index");
+            return AdvancedSearchResult(model.TextSearch, model.TagSelect, model.FormatDocSelect, 1);
+        }
+
+        public ActionResult AdvancedSearchResult(string textSearch, string tagSelect, string formatDocSelect, int page)
+        {
+            if (page < 1)
+                page = 1;
+
+            var model = new AdvancedSearchViewModel
+            {
+                TextSearch = textSearch,
+                TagSelect = tagSelect,
+                FormatDocSelect = formatDocSelect,
+                Documents = _searchServices.AdvancedSearch(textSearch, tagSelect, formatDocSelect, 1, page),
+                CountPages = _searchServices.CountPages(),
+                VisitedPage = page
+            };
+            return View("AdvancedSearchResult", model);
         }
     }
 }

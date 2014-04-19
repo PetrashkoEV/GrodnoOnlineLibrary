@@ -41,6 +41,40 @@ namespace MySqlContext.Concrete.Search
             return RunQuery(query);
         }
 
+        public List<SphinxSearchResult> AdvancedSearch(List<int> tagId, List<long> categoryId, string searchString)
+        {
+            var query = "SELECT * " +
+                        "FROM SearchRepository WHERE";
+
+            if (searchString !=null && searchString.Count() != 0)
+            {
+                query += " match('*" + searchString + "*')";
+            }
+            else
+            {
+                query += " match('')";
+            }
+
+            if (tagId.Count != 0)
+            {
+                query += " and tagid in (";
+                query = tagId.Aggregate(query, (current, tag) => current + (tag + ", "));
+                query = query.Remove(query.Count() - 2);
+                query += ")";
+            }
+
+            if (categoryId != null && categoryId.Count != 0)
+            {
+                query += " and categoryId in (";
+                query = categoryId.Aggregate(query, (current, category) => current + (category + ", "));
+                query = query.Remove(query.Count() - 2);
+                query += ")";
+            }
+            query += ";";
+
+            return RunQuery(query);
+        }
+
         private List<SphinxSearchResult> RunQuery(string query)
         {
             var result = new List<SphinxSearchResult>();

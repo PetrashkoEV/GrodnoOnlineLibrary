@@ -165,6 +165,9 @@
   <data name="Shared_Menu_About" xml:space="preserve">
     <value>О Проекте</value>
   </data>
+  <data name="Shared_Menu_AdvancedSearch" xml:space="preserve">
+    <value>Расширеный поиск</value>
+  </data>
   <data name="Shared_Menu_Article" xml:space="preserve">
     <value>Статьи</value>
   </data>

@@ -113,26 +113,58 @@ namespace DigitalResourcesLibrary.DataContext.Services
                 (int) Math.Ceiling((_articleService.CountArticle + _storeService.CountStore)/(double) _countNewsOnPage);
         }
 
-        public void AdvancedSearch(string textSearch, string tagSelect, string formatDocSelect)
+        public List<DocumentModel> AdvancedSearch(string textSearch, string tagSelect, string formatDocSelect, 
+                                                    int categoryId, int page)
         {
-            var tags = _tagService.TagSelectSplit(tagSelect);
+            var tagsId = _tagService.TagSelectSplit(tagSelect).Select(item => item.Id).ToList();
+            var category = _categoryService.GetIdAllSybCategory(categoryId);
             var typeDocuments = _tagService.FileTypeSplit(formatDocSelect);
+
+            var allSearchList = _searchRepository.AdvancedSearch(tagsId, category, textSearch);
+
+            var articleIdList = new List<int>();
+            var storeIdList = new List<int>();
+            foreach (var searchResult in allSearchList)
+            {
+                var type = TypeDocumentsHelper.GeTypeDocument(searchResult.TypeDocument);
+                switch (type)
+                {
+                    case TypeDocument.Article:
+                        articleIdList.Add(searchResult.Id);
+                        break;
+                    case TypeDocument.Store:
+                        storeIdList.Add(searchResult.Id);
+                        break;
+                }
+            }
+
+            var allCollectionResult = new List<DocumentModel>();
+            allCollectionResult.AddRange(_articleService.FindByArticleId(articleIdList, page)); // all article entries with the List Id
+            allCollectionResult.AddRange(_storeService.FindByStoreId(articleIdList, page)); // all store entries with the List Id
+
+            return CreationDocumentsToDisplay(allCollectionResult, page, typeDocuments);
         }
+
         /// <summary>
         /// Based all list documents formation list to display the current page
         /// </summary>
         /// <param name="listDocumentModels">Full list of documents</param>
         /// <param name="page">Number of page</param>
         /// <returns>List of documents suitable for display on the page</returns>
-        private List<DocumentModel> CreationDocumentsToDisplay(IEnumerable<DocumentModel> listDocumentModels, int page)
+        private List<DocumentModel> CreationDocumentsToDisplay(IEnumerable<DocumentModel> listDocumentModels, int page, List<FileType> fileTypes = null)
         {
             var result = listDocumentModels
                 .OrderByDescending(item => item.ModifiedDate)
                 .Skip(_countNewsOnPage * (page - 1))
-                .Where(item =>
-                        (item.TypeDocument == TypeDocument.Article) ||
-                        (_storeService.FindContentStoreById(item.Id).Title != null))
-                .Take(_countNewsOnPage).ToList();
+                .Where(item => (item.TypeDocument == TypeDocument.Article) || 
+                    (_storeService.FindContentStoreById(item.Id).Title != null));
+
+            if (fileTypes != null && fileTypes.Count != 0)
+            {
+                result = result.Where(item => fileTypes.Contains(item.Type));
+            }
+
+            result = result.Take(_countNewsOnPage).ToList();
 
             foreach (var documentModel in result)
             {
@@ -143,7 +175,7 @@ namespace DigitalResourcesLibrary.DataContext.Services
                     documentModel.Description = store.Description;
                 }
             }
-            return result;
+            return (List<DocumentModel>) result;
         }
 
         private int GetPositionSearchText(SphinxSearchResult autoCompliteResult, string search, ref bool matchFoundInTitle)

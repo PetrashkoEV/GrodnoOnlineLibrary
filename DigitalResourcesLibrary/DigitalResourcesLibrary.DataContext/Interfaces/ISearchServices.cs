@@ -48,6 +48,8 @@ namespace DigitalResourcesLibrary.DataContext.Interfaces
         /// <param name="textSearch">Text search</param>
         /// <param name="tagSelect">Tags</param>
         /// <param name="formatDocSelect">Format returns document</param>
-        void AdvancedSearch(string textSearch, string tagSelect, string formatDocSelect);
+        /// <param name="categoryId">category</param>
+        /// <param name="page">Number curent page</param>
+        List<DocumentModel> AdvancedSearch(string textSearch, string tagSelect, string formatDocSelect, int categoryId, int page);
     }
 }

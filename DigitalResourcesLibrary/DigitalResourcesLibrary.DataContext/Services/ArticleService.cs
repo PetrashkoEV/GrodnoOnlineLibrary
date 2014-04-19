@@ -84,6 +84,7 @@ namespace DigitalResourcesLibrary.DataContext.Services
                         Description = articleLoc.description,
                         Title = articleLoc.title,
                         Locale = _curentLocate,
+                        Type = FileType.Document
                     });
                 }
             }

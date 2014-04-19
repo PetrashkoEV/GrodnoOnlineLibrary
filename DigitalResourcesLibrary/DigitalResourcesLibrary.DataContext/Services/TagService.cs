@@ -49,10 +49,6 @@ namespace DigitalResourcesLibrary.DataContext.Services
                                        Name = item.Name
                                    }));
             }
-            if (result.Count == 0) // search by all tag
-            {
-                result = fullListTags;
-            }
             return result;
         }
 

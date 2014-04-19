@@ -1,0 +1,58 @@
+﻿@using DigitalResourcesLibrary.DataContext.Enums
+@model DigitalResourcesLibrary.Models.AdvancedSearchViewModel
+
+<div class="pagination">
+    <ul>
+        @if (Model.VisitedPage == 1)
+        {
+            <li class="disabled"><a><</a></li>
+        }
+        else
+        {
+            <li>@Html.ActionLink("<", "AdvancedSearchResult", new
+                {
+                    textSearch = Model.TextSearch,
+                    tagSelect = Model.TagSelect,
+                    formatDocSelect = Model.FormatDocSelect,
+                    page = 1
+                }, null)</li>
+        }
+
+        @for (int i = 1; i <= Model.CountPages; i++)
+        {
+            if (i == Model.VisitedPage)
+            {
+                <li class='active'><a href="#">@i.ToString()</a></li>
+            }
+            else
+            { 
+                <li>@Html.ActionLink(i.ToString(), "AdvancedSearchResult", new
+                    {
+                        textSearch = Model.TextSearch,
+                        tagSelect = Model.TagSelect,
+                        formatDocSelect = Model.FormatDocSelect,
+                        page = i
+                    }, 
+                    null)
+                </li>
+            }
+        }
+
+        @if (Model.VisitedPage == Model.CountPages)
+        {
+            <li class="disabled"><a>></a></li>
+        }
+        else
+        {
+             <li>@Html.ActionLink(">", "AdvancedSearchResult", new
+                    {
+                        textSearch = Model.TextSearch,
+                        tagSelect = Model.TagSelect,
+                        formatDocSelect = Model.FormatDocSelect,
+                        page = Model.CountPages
+                    }, 
+                    null)
+                </li>
+        }
+    </ul>
+</div>

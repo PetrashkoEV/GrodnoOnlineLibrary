@@ -256,6 +256,8 @@
     <Content Include="Views\Documents\OpenFile\AudioFile.cshtml" />
     <Content Include="Views\Documents\OpenFile\DocumentFile.cshtml" />
     <Content Include="Views\Search\AdvancedSearch.cshtml" />
+    <Content Include="Views\Search\AdvancedSearchResult.cshtml" />
+    <Content Include="Views\Search\SearchTemplate\PaginationAdvancedTemplate.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

@@ -31,7 +31,8 @@ namespace MySqlContext.Concrete.Store
             return Entity.Where(item => item.store == id && item.locale == locateId).Select(item => new storeloclight
             {
                 title = item.title,
-                description = item.description
+                description = item.description,
+                type = item.type
             }).FirstOrDefault();
         }
     }

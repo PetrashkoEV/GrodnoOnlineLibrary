@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 using MySqlContext.Model;
 
 namespace MySqlContext.Interface.Search
@@ -22,5 +18,14 @@ namespace MySqlContext.Interface.Search
         /// <param name="searchString">String search</param>
         /// <returns>All items</returns>
         List<SphinxSearchResult> SearchText(string searchString);
+
+        /// <summary>
+        /// Advanced Search by tag, category
+        /// </summary>
+        /// <param name="tagId">Search id tags list</param>
+        /// <param name="categoryId">Search id category list</param>
+        /// <param name="searchString">String search</param>
+        /// <returns>All items</returns>
+        List<SphinxSearchResult> AdvancedSearch(List<int> tagId, List<long> categoryId, string searchString);
     }
 }

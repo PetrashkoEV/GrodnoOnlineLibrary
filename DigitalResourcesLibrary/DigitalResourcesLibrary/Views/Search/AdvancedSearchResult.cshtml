@@ -1,4 +1,4 @@
-﻿@model DigitalResourcesLibrary.Models.SearchViewModel
+﻿@model DigitalResourcesLibrary.Models.AdvancedSearchViewModel
 @{
     ViewBag.Title = "Posts";
     Layout = "~/Views/Shared/_Layout.cshtml";
@@ -10,11 +10,15 @@
         <div class="navbar">
             <div class="navbar-inner">
                 <form class="navbar-search pull-left">
-                    @Html.TextBoxFor(model => model.SearchModel.SearchText, null, new
+                    @Html.TextBoxFor(model => model.TextSearch, null, new
                     {
-                        @class = "search-query", placeholder = "Search", id = "autocompleteRepository"
+                        @class = "search-query",
+                        placeholder = "Search",
+                        id = "autocompleteRepository"
                     })
                 </form>
+                @Html.TextBoxFor(item => item.FormatDocSelect, null, new { @class = "documentsSelect" })
+                @Html.TextBoxFor(item => item.TagSelect, null, new { @class = "tagSelect" })
                 <button class="btn" type="submit">@ViewRes.Resource.Shared_Menu_Search</button>
                 @Html.ActionLink(ViewRes.Resource.Shared_Menu_AdvancedSearch, "AdvancedSearch", null, new {@class = "btn btn-primary"})
             </div>
@@ -27,7 +31,7 @@
         {
             @Html.Partial("SearchTemplate/DocumentTemplate", item)
         }
-        @Html.Partial("SearchTemplate/PaginationTemplate", Model)
+        @Html.Partial("SearchTemplate/PaginationAdvancedTemplate", Model)
     }
     else
     {

@@ -178,6 +178,15 @@ namespace ViewRes {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Advanced Search.
+        /// </summary>
+        public static string Shared_Menu_AdvancedSearch {
+            get {
+                return ResourceManager.GetString("Shared_Menu_AdvancedSearch", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Home.
         /// </summary>
         public static string Shared_Menu_Home {

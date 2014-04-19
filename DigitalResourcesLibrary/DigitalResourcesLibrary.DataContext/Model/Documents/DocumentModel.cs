@@ -16,5 +16,7 @@ namespace DigitalResourcesLibrary.DataContext.Model.Documents
         public string Title { get; set; }
 
         public DateTime ModifiedDate { get; set; }
+
+        public FileType Type { get; set; }
     }
 }

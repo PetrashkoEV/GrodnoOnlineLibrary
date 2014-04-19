@@ -98,7 +98,8 @@ namespace DigitalResourcesLibrary.DataContext.Services
                 result = new DocumentModel
                 {
                     Title = storeRes.title,
-                    Description = storeRes.description
+                    Description = storeRes.description,
+                    Type = FileHelper.GeType(storeRes.type)
                 };
             }
             return result;

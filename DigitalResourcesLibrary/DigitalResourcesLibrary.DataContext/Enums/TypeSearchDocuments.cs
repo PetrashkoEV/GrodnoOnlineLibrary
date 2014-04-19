@@ -4,6 +4,7 @@
     {
         Category = 0,
         Date = 1,
-        Text = 2
+        Text = 2,
+        Advanced = 3
     }
 }
