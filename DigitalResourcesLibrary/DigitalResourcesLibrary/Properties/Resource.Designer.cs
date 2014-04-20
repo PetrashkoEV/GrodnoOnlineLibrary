@@ -223,6 +223,15 @@ namespace ViewRes {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Tags.
+        /// </summary>
+        public static string Shared_Template_Tags_Title {
+            get {
+                return ResourceManager.GetString("Shared_Template_Tags_Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to http://librarygrodno.apphb.com.
         /// </summary>
         public static string Site_Domen {

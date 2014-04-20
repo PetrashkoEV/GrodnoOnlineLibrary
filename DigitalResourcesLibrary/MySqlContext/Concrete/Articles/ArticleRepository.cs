@@ -45,6 +45,5 @@ namespace MySqlContext.Concrete.Articles
             return result;
         }
 
-
     }
 }

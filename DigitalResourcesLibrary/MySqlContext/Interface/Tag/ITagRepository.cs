@@ -9,5 +9,7 @@ namespace MySqlContext.Interface.Tag
         {
             get;
         }
+
+        tag Find(int id);
     }
 }

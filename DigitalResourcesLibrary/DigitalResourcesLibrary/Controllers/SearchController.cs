@@ -92,6 +92,22 @@ namespace DigitalResourcesLibrary.Controllers
             return View("Index", result);
         }
 
+        public ActionResult SearchByTag(int searchValue, int page)
+        {
+            if (page < 1)
+                page = 1;
+
+            var result = new SearchViewModel
+            {
+                Documents = _searchServices.SearchDocumentByTag(searchValue, page),
+                TypeSearch = TypeSearchDocuments.Tag,
+                SearchValue = searchValue,
+                CountPages = _searchServices.CountPages(),
+                VisitedPage = page
+            };
+            return View("Index", result);
+        }
+
         public JsonResult AutoComplete(string search)
         {
             var result = _searchServices.AutoComplete(search);

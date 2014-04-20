@@ -47,19 +47,40 @@ namespace DigitalResourcesLibrary.DataContext.Services
         public List<DocumentModel> FindByCategoryes(List<long> allCategory, int page)
         {
             var listStoreAll = _storeRepository.FindByCategoryes(allCategory);
-            return CreationArticleToDisplay(listStoreAll, page);
+            return CreationArticleToDisplay(listStoreAll);
         }
 
         public List<DocumentModel> FindByDate(DateTime date, int page)
         {
             var listStoreAll = _storeRepository.FindByDate(date);
-            return CreationArticleToDisplay(listStoreAll, page);
+            return CreationArticleToDisplay(listStoreAll);
         }
 
         public List<DocumentModel> FindByStoreId(List<int> articleIds, int page)
         {
             var listStoreAll = _storeRepository.FindByIds(articleIds);
-            return CreationArticleToDisplay(listStoreAll, page);
+            return CreationArticleToDisplay(listStoreAll);
+        }
+
+        public List<DocumentModel> ConverListTagInDocumentModels(IEnumerable<store> storeListAlls)
+        {
+            return CreationArticleToDisplay(storeListAlls);
+        }
+
+        public DocumentModel FindContentStoreById(int id)
+        {
+            var storeRes = _storeLocateRepository.GetStoreByIdWithoutData(id, _curentLocate.GetHashCode());
+            var result = new DocumentModel();
+            if (storeRes != null)
+            {
+                result = new DocumentModel
+                {
+                    Title = storeRes.title,
+                    Description = storeRes.description,
+                    Type = FileHelper.GeType(storeRes.type)
+                };
+            }
+            return result;
         }
 
         /// <summary>
@@ -68,7 +89,7 @@ namespace DigitalResourcesLibrary.DataContext.Services
         /// <param name="listStoreAll">Full list of Store</param>
         /// <param name="page">Number of page</param>
         /// <returns>List of documents suitable for display on the page</returns>
-        private List<DocumentModel> CreationArticleToDisplay(IQueryable<store> listStoreAll, int page)
+        private List<DocumentModel> CreationArticleToDisplay(IEnumerable<store> listStoreAll)
         {
             var listDocuments = new List<DocumentModel>();
 
@@ -87,20 +108,5 @@ namespace DigitalResourcesLibrary.DataContext.Services
             return listDocuments;
         }
 
-        public DocumentModel FindContentStoreById(int id)
-        {
-            var storeRes = _storeLocateRepository.GetStoreByIdWithoutData(id, _curentLocate.GetHashCode());
-            var result = new DocumentModel();
-            if (storeRes != null)
-            {
-                result = new DocumentModel
-                {
-                    Title = storeRes.title,
-                    Description = storeRes.description,
-                    Type = FileHelper.GeType(storeRes.type)
-                };
-            }
-            return result;
-        }
     }
 }

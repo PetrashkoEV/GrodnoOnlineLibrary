@@ -51,5 +51,13 @@ namespace DigitalResourcesLibrary.DataContext.Interfaces
         /// <param name="categoryId">category</param>
         /// <param name="page">Number curent page</param>
         List<DocumentModel> AdvancedSearch(string textSearch, string tagSelect, string formatDocSelect, int categoryId, int page);
+
+        /// <summary>
+        /// Search all data (article, store table) by tag ID
+        /// </summary>
+        /// <param name="tagId">Identificator tag</param>
+        /// <param name="page">Number curent page</param>
+        /// <returns>List Documents Model</returns>
+        List<DocumentModel> SearchDocumentByTag(int tagId, int page);
     }
 }

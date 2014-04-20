@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using DigitalResourcesLibrary.DataContext.Model.Documents;
+using MySqlContext.Entities;
 
 namespace DigitalResourcesLibrary.DataContext.Interfaces
 {
@@ -51,5 +52,12 @@ namespace DigitalResourcesLibrary.DataContext.Interfaces
         /// <param name="page">Number curent page</param>
         /// <returns>List all Store data</returns>
         List<DocumentModel> FindByStoreId(List<int> articleIds, int page);
+
+        /// <summary>
+        /// Сonversion List Tag In Document Models
+        /// </summary>
+        /// <param name="storeListAlls">List all store</param>
+        /// <returns>List all article data</returns>
+        List<DocumentModel> ConverListTagInDocumentModels(IEnumerable<store> storeListAlls);
     }
 }

@@ -1,8 +1,7 @@
-﻿@using DigitalResourcesLibrary.DataContext.Enums
-@model DigitalResourcesLibrary.Models.AdvancedSearchViewModel
+﻿@model DigitalResourcesLibrary.Models.AdvancedSearchViewModel
 
 @{
-    var countLeftAndRight = 3;
+    var countLeftAndRight = 2;
 
     var start = 1;
     var countPages = Model.CountPages;
@@ -24,7 +23,7 @@
     }
     
 }
-<div class="pagination">
+<div class="pagination pagination-centered">
     <ul>
         @if (Model.VisitedPage == 1)
         {
@@ -40,16 +39,19 @@
                     page = 1
                 }, null)</li>
         }
-
-        <li>@Html.ActionLink("1", "AdvancedSearchResult", new
-                    {
-                        textSearch = Model.TextSearch,
-                        tagSelect = Model.TagSelect,
-                        formatDocSelect = Model.FormatDocSelect,
-                        page = 1
-                    },
+        
+        @if (start > 1)
+        {
+            <li>@Html.ActionLink("1", "AdvancedSearchResult", new
+                {
+                    textSearch = Model.TextSearch,
+                    tagSelect = Model.TagSelect,
+                    formatDocSelect = Model.FormatDocSelect,
+                    page = 1
+                },
                     null)
-        </li>
+            </li>
+        }
 
         @if (Model.VisitedPage - countLeftAndRight > 2)
         {
@@ -68,7 +70,7 @@
         {
             if (i == Model.VisitedPage)
             {
-            <li class='active'><a href="#">@i.ToString()</a></li>
+                <li class='active'><a href="javascript:void(0);">@i.ToString()</a></li>
             }
             else
             { 

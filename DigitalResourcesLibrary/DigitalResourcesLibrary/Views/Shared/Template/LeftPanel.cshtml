@@ -1,4 +1,4 @@
-﻿@model List<DigitalResourcesLibrary.DataContext.Model.CategoryModel>
+﻿@model DigitalResourcesLibrary.Models.BaseSearchModel
 @using System.Globalization
 @using DigitalResourcesLibrary.DataContext.Helper
 @{
@@ -29,7 +29,17 @@
     <div class="block">
         <h2>@ViewRes.Resource.Shared_Template_Categories_Title</h2>
         <ul class="ul-treefree ul-dropfree">
-            @Html.Partial("Template/CategoryRecursion", Model)
+            @Html.Partial("Template/CategoryRecursion", Model.Categories)
         </ul>
+    </div>
+    <div class="block">
+        <h2>@ViewRes.Resource.Shared_Template_Tags_Title</h2>
+        <div class="tags">
+            @foreach (var item in Model.Tags)
+            {
+                @Html.ActionLink(item.Name, "SearchByTag", "Search", new {searchValue = item.Id, page = 1 }, new {@class = "label label-info"}) 
+                @Html.Raw("&nbsp;")
+            }
+        </div>
     </div>
 </div>

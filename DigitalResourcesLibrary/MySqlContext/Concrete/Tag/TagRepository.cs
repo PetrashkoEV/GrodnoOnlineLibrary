@@ -19,5 +19,10 @@ namespace MySqlContext.Concrete.Tag
                 return _dataContext.tag;
             }
         }
+
+        public tag Find(int id)
+        {
+            return Entity.Find(id);
+        }
     }
 }

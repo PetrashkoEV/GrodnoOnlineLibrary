@@ -43,28 +43,32 @@ namespace DigitalResourcesLibrary.DataContext.Services
         public List<DocumentModel> FindByCategoryes(List<long> allCategory, int page)
         {
             var articleListAll = _articleRepository.FindByCategoryes(allCategory);
-            return CreationArticleToDisplay(articleListAll, page);
+            return CreationArticleToDisplay(articleListAll);
         }
 
         public List<DocumentModel> FindByDate(DateTime date, int page)
         {
             var articleListAll = _articleRepository.FindByDate(date);
-            return CreationArticleToDisplay(articleListAll, page);
+            return CreationArticleToDisplay(articleListAll);
         }
 
         public List<DocumentModel> FindByArticleId(List<int> articleIds, int page)
         {
             var articleListAll = _articleRepository.FindByIds(articleIds);
-            return CreationArticleToDisplay(articleListAll, page);
+            return CreationArticleToDisplay(articleListAll);
+        }
+
+        public List<DocumentModel> ConverListTagInDocumentModels(IEnumerable<article> articleListAlls)
+        {
+            return CreationArticleToDisplay(articleListAlls);
         }
 
         /// <summary>
         /// Based articleList formation documents to display the current page
         /// </summary>
         /// <param name="articleListAll">Full list of articles</param>
-        /// <param name="page">Number of page</param>
         /// <returns>List of documents suitable for display on the page</returns>
-        private List<DocumentModel> CreationArticleToDisplay(IQueryable<article> articleListAll, int page)
+        private List<DocumentModel> CreationArticleToDisplay(IEnumerable<article> articleListAll)
         {
             var listDocuments = new List<DocumentModel>();
             int curentLocateId = _curentLocate.GetHashCode();

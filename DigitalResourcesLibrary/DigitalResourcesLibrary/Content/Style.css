@@ -148,9 +148,6 @@ a:hover {
 	font-size: smaller;
 }
 
-#posts ul {
-}
-
 #posts ul li {
 }
 
@@ -177,7 +174,7 @@ a:hover {
     height: auto;
 }
 
-#links .block ul.categories {
+#links .block ul.categories, .tags {
 	padding: 15px 20px 30px 20px;
 	background: url(themes/images/img08.jpg) repeat-x;
 }

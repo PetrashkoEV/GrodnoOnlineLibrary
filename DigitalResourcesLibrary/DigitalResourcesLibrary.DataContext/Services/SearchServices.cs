@@ -8,7 +8,9 @@ using DigitalResourcesLibrary.DataContext.Interfaces;
 using DigitalResourcesLibrary.DataContext.Model;
 using DigitalResourcesLibrary.DataContext.Model.Documents;
 using MySqlContext.Concrete.Search;
+using MySqlContext.Concrete.Tag;
 using MySqlContext.Interface.Search;
+using MySqlContext.Interface.Tag;
 using MySqlContext.Model;
 
 namespace DigitalResourcesLibrary.DataContext.Services
@@ -16,6 +18,7 @@ namespace DigitalResourcesLibrary.DataContext.Services
     public class SearchServices : ISearchServices
     {
         private readonly ISearchRepository _searchRepository = new SearchRepository();
+        private readonly ITagRepository _tagRepository = new TagRepository();
         private readonly IArticleService _articleService = new ArticleService();
         private readonly IStoreService _storeService = new StoreServices();
         private readonly ICategoryService _categoryService = new CategoryService();
@@ -115,6 +118,16 @@ namespace DigitalResourcesLibrary.DataContext.Services
             return CreationDocumentsToDisplay(allCollectionResult, page);
         }
 
+        public List<DocumentModel> SearchDocumentByTag(int tagId, int page)
+        {
+            var allCollectionResult = new List<DocumentModel>();
+            var tag = _tagRepository.Find(tagId);
+
+            allCollectionResult.AddRange(_articleService.ConverListTagInDocumentModels(tag.article));
+            allCollectionResult.AddRange(_storeService.ConverListTagInDocumentModels(tag.store));
+            return CreationDocumentsToDisplay(allCollectionResult, page);
+        }
+
         public int CountPages()
         {
             return
@@ -158,6 +171,7 @@ namespace DigitalResourcesLibrary.DataContext.Services
         /// </summary>
         /// <param name="listDocumentModels">Full list of documents</param>
         /// <param name="page">Number of page</param>
+        /// <param name="fileTypes">File types for sorting</param>
         /// <returns>List of documents suitable for display on the page</returns>
         private List<DocumentModel> CreationDocumentsToDisplay(IEnumerable<DocumentModel> listDocumentModels, int page, List<FileType> fileTypes = null)
         {
