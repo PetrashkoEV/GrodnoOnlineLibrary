@@ -1,4 +1,4 @@
-﻿@model DigitalResourcesLibrary.DataContext.Model.Documents.ArticleModel
+﻿@model DigitalResourcesLibrary.Models.ArticleViewModel
 @{
     ViewBag.Title = "Post";
     Layout = "~/Views/Shared/_Layout.cshtml";
@@ -10,5 +10,5 @@
         @Html.Raw(Model.Content)
     </div>
 </div>
-@Html.Partial("Template/LeftPanel", Model.Categories)
+@Html.Partial("Template/LeftPanel", Model)
 <div style="clear: both;"></div>

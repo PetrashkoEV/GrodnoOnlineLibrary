@@ -156,4 +156,10 @@
   <data name="Site_Name" xml:space="preserve">
     <value>Библиотека Гродно</value>
   </data>
+  <data name="Site_Name_Body" xml:space="preserve">
+    <value>Гродна - інфармація для ўсіх</value>
+  </data>
+  <data name="Site_Name_Header" xml:space="preserve">
+    <value>Электронная бібліятэка</value>
+  </data>
 </root>

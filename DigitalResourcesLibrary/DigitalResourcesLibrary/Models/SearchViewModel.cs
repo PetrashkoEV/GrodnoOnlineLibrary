@@ -1,13 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 using DigitalResourcesLibrary.DataContext.Enums;
-using DigitalResourcesLibrary.DataContext.Interfaces;
 using DigitalResourcesLibrary.DataContext.Model;
 using DigitalResourcesLibrary.DataContext.Model.Documents;
-using DigitalResourcesLibrary.DataContext.Services;
 
 namespace DigitalResourcesLibrary.Models
 {

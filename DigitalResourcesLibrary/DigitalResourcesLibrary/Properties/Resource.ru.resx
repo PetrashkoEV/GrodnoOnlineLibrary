@@ -189,4 +189,10 @@
   <data name="Site_Name" xml:space="preserve">
     <value>Гродно - информация для всех</value>
   </data>
+  <data name="Site_Name_Body" xml:space="preserve">
+    <value>Гродно - информация для всех</value>
+  </data>
+  <data name="Site_Name_Header" xml:space="preserve">
+    <value>Электронная библиотека</value>
+  </data>
 </root>

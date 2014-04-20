@@ -248,5 +248,23 @@ namespace ViewRes {
                 return ResourceManager.GetString("Site_Name", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Grodno - Information for all.
+        /// </summary>
+        public static string Site_Name_Body {
+            get {
+                return ResourceManager.GetString("Site_Name_Body", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Electronic Library.
+        /// </summary>
+        public static string Site_Name_Header {
+            get {
+                return ResourceManager.GetString("Site_Name_Header", resourceCulture);
+            }
+        }
     }
 }

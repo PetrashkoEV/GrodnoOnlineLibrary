@@ -180,4 +180,10 @@
   <data name="Site_Name" xml:space="preserve">
     <value>Library Grodno</value>
   </data>
+  <data name="Site_Name_Body" xml:space="preserve">
+    <value>Grodno - Information for all</value>
+  </data>
+  <data name="Site_Name_Header" xml:space="preserve">
+    <value>Electronic Library</value>
+  </data>
 </root>

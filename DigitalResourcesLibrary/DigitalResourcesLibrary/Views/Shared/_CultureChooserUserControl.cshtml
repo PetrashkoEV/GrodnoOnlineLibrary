@@ -1,21 +1,44 @@
-﻿<div class="localization-flag">
+﻿@using DigitalResourcesLibrary.DataContext.Enums
+@using DigitalResourcesLibrary.DataContext.Helper
+<div class="localization-flag">
     <ul>
         <li>
             <a href="@Url.RouteUrl("", new RouteValueDictionary(new { action = "ChangeCulture", controller = "Localization", lang = "ru", returnUrl = this.Request.RawUrl })) " >
-                <img src="~/Content/themes/images/Russia.png" alt="Русский язык" 
-                    rel="tooltip" data-placement="bottom" data-original-title="Русский язык"/>
+                @if (LocalizationHelper.GetLocalizationLanguage() == Language.ru)
+                {
+                    <img src="~/Content/themes/images/Russia.png" alt="Русский язык" rel="tooltip" data-placement="bottom" data-original-title="Русский язык" class="cyrent-localization"/>
+                }
+                else
+                {
+                    <img src="~/Content/themes/images/Russia.png" alt="Русский язык" 
+                         rel="tooltip" data-placement="bottom" data-original-title="Русский язык"/>
+                }
             </a>
         </li>
         <li>
             <a href="@Url.RouteUrl("", new RouteValueDictionary(new { action = "ChangeCulture", controller = "Localization", lang = "be", returnUrl = this.Request.RawUrl }))">
-                <img src="~/Content/themes/images/Belarus.png" alt="Беларуская мова"
-                     rel="tooltip" data-placement="bottom" data-original-title="Беларуская мова"/>
+                @if (LocalizationHelper.GetLocalizationLanguage() == Language.be)
+                {
+                    <img src="~/Content/themes/images/Belarus.png" alt="Беларуская мова"
+                         rel="tooltip" data-placement="bottom" data-original-title="Беларуская мова" class="cyrent-localization"/>
+                }
+                else
+                {
+                     <img src="~/Content/themes/images/Belarus.png" alt="Беларуская мова" rel="tooltip" data-placement="bottom" data-original-title="Беларуская мова"/>
+                }
             </a>
         </li>
         <li>
             <a href="@Url.RouteUrl("", new RouteValueDictionary(new { action = "ChangeCulture", controller = "Localization", lang = "en", returnUrl = this.Request.RawUrl }))">
-                <img src="~/Content/themes/images/United-States.png" alt="English"
-                     rel="tooltip" data-placement="bottom" data-original-title="English"/>
+                @if (LocalizationHelper.GetLocalizationLanguage() == Language.en)
+                {
+                    <img src="~/Content/themes/images/United-States.png" alt="English"
+                         rel="tooltip" data-placement="bottom" data-original-title="English" class="cyrent-localization"/>
+                }
+                else
+                {
+                    <img src="~/Content/themes/images/United-States.png" alt="English" rel="tooltip" data-placement="bottom" data-original-title="English"/>
+                }
             </a>
         </li>
     </ul>

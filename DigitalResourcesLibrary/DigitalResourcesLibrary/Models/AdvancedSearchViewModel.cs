@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using DigitalResourcesLibrary.DataContext.Enums;
-using DigitalResourcesLibrary.DataContext.Model;
-using DigitalResourcesLibrary.DataContext.Model.Documents;
+﻿using System.Collections.Generic;
 
 namespace DigitalResourcesLibrary.Models
 {
