@@ -118,7 +118,6 @@ namespace DigitalResourcesLibrary.Controllers
         {
             var model = new AdvancedSearchViewModel
             {
-                Tags = _tagService.GetAllTags(),
                 FormatDocuments = _tagService.GetAllFileType()
             };
 

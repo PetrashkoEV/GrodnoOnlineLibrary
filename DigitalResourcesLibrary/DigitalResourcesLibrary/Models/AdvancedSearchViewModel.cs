@@ -10,9 +10,7 @@ namespace DigitalResourcesLibrary.Models
 {
     public class AdvancedSearchViewModel : SearchViewModel
     {
-        public List<TagModel> Tags { get; set; }
         public List<string> FormatDocuments { get; set; }
-
 
         public string TextSearch { get; set; }
         public string TagSelect { get; set; }
