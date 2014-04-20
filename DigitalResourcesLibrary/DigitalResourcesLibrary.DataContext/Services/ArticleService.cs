@@ -66,12 +66,9 @@ namespace DigitalResourcesLibrary.DataContext.Services
         /// <returns>List of documents suitable for display on the page</returns>
         private List<DocumentModel> CreationArticleToDisplay(IQueryable<article> articleListAll, int page)
         {
-            CountArticle = articleListAll.Count();
-            var articleList = articleListAll.Take(_countNewsOnPage * page);
-
             var listDocuments = new List<DocumentModel>();
             int curentLocateId = _curentLocate.GetHashCode();
-            foreach (var article in articleList)
+            foreach (var article in articleListAll)
             {
                 var articleLoc = article.articleloc.FirstOrDefault(item => item.locale == curentLocateId);
                 if (articleLoc != null)
@@ -88,6 +85,7 @@ namespace DigitalResourcesLibrary.DataContext.Services
                     });
                 }
             }
+            CountArticle = listDocuments.Count();
             return listDocuments;
         } 
     }

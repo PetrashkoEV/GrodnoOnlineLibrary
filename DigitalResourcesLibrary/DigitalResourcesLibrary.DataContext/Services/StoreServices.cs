@@ -70,14 +70,11 @@ namespace DigitalResourcesLibrary.DataContext.Services
         /// <returns>List of documents suitable for display on the page</returns>
         private List<DocumentModel> CreationArticleToDisplay(IQueryable<store> listStoreAll, int page)
         {
-            CountStore = listStoreAll.Count();
-            var listStore = listStoreAll.Take(_countNewsOnPage * page);
-
             var listDocuments = new List<DocumentModel>();
 
             // Data is not returned because it will increase the load on the database
             // this step is executed another question
-            foreach (var store in listStore)
+            foreach (var store in listStoreAll)
             {
                 listDocuments.Add(new DocumentModel
                 {
@@ -86,6 +83,7 @@ namespace DigitalResourcesLibrary.DataContext.Services
                     ModifiedDate = store.modified.Value,
                 });
             }
+            CountStore = listDocuments.Count();
             return listDocuments;
         }
 

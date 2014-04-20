@@ -41,7 +41,11 @@ namespace DigitalResourcesLibrary.DataContext.Services
                 string prefixText = fullString.Remove(position); // full text of the line to the desired combination of symbols
                 if (prefixText != "") //beginning of a word selection
                 {
-                    prefixText = prefixText.Remove(0, prefixText.LastIndexOf(" "));
+                    var removeIndex = prefixText.LastIndexOf(" ");
+                    if (removeIndex != -1)
+                    {
+                        prefixText = prefixText.Remove(0, removeIndex);
+                    }
                 }
 
                 string newText = prefixText + fullString.Substring(position, search.Count()); // the beginning and the root of the word
@@ -50,9 +54,13 @@ namespace DigitalResourcesLibrary.DataContext.Services
                 if (CountSumbolInSearchText - newText.Count() < completionText.Count())
                 {
                     completionText = completionText.Remove(CountSumbolInSearchText - newText.Count()); // trimming line
-                    completionText = completionText.Remove(completionText.LastIndexOf(" ")); //search word endings
+                    var removeIndex = completionText.LastIndexOf(" ");
+                    if (removeIndex != -1)
+                    {
+                        completionText = completionText.Remove(removeIndex); //search word endings
+                    }
                 }
-                
+
                 result.Add(newText + completionText);
             }
             return result;
@@ -110,10 +118,10 @@ namespace DigitalResourcesLibrary.DataContext.Services
         public int CountPages()
         {
             return
-                (int) Math.Ceiling((_articleService.CountArticle + _storeService.CountStore)/(double) _countNewsOnPage);
+                (int)Math.Ceiling((_articleService.CountArticle + _storeService.CountStore) / (double)_countNewsOnPage);
         }
 
-        public List<DocumentModel> AdvancedSearch(string textSearch, string tagSelect, string formatDocSelect, 
+        public List<DocumentModel> AdvancedSearch(string textSearch, string tagSelect, string formatDocSelect,
                                                     int categoryId, int page)
         {
             var tagsId = _tagService.TagSelectSplit(tagSelect).Select(item => item.Id).ToList();
@@ -156,7 +164,7 @@ namespace DigitalResourcesLibrary.DataContext.Services
             var result = listDocumentModels
                 .OrderByDescending(item => item.ModifiedDate)
                 .Skip(_countNewsOnPage * (page - 1))
-                .Where(item => (item.TypeDocument == TypeDocument.Article) || 
+                .Where(item => (item.TypeDocument == TypeDocument.Article) ||
                     (_storeService.FindContentStoreById(item.Id).Title != null));
 
             if (fileTypes != null && fileTypes.Count != 0)
@@ -175,7 +183,7 @@ namespace DigitalResourcesLibrary.DataContext.Services
                     documentModel.Description = store.Description;
                 }
             }
-            return (List<DocumentModel>) result;
+            return (List<DocumentModel>)result;
         }
 
         private int GetPositionSearchText(SphinxSearchResult autoCompliteResult, string search, ref bool matchFoundInTitle)
