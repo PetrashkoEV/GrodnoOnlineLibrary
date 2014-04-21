@@ -4,6 +4,28 @@
 @using DigitalResourcesLibrary.DataContext.Helper
 @model DigitalResourcesLibrary.DataContext.Model.Documents.DocumentModel
 
+@{
+    var logoputh = "/Content/themes/images/Document/";
+    switch (Model.Type)
+    {
+        case FileType.Document:
+            logoputh += "Document.png";
+            break;
+        case FileType.Audio:
+            logoputh += "Audio.png";
+            break;
+        case FileType.Image:
+            logoputh += "Image.png";
+            break;
+        case FileType.Video:
+            logoputh += "Video.png";
+            break;
+        default:
+            logoputh += "Default.png";
+            break;
+    }
+}
+
 @helper Truncate(string input, int length)
 {
     string inputstring = Regex.Replace(input, @"<[^>]*>", String.Empty);
@@ -28,7 +50,10 @@
         }
     </h2>
     <div class="story">
-        <p>@Truncate(Model.Description, 210)</p>
+        <div class="logo">
+            <img class="logo-img" src="@logoputh" alt="@Model.Title">
+        </div>
+        <p>@Truncate(Model.Description, 230)</p>
     </div>
     <div class="meta">
         <p class="date">@ViewRes.Resource.Search_PostedDate @Model.ModifiedDate.ToString("d MMMM yyy 'at' H:mm",new CultureInfo(LocalizationHelper.GetLocalizationLanguage().ToString()))</p>

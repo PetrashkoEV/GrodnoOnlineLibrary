@@ -4,3 +4,7 @@
     <source src="@Url.Action("DownloadFile", "Files", new { id = Model.Id, filename = Model.FileName })" type='@FileHelper.GeType(Model.Type)'>
     Audio tag not supported. Download the audio <a href="~/Content/themes/audio.mp3">here</a>.
 </audio>
+
+@*<video autoplay="" controls="" style="height: 28px; width: 66%;">
+    <source src="@Url.Action("DownloadFile", "Files", new { id = Model.Id, filename = Model.FileName })" type="audio/mpeg">
+</video>*@

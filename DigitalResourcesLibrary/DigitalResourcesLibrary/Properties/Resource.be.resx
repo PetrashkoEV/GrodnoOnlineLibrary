@@ -117,23 +117,41 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="Home_Index_FifthSlide_Body" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Home_Index_FifthSlide_Title" xml:space="preserve">
+    <value>Два гады па загаду Кацярыны ІІ у Гродне жыў пад вартай кароль польскі Станіслаў Аўгуст Панятоўскі. У 1795 г. у Новым замку ён падпісаў акт адрачэння ад трона, спыніўшы 200-гадовае існаванне Рэчы Паспалітай.</value>
+  </data>
   <data name="Home_Index_FirstSlide_Body" xml:space="preserve">
-    <value>@</value>
+    <value />
   </data>
   <data name="Home_Index_FirstSlide_Title" xml:space="preserve">
-    <value>@</value>
+    <value>Гродна - адзін з прыгажэйшых беларускіх гарадоў, дзе захавалася многа гістарычных помнікаў, ён нібы своеасаблівы падручнік па гісторыі архітэктуры Беларусі.</value>
+  </data>
+  <data name="Home_Index_FourthSlide_Body" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Home_Index_FourthSlide_Title" xml:space="preserve">
+    <value>Пры вялікім літоўскім князе Вітаўце, каралях польскіх Стэфане Баторыі, Станіславе Панятоўскім Гродна з'яўляўся рэзідэнцыяй манарха і фактычна быў прыроўнены да сталіц Вільні і Варшавы.</value>
   </data>
   <data name="Home_Index_SecondSlide_Body" xml:space="preserve">
-    <value>Q</value>
+    <value />
   </data>
   <data name="Home_Index_SecondSlide_Title" xml:space="preserve">
-    <value>Q</value>
+    <value>З'яўленне ў гербе Гродна аленя звязана з адным з асноўных заняткаў гараджан - паляваннем. Крыжакi, калi хадзiлi на Гродзеншчыну, нярэдка казалi: «Iдзём на пушчу».</value>
+  </data>
+  <data name="Home_Index_SixthSlide_Body" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Home_Index_SixthSlide_Title1" xml:space="preserve">
+    <value>Два года по приказу Екатерины II в Гродно жил под стражей король польский Станислав Август Понятовский. В 1795 году в Новом замке он подписал акт отречения от престола, остановив 200-летнее существование Речи Посполитой.</value>
   </data>
   <data name="Home_Index_ThirdSlide_Body" xml:space="preserve">
-    <value>Q</value>
+    <value />
   </data>
   <data name="Home_Index_ThirdSlide_Title" xml:space="preserve">
-    <value>Q</value>
+    <value>Мінулае Гародні сягае ў смугу стагоддзяў - у першай трэці ХІІ ст. - раней, чым усходнееўрапейскія сталіцы Масква і Вільня, – згадваецца ў летапісах.</value>
   </data>
   <data name="Shared_Error_Body" xml:space="preserve">
     <value>Q</value>
@@ -157,7 +175,7 @@
     <value>Библиотека Гродно</value>
   </data>
   <data name="Site_Name_Body" xml:space="preserve">
-    <value>Гродна - інфармація для ўсіх</value>
+    <value>Гродна- інфармацыя для ўсіх</value>
   </data>
   <data name="Site_Name_Header" xml:space="preserve">
     <value>Электронная бібліятэка</value>

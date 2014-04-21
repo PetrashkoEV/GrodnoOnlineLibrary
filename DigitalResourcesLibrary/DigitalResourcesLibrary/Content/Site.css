@@ -1,6 +1,6 @@
 ﻿@font-face {
     font-family: Gramond;
-    src: local("Gramond"), url(~/Content/text/gramond.ttf);
+    src: local("Gramond"), url(/Content/text/gramond.ttf);
 }
 
 #header {
@@ -26,7 +26,8 @@
     line-height: 35px;
     padding-left: 20px;
     padding-top: 8px;
-    width: 399px;
+    width: 390px;
+    text-align: center;
 }
 
 .top-content {
@@ -205,4 +206,16 @@ cursor:pointer;
 
 .navbar {
     margin-top: 20px;
+}
+
+
+.logo {
+    width: 100px;
+    height: 100px;
+    float: left;
+    padding-right: 20px;
+}
+
+.documents .story {
+    height: auto !important;
 }

@@ -135,6 +135,7 @@ a:hover {
 #posts .story {
 	padding: 15px 20px 0 20px;
 	background: url(themes/images/img08.jpg) repeat-x;
+    height: 120px;
 }
 
 #posts .meta {

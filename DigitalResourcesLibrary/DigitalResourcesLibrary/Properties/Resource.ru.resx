@@ -117,32 +117,41 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="Home_Index_FifthSlide_Body" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Home_Index_FifthSlide_Title1" xml:space="preserve">
+    <value>Два года по приказу Екатерины II в Гродно жил под стражей король польский Станислав Август Понятовский. В 1795 году в Новом замке он подписал акт отречения от престола, остановив 200-летнее существование Речи Посполитой.</value>
+  </data>
   <data name="Home_Index_FirstSlide_Body" xml:space="preserve">
-    <value>Горад мой, бяссонніца мая!
-Як жа не спяваць табе, скажы!
-Свеціш майму Краю, як маяк,
-на яго заходняе мяжы</value>
+    <value />
   </data>
   <data name="Home_Index_FirstSlide_Title" xml:space="preserve">
-    <value>Данута Бічэль</value>
+    <value>Гродно - уникальный город Беларуси с выдающимися памятниками зодчества прошлого: Коложская церковь, Фарный, Бригитский, Францисканский костелы и монастыри, церковь Рождества Богородицы.</value>
+  </data>
+  <data name="Home_Index_FourthSlide_Body" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Home_Index_FourthSlide_Title" xml:space="preserve">
+    <value>При великом литовском князе Витовте, королях польских Стефане Батории, Станиславе Понятовском Гродно являлся резиденцией монарха и  фактически был приравнен к столицам Вильнюсу и Варшаве.</value>
   </data>
   <data name="Home_Index_SecondSlide_Body" xml:space="preserve">
-    <value>Добры дзень, мой горад родны,
-Мой з маленства, назаўжды, 
-Ты прыбраны сёння Гродна, 
-У скверы, паркі і сады.</value>
+    <value>Крестоносцы, когда ходили на Гродненщину, нередко говорили: «Идем на пущу».</value>
   </data>
   <data name="Home_Index_SecondSlide_Title" xml:space="preserve">
-    <value>Міхась Васілёк</value>
+    <value>Появление в гербе Гродно оленя связано с одним из основных занятий горожан - охотой. Крестоносцы, когда ходили на Гродненщину, нередко говорили: «Идем на пущу».</value>
+  </data>
+  <data name="Home_Index_SixthSlide_Body" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Home_Index_SixthSlide_Title1" xml:space="preserve">
+    <value>Два года по приказу Екатерины II в Гродно жил под стражей король польский Станислав Август Понятовский. В 1795 году в Новом замке он подписал акт отречения от престола, остановив 200-летнее существование Речи Посполитой.</value>
   </data>
   <data name="Home_Index_ThirdSlide_Body" xml:space="preserve">
-    <value>Мала ў песнях ты апеты,
-Смела ж хочацца сказаць, 
-Шмат тут родзіцца паэтаў,
-Каб пра родны край спяваць.</value>
+    <value />
   </data>
   <data name="Home_Index_ThirdSlide_Title" xml:space="preserve">
-    <value>Міхась Васілёк</value>
+    <value>Прошлое Гродно уходит в дымку веков - в первой трети XII в. - раньше, чем восточноевропейские столицы Москва и Вильнюс, – упоминается в летописях.</value>
   </data>
   <data name="LeftPanel_All_Archive" xml:space="preserve">
     <value>Весь архив</value>

@@ -5,7 +5,7 @@
     
     $(document).ready(function () {
         $('.carousel').carousel({
-            interval: 10000
+            interval: 9999
         });
 
         $('.carousel').carousel('cycle');

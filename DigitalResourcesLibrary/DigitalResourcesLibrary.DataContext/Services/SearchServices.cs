@@ -195,6 +195,7 @@ namespace DigitalResourcesLibrary.DataContext.Services
                     var store = _storeService.FindContentStoreById(documentModel.Id);
                     documentModel.Title = store.Title;
                     documentModel.Description = store.Description;
+                    documentModel.Type = store.Type;
                 }
             }
             return (List<DocumentModel>)result;

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
@@ -19,6 +20,8 @@ namespace DigitalResourcesLibrary.Controllers
 
         public ActionResult Index()
         {
+            Stopwatch time = new Stopwatch();
+            time.Start();
             int searchValue = 1;
             int page = 1;
             var result = new SearchViewModel
@@ -29,6 +32,8 @@ namespace DigitalResourcesLibrary.Controllers
                 CountPages = _searchServices.CountPages(),
                 VisitedPage = 1
             };
+            time.Stop();
+            ViewBag.time = time.ElapsedMilliseconds;
             return View(result);
         }
 

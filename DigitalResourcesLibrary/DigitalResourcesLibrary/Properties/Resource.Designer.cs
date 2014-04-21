@@ -61,7 +61,25 @@ namespace ViewRes {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Being accepted for the cause, get a grip with the spirit..
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string Home_Index_FifthSlide_Body {
+            get {
+                return ResourceManager.GetString("Home_Index_FifthSlide_Body", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Два года по приказу Екатерины II в Гродно жил под стражей король польский Станислав Август Понятовский. В 1795 году в Новом замке он подписал акт отречения от престола, остановив 200-летнее существование Речи Посполитой..
+        /// </summary>
+        public static string Home_Index_FifthSlide_Title {
+            get {
+                return ResourceManager.GetString("Home_Index_FifthSlide_Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
         /// </summary>
         public static string Home_Index_FirstSlide_Body {
             get {
@@ -70,7 +88,7 @@ namespace ViewRes {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to First Slide.
+        ///   Looks up a localized string similar to Гродно - уникальный город Беларуси с выдающимися памятниками зодчества прошлого: Коложская церковь, Фарный, Бригитский, Францисканский костелы и монастыри, церковь Рождества Богородицы..
         /// </summary>
         public static string Home_Index_FirstSlide_Title {
             get {
@@ -79,7 +97,25 @@ namespace ViewRes {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Clock time is measured, and the time of human life, but than, say, you will measure the depth of the Eastern Ocean?.
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string Home_Index_FourthSlide_Body {
+            get {
+                return ResourceManager.GetString("Home_Index_FourthSlide_Body", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to При великом литовском князе Витовте, королях польских Стефане Батории, Станиславе Понятовском Гродно являлся резиденцией монарха и  фактически был приравнен к столицам Вильнюсу и Варшаве..
+        /// </summary>
+        public static string Home_Index_FourthSlide_Title {
+            get {
+                return ResourceManager.GetString("Home_Index_FourthSlide_Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Крестоносцы, когда ходили на Гродненщину, нередко говорили: «Идем на пущу»..
         /// </summary>
         public static string Home_Index_SecondSlide_Body {
             get {
@@ -88,7 +124,7 @@ namespace ViewRes {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Second Slide.
+        ///   Looks up a localized string similar to Появление в гербе Гродно оленя связано с одним из основных занятий горожан - охотой. Крестоносцы, когда ходили на Гродненщину, нередко говорили: «Идем на пущу»..
         /// </summary>
         public static string Home_Index_SecondSlide_Title {
             get {
@@ -97,7 +133,25 @@ namespace ViewRes {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Many things we do not understand, not because our concepts are weak, but because these things do not fall within the scope of our concepts..
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string Home_Index_SixthSlide_Body {
+            get {
+                return ResourceManager.GetString("Home_Index_SixthSlide_Body", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Два года по приказу Екатерины II в Гродно жил под стражей король польский Станислав Август Понятовский. В 1795 году в Новом замке он подписал акт отречения от престола, остановив 200-летнее существование Речи Посполитой..
+        /// </summary>
+        public static string Home_Index_SixthSlide_Title1 {
+            get {
+                return ResourceManager.GetString("Home_Index_SixthSlide_Title1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
         /// </summary>
         public static string Home_Index_ThirdSlide_Body {
             get {
@@ -106,7 +160,7 @@ namespace ViewRes {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Third Slide.
+        ///   Looks up a localized string similar to Прошлое Гродно уходит в дымку веков - в первой трети XII в. - раньше, чем восточноевропейские столицы Москва и Вильнюс, – упоминается в летописях..
         /// </summary>
         public static string Home_Index_ThirdSlide_Title {
             get {
