@@ -6,27 +6,34 @@
 }
 
 <div id="posts" class="documents">
-    <h2 class="title">@Model.Title</h2>
-    <div class="story">
-        @Model.Description
-        <br>
-        <div class="media-content">
-            @if (Model.Type == FileType.Video)
-            {
-                @Html.Partial("OpenFile/VideoFile", Model)
-            }
-            
-            @if (Model.Type == FileType.Audio)
-            {
-                @Html.Partial("OpenFile/AudioFile", Model)
-            }
-            
-            @if (Model.Type == FileType.Document)
-            {
-                @Html.Partial("OpenFile/DocumentFile", Model)
-            }
+    @Html.Partial("WarningMessage", Model)
+    @if(Model.ValidModel)
+    {
+        <h2 class="title">@Model.Title</h2>
+        <div class="story">
+            @Model.Description
+            <br>
+            <div class="media-content">
+                @if (Model.Type == FileType.Video)
+                {
+                    @Html.Partial("OpenFile/VideoFile", Model)
+                }
+
+                @if (Model.Type == FileType.Audio)
+                {
+                    @Html.Partial("OpenFile/AudioFile", Model)
+                }
+
+                @if (Model.Type == FileType.Document)
+                {
+                    @Html.Partial("OpenFile/DocumentFile", Model)
+                }
+            </div>
+            <div class="button-downloads">
+                @Html.ActionLink(ViewRes.Resource.Site_Button_Download, "Download", "Files", new { id = Model.Id, filename = Model.FileName }, new { @class = "btn btn-primary", type = "button", dataloadingtext = "Loading..." })
+            </div>
         </div>
-    </div>
+    }
 </div>
 @Html.Partial("Template/LeftPanel", Model)
 <div style="clear: both;"></div>

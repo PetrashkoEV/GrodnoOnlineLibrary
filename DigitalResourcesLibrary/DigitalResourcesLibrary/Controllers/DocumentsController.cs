@@ -15,17 +15,23 @@ namespace DigitalResourcesLibrary.Controllers
         public ActionResult Article(int id)
         {
             var article = _articleService.GetArticleById(id);
-            var result = new ArticleViewModel
+            var result = new ArticleViewModel();
+            if (article != null)
             {
-                Id = article.Id,
-                Description = article.Description,
-                Content = article.Content,
-                Title = article.Title,
-                Locale = article.Locale,
-                ModifiedDate = article.ModifiedDate,
-                Visible = article.Visible,
-                User = article.User
-            };
+                result.Id = article.Id;
+                result.Description = article.Description;
+                result.Content = article.Content;
+                result.Title = article.Title;
+                result.Locale = article.Locale;
+                result.ModifiedDate = article.ModifiedDate;
+                result.Visible = article.Visible;
+                result.User = article.User;
+            }
+            else
+            {
+                result.ValidModel = false;
+            }
+
             return View(result);
         }
 
@@ -35,18 +41,23 @@ namespace DigitalResourcesLibrary.Controllers
         public ActionResult Store(int id)
         {
             var store = _storeService.GetStoreById(id);
-            var result = new StoreViewModel()
+            var result = new StoreViewModel();
+            if (store != null)
             {
-                Id = store.Id,
-                Description = store.Description,
-                Type = store.Type,
-                Title = store.Title,
-                ModifiedDate = store.ModifiedDate,
-                Locale = store.Locale,
-                User = store.User,
-                Visible = store.Visible,
-                FileName = store.FileName
-            };
+                result.Id = store.Id;
+                result.Description = store.Description;
+                result.Type = store.Type;
+                result.Title = store.Title;
+                result.ModifiedDate = store.ModifiedDate;
+                result.Locale = store.Locale;
+                result.User = store.User;
+                result.Visible = store.Visible;
+                result.FileName = store.FileName;
+            }
+            else
+            {
+                result.ValidModel = false;
+            }
             return View(result);
         }
 

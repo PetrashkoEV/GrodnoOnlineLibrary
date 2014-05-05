@@ -21,9 +21,9 @@ namespace MySqlContext.Concrete.Articles
             }
         }
 
-        public articleloc GetArticleById(int id)
+        public articleloc GetArticleById(int id, int locateId)
         {
-            return Entity.FirstOrDefault(item => item.article == id);
+            return Entity.FirstOrDefault(item => item.article == id && item.locale == locateId);
         }
     }
 }

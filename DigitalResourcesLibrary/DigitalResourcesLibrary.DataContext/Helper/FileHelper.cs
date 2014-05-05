@@ -26,6 +26,7 @@ namespace DigitalResourcesLibrary.DataContext.Helper
                 case "image/jpeg":
                     return FileType.Image;
                 case "video/mp4":
+                case "video/x-flv":
                     return FileType.Video;
             }
             return FileType.SelectAll;

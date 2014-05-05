@@ -171,6 +171,9 @@
   <data name="Shared_Menu_Search" xml:space="preserve">
     <value>Поиск</value>
   </data>
+  <data name="Site_Button_Download" xml:space="preserve">
+    <value>Download</value>
+  </data>
   <data name="Site_Name" xml:space="preserve">
     <value>Библиотека Гродно</value>
   </data>

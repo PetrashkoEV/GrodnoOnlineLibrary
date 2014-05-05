@@ -20,8 +20,9 @@ namespace MySqlContext.Interface.Store
         /// Get Store model by Id
         /// </summary>
         /// <param name="id">Identificaion store</param>
+        /// <param name="locateId">Localization Id</param>
         /// <returns>Store model</returns>
-        storeloc GetStoreById(int id);
+        storeloc GetStoreById(int id, int locateId);
 
         /// <summary>
         /// Getting lightweight data model by id

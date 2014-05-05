@@ -21,9 +21,9 @@ namespace MySqlContext.Concrete.Store
             }
         }
 
-        public storeloc GetStoreById(int id)
+        public storeloc GetStoreById(int id, int locateId)
         {
-            return Entity.FirstOrDefault(item => item.store == id);
+            return Entity.FirstOrDefault(item => item.store == id && item.locale == locateId);
         }
 
         public storeloclight GetStoreByIdWithoutData(int id, int locateId)

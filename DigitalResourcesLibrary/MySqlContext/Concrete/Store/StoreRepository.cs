@@ -26,9 +26,9 @@ namespace MySqlContext.Concrete.Store
             return Entity.Find(id);
         }
 
-        public IEnumerable<byte[]> FindFile(int id)
+        public IEnumerable<byte[]> FindFile(int id, int locateId)
         {
-            return Entity.Find(id).storeloc.Select(item => item.data);
+            return Entity.Find(id).storeloc.Where(item=> item.locale == locateId).Select(item => item.data);
         }
 
         public IQueryable<store> FindByCategoryes(List<long> categoryesId)

@@ -24,7 +24,11 @@ namespace DigitalResourcesLibrary.DataContext.Services
 
         public ArticleModel GetArticleById(int id)
         {
-            var item = _articleLocateRepository.GetArticleById(id);
+            var item = _articleLocateRepository.GetArticleById(id, _curentLocate.GetHashCode());
+            if (item == null)
+            {
+                return null;
+            }
             return new ArticleModel
                 {
                     Id = item.article,

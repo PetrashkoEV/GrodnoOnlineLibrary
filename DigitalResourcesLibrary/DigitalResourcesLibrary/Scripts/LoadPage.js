@@ -44,4 +44,13 @@
         includeSelectAllOption: true,
         inputContainer: '.documentsSelect'
     });
+
+    hidenohtml5();
+}
+
+function hidenohtml5() {
+    if (!Modernizr.video || !Modernizr.audio) {
+        var inner = document.getElementsByClassName("media-content")[0];
+        inner.style.display = "none";
+    }
 }

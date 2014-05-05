@@ -1,6 +1,8 @@
 ﻿@using DigitalResourcesLibrary.DataContext.Helper
 @model DigitalResourcesLibrary.Models.StoreViewModel
-<audio preload="none" controls>
+           
+
+<audio class="audio" preload="none" controls>
     <source src="@Url.Action("DownloadFile", "Files", new { id = Model.Id, filename = Model.FileName })" type='@FileHelper.GeType(Model.Type)'>
     Audio tag not supported. Download the audio <a href="~/Content/themes/audio.mp3">here</a>.
 </audio>

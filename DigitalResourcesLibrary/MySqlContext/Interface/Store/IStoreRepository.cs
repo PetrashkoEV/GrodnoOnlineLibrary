@@ -27,8 +27,9 @@ namespace MySqlContext.Interface.Store
         /// Search a file contained in stored table by ID
         /// </summary>
         /// <param name="id">Identification stored</param>
+        /// <param name="locateId">Localization Id</param>
         /// <returns>Binary file contents</returns>
-        IEnumerable<byte[]> FindFile(int id);
+        IEnumerable<byte[]> FindFile(int id, int locateId);
 
         /// <summary>
         /// Search all stores by category

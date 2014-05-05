@@ -20,5 +20,10 @@ namespace DigitalResourcesLibrary.Controllers
             return new FileContentResult(dataFile, "arraybuffer");
         }
 
+        public FileResult Download(int id, string filename)
+        {
+            var dataFile = _fileService.СontentFile(id);
+            return File(dataFile, System.Net.Mime.MediaTypeNames.Application.Octet, filename);
+        }
     }
 }

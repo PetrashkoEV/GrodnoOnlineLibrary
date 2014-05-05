@@ -234,6 +234,7 @@
     <Content Include="Scripts\knockout-2.2.0.js" />
     <Content Include="Scripts\LoadPage.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Scripts\modernizr.custom.22785.js" />
     <Content Include="Scripts\ul-drop.js" />
     <Content Include="Scripts\_references.js" />
     <Content Include="Views\Shared\Template\LeftPanel.cshtml">
@@ -266,6 +267,7 @@
     <Content Include="Views\Search\AdvancedSearch.cshtml" />
     <Content Include="Views\Search\AdvancedSearchResult.cshtml" />
     <Content Include="Views\Search\SearchTemplate\PaginationAdvancedTemplate.cshtml" />
+    <Content Include="Views\Shared\WarningMessage.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

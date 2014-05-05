@@ -26,8 +26,14 @@ namespace DigitalResourcesLibrary.DataContext.Services
 
         public StoreModel GetStoreById(int id)
         {
-            var item = _storeLocateRepository.GetStoreById(id);
-            return new StoreModel
+            var item = _storeLocateRepository.GetStoreById(id, _curentLocate.GetHashCode());
+
+            if (item == null)
+            {
+                return null;
+            }
+
+            var result = new StoreModel
             {
                 Id = item.store,
                 LocaleString = item.locale1.locale1,
@@ -39,9 +45,10 @@ namespace DigitalResourcesLibrary.DataContext.Services
                 User = new UserModel
                 {
                     Name = item.store1.user.name,
-                    Role = new RoleModel { Name = item.store1.user.role.name }
+                    Role = new RoleModel {Name = item.store1.user.role.name}
                 }
             };
+            return result;
         }
 
         public List<DocumentModel> FindByCategoryes(List<long> allCategory, int page)

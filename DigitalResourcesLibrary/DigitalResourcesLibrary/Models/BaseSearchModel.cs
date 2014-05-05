@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using DigitalResourcesLibrary.DataContext.Enums;
+﻿using System.Collections.Generic;
 using DigitalResourcesLibrary.DataContext.Interfaces;
 using DigitalResourcesLibrary.DataContext.Model;
 using DigitalResourcesLibrary.DataContext.Services;
@@ -15,10 +11,14 @@ namespace DigitalResourcesLibrary.Models
         private readonly ITagService _tagService = new TagService();
         
         public List<CategoryModel> Categories { get; set; }
+
         public List<TagModel> Tags { get; set; }
+
+        public bool ValidModel { get; set; }
 
         public BaseSearchModel()
         {
+            ValidModel = true;
             Categories = _categoryServices.GetAllSubCategoryById(1);
             Tags = _tagService.GetAllTags();
         }

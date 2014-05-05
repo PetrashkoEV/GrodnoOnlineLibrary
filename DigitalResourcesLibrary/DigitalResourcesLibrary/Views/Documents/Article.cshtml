@@ -5,10 +5,14 @@
 }
 
 <div id="posts" class="documents">
-    <h2 class="title">@Model.Title</h2>
-    <div class="story">
-        @Html.Raw(Model.Content)
-    </div>
+    @Html.Partial("WarningMessage", Model)
+    @if (Model.ValidModel)
+    {
+        <h2 class="title">@Model.Title</h2>
+        <div class="story">
+            @Html.Raw(Model.Content)
+        </div>
+    }
 </div>
 @Html.Partial("Template/LeftPanel", Model)
 <div style="clear: both;"></div>

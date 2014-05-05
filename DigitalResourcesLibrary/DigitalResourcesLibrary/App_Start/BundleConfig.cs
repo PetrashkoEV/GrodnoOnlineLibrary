@@ -33,7 +33,8 @@ namespace DigitalResourcesLibrary
                         "~/Scripts/ul-drop.js"));
 
             bundles.Add(new ScriptBundle("~/bundles/loadpage").Include(
-                        "~/Scripts/LoadPage.js"));
+                        "~/Scripts/LoadPage.js",
+                        "~/Scripts/modernizr.custom.22785.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                         "~/Content/themes/bootstrap/bootstrap.css",
