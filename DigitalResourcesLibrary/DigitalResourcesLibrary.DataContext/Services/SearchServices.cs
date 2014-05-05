@@ -113,7 +113,7 @@ namespace DigitalResourcesLibrary.DataContext.Services
 
             var allCollectionResult = new List<DocumentModel>();
             allCollectionResult.AddRange(_articleService.FindByArticleId(articleIdList, page)); // all article entries with the List Id
-            allCollectionResult.AddRange(_storeService.FindByStoreId(articleIdList, page)); // all store entries with the List Id
+            allCollectionResult.AddRange(_storeService.FindByStoreId(storeIdList, page)); // all store entries with the List Id
 
             return CreationDocumentsToDisplay(allCollectionResult, page);
         }
@@ -161,7 +161,7 @@ namespace DigitalResourcesLibrary.DataContext.Services
 
             var allCollectionResult = new List<DocumentModel>();
             allCollectionResult.AddRange(_articleService.FindByArticleId(articleIdList, page)); // all article entries with the List Id
-            allCollectionResult.AddRange(_storeService.FindByStoreId(articleIdList, page)); // all store entries with the List Id
+            allCollectionResult.AddRange(_storeService.FindByStoreId(storeIdList, page)); // all store entries with the List Id
 
             return CreationDocumentsToDisplay(allCollectionResult, page, typeDocuments);
         }

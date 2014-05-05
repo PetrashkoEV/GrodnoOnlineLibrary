@@ -26,7 +26,7 @@ namespace MySqlContext.Concrete.Search
         {
             var query = "SELECT * " +
                         "FROM SearchRepository " +
-                        "WHERE match('*" + searchString + "*') " +
+                        "WHERE match('" + ReplaseSearchText(searchString) + "') " +
                         "LIMIT " + MaxCountSearch + ";";
 
             return RunQuery(query);
@@ -36,7 +36,7 @@ namespace MySqlContext.Concrete.Search
         {
             var query = "SELECT * " +
                         "FROM SearchRepository " +
-                        "WHERE match('*" + searchString + "*') ";
+                        "WHERE match('" + ReplaseSearchText(searchString) + "') ";
 
             return RunQuery(query);
         }
@@ -46,14 +46,7 @@ namespace MySqlContext.Concrete.Search
             var query = "SELECT * " +
                         "FROM SearchRepository WHERE";
 
-            if (searchString !=null && searchString.Count() != 0)
-            {
-                query += " match('*" + searchString + "*')";
-            }
-            else
-            {
-                query += " match('')";
-            }
+            query += " match('" + ReplaseSearchText(searchString) + "')";
 
             if (tagId.Count != 0)
             {
@@ -104,6 +97,18 @@ namespace MySqlContext.Concrete.Search
                 }
             }
             return result;
+        }
+
+        private string ReplaseSearchText(string searchString)
+        {
+            if (searchString == null || !searchString.Any())
+                return "";
+
+            var result = "*" + searchString;
+            result = result.Replace(')', '*');
+            result = result.Replace(';', '*');
+            result = result.Replace("'", "*");
+            return result + "*";
         }
     }
 }

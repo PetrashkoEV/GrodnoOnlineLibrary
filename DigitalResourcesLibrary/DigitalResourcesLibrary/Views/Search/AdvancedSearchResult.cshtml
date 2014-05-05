@@ -25,6 +25,7 @@
         </div>
     }
     
+    @Html.Partial("Message/Alert", Model)
     @if (Model.Documents != null && Model.Documents.Count != 0)
     {
         foreach (var item in Model.Documents)
@@ -32,10 +33,6 @@
             @Html.Partial("SearchTemplate/DocumentTemplate", item)
         }
         @Html.Partial("SearchTemplate/PaginationAdvancedTemplate", Model)
-    }
-    else
-    {
-        @ViewRes.Resource.Search_Documents_Not_Fount
     }
 
 </div>

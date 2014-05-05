@@ -1,0 +1,11 @@
+﻿
+@if (Model.Documents == null || Model.Documents.Count == 0)
+{
+    <div class="story">
+        <div class="alert alert-block">
+            <button type="button" class="close" data-dismiss="alert">&times;</button>
+            <h4>Warning!</h4>
+            @ViewRes.Resource.Search_Documents_Not_Fount
+        </div>
+    </div>
+}

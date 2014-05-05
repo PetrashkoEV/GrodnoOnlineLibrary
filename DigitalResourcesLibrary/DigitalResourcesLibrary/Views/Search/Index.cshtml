@@ -3,12 +3,7 @@
     ViewBag.Title = "Posts";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-@*<div class="alert alert-success">
-    <button type="button" class="close" data-dismiss="alert">&times;</button>
-  <h4>Warning!</h4>
-    qweqweqwe
-</div>*@
-@ViewBag.time
+
 <div id="posts">
     @using (Html.BeginForm("Index", "Search", FormMethod.Post))
     {
@@ -26,6 +21,7 @@
         </div>
     }
     
+    @Html.Partial("Message/Alert", Model)
     @if (Model.Documents != null && Model.Documents.Count != 0)
     {
         foreach (var item in Model.Documents)
@@ -33,10 +29,6 @@
             @Html.Partial("SearchTemplate/DocumentTemplate", item)
         }
         @Html.Partial("SearchTemplate/PaginationTemplate", Model)
-    }
-    else
-    {
-        @ViewRes.Resource.Search_Documents_Not_Fount
     }
 
 </div>

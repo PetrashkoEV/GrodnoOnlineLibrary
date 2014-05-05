@@ -186,6 +186,7 @@
     <Content Include="Content\themes\images\bootstrap-mdo-sfmoma-04.jpg" />
     <Content Include="Content\themes\images\bootstrap-mdo-sfmoma-05.jpg" />
     <Content Include="Content\themes\images\bootstrap-mdo-sfmoma-06.jpg" />
+    <Content Include="Content\themes\images\bootstrap-mdo-sfmoma-07.jpg" />
     <Content Include="Content\themes\images\Document\Audio.png" />
     <Content Include="Content\themes\images\Document\Default.png" />
     <Content Include="Content\themes\images\Document\Document.png" />
@@ -267,7 +268,8 @@
     <Content Include="Views\Search\AdvancedSearch.cshtml" />
     <Content Include="Views\Search\AdvancedSearchResult.cshtml" />
     <Content Include="Views\Search\SearchTemplate\PaginationAdvancedTemplate.cshtml" />
-    <Content Include="Views\Shared\WarningMessage.cshtml" />
+    <Content Include="Views\Shared\Message\Warning.cshtml" />
+    <Content Include="Views\Shared\Message\Alert.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

@@ -6,7 +6,7 @@
 }
 
 <div id="posts" class="documents">
-    @Html.Partial("WarningMessage", Model)
+    @Html.Partial("Message/Warning", Model)
     @if(Model.ValidModel)
     {
         <h2 class="title">@Model.Title</h2>

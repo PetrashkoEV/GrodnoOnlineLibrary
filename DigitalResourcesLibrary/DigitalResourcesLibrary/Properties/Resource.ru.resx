@@ -120,7 +120,7 @@
   <data name="Home_Index_FifthSlide_Body" xml:space="preserve">
     <value />
   </data>
-  <data name="Home_Index_FifthSlide_Title1" xml:space="preserve">
+  <data name="Home_Index_FifthSlide_Title" xml:space="preserve">
     <value>Два года по приказу Екатерины II в Гродно жил под стражей король польский Станислав Август Понятовский. В 1795 году в Новом замке он подписал акт отречения от престола, остановив 200-летнее существование Речи Посполитой.</value>
   </data>
   <data name="Home_Index_FirstSlide_Body" xml:space="preserve">
@@ -141,11 +141,14 @@
   <data name="Home_Index_SecondSlide_Title" xml:space="preserve">
     <value>Появление в гербе Гродно оленя связано с одним из основных занятий горожан - охотой. Крестоносцы, когда ходили на Гродненщину, нередко говорили: «Идем на пущу».</value>
   </data>
+  <data name="Home_Index_SeventhSlide_Title" xml:space="preserve">
+    <value>Стараниями французского медика и биолога Ж.Э.Жилибера во второй половине XVIII века в Гродно были созданы акушерская и ветеринарная школы, клинический госпиталь и ботанический сад из 2 тысяч растений.</value>
+  </data>
   <data name="Home_Index_SixthSlide_Body" xml:space="preserve">
     <value />
   </data>
-  <data name="Home_Index_SixthSlide_Title1" xml:space="preserve">
-    <value>Два года по приказу Екатерины II в Гродно жил под стражей король польский Станислав Август Понятовский. В 1795 году в Новом замке он подписал акт отречения от престола, остановив 200-летнее существование Речи Посполитой.</value>
+  <data name="Home_Index_SixthSlide_Title" xml:space="preserve">
+    <value>Период процветания Гродно во второй половине XVIII века связан с именем Антония Тизенгауза, старосты города. Развивалось ткачество, производство постельного белья, мебели, стекла, табака, металлов, изделий из кожи, оружия.</value>
   </data>
   <data name="Home_Index_ThirdSlide_Body" xml:space="preserve">
     <value />
