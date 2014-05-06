@@ -2,7 +2,7 @@
     $('body').tooltip({
         selector: "[rel=tooltip]"
     });
-    
+
     $(document).ready(function () {
         $('.carousel').carousel({
             interval: 9999
@@ -10,7 +10,7 @@
 
         $('.carousel').carousel('cycle');
     });
-    
+
     $('audio').audioPlayer(
     {
         classPrefix: 'audioplayer',
@@ -45,10 +45,21 @@
         inputContainer: '.documentsSelect'
     });
 
-    hidenohtml5();
+    HidePlauerBytNoHTML5();
+
+    $('div.chosentree').chosentree({
+        width: 500,
+        deepLoad: true,
+        showtree: true,
+        load: function (node, callback) {
+            setTimeout(function () {
+                callback(loadChildren(node, 0));
+            }, 1000);
+        }
+    });
 }
 
-function hidenohtml5() {
+function HidePlauerBytNoHTML5() {
     if (!Modernizr.video || !Modernizr.audio) {
         var inner = document.getElementsByClassName("media-content")[0];
         inner.style.display = "none";

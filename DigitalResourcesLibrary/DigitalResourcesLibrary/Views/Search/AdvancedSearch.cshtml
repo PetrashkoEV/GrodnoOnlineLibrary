@@ -24,21 +24,44 @@
        
     }
 
-        <select id="tags" class="multiselect" multiple="multiple">
-            <option value="multiselect-all"> Select all</option>
-            @foreach (var tag in Model.Tags)
-            {
-                <option value="@tag.Name">@tag.Name</option>
-            }
-        </select>
+    <select id="tags" class="multiselect" multiple="multiple">
+        <option value="multiselect-all">Select all</option>
+        @foreach (var tag in Model.Tags)
+        {
+            <option value="@tag.Name">@tag.Name</option>
+        }
+    </select>
 
-        <select id="format" class="multiselect" multiple="multiple">
-            @foreach (var doc in Model.FormatDocuments)
-            {
-                <option value="@doc">@doc</option>
-            }
-        </select>
+    <select id="format" class="multiselect" multiple="multiple">
+        @foreach (var doc in Model.FormatDocuments)
+        {
+            <option value="@doc">@doc</option>
+        }
+    </select>
 
-    </div>
+    <div class="chosentree"></div>
+
+</div>
 @Html.Partial("Template/LeftPanel", Model)
 <div style="clear: both;"></div>
+
+<script type='text/javascript'>
+        var maxDepth = 3;
+        var loadChildren = function (node, level) {
+            var hasChildren = node.level < maxDepth;
+            for (var i = 0; i < 8; i++) {
+                var id = node.id + (i + 1).toString();
+                node.children.push({
+                    id: id,
+                    title: 'Node ' + id,
+                    has_children: hasChildren,
+                    level: node.level + 1,
+                    children: []
+                });
+                if (hasChildren && level < 2) {
+                    loadChildren(node.children[i], (level + 1));
+                }
+            }
+            return node;
+        };
+    </script>
