@@ -100,15 +100,15 @@ div.moreorless_link {
 }
 
 .treeselect .treenode span.treeselect-expand, .treeselect .treenode span.treeselect-expand.collapsed {
-  background:url(images/collapsed.gif) no-repeat 0 0;
+  background:url(/Content/themes/images/collapsed.gif) no-repeat 0 0;
 }
 
 .treeselect .treenode span.treeselect-expand.expanded {
-  background:url(images/expanded.gif) no-repeat 0 0;
+  background:url(/Content/themes/images/expanded.gif) no-repeat 0 0;
 }
 
 .treeselect span.treebusy, .treeselect span.treebusy.treeselect-expand.expanded, .treeselect span.treebusy.treeselect-expand.collapsed  {
-  background:url(images/throbber.gif) no-repeat 0 0;
+  background:url(/Content/themes/images/throbber.gif) no-repeat 0 0;
   width:16px;
   height:10px;
 }
