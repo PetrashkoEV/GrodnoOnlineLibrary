@@ -10,6 +10,7 @@ using DigitalResourcesLibrary.DataContext.Interfaces;
 using DigitalResourcesLibrary.DataContext.Model;
 using DigitalResourcesLibrary.DataContext.Services;
 using DigitalResourcesLibrary.Models;
+using Newtonsoft.Json;
 
 namespace DigitalResourcesLibrary.Controllers
 {
@@ -150,6 +151,13 @@ namespace DigitalResourcesLibrary.Controllers
                 VisitedPage = page
             };
             return View("AdvancedSearchResult", model);
+        }
+
+        [HttpPost]
+        public string СhildrenCategory(int id)
+        {
+            var result = new SearchViewModel();
+            return JsonConvert.SerializeObject(result.Categories);
         }
     }
 }
