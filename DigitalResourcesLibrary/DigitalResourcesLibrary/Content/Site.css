@@ -215,3 +215,7 @@ cursor:pointer;
 .documents .story {
     height: auto !important;
 }
+
+.chosentree {
+    padding-top: 10px;
+}

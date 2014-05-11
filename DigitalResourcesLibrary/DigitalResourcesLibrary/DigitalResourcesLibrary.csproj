@@ -239,10 +239,13 @@
     <Content Include="Scripts\knockout-2.2.0.debug.js" />
     <Content Include="Scripts\knockout-2.2.0.js" />
     <Content Include="Scripts\LoadPage.js" />
+    <Content Include="Scripts\Localization\resource.js" />
+    <Content Include="Scripts\Localization\translate.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\modernizr.custom.22785.js" />
     <Content Include="Scripts\TreeSelect\jquery.treeselect.js" />
     <Content Include="Scripts\TreeSelect\jquery.treeselect.min.js" />
+    <Content Include="Scripts\TreeSelect\loadtreecategory.js" />
     <Content Include="Scripts\ul-drop.js" />
     <Content Include="Scripts\_references.js" />
     <Content Include="Views\Shared\Template\LeftPanel.cshtml">

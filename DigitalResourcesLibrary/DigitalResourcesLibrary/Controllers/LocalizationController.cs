@@ -26,5 +26,9 @@ namespace DigitalResourcesLibrary.Controllers
             return Redirect(returnUrl);
         }
 
+        public string GetCurentLocalization()
+        {
+            return Session["Culture"].ToString();
+        }
     }
 }

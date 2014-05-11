@@ -12,7 +12,7 @@
                     @Html.TextBoxFor(model => model.TextSearch, null, new
                     {
                         @class = "search-query",
-                        placeholder = "Search",
+                        placeholder = @ViewRes.Resource.Search_AdvancedSearch_AutoComplete,
                         id = "autocompleteRepository"
                     })
                 </form>
@@ -38,51 +38,9 @@
             <option value="@doc">@doc</option>
         }
     </select>
-
+    <br>
     <div class="chosentree"></div>
 
 </div>
 @Html.Partial("Template/LeftPanel", Model)
 <div style="clear: both;"></div>
-
-<script type='text/javascript'>
-        var maxDepth = 3;
-        var loadChildren = function (node, level) {
-/*            var hasChildren = node.level < maxDepth;
-            for (var i = 0; i < 8; i++) {
-                var id = node.id + (i + 1).toString();
-                node.children.push({
-                    id: id,
-                    title: 'Node ' + id,
-                    has_children: hasChildren,
-                    level: node.level + 1,
-                    children: []
-                });
-                if (hasChildren && level < 2) {
-                    loadChildren(node.children[i], (level + 1));
-                }
-            }*/
-            node = getCategory(node.id, node);
-            return node;
-        };
-
-        function getCategory(id, node) {
-            var result = $.ajax({
-                type: "POST",
-                url: "/Search/СhildrenCategory",
-                data: "id=" + id,
-                async: false
-            }).responseText;
-            var obj = jQuery.parseJSON(result);
-            for (var i = 0; i < obj.length; i++) {
-                node.children.push({
-                    id: obj[i].Id,
-                    title: obj[i].Name,
-                    has_children: obj[i].Subcategory.length,
-                    level: node.level + 1,
-                    children: []
-                });
-            }
-            return node;
-        }
-    </script>

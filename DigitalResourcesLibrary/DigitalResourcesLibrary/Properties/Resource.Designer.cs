@@ -187,6 +187,15 @@ namespace ViewRes {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Search.
+        /// </summary>
+        public static string Search_AdvancedSearch_AutoComplete {
+            get {
+                return ResourceManager.GetString("Search_AdvancedSearch_AutoComplete", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Documents satisfying the search not found.
         /// </summary>
         public static string Search_Documents_Not_Fount {

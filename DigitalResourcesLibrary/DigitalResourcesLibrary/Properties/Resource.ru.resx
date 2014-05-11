@@ -159,6 +159,9 @@
   <data name="LeftPanel_All_Archive" xml:space="preserve">
     <value>Весь архив</value>
   </data>
+  <data name="Search_AdvancedSearch_AutoComplete" xml:space="preserve">
+    <value>Поиск</value>
+  </data>
   <data name="Search_Documents_Not_Fount" xml:space="preserve">
     <value>Документов удовлетворяющих поиску не найдено</value>
   </data>

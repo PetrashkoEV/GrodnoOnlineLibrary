@@ -159,6 +159,9 @@
   <data name="LeftPanel_All_Archive" xml:space="preserve">
     <value>All Archive</value>
   </data>
+  <data name="Search_AdvancedSearch_AutoComplete" xml:space="preserve">
+    <value>Search</value>
+  </data>
   <data name="Search_Documents_Not_Fount" xml:space="preserve">
     <value>Documents satisfying the search not found</value>
   </data>

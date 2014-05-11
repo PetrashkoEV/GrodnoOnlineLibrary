@@ -513,9 +513,9 @@ div.moreorless_link {
 }
 
 .chzntree-container-single .chzntree-search input[type='text'].searching {
-  background:url(images/throbber.gif) no-repeat 99% 12px !important;
+  background:url(/Content/themes/images/throbber.gif) no-repeat 99% 12px !important;
 }
 
 .chzntree-search-results .treeselect-title{
-  margin-left: 5px !important;
+  margin-left: 25px !important;
 }

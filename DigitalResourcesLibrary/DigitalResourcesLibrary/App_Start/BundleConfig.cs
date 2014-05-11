@@ -36,8 +36,13 @@ namespace DigitalResourcesLibrary
                         "~/Scripts/LoadPage.js",
                         "~/Scripts/modernizr.custom.22785.js"));
 
+            bundles.Add(new ScriptBundle("~/bundles/resource").Include(
+                        "~/Scripts/Localization/translate.js",
+                        "~/Scripts/Localization/resource.js"));
+
             bundles.Add(new ScriptBundle("~/bundles/treeselect").Include(
-                        "~/Scripts/TreeSelect/jquery.treeselect.js"));
+                        "~/Scripts/TreeSelect/jquery.treeselect.js",
+                        "~/Scripts/TreeSelect/loadtreecategory.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                         "~/Content/themes/bootstrap/bootstrap.css",
