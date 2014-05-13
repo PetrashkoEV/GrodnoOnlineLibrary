@@ -45,6 +45,26 @@ namespace DigitalResourcesLibrary.DataContext.Services
             }
             
             return result;
-        } 
+        }
+
+        public List<long> CategorySelectSplit(string categorySelect)
+        {
+            var allCategory = GetIdAllSybCategory(1);
+            if (string.IsNullOrEmpty(categorySelect))
+            {
+                return allCategory;
+            }
+            var splitcategorySelect = categorySelect.Split(';');
+            var resultId = new List<long>();
+            foreach (var category in splitcategorySelect)
+            {
+                var categoryId = Convert.ToInt64(category);
+                if (allCategory.Contains(categoryId))
+                {
+                    resultId.Add(categoryId);
+                }
+            }
+            return resultId;
+        }
     }
 }

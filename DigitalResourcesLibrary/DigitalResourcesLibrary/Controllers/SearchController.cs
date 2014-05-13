@@ -133,10 +133,10 @@ namespace DigitalResourcesLibrary.Controllers
         [HttpPost]
         public ActionResult AdvancedSearch(AdvancedSearchViewModel model)
         {
-            return AdvancedSearchResult(model.TextSearch, model.TagSelect, model.FormatDocSelect, 1);
+            return AdvancedSearchResult(model.TextSearch, model.TagSelect, model.FormatDocSelect, model.CategorySelect, 1);
         }
 
-        public ActionResult AdvancedSearchResult(string textSearch, string tagSelect, string formatDocSelect, int page)
+        public ActionResult AdvancedSearchResult(string textSearch, string tagSelect, string formatDocSelect, string categorySelect, int page)
         {
             if (page < 1)
                 page = 1;
@@ -145,8 +145,9 @@ namespace DigitalResourcesLibrary.Controllers
             {
                 TextSearch = textSearch,
                 TagSelect = tagSelect,
+                CategorySelect = categorySelect,
                 FormatDocSelect = formatDocSelect,
-                Documents = _searchServices.AdvancedSearch(textSearch, tagSelect, formatDocSelect, 1, page),
+                Documents = _searchServices.AdvancedSearch(textSearch, tagSelect, formatDocSelect, categorySelect, page),
                 CountPages = _searchServices.CountPages(),
                 VisitedPage = page
             };

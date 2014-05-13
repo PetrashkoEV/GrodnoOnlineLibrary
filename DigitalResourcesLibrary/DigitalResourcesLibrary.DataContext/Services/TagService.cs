@@ -1,11 +1,9 @@
 ﻿using System.Collections.Generic;
-using System.Data.Entity.Core.Metadata.Edm;
 using System.Linq;
 using DigitalResourcesLibrary.DataContext.Enums;
 using DigitalResourcesLibrary.DataContext.Helper;
 using DigitalResourcesLibrary.DataContext.Interfaces;
 using DigitalResourcesLibrary.DataContext.Model;
-using DigitalResourcesLibrary.DataContext.Model.Documents;
 using MySqlContext.Concrete.Tag;
 using MySqlContext.Interface.Tag;
 
@@ -14,11 +12,8 @@ namespace DigitalResourcesLibrary.DataContext.Services
     public class TagService : ITagService
     {
         private readonly Language _curentLocate = LocalizationHelper.GetLocalizationLanguage();
-        private ITagRepository _tagRepository = new TagRepository();
         private readonly ITagLocateRepository _tagLocateRepository = new TagLocateRepository();
         private readonly ITypeFileRepository _typeFileRepository = new TypeFileRepository();
-        private readonly IArticleService _articleService = new ArticleService();
-        private readonly IStoreService _storeService = new StoreServices();
 
         public List<TagModel> GetAllTags()
         {

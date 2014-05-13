@@ -5,7 +5,7 @@
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
 
     <title>@ViewBag.Title</title>
-    
+    @Scripts.Render("~/bundles/jquery")
     <link href="http://vjs.zencdn.net/4.5/video-js.css" rel="stylesheet">
     <script src="http://vjs.zencdn.net/4.5/video.js"></script>
     @Styles.Render("~/Content/css")
@@ -27,8 +27,7 @@
         <p id="legal">@Html.Raw(ViewRes.Resource.Shared_Layout_Site_Copyright) </p>
         <p id="brand">@ViewRes.Resource.Site_Name</p>
     </div>
-
-    @Scripts.Render("~/bundles/jquery")
+    
     @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)
 

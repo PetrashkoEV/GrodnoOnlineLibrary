@@ -44,3 +44,37 @@
 </div>
 @Html.Partial("Template/LeftPanel", Model)
 <div style="clear: both;"></div>
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('form').submit(function() {
+            var category = getCheckCategory();
+            $.ajax({
+                url: '@Url.Action("AdvancedSearchResult")',
+                async: false,
+                type: "POST",
+                dataType: "json",
+                contentType: "application/json; charset=utf-8",
+                data: JSON.stringify({
+                    textSearch: $('.autocompleteRepository').val(),
+                    tagSelect: $('.tagSelect').val(),
+                    formatDocSelect: $('.documentsSelect').val(),
+                    categorySelect: category,
+                    page: 1
+                }),
+                error: function(result) {
+                    alert("Failed");
+                }
+            });
+        });
+        return false;
+    });
+
+    function getCheckCategory() {
+        var categorySelectString = "";
+        $('.treenode input:checkbox:checked').each(function () {
+            categorySelectString += $(this).val() + ';';
+        });
+        return categorySelectString.substring(0, categorySelectString.length - 1);
+    }
+</script>

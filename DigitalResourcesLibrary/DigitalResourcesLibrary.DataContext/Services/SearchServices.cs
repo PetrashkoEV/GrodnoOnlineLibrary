@@ -135,10 +135,10 @@ namespace DigitalResourcesLibrary.DataContext.Services
         }
 
         public List<DocumentModel> AdvancedSearch(string textSearch, string tagSelect, string formatDocSelect,
-                                                    int categoryId, int page)
+                                                    string categorySelect, int page)
         {
             var tagsId = _tagService.TagSelectSplit(tagSelect).Select(item => item.Id).ToList();
-            var category = _categoryService.GetIdAllSybCategory(categoryId);
+            var category = _categoryService.CategorySelectSplit(categorySelect);
             var typeDocuments = _tagService.FileTypeSplit(formatDocSelect);
 
             var allSearchList = _searchRepository.AdvancedSearch(tagsId, category, textSearch);

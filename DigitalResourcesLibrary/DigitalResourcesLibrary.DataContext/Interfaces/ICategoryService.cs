@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 using DigitalResourcesLibrary.DataContext.Model;
 
 namespace DigitalResourcesLibrary.DataContext.Interfaces
@@ -22,5 +18,12 @@ namespace DigitalResourcesLibrary.DataContext.Interfaces
         /// <param name="id">Identificator parent category</param>
         /// <returns>List id all subcategory</returns>
         List<long> GetIdAllSybCategory(int id);
+
+        /// <summary>
+        /// Split a string with categorySelect in a list id
+        /// </summary>
+        /// <param name="categorySelect">string with category</param>
+        /// <returns>list category id</returns>
+        List<long> CategorySelectSplit(string categorySelect);
     }
 }
