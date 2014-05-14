@@ -56,15 +56,12 @@
                 dataType: "json",
                 contentType: "application/json; charset=utf-8",
                 data: JSON.stringify({
-                    textSearch: $('.autocompleteRepository').val(),
+                    textSearch: $("#autocompleteRepository").val(),
                     tagSelect: $('.tagSelect').val(),
                     formatDocSelect: $('.documentsSelect').val(),
                     categorySelect: category,
                     page: 1
-                }),
-                error: function(result) {
-                    alert("Failed");
-                }
+                })
             });
         });
         return false;
