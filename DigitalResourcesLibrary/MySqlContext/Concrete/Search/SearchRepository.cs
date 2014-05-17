@@ -77,22 +77,29 @@ namespace MySqlContext.Concrete.Search
                 {
                     connection.Open();
 
-                    using (var reader = command.ExecuteReader())
+                    try
                     {
-                        while (reader.Read())
+                        using (var reader = command.ExecuteReader())
                         {
-                            var id = reader.GetInt32("tableId");
-                            var resultqueryTitle = reader.GetString("title");
-                            var resultqueryDecription = reader.GetString("description");
-                            var resultqueryType = reader.GetString("typeTable");
-                            result.Add(new SphinxSearchResult
+                            while (reader.Read())
                             {
-                                Id = id,
-                                Ttile = resultqueryTitle,
-                                Decription = resultqueryDecription,
-                                TypeDocument = resultqueryType
-                            });
+                                var id = reader.GetInt32("tableId");
+                                var resultqueryTitle = reader.GetString("title");
+                                var resultqueryDecription = reader.GetString("description");
+                                var resultqueryType = reader.GetString("typeTable");
+                                result.Add(new SphinxSearchResult
+                                {
+                                    Id = id,
+                                    Ttile = resultqueryTitle,
+                                    Decription = resultqueryDecription,
+                                    TypeDocument = resultqueryType
+                                });
+                            }
                         }
+                    }
+                    catch (Exception)
+                    {
+                        return new List<SphinxSearchResult>();
                     }
                 }
             }
@@ -108,6 +115,7 @@ namespace MySqlContext.Concrete.Search
             result = result.Replace(')', '*');
             result = result.Replace(';', '*');
             result = result.Replace("'", "*");
+            result = result.Replace('"'.ToString(), "*");
             return result + "*";
         }
     }

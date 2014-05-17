@@ -18,6 +18,7 @@
                 </form>
                 @Html.TextBoxFor(item => item.FormatDocSelect, null, new { @class = "documentsSelect" })
                 @Html.TextBoxFor(item => item.TagSelect, null, new { @class = "tagSelect" })
+                @Html.TextBoxFor(item => item.CategorySelect, null, new { @class = "tagSelect" })
                 <button class="btn" type="submit">@ViewRes.Resource.Shared_Menu_Search</button>
             </div>
         </div>
@@ -49,22 +50,9 @@
     $(document).ready(function() {
         $('form').submit(function() {
             var category = getCheckCategory();
-            $.ajax({
-                url: '@Url.Action("AdvancedSearchResult")',
-                async: false,
-                type: "POST",
-                dataType: "json",
-                contentType: "application/json; charset=utf-8",
-                data: JSON.stringify({
-                    textSearch: $("#autocompleteRepository").val(),
-                    tagSelect: $('.tagSelect').val(),
-                    formatDocSelect: $('.documentsSelect').val(),
-                    categorySelect: category,
-                    page: 1
-                })
-            });
+            $("#CategorySelect").val(category); 
+            return true;
         });
-        return false;
     });
 
     function getCheckCategory() {

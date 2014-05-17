@@ -188,16 +188,6 @@ namespace DigitalResourcesLibrary.DataContext.Services
 
             result = result.Take(_countNewsOnPage).ToList();
 
-            foreach (var documentModel in result)
-            {
-                if (documentModel.TypeDocument == TypeDocument.Store)
-                {
-                    var store = _storeService.FindContentStoreById(documentModel.Id);
-                    documentModel.Title = store.Title;
-                    documentModel.Description = store.Description;
-                    documentModel.Type = store.Type;
-                }
-            }
             return (List<DocumentModel>)result;
         }
 

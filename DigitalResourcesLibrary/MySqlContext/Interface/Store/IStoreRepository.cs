@@ -29,7 +29,7 @@ namespace MySqlContext.Interface.Store
         /// <param name="id">Identification stored</param>
         /// <param name="locateId">Localization Id</param>
         /// <returns>Binary file contents</returns>
-        IEnumerable<byte[]> FindFile(int id, int locateId);
+        byte[] FindFile(int id, int locateId);
 
         /// <summary>
         /// Search all stores by category

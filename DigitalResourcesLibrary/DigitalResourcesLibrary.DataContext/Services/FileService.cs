@@ -19,7 +19,7 @@ namespace DigitalResourcesLibrary.DataContext.Services
         
         public byte[] СontentFile(int id)
         {
-            return _storeRepository.FindFile(id, _curentLocate.GetHashCode()).FirstOrDefault();
+            return _storeRepository.FindFile(id, _curentLocate.GetHashCode());
         }
     }
 }

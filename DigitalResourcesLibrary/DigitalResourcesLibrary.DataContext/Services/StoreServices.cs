@@ -22,8 +22,6 @@ namespace DigitalResourcesLibrary.DataContext.Services
         private readonly IStoreRepository _storeRepository = new StoreRepository();
         private readonly IStoreLocateRepository _storeLocateRepository = new StoreLocateRepository();
 
-        private readonly int _countNewsOnPage = DocumentsHelper.CountNewsOnPage;
-
         public StoreModel GetStoreById(int id)
         {
             var item = _storeLocateRepository.GetStoreById(id, _curentLocate.GetHashCode());
@@ -104,11 +102,15 @@ namespace DigitalResourcesLibrary.DataContext.Services
             // this step is executed another question
             foreach (var store in listStoreAll)
             {
+                var storelocate = FindContentStoreById(store.id);
                 listDocuments.Add(new DocumentModel
                 {
                     Id = store.id,
                     TypeDocument = TypeDocumentsHelper.GeTypeDocument("store"), /*refactor*/
                     ModifiedDate = store.modified.Value,
+                    Title = storelocate.Title,
+                    Description = storelocate.Description,
+                    Type = storelocate.Type
                 });
             }
             CountStore = listDocuments.Count();
