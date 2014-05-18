@@ -1,17 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Web;
-using System.Web.Mvc;
+﻿using System.Web.Mvc;
 using DigitalResourcesLibrary.DataContext.Interfaces;
-using DigitalResourcesLibrary.DataContext.Services;
 
 namespace DigitalResourcesLibrary.Controllers
 {
     public class FilesController : Controller
     {
-        private readonly IFileService _fileService = new FileService();
+        private readonly IFileService _fileService;
+
+        public FilesController(IFileService fileService)
+        {
+            this._fileService = fileService;
+        }
 
         public FileContentResult DownloadFile(int id, string filename)
         {

@@ -8,8 +8,13 @@ using System.Web.Http;
 using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
+using Castle.MicroKernel.Registration;
+using Castle.Windsor;
 using DigitalResourcesLibrary.Attribute;
+using DigitalResourcesLibrary.Controllers;
 using DigitalResourcesLibrary.DataContext.Enums;
+using DigitalResourcesLibrary.DataContext.Interfaces;
+using DigitalResourcesLibrary.DataContext.Services;
 
 namespace DigitalResourcesLibrary
 {
@@ -27,6 +32,8 @@ namespace DigitalResourcesLibrary
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+
+            ControllerBuilder.Current.SetControllerFactory(typeof(ContainerControllerFactory));
 
 
             /*CreateDB bd = new CreateDB();
@@ -48,6 +55,30 @@ namespace DigitalResourcesLibrary
                 Thread.CurrentThread.CurrentUICulture = ci;
                 Thread.CurrentThread.CurrentCulture = CultureInfo.CreateSpecificCulture(ci.Name);
             }
+        }
+    }
+
+    public class ContainerControllerFactory : DefaultControllerFactory
+    {
+        private readonly WindsorContainer container;
+
+        public ContainerControllerFactory()
+        {
+            container = new WindsorContainer();
+
+            container.Register(AllTypes.Of(typeof (IController)).FromAssembly(typeof (HomeController).Assembly));
+            container.Register(
+                AllTypes.Pick().FromAssembly(typeof(SearchService).Assembly)
+                .If(s => s.Name.EndsWith("Service"))
+                .WithService.FirstInterface()
+                );
+        }
+
+        protected override IController GetControllerInstance(
+        RequestContext requestContext,
+        Type controllerType)
+        {
+            return (IController)container.Resolve(controllerType);
         }
     }
 }

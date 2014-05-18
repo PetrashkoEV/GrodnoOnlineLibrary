@@ -69,7 +69,7 @@
     <Compile Include="Interfaces\ITagService.cs" />
     <Compile Include="Interfaces\ICategoryService.cs" />
     <Compile Include="Interfaces\IStoreService.cs" />
-    <Compile Include="Interfaces\ISearchServices.cs" />
+    <Compile Include="Interfaces\ISearchService.cs" />
     <Compile Include="Interfaces\IArticleService.cs" />
     <Compile Include="Interfaces\IFileService.cs" />
     <Compile Include="Model\BaseSearchModel.cs" />
@@ -85,8 +85,8 @@
     <Compile Include="Services\ArticleService.cs" />
     <Compile Include="Services\CategoryService.cs" />
     <Compile Include="Services\FileService.cs" />
-    <Compile Include="Services\SearchServices.cs" />
-    <Compile Include="Services\StoreServices.cs" />
+    <Compile Include="Services\SearchService.cs" />
+    <Compile Include="Services\StoreService.cs" />
     <Compile Include="Services\TagService.cs" />
   </ItemGroup>
   <ItemGroup>

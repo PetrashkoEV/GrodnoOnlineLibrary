@@ -1,17 +1,22 @@
 ﻿using System.Web.Mvc;
 using DigitalResourcesLibrary.DataContext.Interfaces;
-using DigitalResourcesLibrary.DataContext.Services;
 using DigitalResourcesLibrary.Models;
 
 namespace DigitalResourcesLibrary.Controllers
 {
     public class DocumentsController : Controller
     {
-        private readonly IArticleService _articleService = new ArticleService();
-        private readonly IStoreService _storeService = new StoreServices();
+        private readonly IArticleService _articleService;
+        private readonly IStoreService _storeService;
+
+        public DocumentsController(IArticleService articleService, IStoreService storeService)
+        {
+            this._articleService = articleService;
+            this._storeService = storeService;
+        }
+
         //
         // GET: /Documents/Article
-
         public ActionResult Article(int id)
         {
             var article = _articleService.GetArticleById(id);
@@ -37,7 +42,6 @@ namespace DigitalResourcesLibrary.Controllers
 
         //
         // GET: /Documents/Store
-
         public ActionResult Store(int id)
         {
             var store = _storeService.GetStoreById(id);

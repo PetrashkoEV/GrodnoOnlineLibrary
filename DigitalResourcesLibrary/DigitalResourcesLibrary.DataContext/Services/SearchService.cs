@@ -15,12 +15,12 @@ using MySqlContext.Model;
 
 namespace DigitalResourcesLibrary.DataContext.Services
 {
-    public class SearchServices : ISearchServices
+    public class SearchService : ISearchService
     {
         private readonly ISearchRepository _searchRepository = new SearchRepository();
         private readonly ITagRepository _tagRepository = new TagRepository();
         private readonly IArticleService _articleService = new ArticleService();
-        private readonly IStoreService _storeService = new StoreServices();
+        private readonly IStoreService _storeService = new StoreService();
         private readonly ICategoryService _categoryService = new CategoryService();
         private readonly ITagService _tagService = new TagService();
         private readonly int _countNewsOnPage = DocumentsHelper.CountNewsOnPage;

@@ -4,7 +4,7 @@ using DigitalResourcesLibrary.DataContext.Model.Documents;
 
 namespace DigitalResourcesLibrary.DataContext.Interfaces
 {
-    public interface ISearchServices
+    public interface ISearchService
     {
         /// <summary>
         /// The total number of elements. Updated only after the search operation

@@ -14,7 +14,7 @@ using MySqlContext.Interface.Store;
 
 namespace DigitalResourcesLibrary.DataContext.Services
 {
-    public class StoreServices : IStoreService
+    public class StoreService : IStoreService
     {
         public int CountStore { get; set; }
 

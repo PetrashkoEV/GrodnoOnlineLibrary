@@ -1,13 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Diagnostics;
-using System.Linq;
-using System.Web;
 using System.Web.Mvc;
 using DigitalResourcesLibrary.DataContext.Enums;
-using DigitalResourcesLibrary.DataContext.Helper;
 using DigitalResourcesLibrary.DataContext.Interfaces;
-using DigitalResourcesLibrary.DataContext.Model;
 using DigitalResourcesLibrary.DataContext.Services;
 using DigitalResourcesLibrary.Models;
 using Newtonsoft.Json;
@@ -16,8 +11,14 @@ namespace DigitalResourcesLibrary.Controllers
 {
     public class SearchController : Controller
     {
-        private readonly ISearchServices _searchServices = new SearchServices();
-        private readonly ITagService _tagService = new TagService();
+        private readonly ISearchService _searchServices;
+        private readonly ITagService _tagService;
+
+        public SearchController(ISearchService searchServices, ITagService tagService)
+        {
+            this._searchServices = searchServices;
+            this._tagService = tagService;
+        }
 
         public ActionResult Index()
         {
