@@ -20,8 +20,6 @@ namespace DigitalResourcesLibrary.DataContext.Services
         private readonly IArticleRepository _articleRepository = new ArticleRepository();
         private readonly IArticleLocateRepository _articleLocateRepository = new ArticleLocateRepository();
 
-        private readonly int _countNewsOnPage = DocumentsHelper.CountNewsOnPage;
-
         public ArticleModel GetArticleById(int id)
         {
             var item = _articleLocateRepository.GetArticleById(id, _curentLocate.GetHashCode());

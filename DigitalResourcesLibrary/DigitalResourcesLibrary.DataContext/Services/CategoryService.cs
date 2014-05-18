@@ -16,7 +16,6 @@ namespace DigitalResourcesLibrary.DataContext.Services
     {
         private readonly Language _curentLocate = LocalizationHelper.GetLocalizationLanguage();
         private readonly ICategoryRepository _categoryRepository = new CategoryRepository();
-        private ICategoryLocateRepository _categoryLocateRepository = new CategoryLocateRepository();
 
         public List<CategoryModel> GetAllSubCategoryById(int id)
         {

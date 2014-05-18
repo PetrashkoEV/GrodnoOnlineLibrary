@@ -17,15 +17,26 @@ namespace DigitalResourcesLibrary.DataContext.Services
 {
     public class SearchService : ISearchService
     {
-        private readonly ISearchRepository _searchRepository = new SearchRepository();
-        private readonly ITagRepository _tagRepository = new TagRepository();
-        private readonly IArticleService _articleService = new ArticleService();
-        private readonly IStoreService _storeService = new StoreService();
-        private readonly ICategoryService _categoryService = new CategoryService();
-        private readonly ITagService _tagService = new TagService();
+        private readonly ISearchRepository _searchRepository;
+        private readonly ITagRepository _tagRepository;
+        private readonly IArticleService _articleService;
+        private readonly IStoreService _storeService;
+        private readonly ICategoryService _categoryService;
+        private readonly ITagService _tagService;
+
         private readonly int _countNewsOnPage = DocumentsHelper.CountNewsOnPage;
         private const int CountSumbolInSearchText = 40;
 
+        public SearchService(IArticleService articleService, IStoreService storeService,
+                            ICategoryService categoryService, ITagService tagService)
+        {
+            this._searchRepository = new SearchRepository();
+            this._tagRepository = new TagRepository();
+            this._articleService = articleService;
+            this._storeService = storeService;
+            this._categoryService = categoryService;
+            this._tagService = tagService;
+        }
         public List<string> AutoComplete(string search)
         {
             var result = new List<string>();
