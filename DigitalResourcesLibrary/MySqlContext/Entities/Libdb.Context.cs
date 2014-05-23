@@ -32,11 +32,12 @@ namespace MySqlContext.Entities
         public DbSet<categoryloc> categoryloc { get; set; }
         public DbSet<locale> locale { get; set; }
         public DbSet<role> role { get; set; }
+        public DbSet<searchindexlog> searchindexlog { get; set; }
         public DbSet<store> store { get; set; }
         public DbSet<storeloc> storeloc { get; set; }
         public DbSet<tag> tag { get; set; }
         public DbSet<tagloc> tagloc { get; set; }
-        public DbSet<user> user { get; set; }
         public DbSet<typefile> typefile { get; set; }
+        public DbSet<user> user { get; set; }
     }
 }

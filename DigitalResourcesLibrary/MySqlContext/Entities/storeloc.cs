@@ -21,6 +21,7 @@ namespace MySqlContext.Entities
         public string title { get; set; }
         public string filename { get; set; }
         public string type { get; set; }
+        public long id { get; set; }
     
         public virtual locale locale1 { get; set; }
         public virtual store store1 { get; set; }

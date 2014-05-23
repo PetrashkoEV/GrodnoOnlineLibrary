@@ -12,16 +12,11 @@ namespace MySqlContext.Entities
     using System;
     using System.Collections.Generic;
     
-    public partial class articleloc
+    public partial class searchindexlog
     {
-        public int article { get; set; }
-        public int locale { get; set; }
-        public string content { get; set; }
-        public string description { get; set; }
-        public string title { get; set; }
-        public long id { get; set; }
-    
-        public virtual article article1 { get; set; }
-        public virtual locale locale1 { get; set; }
+        public int Id { get; set; }
+        public System.DateTime Date { get; set; }
+        public bool IsMain { get; set; }
+        public bool IsDelta { get; set; }
     }
 }

@@ -138,6 +138,9 @@
     <Compile Include="Concrete\Search\SearchRepository.cs" />
     <Compile Include="Concrete\Store\StoreLocateRepository.cs" />
     <Compile Include="Concrete\Tag\TypeFileRepository.cs" />
+    <Compile Include="Entities\searchindexlog.cs">
+      <DependentUpon>Libdb.tt</DependentUpon>
+    </Compile>
     <Compile Include="Entities\typefile.cs">
       <DependentUpon>Libdb.tt</DependentUpon>
     </Compile>
