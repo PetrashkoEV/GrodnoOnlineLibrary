@@ -18,15 +18,17 @@
                 {
                     @Html.Partial("OpenFile/VideoFile", Model)
                 }
-
-                @if (Model.Type == FileType.Audio)
+                else if (Model.Type == FileType.Audio)
                 {
                     @Html.Partial("OpenFile/AudioFile", Model)
                 }
-
-                @if (Model.Type == FileType.Document)
+                else if (Model.Type == FileType.Document)
                 {
                     @Html.Partial("OpenFile/DocumentFile", Model)
+                }
+                else if (Model.Type == FileType.Image)
+                {
+                    @Html.Partial("OpenFile/ImageFile", Model)
                 }
             </div>
             <div class="button-downloads">

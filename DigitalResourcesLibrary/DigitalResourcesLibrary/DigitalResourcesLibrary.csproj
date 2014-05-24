@@ -292,6 +292,7 @@
     <Content Include="Scripts\TreeSelect\jquery.treeselect.min.js.map">
       <DependentUpon>jquery.treeselect.js</DependentUpon>
     </Content>
+    <Content Include="Views\Documents\OpenFile\ImageFile.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
