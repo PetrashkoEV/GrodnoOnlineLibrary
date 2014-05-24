@@ -219,3 +219,20 @@ cursor:pointer;
 .chosentree {
     padding-top: 10px;
 }
+
+#posts .about {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: justify;
+}
+
+#posts .about p {
+    text-indent: 20px;
+}
+
+.about .about-image {
+    float: left;
+    height: 50%;
+    margin: 12px;
+    width: 50%;
+}

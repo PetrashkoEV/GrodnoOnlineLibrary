@@ -6,8 +6,8 @@
 
     <title>@ViewBag.Title</title>
     @Scripts.Render("~/bundles/jquery")
-    <link href="http://vjs.zencdn.net/4.5/video-js.css" rel="stylesheet">
-    <script src="http://vjs.zencdn.net/4.5/video.js"></script>
+    <link href="http://vjs.zencdn.net/4.5/video-js.css" rel="stylesheet"/>
+    <script src="http://vjs.zencdn.net/4.5/video.js"/>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
 </head>
@@ -17,14 +17,14 @@
         <div id="header">
             <div class="header-site">@ViewRes.Resource.Site_Name_Header</div>
             <div class="body-site">@Html.Raw("&laquo;")@ViewRes.Resource.Site_Name_Body@Html.Raw("&raquo;")</div>
-        </div>
+        </div>AllTypes
         <div id="content">
             @RenderBody()
         </div>
     </div>
 
     <div id="footer">
-        <p id="legal">@Html.Raw(ViewRes.Resource.Shared_Layout_Site_Copyright) </p>
+        <p id="legal">@Html.Raw(ViewRes.Resource.Shared_Layout_Site_Copyright) @DateTime.Now.Year @ViewRes.Resource.Site_Name_Header</p>
         <p id="brand">@ViewRes.Resource.Site_Name</p>
     </div>
     

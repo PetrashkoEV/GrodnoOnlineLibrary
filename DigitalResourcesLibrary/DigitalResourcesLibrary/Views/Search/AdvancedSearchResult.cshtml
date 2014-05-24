@@ -1,6 +1,6 @@
 ﻿@model DigitalResourcesLibrary.Models.AdvancedSearchViewModel
 @{
-    ViewBag.Title = "Posts";
+    ViewBag.Title = ViewRes.Resource.Shared_Menu_Result_AdvancedSearch + " - " + ViewRes.Resource.Site_Name_Header;
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
@@ -13,7 +13,7 @@
                     @Html.TextBoxFor(model => model.TextSearch, null, new
                     {
                         @class = "search-query",
-                        placeholder = "Search",
+                        placeholder = @ViewRes.Resource.Search_AdvancedSearch_AutoComplete,
                         id = "autocompleteRepository"
                     })
                 </form>
