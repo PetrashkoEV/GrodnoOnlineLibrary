@@ -28,13 +28,18 @@
 
 @helper Truncate(string input, int length)
 {
-    string inputstring = Regex.Replace(input, @"<[^>]*>", String.Empty);
-
-    if (inputstring.Length <= length)
+    if (input != null)
     {
-        @inputstring
-    } else {
-        @inputstring.Substring(0, length)<text>...</text>
+        var inputstring = Regex.Replace(input, @"<[^>]*>", String.Empty);
+
+        if (inputstring.Length <= length)
+        {
+            @inputstring
+        }
+        else
+        {
+            @inputstring.Substring(0, length)<text>...</text>
+        }
     }
 }
 

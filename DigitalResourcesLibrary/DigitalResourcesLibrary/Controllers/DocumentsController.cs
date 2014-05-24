@@ -1,4 +1,5 @@
-﻿using System.Web.Mvc;
+﻿using System.Configuration;
+using System.Web.Mvc;
 using DigitalResourcesLibrary.DataContext.Interfaces;
 using DigitalResourcesLibrary.Models;
 
@@ -8,6 +9,15 @@ namespace DigitalResourcesLibrary.Controllers
     {
         private readonly IArticleService _articleService;
         private readonly IStoreService _storeService;
+
+        private string SiteName
+        {
+            get
+            {
+                var conString = ConfigurationManager.ConnectionStrings["LibDbSite"];
+                return conString.ConnectionString;
+            }
+        }
 
         public DocumentsController(IArticleService articleService, IStoreService storeService)
         {
@@ -57,11 +67,13 @@ namespace DigitalResourcesLibrary.Controllers
                 result.User = store.User;
                 result.Visible = store.Visible;
                 result.FileName = store.FileName;
+                result.MimeType = store.MimeType;
             }
             else
             {
                 result.ValidModel = false;
             }
+            ViewBag.SiteName = SiteName;
             return View(result);
         }
 

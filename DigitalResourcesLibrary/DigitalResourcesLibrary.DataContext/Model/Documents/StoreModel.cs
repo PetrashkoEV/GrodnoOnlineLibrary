@@ -1,5 +1,6 @@
 ﻿using System;
 using DigitalResourcesLibrary.DataContext.Enums;
+using DigitalResourcesLibrary.DataContext.Helper;
 
 namespace DigitalResourcesLibrary.DataContext.Model.Documents
 {
@@ -11,9 +12,13 @@ namespace DigitalResourcesLibrary.DataContext.Model.Documents
         public string Description { get; set; }
         public string Title { get; set; }
         public string FileName { get; set; }
-        public FileType Type { get; set; }
+        public string MimeType { get; set; }
         public DateTime ModifiedDate { get; set; }
         public int Visible { get; set; }
         public UserModel User { get; set; }
+        public FileType Type
+        {
+            get { return FileHelper.GeType(MimeType); }
+        }
     }
 }

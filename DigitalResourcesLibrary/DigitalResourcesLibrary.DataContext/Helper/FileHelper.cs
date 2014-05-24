@@ -20,37 +20,31 @@ namespace DigitalResourcesLibrary.DataContext.Helper
             switch (type)
             {
                 case "application/pdf":
+                case "application/vnd.ms-word":
+                case "application/vnd.oasis.opendocument.text":
+                case "application/rtf":
+                case "text/plain":
+                case "text/html":
+                case "application/vnd.ms-excel":
+                case "application/vnd.ms-powerpoint":
+                case "application/postscript":
+                case "image/x-photoshop":
+                case "image/svg+xml":
+                case "image/tiff":
                     return FileType.Document;
                 case "audio/mpeg3":
+                case "audio/x-wav":
+                case "audio/x-mpeg":
+                case "application/ogg":
                     return FileType.Audio;
                 case "image/jpeg":
+                case "image/bmp":
+                case "image/gif":
                     return FileType.Image;
                 case "video/mp4":
-                case "video/x-flv":
                     return FileType.Video;
             }
             return FileType.SelectAll;
-        }
-
-        /// <summary>
-        /// Get name type by FileType model
-        /// </summary>
-        /// <param name="type">FileType model</param>
-        /// <returns>name type</returns>
-        public static string GeType(FileType type)
-        {
-            switch (type)
-            {
-                case FileType.Document:
-                    return "application/pdf";
-                case FileType.Audio:
-                    return "audio/mpeg";
-                case FileType.Image:
-                    return "image/jpeg";
-                case FileType.Video:
-                    return "video/mp4";
-            }
-            return "other";
         }
 
         /// <summary>

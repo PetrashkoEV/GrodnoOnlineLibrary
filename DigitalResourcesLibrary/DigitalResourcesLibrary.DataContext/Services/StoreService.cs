@@ -36,7 +36,7 @@ namespace DigitalResourcesLibrary.DataContext.Services
                 Id = item.store,
                 LocaleString = item.locale1.locale1,
                 FileName = item.filename,
-                Type = FileHelper.GeType(item.type),
+                MimeType = item.type,
                 Title = item.title,
                 Description = item.description,
                 ModifiedDate = item.store1.modified.Value,

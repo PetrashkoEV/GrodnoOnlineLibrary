@@ -188,7 +188,7 @@ div.moreorless_link {
   width: 12px;
   height: 13px;
   font-size: 1px;
-  background: url(http://harvesthq.github.com/chosen/chosen/chosen-sprite.png) right top no-repeat;
+  background: url(/Content/themes/images/chosen-sprite.png) right top no-repeat;
 }
 .chzntree-container-single .chzntree-single abbr:hover {
   background-position: right -11px;
@@ -217,7 +217,7 @@ div.moreorless_link {
   width: 18px;
 }
 .chzntree-container-single .chzntree-single div b {
-  background: url('http://harvesthq.github.com/chosen/chosen/chosen-sprite.png') no-repeat 0 1px;
+  background: url('/Content/themes/images/chosen-sprite.png') no-repeat 0 1px;
   display: block;
   width: 100%;
   height: 100%;
@@ -493,13 +493,13 @@ div.moreorless_link {
 .chzntree-rtl .chzntree-results .group-option { padding-left: 0; padding-right: 20px; }
 .chzntree-rtl.chzntree-container-active .chzntree-single-with-drop div { border-right: none; }
 .chzntree-rtl .chzntree-search input[type='text'] {
-  background: url('sites/all/themes/allplayers960/images/chosen-sprite.png') no-repeat -38px -22px, #ffffff;
-  background: url('sites/all/themes/allplayers960/images/chosen-sprite.png') no-repeat -38px -22px, -webkit-gradient(linear, left bottom, left top, color-stop(0.85, white), color-stop(0.99, #eeeeee));
-  background: url('sites/all/themes/allplayers960/images/chosen-sprite.png') no-repeat -38px -22px, -webkit-linear-gradient(center bottom, white 85%, #eeeeee 99%);
-  background: url('sites/all/themes/allplayers960/images/chosen-sprite.png') no-repeat -38px -22px, -moz-linear-gradient(center bottom, white 85%, #eeeeee 99%);
-  background: url('sites/all/themes/allplayers960/images/chosen-sprite.png') no-repeat -38px -22px, -o-linear-gradient(bottom, white 85%, #eeeeee 99%);
-  background: url('sites/all/themes/allplayers960/images/chosen-sprite.png') no-repeat -38px -22px, -ms-linear-gradient(top, #ffffff 85%,#eeeeee 99%);
-  background: url('sites/all/themes/allplayers960/images/chosen-sprite.png') no-repeat -38px -22px, linear-gradient(top, #ffffff 85%,#eeeeee 99%);
+  background: url('/Content/themes/images/chosen-sprite.png') no-repeat -38px -22px, #ffffff;
+  background: url('/Content/themes/images/chosen-sprite.png') no-repeat -38px -22px, -webkit-gradient(linear, left bottom, left top, color-stop(0.85, white), color-stop(0.99, #eeeeee));
+  background: url('/Content/themes/images/chosen-sprite.png') no-repeat -38px -22px, -webkit-linear-gradient(center bottom, white 85%, #eeeeee 99%);
+  background: url('/Content/themes/images/chosen-sprite.png') no-repeat -38px -22px, -moz-linear-gradient(center bottom, white 85%, #eeeeee 99%);
+  background: url('/Content/themes/images/chosen-sprite.png') no-repeat -38px -22px, -o-linear-gradient(bottom, white 85%, #eeeeee 99%);
+  background: url('/Content/themes/images/chosen-sprite.png') no-repeat -38px -22px, -ms-linear-gradient(top, #ffffff 85%,#eeeeee 99%);
+  background: url('/Content/themes/images/chosen-sprite.png') no-repeat -38px -22px, linear-gradient(top, #ffffff 85%,#eeeeee 99%);
   padding: 4px 5px 4px 20px;
 }
 /* @end */
