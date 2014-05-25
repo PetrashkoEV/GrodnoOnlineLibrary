@@ -66,7 +66,6 @@ namespace DigitalResourcesLibrary
         {
             container = new WindsorContainer();
 
-#pragma warning disable 618
             container.Register(AllTypes.Of(typeof (IController)).FromAssembly(typeof (HomeController).Assembly));
             container.Register(
                 AllTypes.Pick().FromAssembly(typeof(SearchService).Assembly)

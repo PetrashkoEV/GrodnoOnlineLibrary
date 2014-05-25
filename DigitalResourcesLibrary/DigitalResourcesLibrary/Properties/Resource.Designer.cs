@@ -61,29 +61,6 @@ namespace ViewRes {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Documents.
-        /// </summary>
-        public static string Documents_Type {
-            get {
-                return ResourceManager.GetString("Documents_Type", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to &lt;img src=&quot;/Content/themes/images/About/1.jpg&quot; class=&quot;about-image&quot; alt=&quot;Гродно – город церквей и костёлов&quot;&gt;
-        ///        &lt;p&gt;
-        ///            Гродно – город церквей и костёлов, старых замков и дворцов королей. Древняя история Гродно начиналась с Замковой горы. На высоком холме, в устье рек Немана и Городничанки в Х-ХI веках было заложено укрепленное поселение. В 1127 году город впервые упоминается в письменных источниках.
-        ///        &lt;/p&gt;
-        ///        &lt;p&gt;
-        ///            История отвела этому городу необычное место в решении с [rest of string was truncated]&quot;;.
-        /// </summary>
-        public static string Home_About_Body {
-            get {
-                return ResourceManager.GetString("Home_About_Body", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to .
         /// </summary>
         public static string Home_Index_FifthSlide_Body {
@@ -255,7 +232,7 @@ namespace ViewRes {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Copyright &amp;copy;.
+        ///   Looks up a localized string similar to Copyright &amp;copy; {0} The Library Grodno..
         /// </summary>
         public static string Shared_Layout_Site_Copyright {
             get {
@@ -287,15 +264,6 @@ namespace ViewRes {
         public static string Shared_Menu_Home {
             get {
                 return ResourceManager.GetString("Shared_Menu_Home", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Result Advanced Search.
-        /// </summary>
-        public static string Shared_Menu_Result_AdvancedSearch {
-            get {
-                return ResourceManager.GetString("Shared_Menu_Result_AdvancedSearch", resourceCulture);
             }
         }
         

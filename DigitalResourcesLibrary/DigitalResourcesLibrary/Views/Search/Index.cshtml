@@ -1,6 +1,6 @@
 ﻿@model DigitalResourcesLibrary.Models.SearchViewModel
 @{
-    ViewBag.Title = ViewRes.Resource.Shared_Menu_Search + " - " + ViewRes.Resource.Site_Name_Header;
+    ViewBag.Title = "Posts";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
@@ -12,9 +12,7 @@
                 <form class="navbar-search pull-left">
                     @Html.TextBoxFor(model => model.SearchModel.SearchText, null, new
                     {
-                        @class = "search-query", 
-                        placeholder = @ViewRes.Resource.Search_AdvancedSearch_AutoComplete, 
-                        id = "autocompleteRepository"
+                        @class = "search-query", placeholder = "Search", id = "autocompleteRepository"
                     })
                 </form>
                 <button class="btn" type="submit">@ViewRes.Resource.Shared_Menu_Search</button>
