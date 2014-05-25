@@ -82,3 +82,25 @@ function HidePlauerBytNoHTML5() {
         inner.style.display = "none";
     }
 }
+
+function AddDocument(docId, docType) {
+    $.ajax({
+        type: 'POST',
+        url: "/Documents/AddCookieDocument",
+        data: { id: docId, type: docType },
+        success: function () {
+            alert("qwe");
+        }
+    });
+}
+
+function RemoveDocument(docId, docType) {
+    $.ajax({
+        type: 'POST',
+        url: "/Documents/RemoveCookieDocument",
+        data: { id: docId, type: docType },
+        success: function () {
+            alert("qwe");
+        }
+    });
+}

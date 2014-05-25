@@ -1,7 +1,12 @@
-﻿using System.Configuration;
+﻿using System.Collections.Generic;
+using System.Configuration;
+using System.Web;
 using System.Web.Mvc;
+using DigitalResourcesLibrary.DataContext.Enums;
+using DigitalResourcesLibrary.DataContext.Helper;
 using DigitalResourcesLibrary.DataContext.Interfaces;
 using DigitalResourcesLibrary.Models;
+using Newtonsoft.Json;
 
 namespace DigitalResourcesLibrary.Controllers
 {
@@ -9,6 +14,7 @@ namespace DigitalResourcesLibrary.Controllers
     {
         private readonly IArticleService _articleService;
         private readonly IStoreService _storeService;
+        private readonly string _nameCookie;
 
         private string SiteName
         {
@@ -23,6 +29,7 @@ namespace DigitalResourcesLibrary.Controllers
         {
             this._articleService = articleService;
             this._storeService = storeService;
+            _nameCookie = "listdocumet";
         }
 
         //
@@ -77,5 +84,48 @@ namespace DigitalResourcesLibrary.Controllers
             return View(result);
         }
 
+        [HttpPost]
+        public void AddCookieDocument(int id, TypeDocument type)
+        {
+            var model = getModel(id, type);
+
+            var cookie = Request.Cookies[_nameCookie];
+            List<DocumentLight> result;
+            if (cookie == null || cookie.Value == null)
+            {
+                cookie = new HttpCookie(_nameCookie);
+                result = new List<DocumentLight> { model };
+            }
+            else
+            {
+                result = JsonConvert.DeserializeObject<List<DocumentLight>>(cookie.Value);
+                if (!result.Contains(model))
+                {
+                    result.Add(model);
+                }
+            }
+            cookie.Value =  JsonConvert.SerializeObject(result);
+            HttpContext.Response.Cookies.Add(cookie);
+        }
+
+        [HttpPost]
+        public void RemoveCookieDocument(int id, TypeDocument type)
+        {
+            var model = getModel(id, type);
+
+            var cookie = Request.Cookies[_nameCookie];
+            if (cookie != null && cookie.Value != null)
+            {
+                var result = JsonConvert.DeserializeObject<List<DocumentLight>>(cookie.Value);
+                result.Remove(model);
+                cookie.Value = JsonConvert.SerializeObject(result);
+                HttpContext.Response.Cookies.Add(cookie);
+            }
+        }
+
+        private DocumentLight getModel(int id, TypeDocument type)
+        {
+            return new DocumentLight (id, type);
+        }
     }
 }

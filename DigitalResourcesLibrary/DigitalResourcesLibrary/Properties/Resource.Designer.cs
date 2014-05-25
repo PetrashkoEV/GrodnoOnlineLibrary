@@ -61,6 +61,24 @@ namespace ViewRes {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Add document.
+        /// </summary>
+        public static string Add_Cookie_Document {
+            get {
+                return ResourceManager.GetString("Add_Cookie_Document", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Delete document.
+        /// </summary>
+        public static string Delete_Cookie_Document {
+            get {
+                return ResourceManager.GetString("Delete_Cookie_Document", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Documents.
         /// </summary>
         public static string Documents_Type {

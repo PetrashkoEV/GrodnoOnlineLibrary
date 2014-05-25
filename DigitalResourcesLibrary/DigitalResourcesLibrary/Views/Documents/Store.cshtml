@@ -31,11 +31,17 @@
                     @Html.Partial("OpenFile/ImageFile", Model)
                 }
             </div>
+            <a href="javascript:void(0);" id="add-document" class="btn btn-primary" type="button" onclick="AddDocument(@Model.Id, '@TypeDocument.Store.ToString()')">@ViewRes.Resource.Add_Cookie_Document</a>
+            <a href="javascript:void(0);" id="remove-document" class="btn btn-primary" type="button" onclick="RemoveDocument(@Model.Id, '@TypeDocument.Store.ToString()')">@ViewRes.Resource.Delete_Cookie_Document</a>
             <div class="button-downloads">
-                @Html.ActionLink(ViewRes.Resource.Site_Button_Download, "Download", "Files", new { id = Model.Id, filename = Model.FileName }, new { @class = "btn btn-primary", type = "button", dataloadingtext = "Loading..." })
+                @Html.ActionLink(ViewRes.Resource.Site_Button_Download, 
+                "Download", "Files", 
+                new { id = Model.Id, filename = Model.FileName }, 
+                new { @class = "btn btn-primary", type = "button", dataloadingtext = "Loading..." })
             </div>
         </div>
     }
 </div>
 @Html.Partial("Template/LeftPanel", Model)
 <div style="clear: both;"></div>
+

@@ -1,4 +1,5 @@
-﻿@model DigitalResourcesLibrary.Models.ArticleViewModel
+﻿@using DigitalResourcesLibrary.DataContext.Enums
+@model DigitalResourcesLibrary.Models.ArticleViewModel
 @{
     ViewBag.Title = ViewRes.Resource.Documents_Type + " - " + ViewRes.Resource.Site_Name_Header;
     Layout = "~/Views/Shared/_Layout.cshtml";
@@ -13,6 +14,8 @@
             @Html.Raw(Model.Content)
         </div>
     }
+    <a href="javascript:void(0);" id="add-document" class="btn btn-primary" type="button" onclick="AddDocument(@Model.Id, '@TypeDocument.Article.ToString()')">@ViewRes.Resource.Add_Cookie_Document</a>
+    <a href="javascript:void(0);" id="remove-document" class="btn btn-primary" type="button" onclick="RemoveDocument(@Model.Id, '@TypeDocument.Article.ToString()')">@ViewRes.Resource.Delete_Cookie_Document</a>
 </div>
 @Html.Partial("Template/LeftPanel", Model)
 <div style="clear: both;"></div>

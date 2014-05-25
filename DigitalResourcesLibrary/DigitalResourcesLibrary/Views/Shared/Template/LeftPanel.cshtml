@@ -1,6 +1,9 @@
 ﻿@model DigitalResourcesLibrary.Models.BaseSearchModel
 @using System.Globalization
+@using Castle.Core.Internal
 @using DigitalResourcesLibrary.DataContext.Helper
+@using DigitalResourcesLibrary.Models
+@using Newtonsoft.Json
 @{
     const int countMounth = 5;
     var dateNow = DateTime.Now;
@@ -10,7 +13,28 @@
         date.Add(dateNow.AddMonths(-i));
     }
 }
+
+@{
+    var listCookiesDocumet = Request.Cookies["listdocumet"];
+    var listDocumet = new List<DocumentLight>();
+    if (listCookiesDocumet != null && listCookiesDocumet.Value != null)
+    {
+        listDocumet = JsonConvert.DeserializeObject<List<DocumentLight>>(listCookiesDocumet.Value);
+    }
+}
 <div id="links">
+    @if (!listDocumet.IsNullOrEmpty())
+    {
+        <div class="block">
+            <h2>@ViewRes.Resource.Shared_Template_Tags_Title</h2>
+            <div class="tags">
+                @foreach (var item in listDocumet)
+                {
+                   @Html.Raw(item.Id)
+                }
+            </div>
+        </div>
+    }
     <div class="block">
         <h2>@ViewRes.Resource.Shared_Template_Archives_Title</h2>
         <ul class="categories">
@@ -18,7 +42,7 @@
             {
                 <li>
                     @Html.ActionLink(date[i].ToString("MMMM yyyy", new CultureInfo(LocalizationHelper.GetLocalizationLanguage().ToString())),
-                             "SearchByDate", "Search", new { searchValue = date[i], page = 1}, null)
+                        "SearchByDate", "Search", new { searchValue = date[i], page = 1}, null)
                 </li>
             }
             <li>
