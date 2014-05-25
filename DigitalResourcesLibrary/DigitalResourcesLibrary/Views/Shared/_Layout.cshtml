@@ -7,17 +7,17 @@
     <title>@ViewBag.Title</title>
     @Scripts.Render("~/bundles/jquery")
     <link href="http://vjs.zencdn.net/4.5/video-js.css" rel="stylesheet"/>
-    <script src="http://vjs.zencdn.net/4.5/video.js"/>
+    <script src="http://vjs.zencdn.net/4.5/video.js"></script>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
 </head>
-<body>
+    <body>
     <div id="wrapper">
         @Html.Partial("_Menu")
         <div id="header">
             <div class="header-site">@ViewRes.Resource.Site_Name_Header</div>
             <div class="body-site">@Html.Raw("&laquo;")@ViewRes.Resource.Site_Name_Body@Html.Raw("&raquo;")</div>
-        </div>AllTypes
+        </div>
         <div id="content">
             @RenderBody()
         </div>
