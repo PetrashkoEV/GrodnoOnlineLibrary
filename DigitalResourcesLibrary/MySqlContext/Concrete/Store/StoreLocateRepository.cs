@@ -23,17 +23,44 @@ namespace MySqlContext.Concrete.Store
 
         public storeloc GetStoreById(int id, int locateId)
         {
-            return Entity.FirstOrDefault(item => item.store == id && item.locale == locateId);
+            var model = Entity.FirstOrDefault(item => item.store == id && item.locale == locateId);
+            if (model != null && model.type == null)
+            {
+                var modeltype = Entity.Where(item => item.store == id && item.type != null);
+                if (modeltype.Count() != 0)
+                {
+                    var firstOrDefault = modeltype.FirstOrDefault();
+                    if (firstOrDefault != null)
+                    {
+                        model.type = firstOrDefault.type;
+                        model.filename = firstOrDefault.filename;
+                    }
+                }
+            }
+            return model;
         }
 
         public storeloclight GetStoreByIdWithoutData(int id, int locateId)
         {
-            return Entity.Where(item => item.store == id && item.locale == locateId).Select(item => new storeloclight
+            var model = Entity.Where(item => item.store == id)
+                .Where(item => item.locale == locateId).Select(item => new storeloclight
+                {
+                    title = item.title,
+                    description = item.description,
+                    type = item.type
+                }).FirstOrDefault();
+
+            if (model != null && model.type == null)
             {
-                title = item.title,
-                description = item.description,
-                type = item.type
-            }).FirstOrDefault();
+                var modeltype = Entity.Where(item => item.store == id && item.type != null);
+                if (modeltype.Count() != 0)
+                {
+                    var firstOrDefault = modeltype.FirstOrDefault();
+                    if (firstOrDefault != null) 
+                        model.type = firstOrDefault.type;
+                }
+            }
+            return model;
         }
     }
 }

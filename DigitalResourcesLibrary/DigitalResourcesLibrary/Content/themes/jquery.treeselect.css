@@ -353,7 +353,7 @@ div.moreorless_link {
   width: 10px;
   height: 10px;
   font-size: 1px;
-  background: url(images/chosen-sprite.png) right top no-repeat;
+  background: url(/Content/themes/images/chosen-sprite.png) right top no-repeat;
 }
 .chzntree-container-multi .chzntree-choices .search-choice .search-choice-close:hover {
   background-position: right -11px;

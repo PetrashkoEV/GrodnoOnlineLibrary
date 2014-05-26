@@ -31,9 +31,15 @@ namespace MySqlContext.Concrete.Store
             var count = Entity.Find(id).storeloc.Count(item => item.locale == locateId && item.data != null);
             if (count == 0)
             {
-                return Entity.Find(id).storeloc.Select(item => item.data).FirstOrDefault();
+                return Entity.Find(id).storeloc
+                    .Where(item => item.type != null)
+                    .Select(item => item.data)
+                    .FirstOrDefault();
             }
-            return Entity.Find(id).storeloc.Where(item=> item.locale == locateId).Select(item => item.data).FirstOrDefault();
+            return Entity.Find(id).storeloc
+                .Where(item=> item.locale == locateId)
+                .Select(item => item.data)
+                .FirstOrDefault();
         }
 
         public IQueryable<store> FindByCategoryes(List<long> categoryesId)

@@ -22,11 +22,15 @@ namespace DigitalResourcesLibrary.DataContext.Helper
                 case "application/pdf":
                 case "application/vnd.ms-word":
                 case "application/vnd.oasis.opendocument.text":
+                case "application/vnd.openxmlformats-officedocument.wordprocessingml.document":
+                case "application/msword":
                 case "application/rtf":
                 case "text/plain":
                 case "text/html":
                 case "application/vnd.ms-excel":
                 case "application/vnd.ms-powerpoint":
+                case "application/vnd.openxmlformats-officedocument.presentationml.presentation":
+                case "application/vnd.ms-exce":
                 case "application/postscript":
                 case "image/x-photoshop":
                 case "image/svg+xml":
@@ -38,6 +42,9 @@ namespace DigitalResourcesLibrary.DataContext.Helper
                 case "application/ogg":
                     return FileType.Audio;
                 case "image/jpeg":
+                case "image/pjpeg":
+                case "image/png":
+                case "image/vnd.microsoft.icon":
                 case "image/bmp":
                 case "image/gif":
                     return FileType.Image;

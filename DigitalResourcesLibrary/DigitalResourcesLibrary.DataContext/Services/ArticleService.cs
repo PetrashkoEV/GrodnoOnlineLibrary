@@ -87,11 +87,11 @@ namespace DigitalResourcesLibrary.DataContext.Services
                         Description = articleLoc.description,
                         Title = articleLoc.title,
                         Locale = _curentLocate,
-                        Type = FileType.Document
+                        Type = FileType.Article
                     });
                 }
             }
-            CountArticle = listDocuments.Count();
+            CountArticle = listDocuments.Count(item => item.Locale == _curentLocate);
             return listDocuments;
         } 
     }

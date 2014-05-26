@@ -6,6 +6,7 @@
         Document = 1,
         Audio = 2,
         Video = 3,
-        Image = 4
+        Image = 4,
+        Article = 5
     }
 }

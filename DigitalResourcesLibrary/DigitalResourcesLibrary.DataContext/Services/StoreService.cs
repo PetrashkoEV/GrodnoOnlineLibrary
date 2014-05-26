@@ -113,7 +113,7 @@ namespace DigitalResourcesLibrary.DataContext.Services
                     Type = storelocate.Type
                 });
             }
-            CountStore = listDocuments.Count();
+            CountStore = listDocuments.Count(item => item.Locale == _curentLocate);
             return listDocuments;
         }
 
