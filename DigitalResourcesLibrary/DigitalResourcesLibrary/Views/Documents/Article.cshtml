@@ -14,8 +14,17 @@
             @Html.Raw(Model.Content)
         </div>
     }
-    <a href="javascript:void(0);" id="add-document" class="btn btn-primary" type="button" onclick="AddDocument(@Model.Id, '@TypeDocument.Article.ToString()')">@ViewRes.Resource.Add_Cookie_Document</a>
-    <a href="javascript:void(0);" id="remove-document" class="btn btn-primary" type="button" onclick="RemoveDocument(@Model.Id, '@TypeDocument.Article.ToString()')">@ViewRes.Resource.Delete_Cookie_Document</a>
+    <div class="bookmarks" id="@Model.Id-@TypeDocument.Article.GetHashCode()">
+        <a href="javascript:void(0);" id="add-document" class="btn btn-primary" type="button" 
+           onclick="AddDocument(@Model.Id, '@TypeDocument.Article.ToString()')">
+            @ViewRes.Resource.Add_Cookie_Document
+        </a>
+        <a href="javascript:void(0);" id="remove-document" class="btn btn-primary" type="button" 
+           onclick="RemoveDocument(@Model.Id, '@TypeDocument.Article.ToString()')">
+            @ViewRes.Resource.Delete_Cookie_Document
+        </a>
+    </div>
+
 </div>
 @Html.Partial("Template/LeftPanel", Model)
 <div style="clear: both;"></div>

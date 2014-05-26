@@ -30,6 +30,7 @@ namespace DigitalResourcesLibrary
                         "~/Scripts/audioplayer.js",
                         "~/Scripts/jquery.autocomplete.js",
                         "~/Scripts/Bootstrap/bootstrap-multiselect.js",
+                        "~/Scripts/bookmarks.js",
                         "~/Scripts/ul-drop.js"));
 
             bundles.Add(new ScriptBundle("~/bundles/loadpage").Include(

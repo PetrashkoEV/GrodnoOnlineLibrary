@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
 using System.Configuration;
+using System.Text;
 using System.Web;
 using System.Web.Mvc;
 using DigitalResourcesLibrary.DataContext.Enums;
-using DigitalResourcesLibrary.DataContext.Helper;
 using DigitalResourcesLibrary.DataContext.Interfaces;
 using DigitalResourcesLibrary.Models;
 using Newtonsoft.Json;
@@ -94,6 +94,7 @@ namespace DigitalResourcesLibrary.Controllers
             if (cookie == null || cookie.Value == null)
             {
                 cookie = new HttpCookie(_nameCookie);
+                cookie.Expires.AddDays(365);
                 result = new List<DocumentLight> { model };
             }
             else
@@ -105,6 +106,7 @@ namespace DigitalResourcesLibrary.Controllers
                 }
             }
             cookie.Value =  JsonConvert.SerializeObject(result);
+            HttpContext.Response.ContentEncoding = Encoding.GetEncoding(1251);
             HttpContext.Response.Cookies.Add(cookie);
         }
 
@@ -125,7 +127,23 @@ namespace DigitalResourcesLibrary.Controllers
 
         private DocumentLight getModel(int id, TypeDocument type)
         {
-            return new DocumentLight (id, type);
+            var lengthTitle = 10;
+            var model = new DocumentLight (id, type);
+            var title = "";
+            if (type == TypeDocument.Article)
+            {
+                title = _articleService.GetArticleById(id).Title;
+            }
+            else
+            {
+                title = _storeService.GetStoreById(id).Title;
+            }
+            /*if (title.Length > lengthTitle)
+            {
+                title = title.Remove(lengthTitle) + "...";
+            }*/
+            model.Title = title;
+            return model;
         }
     }
 }

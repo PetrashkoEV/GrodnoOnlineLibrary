@@ -30,7 +30,12 @@
             <div class="tags">
                 @foreach (var item in listDocumet)
                 {
-                   @Html.Raw(item.Id)
+                    if (item.Title != ""){
+                    @Html.ActionLink(item.Title, item.TypeDocument.ToString(), 
+                                    "Documents", 
+                                    new {id = item.Id}, 
+                                    new {@class = "label label-info"}) 
+                    @Html.Raw("&nbsp;")}
                 }
             </div>
         </div>

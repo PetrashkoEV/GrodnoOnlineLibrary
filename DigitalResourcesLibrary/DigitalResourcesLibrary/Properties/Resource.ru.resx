@@ -121,7 +121,7 @@
     <value>Добавить в закладки</value>
   </data>
   <data name="Delete_Cookie_Document" xml:space="preserve">
-    <value>Удвлить из закладок</value>
+    <value>Удалить из закладок</value>
   </data>
   <data name="Documents_Type" xml:space="preserve">
     <value>Документ</value>

@@ -1,9 +1,7 @@
 ﻿using System;
-using System.Diagnostics;
 using System.Web.Mvc;
 using DigitalResourcesLibrary.DataContext.Enums;
 using DigitalResourcesLibrary.DataContext.Interfaces;
-using DigitalResourcesLibrary.DataContext.Services;
 using DigitalResourcesLibrary.Models;
 using Newtonsoft.Json;
 
@@ -22,8 +20,6 @@ namespace DigitalResourcesLibrary.Controllers
 
         public ActionResult Index()
         {
-            Stopwatch time = new Stopwatch();
-            time.Start();
             int searchValue = 1;
             int page = 1;
             var result = new SearchViewModel
@@ -34,8 +30,6 @@ namespace DigitalResourcesLibrary.Controllers
                 CountPages = _searchServices.CountPages(),
                 VisitedPage = 1
             };
-            time.Stop();
-            ViewBag.time = time.ElapsedMilliseconds;
             return View(result);
         }
 
