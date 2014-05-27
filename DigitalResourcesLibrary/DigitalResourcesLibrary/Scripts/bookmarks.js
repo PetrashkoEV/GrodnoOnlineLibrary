@@ -82,7 +82,8 @@ function addBookmarkInLeftPanel(id, type, title) {
                         'data-placement="bottom" data-toggle="tooltip" ' +
                         'rel="tooltip" ' +
                         'data-original-title="' + title + '">' + newTitle +
-                        '</a> <br>';
+                        '</a><button type="button" class="close" data-dismiss="modal" aria-hidden="true" onclick="RemoveDocumentInCookie(' + id + ', ' + getTypeDocumentById(type) + ')">&times;</button>' +
+                        ' <br>';
     blokBookmarks.append(linkString);
 }
 

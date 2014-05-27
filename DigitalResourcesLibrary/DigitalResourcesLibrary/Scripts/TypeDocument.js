@@ -2,7 +2,7 @@
 var Store = 1;
 
 function getTypeDocumentById(id) {
-    if (id == Article) {
+    if (id == 0) {
         return "Article";
     } else {
         return "Store";
