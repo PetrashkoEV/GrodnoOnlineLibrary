@@ -17,5 +17,10 @@ namespace DigitalResourcesLibrary.Models
         public DateTime ModifiedDate { get; set; }
         public int Visible { get; set; }
         public UserModel User { get; set; }
+
+        public TypeDocument TypeDocument
+        {
+            get { return TypeDocument.Store; }
+        }
     }
 }

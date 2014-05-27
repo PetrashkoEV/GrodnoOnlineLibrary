@@ -120,6 +120,33 @@
   <data name="Add_Cookie_Document" xml:space="preserve">
     <value>Добавить в закладки</value>
   </data>
+  <data name="BookmarksModelWindow_Add" xml:space="preserve">
+    <value>Добавить</value>
+  </data>
+  <data name="BookmarksModelWindow_Add_Body_One" xml:space="preserve">
+    <value>Вы хотите добавить материал - "</value>
+  </data>
+  <data name="BookmarksModelWindow_Add_Body_Two" xml:space="preserve">
+    <value>" в закладки ?</value>
+  </data>
+  <data name="BookmarksModelWindow_Add_Title" xml:space="preserve">
+    <value>Добавление материала в закладки</value>
+  </data>
+  <data name="BookmarksModelWindow_Cancel" xml:space="preserve">
+    <value>Закрыть</value>
+  </data>
+  <data name="BookmarksModelWindow_Remove" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="BookmarksModelWindow_Remove_Body_One" xml:space="preserve">
+    <value>Вы хотите удалить материал - "</value>
+  </data>
+  <data name="BookmarksModelWindow_Remove_Body_Two" xml:space="preserve">
+    <value>" из закладок ?</value>
+  </data>
+  <data name="BookmarksModelWindow_Remove_Title" xml:space="preserve">
+    <value>Удаление из закладок</value>
+  </data>
   <data name="Delete_Cookie_Document" xml:space="preserve">
     <value>Удалить из закладок</value>
   </data>

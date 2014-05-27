@@ -1,0 +1,46 @@
+﻿<div class="bookmarks" id="@ViewData.Model.Id-@ViewData.Model.TypeDocument.GetHashCode()">
+    <a id="add-document" href="#AddBookmarksModalWindow" role="button" class="btn" data-toggle="modal">@ViewRes.Resource.Add_Cookie_Document</a>
+    <a id="remove-document" href="#RemoveBookmarksModalWindow" role="button" class="btn" data-toggle="modal">@ViewRes.Resource.Delete_Cookie_Document</a>
+</div>
+
+<div id="AddBookmarksModalWindow" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h3 id="myModalLabel">@ViewRes.Resource.BookmarksModelWindow_Add_Title</h3>
+    </div>
+    <div class="modal-body">
+        <p>
+            @ViewRes.Resource.BookmarksModelWindow_Add_Body_One 
+            @ViewData.Model.Title
+            @ViewRes.Resource.BookmarksModelWindow_Add_Body_Two
+        </p>
+    </div>
+    <div class="modal-footer">
+        <button class="btn" data-dismiss="modal" aria-hidden="true">@ViewRes.Resource.BookmarksModelWindow_Cancel</button>
+        <button class="btn btn-primary" data-dismiss="modal" aria-hidden="true"
+                onclick="AddDocument(@Model.Id, '@ViewData.Model.TypeDocument.ToString()')">
+            @ViewRes.Resource.BookmarksModelWindow_Add
+        </button>
+    </div>
+</div>
+
+<div id="RemoveBookmarksModalWindow" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h3 id="myModalLabel">@ViewRes.Resource.BookmarksModelWindow_Remove_Title</h3>
+    </div>
+    <div class="modal-body">
+        <p>
+            @ViewRes.Resource.BookmarksModelWindow_Remove_Body_One 
+            @ViewData.Model.Title 
+            @ViewRes.Resource.BookmarksModelWindow_Remove_Body_Two
+        </p>
+    </div>
+    <div class="modal-footer">
+        <button class="btn" data-dismiss="modal" aria-hidden="true">@ViewRes.Resource.BookmarksModelWindow_Cancel</button>
+        <button class="btn btn-primary" data-dismiss="modal" aria-hidden="true"
+                onclick="RemoveDocument(@Model.Id, '@ViewData.Model.TypeDocument.ToString()')">
+            @ViewRes.Resource.BookmarksModelWindow_Remove
+        </button>
+    </div>
+</div>

@@ -39,16 +39,9 @@
                     documentThere = false;
                 }
             </div>
-            <div class="bookmarks" id="@Model.Id-@TypeDocument.Store.GetHashCode()">
-                <a href="javascript:void(0);" id="add-document" class="btn btn-primary" type="button" 
-                    onclick="AddDocument(@Model.Id, '@TypeDocument.Store.ToString()')">
-                    @ViewRes.Resource.Add_Cookie_Document
-                </a>
-                <a href="javascript:void(0);" id="remove-document" class="btn btn-primary" type="button" 
-                    onclick="RemoveDocument(@Model.Id, '@TypeDocument.Store.ToString()')">
-                    @ViewRes.Resource.Delete_Cookie_Document
-                </a>
-            </div>
+            
+            @Html.Partial("Message/BookmarksModalWindow")
+
             @if (documentThere)
             {
                 <div class="button-downloads">
