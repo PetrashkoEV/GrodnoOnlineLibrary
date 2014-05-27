@@ -233,6 +233,7 @@
     <None Include="Properties\PublishProfiles\PetrashkoEV.pubxml" />
     <None Include="Scripts\jquery-1.8.2.intellisense.js" />
     <Content Include="Scripts\audioplayer.js" />
+    <Content Include="Scripts\TypeDocument.js" />
     <Content Include="Scripts\Bootstrap\bootstrap-multiselect.js" />
     <Content Include="Scripts\Bootstrap\bootstrap.js" />
     <Content Include="Scripts\Bootstrap\bootstrap.min.js" />

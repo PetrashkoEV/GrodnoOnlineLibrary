@@ -236,3 +236,14 @@ cursor:pointer;
     margin: 12px;
     width: 50%;
 }
+
+#display-bookmarks .search-choice-close {
+  display: block;
+  position: absolute;
+  right: 3px;
+  top: 5px;
+  width: 10px;
+  height: 10px;
+  font-size: 1px;
+  background: url(/Content/themes/images/chosen-sprite.png) right top no-repeat;
+}

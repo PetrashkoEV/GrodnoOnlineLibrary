@@ -85,35 +85,45 @@ namespace DigitalResourcesLibrary.Controllers
         }
 
         [HttpPost]
-        public void AddCookieDocument(int id, TypeDocument type)
+        public string AddCookieDocument(int id, TypeDocument type)
         {
-            var model = getModel(id, type);
+            var model = new DocumentLight(id, type);
 
             var cookie = Request.Cookies[_nameCookie];
-            List<DocumentLight> result;
-            if (cookie == null || cookie.Value == null)
+            List<DocumentLight> resultCookie;
+            if (cookie == null || cookie.Value == null) // cookie is not created
             {
                 cookie = new HttpCookie(_nameCookie);
                 cookie.Expires.AddDays(365);
-                result = new List<DocumentLight> { model };
+                resultCookie = new List<DocumentLight> { model };
             }
             else
             {
-                result = JsonConvert.DeserializeObject<List<DocumentLight>>(cookie.Value);
-                if (!result.Contains(model))
+                resultCookie = JsonConvert.DeserializeObject<List<DocumentLight>>(cookie.Value);
+                if (!resultCookie.Contains(model))
                 {
-                    result.Add(model);
+                    resultCookie.Add(model);
+                }
+                else
+                {
+                    model = null;
                 }
             }
-            cookie.Value =  JsonConvert.SerializeObject(result);
+            cookie.Value = JsonConvert.SerializeObject(resultCookie);
             HttpContext.Response.ContentEncoding = Encoding.GetEncoding(1251);
             HttpContext.Response.Cookies.Add(cookie);
+
+            if (model != null)
+            {
+                model.Title = GetTitle(model.Id, model.TypeDocument);
+            }
+            return JsonConvert.SerializeObject(model);
         }
 
         [HttpPost]
-        public void RemoveCookieDocument(int id, TypeDocument type)
+        public string RemoveCookieDocument(int id, TypeDocument type)
         {
-            var model = getModel(id, type);
+            var model = new DocumentLight(id, type);
 
             var cookie = Request.Cookies[_nameCookie];
             if (cookie != null && cookie.Value != null)
@@ -122,28 +132,32 @@ namespace DigitalResourcesLibrary.Controllers
                 result.Remove(model);
                 cookie.Value = JsonConvert.SerializeObject(result);
                 HttpContext.Response.Cookies.Add(cookie);
+                return JsonConvert.SerializeObject(model);
             }
+            return JsonConvert.SerializeObject(null);
         }
 
-        private DocumentLight getModel(int id, TypeDocument type)
+        [HttpPost]
+        public string GetTitleDookmarks()
         {
-            var lengthTitle = 10;
-            var model = new DocumentLight (id, type);
-            var title = "";
-            if (type == TypeDocument.Article)
+            var cookie = Request.Cookies[_nameCookie];
+            var result = new List<DocumentLight>();
+            if (cookie != null && cookie.Value != null)
             {
-                title = _articleService.GetArticleById(id).Title;
+                result = JsonConvert.DeserializeObject<List<DocumentLight>>(cookie.Value);
+                foreach (var light in result)
+                {
+                    light.Title = GetTitle(light.Id, light.TypeDocument);
+                }
             }
-            else
-            {
-                title = _storeService.GetStoreById(id).Title;
-            }
-            /*if (title.Length > lengthTitle)
-            {
-                title = title.Remove(lengthTitle) + "...";
-            }*/
-            model.Title = title;
-            return model;
+            return JsonConvert.SerializeObject(result);
+        }
+
+        private string GetTitle(int id, TypeDocument type)
+        {
+            return type == TypeDocument.Article
+                                ? _articleService.GetArticleById(id).Title
+                                : _storeService.GetStoreById(id).Title;
         }
     }
 }

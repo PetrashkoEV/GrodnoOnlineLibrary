@@ -27,16 +27,8 @@
     {
         <div class="block">
             <h2>@ViewRes.Resource.Shared_Template_Tags_Title</h2>
-            <div class="tags">
-                @foreach (var item in listDocumet)
-                {
-                    if (item.Title != ""){
-                    @Html.ActionLink(item.Title, item.TypeDocument.ToString(), 
-                                    "Documents", 
-                                    new {id = item.Id}, 
-                                    new {@class = "label label-info"}) 
-                    @Html.Raw("&nbsp;")}
-                }
+            <div id="display-bookmarks" class="tags">
+                @*JS load block function AddBookmarks*@
             </div>
         </div>
     }

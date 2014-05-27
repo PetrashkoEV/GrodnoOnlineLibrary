@@ -3,6 +3,8 @@
         selector: "[rel=tooltip]"
     });
 
+    LoadBookmarksLeftPanel();
+
     // carousel
     $(document).ready(function () {
         $('.carousel').carousel({
@@ -75,7 +77,7 @@
         }
     });
 
-    HideBookmarks();
+    HideButtonAddAndRemoveBookmarks();
 }
 
 

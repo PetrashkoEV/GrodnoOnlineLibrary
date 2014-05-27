@@ -34,6 +34,7 @@ namespace DigitalResourcesLibrary
                         "~/Scripts/ul-drop.js"));
 
             bundles.Add(new ScriptBundle("~/bundles/loadpage").Include(
+                        "~/Scripts/TypeDocument.js",
                         "~/Scripts/LoadPage.js",
                         "~/Scripts/modernizr.custom.22785.js"));
 
