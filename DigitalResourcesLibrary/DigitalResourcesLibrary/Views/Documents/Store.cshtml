@@ -1,12 +1,9 @@
-﻿@using DigitalResourcesLibrary.DataContext.Enums
+﻿@using Castle.Core.Internal
+@using DigitalResourcesLibrary.DataContext.Enums
 @model DigitalResourcesLibrary.Models.StoreViewModel
 @{
     ViewBag.Title = Model.Title + " " + ViewRes.Resource.Documents_Type + " - " + ViewRes.Resource.Site_Name_Header;
     Layout = "~/Views/Shared/_Layout.cshtml";
-}
-
-@{
-    var documentThere = true;
 }
 
 <div id="posts" class="documents">
@@ -15,8 +12,13 @@
     {
         <h2 class="title">@Model.Title</h2>
         <div class="story">
-            @Model.Description
-            <br>
+            <p> @Model.Description </p>
+            @if (!Model.FileName.IsNullOrEmpty())
+            {
+                <div class="info-doc">
+                    <h2> @ViewRes.Resource.Document_Store_TitleFile</h2>
+                </div>
+            }
             <div class="media-content">
                 @if (Model.Type == FileType.Video)
                 {
@@ -34,21 +36,17 @@
                 {
                     @Html.Partial("OpenFile/ImageFile", Model)
                 }
-                else
-                {
-                    documentThere = false;
-                }
             </div>
-            
+
             @Html.Partial("Message/BookmarksModalWindow")
 
-            @if (documentThere)
+            @if (!Model.FileName.IsNullOrEmpty())
             {
                 <div class="button-downloads">
                     @Html.ActionLink(ViewRes.Resource.Site_Button_Download,
-                        "Download", "Files",
-                        new { id = Model.Id, filename = Model.FileName },
-                        new { @class = "btn btn-primary", type = "button", dataloadingtext = "Loading..." })
+                            "Download", "Files",
+                            new { id = Model.Id, filename = Model.FileName },
+                            new { @class = "btn btn-primary", type = "button", dataloadingtext = "Loading..." })
                 </div>
             }
         </div>

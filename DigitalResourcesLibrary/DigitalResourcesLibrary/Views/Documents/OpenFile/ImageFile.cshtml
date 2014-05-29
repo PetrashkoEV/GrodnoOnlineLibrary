@@ -1,3 +1,12 @@
 ﻿@model DigitalResourcesLibrary.Models.StoreViewModel
 
-<img src="@Url.Action("DownloadFile", "Files", new { id = Model.Id, filename = Model.FileName })" alt="Smiley face" height="300" width="300"><br>
+<div class="highslide-gallery">
+    <a href="@Url.Action("DownloadFile", "Files", new { id = Model.Id, filename = Model.FileName })" class="highslide" onclick="return hs.expand(this)">
+        <img src="@Url.Action("DownloadFile", "Files", new { id = Model.Id, filename = Model.FileName })" alt=""
+             title="@ViewRes.Resource.Documents_OpenFile_ImageFile_Click_to_Enlarge" height="200" width="200" />
+    </a>
+    <div class="highslide-caption">
+        @Model.Title
+    </div>
+</div>
+<br>

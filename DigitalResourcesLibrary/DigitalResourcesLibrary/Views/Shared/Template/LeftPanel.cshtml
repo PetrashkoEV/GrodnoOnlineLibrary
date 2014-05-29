@@ -1,9 +1,6 @@
 ﻿@model DigitalResourcesLibrary.Models.BaseSearchModel
 @using System.Globalization
-@using Castle.Core.Internal
 @using DigitalResourcesLibrary.DataContext.Helper
-@using DigitalResourcesLibrary.Models
-@using Newtonsoft.Json
 @{
     const int countMounth = 5;
     var dateNow = DateTime.Now;
@@ -14,25 +11,13 @@
     }
 }
 
-@{
-    var listCookiesDocumet = Request.Cookies["listdocumet"];
-    var listDocumet = new List<DocumentLight>();
-    if (listCookiesDocumet != null && listCookiesDocumet.Value != null)
-    {
-        listDocumet = JsonConvert.DeserializeObject<List<DocumentLight>>(listCookiesDocumet.Value);
-    }
-}
 <div id="links">
-    @if (!listDocumet.IsNullOrEmpty())
-    {
-        <div class="block">
-            <h2>@ViewRes.Resource.Shared_Template_Tags_Title</h2>
-            <div id="display-bookmarks" class="tags">
-                @*JS load block function AddBookmarks*@
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true" onclick="">&times;</button>
-            </div>
+    <div class="block">
+        <h2>@ViewRes.Resource.Shared_Template_Bookmarks_Title</h2>
+        <div id="display-bookmarks" class="tags">
+            @*JS load block function AddBookmarks*@
         </div>
-    }
+    </div>
     <div class="block">
         <h2>@ViewRes.Resource.Shared_Template_Archives_Title</h2>
         <ul class="categories">
@@ -40,7 +25,7 @@
             {
                 <li>
                     @Html.ActionLink(date[i].ToString("MMMM yyyy", new CultureInfo(LocalizationHelper.GetLocalizationLanguage().ToString())),
-                        "SearchByDate", "Search", new { searchValue = date[i], page = 1}, null)
+                        "SearchByDate", "Search", new { searchValue = date[i], page = 1 }, null)
                 </li>
             }
             <li>
@@ -59,7 +44,7 @@
         <div class="tags">
             @foreach (var item in Model.Tags)
             {
-                @Html.ActionLink(item.Name, "SearchByTag", "Search", new {searchValue = item.Id, page = 1 }, new {@class = "label label-info"}) 
+                @Html.ActionLink(item.Name, "SearchByTag", "Search", new { searchValue = item.Id, page = 1 }, new { @class = "label label-info" })
                 @Html.Raw("&nbsp;")
             }
         </div>

@@ -30,6 +30,7 @@ namespace DigitalResourcesLibrary
                         "~/Scripts/audioplayer.js",
                         "~/Scripts/jquery.autocomplete.js",
                         "~/Scripts/Bootstrap/bootstrap-multiselect.js",
+                        "~/Scripts/Image/highslide-with-gallery.js",
                         "~/Scripts/bookmarks.js",
                         "~/Scripts/ul-drop.js"));
 
@@ -51,6 +52,7 @@ namespace DigitalResourcesLibrary
                         "~/Content/themes/bootstrap/audio.css",
                         "~/Content/themes/bootstrap/bootstrap-multiselect.css",
                         "~/Content/themes/jquery.treeselect.css",
+                        "~/Content/themes/highslide.css",
                         "~/Content/Site.css",
                         "~/Content/Style.css"));
 

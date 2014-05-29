@@ -13,7 +13,8 @@ messages.ru.resource = {
         select_all: "Выбрать все"
     },
     base: {
-        search: 'Поиск'
+        search: 'Поиск',
+        loading: 'Загрузка ...'
     }
 };
 
@@ -31,7 +32,8 @@ messages.be.resource = {
         select_all: "Выбрать все"
     },
     base: {
-        search: 'Поиск'
+        search: 'Поиск',
+        loading: 'Загрузка ...'
     }
 };
 
@@ -49,6 +51,7 @@ messages.en.resource = {
         select_all: 'Select All'
     },
     base: {
-        search: 'Search'
+        search: 'Search',
+        loading: 'Loading ...'
     }
 };

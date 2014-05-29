@@ -226,7 +226,7 @@ cursor:pointer;
     text-align: justify;
 }
 
-#posts .about p {
+#posts .about p, #posts .story p {
     text-indent: 20px;
 }
 
@@ -239,4 +239,29 @@ cursor:pointer;
 
 #display-bookmarks .close {
     float: none !important;
+}
+
+.bookmarks {
+    width: 200px;
+    float: right;
+    text-align: right;  
+}
+
+.button-downloads {
+    width: 200px;
+    float: left; 
+}
+
+.highslide-gallery {
+    text-align: center;
+}
+
+.info-doc {
+    padding-bottom: 20px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.media-content {
+    padding-bottom: 10px;
 }

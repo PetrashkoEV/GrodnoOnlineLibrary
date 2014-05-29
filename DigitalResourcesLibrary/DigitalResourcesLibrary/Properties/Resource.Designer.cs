@@ -160,6 +160,24 @@ namespace ViewRes {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Added material.
+        /// </summary>
+        public static string Document_Store_TitleFile {
+            get {
+                return ResourceManager.GetString("Document_Store_TitleFile", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Click to enlarge.
+        /// </summary>
+        public static string Documents_OpenFile_ImageFile_Click_to_Enlarge {
+            get {
+                return ResourceManager.GetString("Documents_OpenFile_ImageFile_Click_to_Enlarge", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Documents.
         /// </summary>
         public static string Documents_Type {
@@ -413,6 +431,15 @@ namespace ViewRes {
         public static string Shared_Template_Archives_Title {
             get {
                 return ResourceManager.GetString("Shared_Template_Archives_Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Bookmarks.
+        /// </summary>
+        public static string Shared_Template_Bookmarks_Title {
+            get {
+                return ResourceManager.GetString("Shared_Template_Bookmarks_Title", resourceCulture);
             }
         }
         
