@@ -48,6 +48,8 @@ namespace DigitalResourcesLibrary.Controllers
                 result.ModifiedDate = article.ModifiedDate;
                 result.Visible = article.Visible;
                 result.User = article.User;
+                result.CategoryDocument = article.CategoryDocument;
+                result.TagDocument = article.TagDocument;
             }
             else
             {
@@ -75,6 +77,8 @@ namespace DigitalResourcesLibrary.Controllers
                 result.Visible = store.Visible;
                 result.FileName = store.FileName;
                 result.MimeType = store.MimeType;
+                result.CategoryDocument = store.CategoryDocument;
+                result.TagDocument = store.TagDocument;
             }
             else
             {

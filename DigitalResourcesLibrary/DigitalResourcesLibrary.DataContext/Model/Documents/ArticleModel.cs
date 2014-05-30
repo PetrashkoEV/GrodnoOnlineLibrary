@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using DigitalResourcesLibrary.DataContext.Enums;
 
 namespace DigitalResourcesLibrary.DataContext.Model.Documents
@@ -14,5 +15,7 @@ namespace DigitalResourcesLibrary.DataContext.Model.Documents
         public DateTime ModifiedDate { get; set; }
         public int Visible { get; set; }
         public UserModel User { get; set; }
+        public CategoryModel CategoryDocument { get; set; }
+        public List<TagModel> TagDocument { get; set; }
     }
 }

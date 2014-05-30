@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using DigitalResourcesLibrary.DataContext.Enums;
 using DigitalResourcesLibrary.DataContext.Helper;
 
@@ -20,5 +21,7 @@ namespace DigitalResourcesLibrary.DataContext.Model.Documents
         {
             get { return FileHelper.GeType(MimeType); }
         }
+        public CategoryModel CategoryDocument { get; set; }
+        public List<TagModel> TagDocument { get; set; }
     }
 }

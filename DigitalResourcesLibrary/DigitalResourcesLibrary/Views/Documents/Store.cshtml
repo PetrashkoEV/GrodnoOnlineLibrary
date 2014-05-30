@@ -38,17 +38,21 @@
                 }
             </div>
 
-            @Html.Partial("Message/BookmarksModalWindow")
+            @Html.Partial("_InfomationDocument")
 
-            @if (!Model.FileName.IsNullOrEmpty())
-            {
-                <div class="button-downloads">
-                    @Html.ActionLink(ViewRes.Resource.Site_Button_Download,
+            <div class="boottom-content">
+                @Html.Partial("Message/BookmarksModalWindow")
+
+                @if (!Model.FileName.IsNullOrEmpty())
+                {
+                    <div class="button-downloads">
+                        @Html.ActionLink(ViewRes.Resource.Site_Button_Download,
                             "Download", "Files",
                             new { id = Model.Id, filename = Model.FileName },
                             new { @class = "btn btn-primary", type = "button", dataloadingtext = "Loading..." })
-                </div>
-            }
+                    </div>
+                }
+            </div>
         </div>
     }
 </div>

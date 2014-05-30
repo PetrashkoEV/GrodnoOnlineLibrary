@@ -31,6 +31,9 @@ namespace DigitalResourcesLibrary.DataContext.Services
                 return null;
             }
 
+            var categoryDocumentValue = item.store1.category1.categoryloc.FirstOrDefault(cat => cat.locale == _curentLocate.GetHashCode()) ??
+                              new categoryloc { value = "" };
+
             var result = new StoreModel
             {
                 Id = item.store,
@@ -44,7 +47,22 @@ namespace DigitalResourcesLibrary.DataContext.Services
                 {
                     Name = item.store1.user.name,
                     Role = new RoleModel {Name = item.store1.user.role.name}
-                }
+                },
+                CategoryDocument = new CategoryModel
+                {
+                    Id = (int)item.store1.category1.id,
+                    Name = categoryDocumentValue.value
+                },
+                TagDocument = item.store1.tag.Select(t =>
+                {
+                    var tagloc = t.tagloc.FirstOrDefault(tloc => tloc.locale == _curentLocate.GetHashCode());
+                    return tagloc != null ? new TagModel
+                    {
+                        Id = t.id,
+                        Name = tagloc.value
+                    } : null;
+                }).ToList()
+
             };
             return result;
         }

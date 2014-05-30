@@ -12,8 +12,13 @@
         <div class="story">
             @Html.Raw(Model.Content)
         </div>
+
+        @Html.Partial("_InfomationDocument")
+        
+        <div class="boottom-content">
+            @Html.Partial("Message/BookmarksModalWindow")
+        </div>
     }
-    @Html.Partial("Message/BookmarksModalWindow")
 </div>
 @Html.Partial("Template/LeftPanel", Model)
 <div style="clear: both;"></div>

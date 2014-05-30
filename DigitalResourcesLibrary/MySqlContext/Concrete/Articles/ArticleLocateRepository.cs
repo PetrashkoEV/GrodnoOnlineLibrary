@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data.Entity;
+﻿using System.Data.Entity;
 using System.Linq;
-using System.Text;
-using MySqlContext.Concrete.Articles;
 using MySqlContext.Entities;
 using MySqlContext.Interface.Articles;
 

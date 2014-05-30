@@ -13,7 +13,7 @@ using MySqlContext.Interface.Articles;
 
 namespace DigitalResourcesLibrary.DataContext.Services
 {
-    public class ArticleService: IArticleService
+    public class ArticleService : IArticleService
     {
         public int CountArticle { get; set; }
         private readonly Language _curentLocate = LocalizationHelper.GetLocalizationLanguage();
@@ -27,7 +27,11 @@ namespace DigitalResourcesLibrary.DataContext.Services
             {
                 return null;
             }
-            return new ArticleModel
+
+            var categoryDocumentValue = item.article1.category1.categoryloc.FirstOrDefault(cat => cat.locale == _curentLocate.GetHashCode()) ??
+                              new categoryloc {value = ""};
+
+            var model = new ArticleModel
                 {
                     Id = item.article,
                     LocateString = item.locale1.locale1,
@@ -37,9 +41,24 @@ namespace DigitalResourcesLibrary.DataContext.Services
                     User = new UserModel
                             {
                                 Name = item.article1.user.name,
-                                Role = new RoleModel {Name = item.article1.user.role.name}
-                            }
+                                Role = new RoleModel { Name = item.article1.user.role.name }
+                            },
+                    CategoryDocument = new CategoryModel
+                    {
+                        Id = (int)item.article1.category1.id,
+                        Name = categoryDocumentValue.value
+                    },
+                    TagDocument = item.article1.tag.Select(t =>
+                    {
+                        var tagloc = t.tagloc.FirstOrDefault(tloc => tloc.locale == _curentLocate.GetHashCode());
+                        return tagloc != null ? new TagModel
+                                                    {
+                                                        Id = t.id,
+                                                        Name = tagloc.value
+                                                    } : null;
+                    }).ToList()
                 };
+            return model;
         }
 
         public List<DocumentModel> FindByCategoryes(List<long> allCategory, int page)
@@ -93,6 +112,6 @@ namespace DigitalResourcesLibrary.DataContext.Services
             }
             CountArticle = listDocuments.Count(item => item.Locale == _curentLocate);
             return listDocuments;
-        } 
+        }
     }
 }

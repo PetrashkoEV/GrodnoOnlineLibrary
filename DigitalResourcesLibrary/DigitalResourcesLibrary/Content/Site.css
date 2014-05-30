@@ -265,3 +265,27 @@ cursor:pointer;
 .media-content {
     padding-bottom: 10px;
 }
+
+
+.boottom-content {
+    padding-bottom: 10px;
+    height: 35px;
+}
+
+.tag-documents {
+    width: auto;    
+}
+
+.category-documents {
+    width: auto; 
+}
+
+.tag-documents .tag {
+    padding: 2px;
+    float: left;
+}
+
+.category-documents .category {
+    padding: 2px;
+    float: left;
+}

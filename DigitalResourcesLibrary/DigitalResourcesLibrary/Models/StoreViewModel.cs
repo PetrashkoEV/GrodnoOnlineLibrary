@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using DigitalResourcesLibrary.DataContext.Enums;
 using DigitalResourcesLibrary.DataContext.Model;
 
@@ -22,5 +23,7 @@ namespace DigitalResourcesLibrary.Models
         {
             get { return TypeDocument.Store; }
         }
+        public CategoryModel CategoryDocument { get; set; }
+        public List<TagModel> TagDocument { get; set; }
     }
 }

@@ -1,0 +1,28 @@
+﻿
+<div class="tag-documents">
+    @if (Model.TagDocument != null)
+    {
+        <div class="tag">
+            @ViewRes.Resource.Shared_Template_Tags_Title :
+        </div>
+
+        foreach (var tagModel in Model.TagDocument)
+        {
+            <div class="tag">
+                @LinkExtensions.ActionLink(Html, tagModel.Name, "SearchByTag", "Search", new { searchValue = tagModel.Id, page = 1 }, new { @class = "label label-warning" })
+            </div>
+        }
+    }
+</div>
+
+<div class="category-documents">
+    @if (Model.CategoryDocument != null)
+    {
+        <div class="category">
+            @ViewRes.Resource.Shared_Template_Categories_Title :
+        </div>
+        <div class="category">
+            @LinkExtensions.ActionLink(Html, Model.CategoryDocument.Name, "SearchByCategory", "Search", new { searchValue = Model.CategoryDocument.Id, page = 1 }, new { @class = "label label-success" })
+        </div>
+    }
+</div>

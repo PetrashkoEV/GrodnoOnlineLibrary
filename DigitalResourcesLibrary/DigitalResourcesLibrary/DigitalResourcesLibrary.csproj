@@ -329,6 +329,7 @@
     </Content>
     <Content Include="Views\Documents\OpenFile\ImageFile.cshtml" />
     <Content Include="Views\Shared\Message\BookmarksModalWindow.cshtml" />
+    <Content Include="Views\Documents\_InfomationDocument.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
