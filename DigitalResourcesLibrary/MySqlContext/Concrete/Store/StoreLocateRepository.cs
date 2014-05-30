@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data.Entity;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using MySqlContext.Entities;
@@ -47,7 +48,8 @@ namespace MySqlContext.Concrete.Store
                 {
                     title = item.title,
                     description = item.description,
-                    type = item.type
+                    type = item.type,
+                    locate = item.locale
                 }).FirstOrDefault();
 
             if (model != null && model.type == null)

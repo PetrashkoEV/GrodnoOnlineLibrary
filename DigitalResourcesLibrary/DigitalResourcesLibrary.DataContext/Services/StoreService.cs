@@ -82,7 +82,8 @@ namespace DigitalResourcesLibrary.DataContext.Services
                 {
                     Title = storeRes.title,
                     Description = storeRes.description,
-                    Type = FileHelper.GeType(storeRes.type)
+                    Type = FileHelper.GeType(storeRes.type),
+                    Locale = (Language)storeRes.locate
                 };
             }
             return result;
@@ -103,15 +104,20 @@ namespace DigitalResourcesLibrary.DataContext.Services
             foreach (var store in listStoreAll)
             {
                 var storelocate = FindContentStoreById(store.id);
-                listDocuments.Add(new DocumentModel
+                if (storelocate.Title != null && storelocate.Description != null)
                 {
-                    Id = store.id,
-                    TypeDocument = TypeDocumentsHelper.GeTypeDocument("store"), /*refactor*/
-                    ModifiedDate = store.modified.Value,
-                    Title = storelocate.Title,
-                    Description = storelocate.Description,
-                    Type = storelocate.Type
-                });
+                    listDocuments.Add(new DocumentModel
+                    {
+                        Id = store.id,
+                        TypeDocument = TypeDocumentsHelper.GeTypeDocument("store"),
+                        /*refactor*/
+                        ModifiedDate = store.modified.Value,
+                        Title = storelocate.Title,
+                        Description = storelocate.Description,
+                        Locale = _curentLocate,
+                        Type = storelocate.Type
+                    });
+                }
             }
             CountStore = listDocuments.Count(item => item.Locale == _curentLocate);
             return listDocuments;
