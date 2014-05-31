@@ -188,7 +188,7 @@ cursor:pointer;
 }
 
 
-.tags .label-info[href] {
+.tags .label-info {
     background-color: #006DCC;
     background-image: linear-gradient(to bottom, #0088CC, #0044CC);
     background-repeat: repeat-x;
@@ -198,6 +198,14 @@ cursor:pointer;
     margin: 1px;
     padding-left: 5px;
     padding-right: 5px;
+}
+
+.link-bookmarks,
+a.link-bookmarks:hover,
+a.link-bookmarks:focus {
+    color: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .navbar {
@@ -277,7 +285,7 @@ cursor:pointer;
 }
 
 .category-documents {
-    width: auto; 
+    height: 70px;
 }
 
 .tag-documents .tag {

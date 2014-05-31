@@ -76,14 +76,16 @@ function LoadBookmarksLeftPanel() {
 
 function addBookmarkInLeftPanel(id, type, title) {
     var newTitle = replaseTitle(title);
-    var linkString = '<a id="' + id + '-' + type +'" ' +
+
+    var linkString = '<p id="' + id + '-' + type + '" ' +
                         'class="label label-info" ' +
-                        'href="/Documents/' + getTypeDocumentById(type) + '/' + id + '" ' +
-                        'data-placement="bottom" data-toggle="tooltip" ' +
-                        'rel="tooltip" ' +
-                        'data-original-title="' + title + '">' + newTitle +
-                        '</a><button type="button" class="close" data-dismiss="modal" aria-hidden="true" onclick="RemoveDocumentInCookie(' + id + ', ' + getTypeDocumentById(type) + ')">&times;</button>' +
-                        ' <br>';
+                        'rel="tooltip" data-toggle="tooltip" data-placement="bottom"' +
+                        'data-original-title="' + title + '" >' +
+                            '<a class="link-bookmarks"' +
+                            'href="/Documents/' + getTypeDocumentById(type) + '/' + id + '" >' + newTitle +
+                            '</a><button type="button" class="close" data-dismiss="modal" aria-hidden="true" onclick="RemoveDocumentInCookie(' + id + ', ' + getTypeDocumentById(type) + ')">&times;</button>' +
+                        '</p>' +
+                        '<br id="' + id + '-' + type + '" >';
     blokBookmarks.append(linkString);
 }
 
@@ -92,6 +94,7 @@ function removeBookmarkInLeftPanel(id, type) {
     var removeBlock = blokBookmarks.find(content);
     if (removeBlock != null) {
         removeBlock.remove();
+        $(".tooltip").remove(); // delete tooltip link
     }
 }
 
