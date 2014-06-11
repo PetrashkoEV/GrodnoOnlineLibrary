@@ -75,7 +75,7 @@ namespace DigitalResourcesLibrary.Controllers
                 result.Locale = store.Locale;
                 result.User = store.User;
                 result.Visible = store.Visible;
-                result.FileName = store.FileName;
+                result.FileName = ReplaseFileName(store.FileName);
                 result.MimeType = store.MimeType;
                 result.CategoryDocument = store.CategoryDocument;
                 result.TagDocument = store.TagDocument;
@@ -162,6 +162,11 @@ namespace DigitalResourcesLibrary.Controllers
             return type == TypeDocument.Article
                                 ? _articleService.GetArticleById(id).Title
                                 : _storeService.GetStoreById(id).Title;
+        }
+
+        private string ReplaseFileName(string text)
+        {
+            return text.Replace(' ', '_');
         }
     }
 }

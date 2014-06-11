@@ -36,6 +36,7 @@ namespace DigitalResourcesLibrary.DataContext.Helper
                 case "image/svg+xml":
                 case "image/tiff":
                     return FileType.Document;
+                case "audio/mp3":
                 case "audio/mpeg3":
                 case "audio/x-wav":
                 case "audio/x-mpeg":
