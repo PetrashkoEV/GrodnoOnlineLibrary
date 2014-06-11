@@ -118,46 +118,46 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Add_Cookie_Document" xml:space="preserve">
-    <value>Add document</value>
+    <value>Дадаць у закладкі</value>
   </data>
   <data name="BookmarksModelWindow_Add" xml:space="preserve">
-    <value>Add</value>
+    <value>Дадаць</value>
   </data>
   <data name="BookmarksModelWindow_Add_Body_One" xml:space="preserve">
-    <value>Do you want to add stuff - "</value>
+    <value>Вы жадаеце дадаць матэрыял - "</value>
   </data>
   <data name="BookmarksModelWindow_Add_Body_Two" xml:space="preserve">
-    <value>" в закладки ?</value>
+    <value>" у закладкі ?</value>
   </data>
   <data name="BookmarksModelWindow_Add_Title" xml:space="preserve">
-    <value>Добавление материала в закладки</value>
+    <value>Даданне матэрыялу ў закладкі</value>
   </data>
   <data name="BookmarksModelWindow_Cancel" xml:space="preserve">
-    <value>Cancel</value>
+    <value>Закрыць</value>
   </data>
   <data name="BookmarksModelWindow_Remove" xml:space="preserve">
-    <value>Remove</value>
+    <value>Выдаліць</value>
   </data>
   <data name="BookmarksModelWindow_Remove_Body_One" xml:space="preserve">
-    <value>Вы хотите удалить материал - "</value>
+    <value>Вы жадаеце выдаліць матэрыял - "</value>
   </data>
   <data name="BookmarksModelWindow_Remove_Body_Two" xml:space="preserve">
-    <value>" из закладок ?</value>
+    <value>" з закладак ?</value>
   </data>
   <data name="BookmarksModelWindow_Remove_Title" xml:space="preserve">
-    <value>Удаление из закладок</value>
+    <value>Выдаленне з закладак</value>
   </data>
   <data name="Delete_Cookie_Document" xml:space="preserve">
-    <value>Delete document</value>
+    <value>Выдаліць з закладак</value>
   </data>
   <data name="Documents_OpenFile_ImageFile_Click_to_Enlarge" xml:space="preserve">
-    <value>Click to enlarge</value>
+    <value>Націсніце, каб павялічыць</value>
   </data>
   <data name="Documents_Type" xml:space="preserve">
-    <value>Documents</value>
+    <value>Дакумент</value>
   </data>
   <data name="Document_Store_TitleFile" xml:space="preserve">
-    <value>Добавленый материал</value>
+    <value>Даданы матэрыял</value>
   </data>
   <data name="Home_About_Body" xml:space="preserve">
     <value>&lt;img src="/Content/themes/images/About/1.jpg" class="about-image" alt="Гродно – город церквей и костёлов"&gt;
@@ -224,42 +224,63 @@
     <value>Мінулае Гародні сягае ў смугу стагоддзяў - у першай трэці ХІІ ст. - раней, чым усходнееўрапейскія сталіцы Масква і Вільня, – згадваецца ў летапісах.</value>
   </data>
   <data name="Search_AdvancedSearch_AutoComplete" xml:space="preserve">
-    <value>Поиск</value>
+    <value>Пошук</value>
   </data>
   <data name="Shared_Error_Body" xml:space="preserve">
-    <value>Q</value>
+    <value>Адбылася памылка пры апрацоўцы запыту. Калі ласка, звярніцеся да адміністратара.</value>
   </data>
   <data name="Shared_Error_Title" xml:space="preserve">
-    <value>Ошибка</value>
+    <value>Памылка сервера</value>
   </data>
   <data name="Shared_Layout_Site_Copyright" xml:space="preserve">
-    <value>Copyright &amp;copy;</value>
+    <value>Копія &amp;copy;</value>
   </data>
   <data name="Shared_Menu_About" xml:space="preserve">
-    <value>О Сайте</value>
+    <value>Пра праект</value>
   </data>
   <data name="Shared_Menu_Home" xml:space="preserve">
-    <value>Главная</value>
+    <value>Галоўная</value>
   </data>
   <data name="Shared_Menu_Result_AdvancedSearch" xml:space="preserve">
-    <value>Результаты поиска</value>
+    <value>Вынікі пошуку</value>
   </data>
   <data name="Shared_Menu_Search" xml:space="preserve">
-    <value>Поиск</value>
+    <value>Пошук</value>
   </data>
   <data name="Shared_Template_Bookmarks_Title" xml:space="preserve">
-    <value>Закладки</value>
+    <value>Закладкі</value>
   </data>
   <data name="Site_Button_Download" xml:space="preserve">
-    <value>Download</value>
+    <value>Спампаваць</value>
   </data>
   <data name="Site_Name" xml:space="preserve">
-    <value>Библиотека Гродно</value>
+    <value>Гродна - інфармацыя для ўсіх</value>
   </data>
   <data name="Site_Name_Body" xml:space="preserve">
-    <value>Гродна- інфармацыя для ўсіх</value>
+    <value>Гродна - інфармацыя для ўсіх</value>
   </data>
   <data name="Site_Name_Header" xml:space="preserve">
     <value>Электронная бібліятэка</value>
+  </data>
+  <data name="LeftPanel_All_Archive" xml:space="preserve">
+    <value>Увесь архіў</value>
+  </data>
+  <data name="Search_Documents_Not_Fount" xml:space="preserve">
+    <value>Дакументаў, якія задавальняюць пошуку, не знойдзена</value>
+  </data>
+  <data name="Search_PostedDate" xml:space="preserve">
+    <value>Створана ў</value>
+  </data>
+  <data name="Shared_Menu_AdvancedSearch" xml:space="preserve">
+    <value>Пашыраны пошук</value>
+  </data>
+  <data name="Shared_Template_Archives_Title" xml:space="preserve">
+    <value>Архіў</value>
+  </data>
+  <data name="Shared_Template_Categories_Title" xml:space="preserve">
+    <value>Катэгорыі</value>
+  </data>
+  <data name="Shared_Template_Tags_Title" xml:space="preserve">
+    <value>Ключавыя словы</value>
   </data>
 </root>

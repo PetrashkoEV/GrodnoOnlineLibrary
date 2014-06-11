@@ -215,21 +215,12 @@
     <Compile Include="Interface\User\IUserRepository.cs" />
     <Compile Include="Model\SphinxSearchResult.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Scheme\CreateDB.cs" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Content Include="Global.asax" />
-    <Content Include="Scheme\Scripts\1DropTable.sql" />
-    <Content Include="Scheme\Scripts\2StartTable.sql" />
-    <Content Include="Scheme\Scripts\3user.sql" />
-    <Content Include="Scheme\Scripts\4tagloc.sql" />
-    <Content Include="Scheme\Scripts\5category.sql" />
-    <Content Include="Scheme\Scripts\6article.sql" />
-    <Content Include="Scheme\Scripts\7store.sql" />
-    <Content Include="Scheme\Scripts\DampDB.sql" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -238,7 +229,9 @@
       <DependentUpon>Web.config</DependentUpon>
     </Content>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Scheme\" />
+  </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
   </ItemGroup>
