@@ -13,7 +13,7 @@
         <h2 class="title">@Model.Title</h2>
         <div class="story">
             <p> @Model.Description </p>
-            @if (!Model.FileName.IsNullOrEmpty())
+            @if (Model.Type != FileType.SelectAll)
             {
                 <div class="info-doc">
                     <h2> @ViewRes.Resource.Document_Store_TitleFile</h2>

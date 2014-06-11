@@ -19,5 +19,19 @@ namespace MySqlContext.Concrete.Tag
                 return _dataContext.typefile;
             }
         }
+
+        public List<string> GetAllFileType(int curentLocate)
+        {
+            return Entity.Where(item => item.locate == curentLocate)
+                                    .Select(item => item.Value)
+                                    .ToList();
+        }
+
+        public List<int> GetTypeFileByName(int curentLocate, string name)
+        {
+            return Entity.Where(item => item.locate == curentLocate)
+                            .Where(item => item.Value == name)
+                            .Select(item => item.type).ToList();
+        }
     }
 }

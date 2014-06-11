@@ -1,4 +1,5 @@
-﻿using System.Data.Entity;
+﻿using System.Collections.Generic;
+using System.Data.Entity;
 using MySqlContext.Entities;
 
 namespace MySqlContext.Interface.Tag
@@ -9,5 +10,9 @@ namespace MySqlContext.Interface.Tag
         {
             get;
         }
+
+        List<string> GetAllFileType(int curentLocate);
+
+        List<int> GetTypeFileByName(int curentLocate, string name);
     }
 }

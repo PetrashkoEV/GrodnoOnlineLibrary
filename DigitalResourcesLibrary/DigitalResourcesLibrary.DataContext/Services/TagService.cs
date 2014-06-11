@@ -28,10 +28,7 @@ namespace DigitalResourcesLibrary.DataContext.Services
 
         public List<string> GetAllFileType()
         {
-            var curentLocateInt = _curentLocate.GetHashCode();
-            return _typeFileRepository.Entity.Where(item => item.locate == curentLocateInt)
-                                    .Select(item => item.Value)
-                                    .ToList();
+            return _typeFileRepository.GetAllFileType(_curentLocate.GetHashCode());
         }
 
         public List<TagModel> TagSelectSplit(string tagSelect)
@@ -53,18 +50,16 @@ namespace DigitalResourcesLibrary.DataContext.Services
 
         public List<FileType> FileTypeSplit(string fileDocumentsSelect)
         {
-            var curentLocateInt = _curentLocate.GetHashCode();
-            var fullListFileDocuments = _typeFileRepository.Entity.Where(item => item.locate == curentLocateInt)
-                                    .ToList();
-
             var splitFileDocuments = fileDocumentsSelect.Split(';');
-            var resultId = new List<int>();
+            var result = new List<FileType>();
             foreach (var fileDoc in splitFileDocuments)
             {
-                resultId.AddRange(fullListFileDocuments.Where(item => item.Value == fileDoc).Select(item => item.type));
+                var type = _typeFileRepository.GetTypeFileByName(_curentLocate.GetHashCode(), fileDoc)
+                        .Select(FileHelper.GeType);
+                result.AddRange(type);
             }
 
-            return resultId.Select(FileHelper.GeType).ToList();
+            return result;
         }
     }
 }
