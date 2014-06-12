@@ -63,6 +63,8 @@ namespace MySqlContext.Concrete.Search
                 query = query.Remove(query.Count() - 2);
                 query += ")";
             }
+
+            query += "LIMIT 1000";
             query += ";";
 
             return RunQuery(query);
