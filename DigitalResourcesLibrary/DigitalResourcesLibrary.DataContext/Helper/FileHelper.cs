@@ -23,6 +23,7 @@ namespace DigitalResourcesLibrary.DataContext.Helper
                 case "application/vnd.ms-word":
                 case "application/vnd.oasis.opendocument.text":
                 case "application/vnd.openxmlformats-officedocument.wordprocessingml.document":
+                case "application/vnd.openxmlformats-officedocument.presentationml.slideshow":
                 case "application/msword":
                 case "application/rtf":
                 case "text/plain":

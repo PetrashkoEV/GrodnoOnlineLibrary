@@ -117,6 +117,9 @@ namespace MySqlContext.Concrete.Search
             result = result.Replace(')', '*');
             result = result.Replace(';', '*');
             result = result.Replace("'", "*");
+            result = result.Replace("-", "*");
+            result = result.Replace(":", "*");
+            result = result.Replace("?", "*");
             result = result.Replace('"'.ToString(), "*");
             return result + "*";
         }
