@@ -114,13 +114,21 @@ namespace MySqlContext.Concrete.Search
                 return "";
 
             var result = "*" + searchString;
-            result = result.Replace(')', '*');
-            result = result.Replace(';', '*');
-            result = result.Replace("'", "*");
-            result = result.Replace("-", "*");
-            result = result.Replace(":", "*");
-            result = result.Replace("?", "*");
-            result = result.Replace('"'.ToString(), "*");
+            result = result.Replace(")", " * ");
+            result = result.Replace("(", " * ");
+            result = result.Replace(";", " * ");
+            result = result.Replace("'", " * ");
+            result = result.Replace("-", " * ");
+            result = result.Replace(":", " * ");
+            result = result.Replace("?", " * ");
+            result = result.Replace("^", " * ");
+            result = result.Replace("%", " * ");
+            result = result.Replace("$", " * ");
+            result = result.Replace("#", " * ");
+            result = result.Replace("@", " * ");
+            result = result.Replace("!", " * ");
+            result = result.Replace("~", " * ");
+            result = result.Replace('"'.ToString(), " * ");
             return result + "*";
         }
     }
