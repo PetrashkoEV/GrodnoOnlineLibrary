@@ -12,6 +12,7 @@ namespace MySqlContext.Concrete.Search
     public class SearchRepository : ISearchRepository
     {
         private const int MaxCountSearch = 5;
+        private const int MaxCountSearchDocuments = 1000;
 
         private string ConnectionString
         {
@@ -36,7 +37,8 @@ namespace MySqlContext.Concrete.Search
         {
             var query = "SELECT * " +
                         "FROM SearchRepository " +
-                        "WHERE match('" + ReplaseSearchText(searchString) + "') ";
+                        "WHERE match('" + ReplaseSearchText(searchString) + "') " +
+                        "LIMIT " + MaxCountSearchDocuments + ";";
 
             return RunQuery(query);
         }
@@ -64,8 +66,7 @@ namespace MySqlContext.Concrete.Search
                 query += ")";
             }
 
-            query += "LIMIT 1000";
-            query += ";";
+            query += "LIMIT " + MaxCountSearchDocuments + ";";
 
             return RunQuery(query);
         }
