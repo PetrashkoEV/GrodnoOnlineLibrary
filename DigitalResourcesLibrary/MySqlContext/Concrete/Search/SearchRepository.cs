@@ -114,8 +114,7 @@ namespace MySqlContext.Concrete.Search
                 return "";
 
             var result = "*" + searchString;
-            result = result.Replace(")", " * ");
-            result = result.Replace("(", " * ");
+            result = result.Replace("(", " * ").Replace(")", " * ");
             result = result.Replace(";", " * ");
             result = result.Replace("'", " * ");
             result = result.Replace("-", " * ");
@@ -128,6 +127,10 @@ namespace MySqlContext.Concrete.Search
             result = result.Replace("@", " * ");
             result = result.Replace("!", " * ");
             result = result.Replace("~", " * ");
+            result = result.Replace("[", " * ").Replace("]", " * ");
+            result = result.Replace("{", " * ").Replace("}", " * ");
+            result = result.Replace("<", " * ").Replace(">", " * ");
+            result = result.Replace("/", " * ").Replace("+", " * ");
             result = result.Replace('"'.ToString(), " * ");
             return result + "*";
         }
