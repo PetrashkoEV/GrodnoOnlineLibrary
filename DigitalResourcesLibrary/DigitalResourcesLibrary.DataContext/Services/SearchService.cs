@@ -69,7 +69,7 @@ namespace DigitalResourcesLibrary.DataContext.Services
 
         public List<DocumentModel> SearchDocumentsByText(string searchText, int page)
         {
-            var allCollectionResult = new List<DocumentModel>();
+            var result = new List<DocumentModel>();
 
             var fullTextSearch = _categoryService.AutoComplite(searchText);
             fullTextSearch.AddRange(_tagService.AutoComplite(searchText));
@@ -78,19 +78,18 @@ namespace DigitalResourcesLibrary.DataContext.Services
             {
                 foreach (var searchResult in fullTextSearch)
                 {
-                    allCollectionResult.AddRange(SearchTypeHelper.GeTypeDocument(searchResult.SearchType) ==
+                    result.AddRange(SearchTypeHelper.GeTypeDocument(searchResult.SearchType) ==
                                                  SearchType.Category
                         ? SearchDocumentsByCategory(searchResult.Id, page)
                         : SearchDocumentByTag(searchResult.Id, page));
                 }
             }
-            else
+            else // search sphinx helper
             {
-                var allSearchList = _searchRepository.SearchText(searchText);
-                SearchDocumentInDb(allSearchList, page, allCollectionResult);
+                result.AddRange(SearchDocumentInDb(searchText, page));
             }
 
-            return CreationDocumentsToDisplay(allCollectionResult, page);
+            return result;
         }
 
         
@@ -224,15 +223,13 @@ namespace DigitalResourcesLibrary.DataContext.Services
         private int getPositionSearchText(string autoCompliteResult, string search)
         {
             var position = autoCompliteResult.IndexOf(search, System.StringComparison.CurrentCultureIgnoreCase);
-            /*if (position < 0)
-            {
-                position = GetPositionSearchText(autoCompliteResult, search.Remove(search.Count() - 1), ref matchFoundInDescription);
-            }*/
             return position;
         }
 
-        private void SearchDocumentInDb(IEnumerable<SphinxSearchResult> allSearchList, int page, List<DocumentModel> allCollectionResult)
+        private IEnumerable<DocumentModel> SearchDocumentInDb(string searchText, int page)
         {
+            var allSearchList = _searchRepository.SearchText(searchText);
+
             var articleIdList = new List<int>();
             var storeIdList = new List<int>();
             foreach (var searchResult in allSearchList)
@@ -249,9 +246,11 @@ namespace DigitalResourcesLibrary.DataContext.Services
                 }
             }
 
+            var allCollectionResult = new List<DocumentModel>();
             allCollectionResult.AddRange(_articleService.FindByArticleId(articleIdList, page)); // all article entries with the List Id
             allCollectionResult.AddRange(_storeService.FindByStoreId(storeIdList, page)); // all store entries with the List Id
 
+            return CreationDocumentsToDisplay(allCollectionResult, page);
         }
 
     }

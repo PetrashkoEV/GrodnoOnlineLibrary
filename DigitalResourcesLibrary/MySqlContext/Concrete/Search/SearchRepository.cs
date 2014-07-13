@@ -73,7 +73,7 @@ namespace MySqlContext.Concrete.Search
 
         private List<SphinxSearchResult> RunQuery(string query)
         {
-            var result = new List<SphinxSearchResult>();
+         var result = new List<SphinxSearchResult>();
             using (var connection = new MySqlConnection(ConnectionString))
             {
                 using (var command = new MySqlCommand(query, connection))
