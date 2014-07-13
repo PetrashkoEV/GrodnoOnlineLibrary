@@ -6,14 +6,21 @@ using DigitalResourcesLibrary.DataContext.Interfaces;
 using DigitalResourcesLibrary.DataContext.Model;
 using MySqlContext.Concrete.Tag;
 using MySqlContext.Interface.Tag;
+using MySqlContext.Model;
 
 namespace DigitalResourcesLibrary.DataContext.Services
 {
     public class TagService : ITagService
     {
         private readonly Language _curentLocate = LocalizationHelper.GetLocalizationLanguage();
-        private readonly ITagLocateRepository _tagLocateRepository = new TagLocateRepository();
-        private readonly ITypeFileRepository _typeFileRepository = new TypeFileRepository();
+        private readonly ITagLocateRepository _tagLocateRepository;
+        private readonly ITypeFileRepository _typeFileRepository;
+
+        public TagService()
+        {
+            _tagLocateRepository = new TagLocateRepository();
+            _typeFileRepository = new TypeFileRepository();
+        }
 
         public List<TagModel> GetAllTags()
         {
@@ -60,6 +67,11 @@ namespace DigitalResourcesLibrary.DataContext.Services
             }
 
             return result;
+        }
+
+        public List<SphinxSearchResult> AutoComplite(string searchText)
+        {
+            return _tagLocateRepository.Search(searchText).ToList();
         }
     }
 }

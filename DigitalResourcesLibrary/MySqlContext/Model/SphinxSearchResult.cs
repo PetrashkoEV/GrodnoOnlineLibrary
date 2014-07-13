@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+﻿using System.Web.UI.WebControls.Expressions;
 
 namespace MySqlContext.Model
 {
@@ -11,5 +8,6 @@ namespace MySqlContext.Model
         public string Ttile { get; set; }
         public string Decription { get; set; }
         public string TypeDocument { get; set; }
+        public string SearchType { get; set; }
     }
 }

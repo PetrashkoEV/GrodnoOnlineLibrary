@@ -39,45 +39,10 @@ namespace DigitalResourcesLibrary.DataContext.Services
         }
         public List<string> AutoComplete(string search)
         {
-            var result = new List<string>();
-            var fullTextSearch = _searchRepository.AutoComplite(search);
-            foreach (var fullText in fullTextSearch)
-            {
-                bool matchFoundInTitle = true;
-                string fullString = fullText.Ttile;
-                var position = GetPositionSearchText(fullText, search, ref matchFoundInTitle);
-
-                if (!matchFoundInTitle)
-                {
-                    fullString = fullText.Decription;
-                }
-
-                string prefixText = fullString.Remove(position); // full text of the line to the desired combination of symbols
-                if (prefixText != "") //beginning of a word selection
-                {
-                    var removeIndex = prefixText.LastIndexOf(" ");
-                    if (removeIndex != -1)
-                    {
-                        prefixText = prefixText.Remove(0, removeIndex);
-                    }
-                }
-
-                string newText = prefixText + fullString.Substring(position, search.Count()); // the beginning and the root of the word
-
-                string completionText = fullString.Remove(0, position + search.Count()); //Full text after the search string
-                if (CountSumbolInSearchText - newText.Count() < completionText.Count())
-                {
-                    completionText = completionText.Remove(CountSumbolInSearchText - newText.Count()); // trimming line
-                    var removeIndex = completionText.LastIndexOf(" ");
-                    if (removeIndex != -1)
-                    {
-                        completionText = completionText.Remove(removeIndex); //search word endings
-                    }
-                }
-
-                result.Add(newText + completionText);
-            }
-            return result;
+            var fullTextSearch = _tagService.AutoComplite(search);
+            fullTextSearch.AddRange(_categoryService.AutoComplite(search));
+            fullTextSearch.AddRange(_searchRepository.AutoComplite(search));
+            return ReplaseResultSearch(fullTextSearch, search);
         }
 
         public List<DocumentModel> SearchDocumentsByCategory(int categoryId, int page)
@@ -104,31 +69,31 @@ namespace DigitalResourcesLibrary.DataContext.Services
 
         public List<DocumentModel> SearchDocumentsByText(string searchText, int page)
         {
-            var allSearchList = _searchRepository.SearchText(searchText);
+            var allCollectionResult = new List<DocumentModel>();
 
-            var articleIdList = new List<int>();
-            var storeIdList = new List<int>();
-            foreach (var searchResult in allSearchList)
+            var fullTextSearch = _categoryService.AutoComplite(searchText);
+            fullTextSearch.AddRange(_tagService.AutoComplite(searchText));
+
+            if (fullTextSearch.Count !=0) // search by category or tag
             {
-                var type = TypeDocumentsHelper.GeTypeDocument(searchResult.TypeDocument);
-                switch (type)
+                foreach (var searchResult in fullTextSearch)
                 {
-                    case TypeDocument.Article:
-                        articleIdList.Add(searchResult.Id);
-                        break;
-                    case TypeDocument.Store:
-                        storeIdList.Add(searchResult.Id);
-                        break;
+                    allCollectionResult.AddRange(SearchTypeHelper.GeTypeDocument(searchResult.SearchType) ==
+                                                 SearchType.Category
+                        ? SearchDocumentsByCategory(searchResult.Id, page)
+                        : SearchDocumentByTag(searchResult.Id, page));
                 }
             }
-
-            var allCollectionResult = new List<DocumentModel>();
-            allCollectionResult.AddRange(_articleService.FindByArticleId(articleIdList, page)); // all article entries with the List Id
-            allCollectionResult.AddRange(_storeService.FindByStoreId(storeIdList, page)); // all store entries with the List Id
+            else
+            {
+                var allSearchList = _searchRepository.SearchText(searchText);
+                SearchDocumentInDb(allSearchList, page, allCollectionResult);
+            }
 
             return CreationDocumentsToDisplay(allCollectionResult, page);
         }
 
+        
         public List<DocumentModel> SearchDocumentByTag(int tagId, int page)
         {
             var allCollectionResult = new List<DocumentModel>();
@@ -202,20 +167,92 @@ namespace DigitalResourcesLibrary.DataContext.Services
             return (List<DocumentModel>)result;
         }
 
-        private int GetPositionSearchText(SphinxSearchResult autoCompliteResult, string search, ref bool matchFoundInTitle)
+        /// <summary>
+        /// Cropping Title or Discription depending on the desired text
+        /// </summary>
+        /// <param name="fullTextSearch"></param>
+        /// <param name="search"></param>
+        /// <returns></returns>
+        private List<string> ReplaseResultSearch(IEnumerable<SphinxSearchResult> fullTextSearch, string search)
         {
-            var position = autoCompliteResult.Ttile.IndexOf(search, System.StringComparison.CurrentCultureIgnoreCase);
-            matchFoundInTitle = true;
-            if (position < 0)
+            var result = new List<string>();
+            foreach (var fullText in fullTextSearch)
             {
-                matchFoundInTitle = false;
-                position = autoCompliteResult.Decription.IndexOf(search, System.StringComparison.CurrentCultureIgnoreCase);
+                var fullString = fullText.Ttile;
+                var position = getPositionSearchText(fullString, search);
+
+                if (position < 0)
+                {
+                    fullString = fullText.Decription;
+                    position = getPositionSearchText(fullString, search);
+                }
+
+                var prefixText = fullString.Remove(position); // full text of the line to the desired combination of symbols
+                if (prefixText != String.Empty) //beginning of a word selection
+                {
+                    var removeIndex = prefixText.LastIndexOf(" ", System.StringComparison.Ordinal);
+                    if (removeIndex != -1)
+                    {
+                        prefixText = prefixText.Remove(0, removeIndex);
+                    }
+                }
+
+                var newText = prefixText + fullString.Substring(position, search.Count()); // the beginning and the root of the word
+
+                var completionText = fullString.Remove(0, position + search.Count()); //Full text after the search string
+                if (CountSumbolInSearchText - newText.Count() < completionText.Count())
+                {
+                    completionText = completionText.Remove(CountSumbolInSearchText - newText.Count()); // trimming line
+                    var removeIndex = completionText.LastIndexOf(" ");
+                    if (removeIndex != -1)
+                    {
+                        completionText = completionText.Remove(removeIndex); //search word endings
+                    }
+                }
+
+                result.Add(newText + completionText);
             }
-            if (position < 0)
+            return result;
+        }
+
+        /// <summary>
+        /// Determination of the position of the substring
+        /// </summary>
+        /// <param name="autoCompliteResult">String</param>
+        /// <param name="search">substring</param>
+        /// <returns>Position substring</returns>
+        private int getPositionSearchText(string autoCompliteResult, string search)
+        {
+            var position = autoCompliteResult.IndexOf(search, System.StringComparison.CurrentCultureIgnoreCase);
+            /*if (position < 0)
             {
-                position = GetPositionSearchText(autoCompliteResult, search.Remove(search.Count() - 1), ref matchFoundInTitle);
-            }
+                position = GetPositionSearchText(autoCompliteResult, search.Remove(search.Count() - 1), ref matchFoundInDescription);
+            }*/
             return position;
         }
+
+        private void SearchDocumentInDb(IEnumerable<SphinxSearchResult> allSearchList, int page, List<DocumentModel> allCollectionResult)
+        {
+            var articleIdList = new List<int>();
+            var storeIdList = new List<int>();
+            foreach (var searchResult in allSearchList)
+            {
+                var type = TypeDocumentsHelper.GeTypeDocument(searchResult.TypeDocument);
+                switch (type)
+                {
+                    case TypeDocument.Article:
+                        articleIdList.Add(searchResult.Id);
+                        break;
+                    case TypeDocument.Store:
+                        storeIdList.Add(searchResult.Id);
+                        break;
+                }
+            }
+
+            allCollectionResult.AddRange(_articleService.FindByArticleId(articleIdList, page)); // all article entries with the List Id
+            allCollectionResult.AddRange(_storeService.FindByStoreId(storeIdList, page)); // all store entries with the List Id
+
+        }
+
     }
 }

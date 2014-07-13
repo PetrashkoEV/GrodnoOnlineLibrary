@@ -1,10 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data.Entity;
+﻿using System.Data.Entity;
 using System.Linq;
-using System.Text;
 using MySqlContext.Entities;
 using MySqlContext.Interface.Categories;
+using MySqlContext.Model;
 
 namespace MySqlContext.Concrete.Categories
 {
@@ -18,6 +16,16 @@ namespace MySqlContext.Concrete.Categories
             {
                 return _dataContext.categoryloc;
             }
+        }
+
+        public IQueryable<SphinxSearchResult> Search(string search)
+        {
+            return Entity.Where(item => item.value.ToUpper().Contains(search.ToUpper())).Select(item => new SphinxSearchResult
+            {
+                Id = (int) item.category,
+                Ttile = item.value,
+                SearchType = "category"
+            });
         }
     }
 }

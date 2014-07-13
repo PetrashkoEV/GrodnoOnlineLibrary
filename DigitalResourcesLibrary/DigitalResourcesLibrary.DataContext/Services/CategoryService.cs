@@ -9,13 +9,22 @@ using DigitalResourcesLibrary.DataContext.Interfaces;
 using DigitalResourcesLibrary.DataContext.Model;
 using MySqlContext.Concrete.Categories;
 using MySqlContext.Interface.Categories;
+using MySqlContext.Model;
 
 namespace DigitalResourcesLibrary.DataContext.Services
 {
     public class CategoryService : ICategoryService
     {
-        private readonly Language _curentLocate = LocalizationHelper.GetLocalizationLanguage();
-        private readonly ICategoryRepository _categoryRepository = new CategoryRepository();
+        private readonly Language _curentLocate;
+        private readonly ICategoryRepository _categoryRepository; 
+        private readonly ICategoryLocateRepository _categoryLocateRepository; 
+
+        public CategoryService()
+        {
+            _curentLocate = LocalizationHelper.GetLocalizationLanguage();
+            _categoryRepository = new CategoryRepository(); 
+            _categoryLocateRepository = new CategoryLocateRepository();
+        }
 
         public List<CategoryModel> GetAllSubCategoryById(int id)
         {
@@ -64,6 +73,11 @@ namespace DigitalResourcesLibrary.DataContext.Services
                 }
             }
             return resultId;
+        }
+
+        public List<SphinxSearchResult> AutoComplite(string searchText)
+        {
+            return _categoryLocateRepository.Search(searchText).ToList();
         }
     }
 }

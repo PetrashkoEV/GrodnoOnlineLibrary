@@ -1,6 +1,7 @@
 ﻿using System.Data.Entity;
 using System.Linq;
 using MySqlContext.Entities;
+using MySqlContext.Model;
 
 namespace MySqlContext.Interface.Categories
 {

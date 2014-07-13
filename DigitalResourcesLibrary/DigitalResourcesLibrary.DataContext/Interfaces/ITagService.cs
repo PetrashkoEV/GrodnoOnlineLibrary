@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using DigitalResourcesLibrary.DataContext.Enums;
 using DigitalResourcesLibrary.DataContext.Model;
 using DigitalResourcesLibrary.DataContext.Model.Documents;
+using MySqlContext.Model;
 
 namespace DigitalResourcesLibrary.DataContext.Interfaces
 {
@@ -36,5 +37,12 @@ namespace DigitalResourcesLibrary.DataContext.Interfaces
         /// <param name="fileDocumentsSelect">string with fileDocuments</param>
         /// <returns>list FileType</returns>
         List<FileType> FileTypeSplit(string fileDocumentsSelect);
+
+        /// <summary>
+        /// Auto Complite search in tags
+        /// </summary>
+        /// <param name="search">Search string</param>
+        /// <returns>list Sphinx Search Result</returns>
+        List<SphinxSearchResult> AutoComplite(string search);
     }
 }

@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using DigitalResourcesLibrary.DataContext.Model;
+using MySqlContext.Model;
 
 namespace DigitalResourcesLibrary.DataContext.Interfaces
 {
@@ -25,5 +26,12 @@ namespace DigitalResourcesLibrary.DataContext.Interfaces
         /// <param name="categorySelect">string with category</param>
         /// <returns>list category id</returns>
         List<long> CategorySelectSplit(string categorySelect);
+
+        /// <summary>
+        /// Auto Complite search in categoryes
+        /// </summary>
+        /// <param name="search">Search string</param>
+        /// <returns>list Sphinx Search Result</returns>
+        List<SphinxSearchResult> AutoComplite(string search);
     }
 }

@@ -1,10 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
-using System.Text;
 using MySqlContext.Entities;
 using MySqlContext.Interface.Tag;
+using MySqlContext.Model;
 
 namespace MySqlContext.Concrete.Tag
 {
@@ -18,6 +17,16 @@ namespace MySqlContext.Concrete.Tag
             {
                 return _dataContext.tagloc;
             }
+        }
+
+        public IQueryable<SphinxSearchResult> Search(string search)
+        {
+            return Entity.Where(item => item.value.ToUpper().Contains(search.ToUpper())).Select(item => new SphinxSearchResult
+            {
+                Id = item.tag,
+                Ttile = item.value,
+                SearchType = "tag"
+            });
         }
     }
 }
