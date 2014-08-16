@@ -1,0 +1,1 @@
+D:\SearchRepository\SearchProg\bin\indexer search_main search_delta --config D:\SearchRepository\SearchProg\data\config.txt --rotate

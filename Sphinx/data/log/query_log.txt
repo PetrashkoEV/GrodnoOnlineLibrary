@@ -1,0 +1,1541 @@
+[Mon May 26 13:15:43.347 2014] 0.014 sec 0.014 sec [ext2/0/ext 22 (0,5)] [SearchRepository] *гр*
+[Mon May 26 13:15:44.649 2014] 0.000 sec 0.000 sec [ext2/0/ext 17 (0,5)] [SearchRepository] *гро*
+[Mon May 26 13:15:46.706 2014] 0.000 sec 0.000 sec [ext2/0/ext 8 (0,5)] [SearchRepository] *гродно*
+[Mon May 26 13:15:49.139 2014] 0.000 sec 0.000 sec [ext2/0/ext 15 (0,5)] [SearchRepository] *гродн*
+[Mon May 26 13:15:52.416 2014] 0.001 sec 0.001 sec [ext2/0/ext 1 (0,20)] [SearchRepository] * Гродна на рускай і беларускай мовах*
+[Mon May 26 13:16:08.145 2014] 0.000 sec 0.000 sec [ext2/0/ext 8 (0,5)] [SearchRepository] *ли*
+[Mon May 26 13:16:21.639 2014] 0.001 sec 0.001 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *библиографический указатель литературы*
+[Mon May 26 13:16:24.673 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *дре*
+[Mon May 26 13:16:25.288 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *древ*
+[Mon May 26 13:16:53.439 2014] 0.000 sec 0.000 sec [ext2/2/ext 1 (0,20)] [SearchRepository] *древ*
+[Mon May 26 13:17:01.778 2014] 0.000 sec 0.000 sec [ext2/2/ext 0 (0,20)] [SearchRepository]
+[Mon May 26 13:17:06.311 2014] 0.000 sec 0.000 sec [ext2/0/ext 4 (0,5)] [SearchRepository] *нас*
+[Mon May 26 13:17:08.496 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *насле*
+[Mon May 26 13:17:20.383 2014] 0.000 sec 0.000 sec [ext2/2/ext 1 (0,20)] [SearchRepository] *насле*
+[Mon May 26 13:17:31.844 2014] 0.000 sec 0.000 sec [ext2/2/ext 8 (0,20)] [SearchRepository]
+[Mon May 26 13:22:15.965 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *nt*
+[Mon May 26 13:22:17.920 2014] 0.001 sec 0.001 sec [ext2/0/ext 15 (0,5)] [SearchRepository] *те*
+[Mon May 26 13:22:19.020 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *тес*
+[Mon May 26 13:22:21.367 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,20)] [SearchRepository] *тест*
+[Mon May 26 13:23:58.009 2014] 0.000 sec 0.000 sec [ext2/0/ext 15 (0,5)] [SearchRepository] *те*
+[Mon May 26 13:23:58.508 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *тес*
+[Mon May 26 13:24:02.551 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,20)] [SearchRepository] *тест*
+[Mon May 26 13:24:23.545 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *тест*
+[Mon May 26 13:24:27.391 2014] 0.000 sec 0.000 sec [ext2/0/ext 15 (0,5)] [SearchRepository] *те*
+[Mon May 26 13:24:28.500 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *тес*
+[Mon May 26 13:24:36.222 2014] 0.000 sec 0.000 sec [ext2/0/ext 15 (0,5)] [SearchRepository] *те*
+[Mon May 26 13:24:36.787 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *тес*
+[Mon May 26 13:24:55.795 2014] 0.000 sec 0.000 sec [ext2/0/ext 13 (0,5)] [SearchRepository] *те*
+[Mon May 26 13:24:56.888 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *тес*
+[Mon May 26 14:29:47.106 2014] 0.000 sec 0.000 sec [ext2/1/ext 14 (0,20)] [SearchRepository]
+[Mon May 26 14:30:31.651 2014] 0.000 sec 0.000 sec [ext2/1/ext 6 (0,20)] [SearchRepository]
+[Mon May 26 17:53:58.665 2014] 0.000 sec 0.000 sec [ext2/0/ext 5 (0,5)] [SearchRepository] *би*
+[Tue May 27 23:13:38.643 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *кг*
+[Tue May 27 23:13:40.637 2014] 0.000 sec 0.000 sec [ext2/0/ext 17 (0,5)] [SearchRepository] *гро*
+[Tue May 27 23:13:45.038 2014] 0.001 sec 0.001 sec [ext2/0/ext 1 (0,20)] [SearchRepository] * Гродно: Гродно в стихах и прозе:*
+[Thu May 29 11:15:25.791 2014] 0.000 sec 0.000 sec [ext2/1/ext 31 (0,20)] [SearchRepository]
+[Thu May 29 17:52:50.821 2014] 0.018 sec 0.018 sec [ext2/0/ext 10 (0,5)] [SearchRepository] *ис*
+[Thu May 29 17:52:53.274 2014] 0.000 sec 0.000 sec [ext2/0/ext 4 (0,5)] [SearchRepository] *истори*
+[Thu May 29 17:52:57.260 2014] 0.001 sec 0.001 sec [ext2/0/ext 2 (0,20)] [SearchRepository] *Историко-культурные памятники Гродно:*
+[Thu May 29 17:53:04.745 2014] 0.001 sec 0.001 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *Историко-культурные памятники Гродно:*
+[Thu May 29 17:53:09.380 2014] 0.000 sec 0.000 sec [ext2/0/ext 8 (0,5)] [SearchRepository] *сти*
+[Thu May 29 17:53:11.468 2014] 0.000 sec 0.000 sec [ext2/0/ext 3 (0,5)] [SearchRepository] *стихи*
+[Thu May 29 17:53:20.783 2014] 0.001 sec 0.001 sec [ext2/0/ext 1 (0,20)] [SearchRepository] *Стихи Т.Сучковой из сборников: подборка*
+[Thu May 29 17:53:42.440 2014] 0.001 sec 0.001 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *Стихи Т.Сучковой из сборников: подборка*
+[Thu May 29 17:53:46.106 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *историко*
+[Thu May 29 17:53:55.962 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *осо*
+[Thu May 29 17:53:56.867 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *особе*
+[Thu May 29 17:54:03.883 2014] 0.000 sec 0.000 sec [ext2/0/ext 3 (0,5)] [SearchRepository] *зам*
+[Thu May 29 17:54:12.180 2014] 0.000 sec 0.000 sec [ext2/0/ext 8 (0,5)] [SearchRepository] *сти*
+[Thu May 29 17:54:12.950 2014] 0.000 sec 0.000 sec [ext2/0/ext 3 (0,5)] [SearchRepository] *стихи*
+[Thu May 29 17:54:19.916 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *стихи пр*
+[Thu May 29 17:55:02.888 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,20)] [SearchRepository] *Стихи Т.Сучковой из сборников: подборка*
+[Thu May 29 17:55:04.289 2014] 0.001 sec 0.001 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *Стихи Т.Сучковой из сборников: подборка*
+[Thu May 29 17:55:06.983 2014] 0.000 sec 0.000 sec [ext2/0/ext 8 (0,5)] [SearchRepository] *сти*
+[Thu May 29 17:55:10.411 2014] 0.000 sec 0.000 sec [ext2/0/ext 3 (0,5)] [SearchRepository] *стихи п*
+[Thu May 29 17:55:11.509 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *стихи пр*
+[Thu May 29 17:55:22.376 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *в с*
+[Thu May 29 17:55:25.397 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,20)] [SearchRepository] *в сти*
+[Thu May 29 22:24:48.972 2014] 0.006 sec 0.006 sec [ext2/2/ext 0 (0,20)] [SearchRepository]
+[Thu May 29 22:38:47.474 2014] 0.000 sec 0.000 sec [ext2/0/ext 31 (0,20)] [SearchRepository]
+[Fri May 30 09:40:15.072 2014] 0.001 sec 0.001 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *лі*
+[Fri May 30 09:40:22.626 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,20)] [SearchRepository] *літаратура*
+[Fri May 30 09:40:31.079 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *літаратура*
+[Fri May 30 09:40:49.544 2014] 0.016 sec 0.016 sec [ext2/1/ext 14 (0,20)] [SearchRepository]
+[Fri May 30 20:16:18.892 2014] 0.001 sec 0.001 sec [ext2/0/ext 16 (0,5)] [SearchRepository] *бо*
+[Fri May 30 20:16:21.407 2014] 0.000 sec 0.000 sec [ext2/0/ext 3 (0,5)] [SearchRepository] *бон*
+[Fri May 30 20:16:21.827 2014] 0.000 sec 0.000 sec [ext2/0/ext 3 (0,5)] [SearchRepository] *бонд*
+[Fri May 30 20:16:23.393 2014] 0.001 sec 0.001 sec [ext2/1/ext 1 (0,20)] [SearchRepository] *Бондаренко А.В. Давно, давно это было:*
+[Mon Jun  2 14:07:46.159 2014] 0.001 sec 0.001 sec [ext2/0/ext 18 (0,5)] [SearchRepository] *су*
+[Mon Jun  2 14:07:47.017 2014] 0.000 sec 0.000 sec [ext2/0/ext 4 (0,5)] [SearchRepository] *сур*
+[Mon Jun  2 14:08:41.840 2014] 0.000 sec 0.000 sec [ext2/0/ext 18 (0,5)] [SearchRepository] *су*
+[Mon Jun  2 14:08:42.385 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *суро*
+[Mon Jun  2 14:08:43.209 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *суров*
+[Mon Jun  2 14:08:54.661 2014] 0.000 sec 0.000 sec [ext2/0/ext 18 (0,5)] [SearchRepository] *су*
+[Mon Jun  2 14:09:24.164 2014] 0.001 sec 0.001 sec [ext2/0/ext 16 (0,5)] [SearchRepository] *бо*
+[Mon Jun  2 14:09:24.629 2014] 0.000 sec 0.000 sec [ext2/0/ext 3 (0,5)] [SearchRepository] *бон*
+[Mon Jun  2 14:09:26.258 2014] 0.000 sec 0.000 sec [ext2/0/ext 3 (0,5)] [SearchRepository] *бонд*
+[Mon Jun  2 14:09:30.120 2014] 0.001 sec 0.001 sec [ext2/0/ext 1 (0,20)] [SearchRepository] *Бондаренко А.В. Давно, давно это было:*
+[Mon Jun  2 18:33:08.741 2014] 0.000 sec 0.000 sec [ext2/0/ext 16 (0,5)] [SearchRepository] *бо*
+[Mon Jun  2 18:33:11.063 2014] 0.000 sec 0.000 sec [ext2/0/ext 3 (0,5)] [SearchRepository] *бон*
+[Mon Jun  2 18:33:11.692 2014] 0.000 sec 0.000 sec [ext2/0/ext 3 (0,5)] [SearchRepository] *бонда*
+[Mon Jun  2 18:33:51.432 2014] 0.000 sec 0.000 sec [ext2/0/ext 3 (0,5)] [SearchRepository] *бонда*
+[Mon Jun  2 18:33:57.202 2014] 0.000 sec 0.000 sec [ext2/0/ext 16 (0,5)] [SearchRepository] *бо*
+[Mon Jun  2 18:33:59.473 2014] 0.000 sec 0.000 sec [ext2/0/ext 3 (0,5)] [SearchRepository] *бон*
+[Mon Jun  2 18:34:20.948 2014] 0.001 sec 0.001 sec [ext2/0/ext 28 (0,5)] [SearchRepository] *ко*
+[Mon Jun  2 18:34:22.595 2014] 0.000 sec 0.000 sec [ext2/0/ext 12 (0,5)] [SearchRepository] *ком*
+[Mon Jun  2 18:34:29.200 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *комп*
+[Mon Jun  2 18:34:41.183 2014] 0.000 sec 0.000 sec [ext2/0/ext 18 (0,5)] [SearchRepository] *су*
+[Mon Jun  2 18:34:48.805 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *суро*
+[Mon Jun  2 18:36:04.084 2014] 0.000 sec 0.000 sec [ext2/1/ext 12 (0,20)] [SearchRepository]
+[Mon Jun  2 18:36:27.940 2014] 0.000 sec 0.000 sec [ext2/1/ext 12 (0,20)] [SearchRepository]
+[Mon Jun  2 18:36:54.894 2014] 0.000 sec 0.000 sec [ext2/0/ext 4 (0,5)] [SearchRepository] *сур*
+[Mon Jun  2 18:36:55.487 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *суров*
+[Mon Jun  2 18:37:03.205 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *Суров*
+[Mon Jun  2 18:37:03.847 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,20)] [SearchRepository] * Суров*
+[Mon Jun  2 18:40:54.914 2014] 0.000 sec 0.000 sec [ext2/0/ext 14 (0,5)] [SearchRepository] *за*
+[Mon Jun  2 18:40:57.912 2014] 0.000 sec 0.000 sec [ext2/0/ext 3 (0,5)] [SearchRepository] *зам*
+[Mon Jun  2 18:41:04.656 2014] 0.000 sec 0.000 sec [ext2/0/ext 12 (0,5)] [SearchRepository] *вы*
+[Mon Jun  2 18:41:05.091 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *выс*
+[Mon Jun  2 18:41:09.251 2014] 0.000 sec 0.000 sec [ext2/0/ext 18 (0,5)] [SearchRepository] *су*
+[Mon Jun  2 18:41:22.511 2014] 0.000 sec 0.000 sec [ext2/0/ext 3 (0,5)] [SearchRepository] *бон*
+[Tue Jun  3 19:11:17.136 2014] 0.001 sec 0.001 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *Хр*
+[Tue Jun  3 19:11:17.510 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *Хре*
+[Tue Jun  3 19:11:19.924 2014] 0.000 sec 0.000 sec [ext2/1/ext 0 (0,20)] [SearchRepository] *Хрен*
+[Tue Jun  3 19:11:23.007 2014] 0.000 sec 0.000 sec [ext2/1/ext 0 (0,20)] [SearchRepository] *Хрен*
+[Tue Jun  3 19:11:29.823 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *Хрен*
+[Tue Jun  3 19:11:31.032 2014] 0.000 sec 0.000 sec [ext2/1/ext 0 (0,20)] [SearchRepository] *Хрен*
+[Tue Jun  3 19:12:23.540 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *Хрен*
+[Tue Jun  3 19:12:29.495 2014] 0.000 sec 0.000 sec [ext2/1/ext 0 (0,20)] [SearchRepository] *Хреннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннн*
+[Tue Jun  3 19:12:31.013 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *Хреннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннн*
+[Tue Jun  3 19:12:35.373 2014] 0.000 sec 0.000 sec [ext2/1/ext 0 (0,20)] [SearchRepository] *Хренннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннн*
+[Tue Jun  3 19:12:37.323 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *Хренннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннн*
+[Tue Jun  3 19:17:26.171 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *dfds*
+[Tue Jun  3 19:17:47.712 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *хрен*
+[Tue Jun  3 19:18:50.603 2014] 0.000 sec 0.000 sec [ext2/0/ext 12 (0,5)] [SearchRepository] *вы*
+[Tue Jun  3 19:25:55.392 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *Рииииит*
+[Tue Jun  3 19:25:56.456 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,20)] [SearchRepository] *Рииииит*
+[Wed Jun  4 15:38:05.805 2014] 0.001 sec 0.001 sec [ext2/0/ext 16 (0,5)] [SearchRepository] *бо*
+[Wed Jun  4 15:38:06.465 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *бог*
+[Wed Jun  4 15:38:08.862 2014] 0.000 sec 0.000 sec [ext2/0/ext 3 (0,5)] [SearchRepository] *бон*
+[Wed Jun  4 15:38:20.373 2014] 0.001 sec 0.001 sec [ext2/0/ext 1 (0,20)] [SearchRepository] *Бондаренко А.В. Давно, давно это было:*
+[Wed Jun  4 15:38:54.391 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *давно это было:*
+[Wed Jun  4 15:38:57.385 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *это было:*
+[Wed Jun  4 15:39:00.937 2014] 0.000 sec 0.000 sec [ext2/0/ext 16 (0,5)] [SearchRepository] *бо*
+[Wed Jun  4 15:39:01.535 2014] 0.000 sec 0.000 sec [ext2/0/ext 3 (0,5)] [SearchRepository] *бон*
+[Wed Jun  4 15:39:02.809 2014] 0.000 sec 0.000 sec [ext2/0/ext 3 (0,5)] [SearchRepository] *бондаренко*
+[Wed Jun  4 15:39:04.974 2014] 0.000 sec 0.000 sec [ext2/0/ext 3 (0,20)] [SearchRepository] *бондаренко*
+[Wed Jun  4 15:44:16.707 2014] 0.000 sec 0.000 sec [ext2/2/ext 4 (0,20)] [SearchRepository]
+[Wed Jun  4 16:33:21.779 2014] 0.000 sec 0.000 sec [ext2/0/ext 18 (0,5)] [SearchRepository] *су*
+[Wed Jun  4 16:33:27.435 2014] 0.000 sec 0.000 sec [ext2/0/ext 10 (0,5)] [SearchRepository] *суч*
+[Wed Jun  4 16:33:37.305 2014] 0.000 sec 0.000 sec [ext2/0/ext 10 (0,20)] [SearchRepository] *суч*
+[Wed Jun  4 16:34:08.150 2014] 0.000 sec 0.000 sec [ext2/0/ext 10 (0,5)] [SearchRepository] *суч*
+[Wed Jun  4 16:34:15.780 2014] 0.001 sec 0.001 sec [ext2/0/ext 37 (0,5)] [SearchRepository] *ка*
+[Wed Jun  4 16:34:19.538 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *кало*
+[Wed Jun  4 16:34:24.438 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *каложски*
+[Wed Jun  4 16:34:26.027 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *каложск*
+[Wed Jun  4 16:34:32.498 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *каложскі*
+[Wed Jun  4 16:34:38.072 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *каложскі б*
+[Wed Jun  4 16:34:39.912 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *каложскі благаве*
+[Wed Jun  4 16:34:43.180 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,20)] [SearchRepository] *каложскі благавест*
+[Wed Jun  4 16:34:45.894 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *каложскі благавест*
+[Wed Jun  4 16:34:52.387 2014] 0.001 sec 0.001 sec [ext2/0/ext 37 (0,5)] [SearchRepository] *ка*
+[Wed Jun  4 16:34:54.414 2014] 0.000 sec 0.000 sec [ext2/0/ext 5 (0,5)] [SearchRepository] *кал*
+[Wed Jun  4 16:35:02.026 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *кало*
+[Wed Jun  4 16:35:03.939 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *калож*
+[Wed Jun  4 16:35:06.827 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,20)] [SearchRepository] *калож*
+[Wed Jun  4 16:36:40.265 2014] 0.001 sec 0.001 sec [ext2/0/ext 37 (0,5)] [SearchRepository] *ка*
+[Wed Jun  4 16:36:43.068 2014] 0.000 sec 0.000 sec [ext2/0/ext 5 (0,5)] [SearchRepository] *кал*
+[Wed Jun  4 16:36:43.513 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *кало*
+[Wed Jun  4 16:36:46.307 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *калож*
+[Wed Jun  4 16:36:47.279 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *каложс*
+[Wed Jun  4 16:36:48.130 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *каложск*
+[Wed Jun  4 16:36:57.699 2014] 0.001 sec 0.001 sec [ext2/0/ext 37 (0,5)] [SearchRepository] **Ка*
+[Wed Jun  4 16:37:01.085 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] **Кало*
+[Wed Jun  4 16:37:01.570 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] **Калож*
+[Wed Jun  4 16:37:03.335 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] **Каложс*
+[Wed Jun  4 16:37:04.593 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] **Каложск*
+[Wed Jun  4 16:37:05.094 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] **Каложскі*
+[Wed Jun  4 16:37:13.555 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,20)] [SearchRepository] **Каложскі благавест**
+[Wed Jun  4 16:37:49.831 2014] 0.000 sec 0.000 sec [ext2/0/ext 14 (0,5)] [SearchRepository] *пра*
+[Wed Jun  4 16:37:51.500 2014] 0.000 sec 0.000 sec [ext2/0/ext 5 (0,5)] [SearchRepository] *прав*
+[Wed Jun  4 16:37:52.097 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *права*
+[Wed Jun  4 16:38:02.509 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,20)] [SearchRepository] *праваслаўныя*
+[Wed Jun  4 16:38:13.080 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *правос*
+[Wed Jun  4 16:38:16.579 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,20)] [SearchRepository] *православные*
+[Wed Jun 11 12:30:42.620 2014] 0.000 sec 0.000 sec [ext2/1/ext 41 (0,20)] [SearchRepository]
+[Wed Jun 11 12:31:06.046 2014] 0.000 sec 0.000 sec [ext2/1/ext 14 (0,20)] [SearchRepository]
+[Wed Jun 11 12:31:25.608 2014] 0.000 sec 0.000 sec [ext2/1/ext 4 (0,20)] [SearchRepository]
+[Wed Jun 11 12:34:49.235 2014] 0.000 sec 0.000 sec [ext2/2/ext 16 (0,20)] [SearchRepository]
+[Wed Jun 11 12:35:20.600 2014] 0.000 sec 0.000 sec [ext2/2/ext 10 (0,20)] [SearchRepository]
+[Wed Jun 11 12:35:48.850 2014] 0.000 sec 0.000 sec [ext2/2/ext 4 (0,20)] [SearchRepository]
+[Wed Jun 11 23:55:55.059 2014] 0.000 sec 0.000 sec [ext2/1/ext 41 (0,20)] [SearchRepository]
+[Wed Jun 11 23:56:04.980 2014] 0.000 sec 0.000 sec [ext2/1/ext 41 (0,20)] [SearchRepository]
+[Wed Jun 11 23:56:07.971 2014] 0.000 sec 0.000 sec [ext2/1/ext 41 (0,20)] [SearchRepository]
+[Wed Jun 11 23:56:10.296 2014] 0.000 sec 0.000 sec [ext2/1/ext 41 (0,20)] [SearchRepository]
+[Wed Jun 11 23:56:15.556 2014] 0.000 sec 0.000 sec [ext2/1/ext 41 (0,20)] [SearchRepository]
+[Wed Jun 11 23:56:19.247 2014] 0.000 sec 0.000 sec [ext2/1/ext 41 (0,20)] [SearchRepository]
+[Wed Jun 11 23:56:34.058 2014] 0.000 sec 0.000 sec [ext2/1/ext 41 (0,20)] [SearchRepository]
+[Wed Jun 11 23:59:22.224 2014] 0.000 sec 0.000 sec [ext2/1/ext 52 (0,20)] [SearchRepository]
+[Wed Jun 11 23:59:26.684 2014] 0.000 sec 0.000 sec [ext2/1/ext 52 (0,20)] [SearchRepository]
+[Wed Jun 11 23:59:34.456 2014] 0.000 sec 0.000 sec [ext2/1/ext 52 (0,20)] [SearchRepository]
+[Thu Jun 12 00:18:22.281 2014] 0.000 sec 0.000 sec [ext2/1/ext 52 (0,20)] [SearchRepository]
+[Thu Jun 12 00:18:28.192 2014] 0.000 sec 0.000 sec [ext2/1/ext 52 (0,20)] [SearchRepository]
+[Thu Jun 12 00:19:40.990 2014] 0.000 sec 0.000 sec [ext2/1/ext 52 (0,20)] [SearchRepository]
+[Thu Jun 12 00:19:44.670 2014] 0.000 sec 0.000 sec [ext2/1/ext 52 (0,20)] [SearchRepository]
+[Thu Jun 12 00:20:20.465 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *te*
+[Thu Jun 12 00:20:37.037 2014] 0.001 sec 0.001 sec [ext2/0/ext 44 (0,5)] [SearchRepository] *ск*
+[Thu Jun 12 00:20:37.616 2014] 0.000 sec 0.000 sec [ext2/0/ext 6 (0,5)] [SearchRepository] *ску*
+[Thu Jun 12 00:20:38.954 2014] 0.000 sec 0.000 sec [ext2/0/ext 6 (0,5)] [SearchRepository] *скуль*
+[Thu Jun 12 00:20:50.414 2014] 0.000 sec 0.000 sec [ext2/1/ext 52 (0,20)] [SearchRepository]
+[Thu Jun 12 00:20:59.436 2014] 0.000 sec 0.000 sec [ext2/1/ext 52 (0,20)] [SearchRepository]
+[Thu Jun 12 00:21:05.322 2014] 0.000 sec 0.000 sec [ext2/1/ext 52 (0,20)] [SearchRepository]
+[Thu Jun 12 00:21:10.806 2014] 0.000 sec 0.000 sec [ext2/1/ext 52 (0,20)] [SearchRepository]
+[Thu Jun 12 00:21:15.587 2014] 0.000 sec 0.000 sec [ext2/1/ext 52 (0,20)] [SearchRepository]
+[Thu Jun 12 10:46:45.904 2014] 0.000 sec 0.000 sec [ext2/0/ext 52 (0,20)] [SearchRepository]
+[Thu Jun 12 10:49:12.942 2014] 0.000 sec 0.000 sec [ext2/0/ext 10 (0,5)] [SearchRepository] *фо*
+[Thu Jun 12 10:49:14.193 2014] 0.000 sec 0.000 sec [ext2/0/ext 10 (0,5)] [SearchRepository] *фот*
+[Thu Jun 12 10:49:15.098 2014] 0.000 sec 0.000 sec [ext2/0/ext 4 (0,5)] [SearchRepository] *фото*
+[Thu Jun 12 10:51:41.362 2014] 0.001 sec 0.001 sec [ext2/0/ext 8 (0,20)] [SearchRepository] (фото)
+[Thu Jun 12 10:52:58.421 2014] 0.001 sec 0.001 sec [ext2/0/ext 0 (0,20)] [SearchRepository] 1980 (фото)
+[Thu Jun 12 10:53:03.666 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,20)] [SearchRepository] 1980
+[Thu Jun 12 10:53:12.670 2014] 0.001 sec 0.001 sec [ext2/0/ext 2 (0,20)] [SearchRepository] 1908
+[Thu Jun 12 10:54:01.833 2014] 0.000 sec 0.000 sec [ext2/1/ext 6 (0,20)] [SearchRepository]
+[Thu Jun 12 10:54:27.882 2014] 0.000 sec 0.000 sec [ext2/1/ext 20 (0,20)] [SearchRepository]
+[Thu Jun 12 10:54:47.984 2014] 0.000 sec 0.000 sec [ext2/2/ext 10 (0,20)] [SearchRepository]
+[Thu Jun 12 10:55:08.850 2014] 0.000 sec 0.000 sec [ext2/2/ext 12 (0,20)] [SearchRepository]
+[Thu Jun 12 10:55:33.326 2014] 0.000 sec 0.000 sec [ext2/2/ext 12 (0,20)] [SearchRepository]
+[Thu Jun 12 10:55:41.978 2014] 0.000 sec 0.000 sec [ext2/1/ext 52 (0,20)] [SearchRepository]
+[Thu Jun 12 10:55:53.448 2014] 0.000 sec 0.000 sec [ext2/2/ext 8 (0,20)] [SearchRepository]
+[Thu Jun 12 10:56:48.081 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *фл*
+[Thu Jun 12 10:56:49.615 2014] 0.000 sec 0.000 sec [ext2/0/ext 4 (0,5)] [SearchRepository] *фото*
+[Thu Jun 12 10:56:51.718 2014] 0.000 sec 0.000 sec [ext2/2/ext 2 (0,20)] [SearchRepository] *фото*
+[Thu Jun 12 10:56:54.183 2014] 0.000 sec 0.000 sec [ext2/0/ext 4 (0,5)] [SearchRepository] *фото*
+[Thu Jun 12 10:57:01.493 2014] 0.000 sec 0.000 sec [ext2/2/ext 2 (0,20)] [SearchRepository] *фото*
+[Thu Jun 12 10:57:02.917 2014] 0.000 sec 0.000 sec [ext2/0/ext 4 (0,5)] [SearchRepository] *фото*
+[Thu Jun 12 10:57:04.868 2014] 0.000 sec 0.000 sec [ext2/2/ext 1 (0,20)] [SearchRepository] * фотоальбом их личного архива:*
+[Thu Jun 12 10:57:07.293 2014] 0.001 sec 0.001 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *фотоальбом их личного архива:*
+[Thu Jun 12 10:57:09.404 2014] 0.000 sec 0.000 sec [ext2/2/ext 1 (0,20)] [SearchRepository] *фотоальбом их личного архива:*
+[Thu Jun 12 11:30:22.536 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *mp*
+[Thu Jun 12 11:30:35.625 2014] 0.000 sec 0.000 sec [ext2/1/ext 10 (0,20)] [SearchRepository]
+[Thu Jun 12 11:30:47.158 2014] 0.000 sec 0.000 sec [ext2/1/ext 10 (0,20)] [SearchRepository]
+[Thu Jun 12 11:31:21.211 2014] 0.000 sec 0.000 sec [ext2/2/ext 12 (0,20)] [SearchRepository]
+[Thu Jun 12 11:31:28.311 2014] 0.000 sec 0.000 sec [ext2/2/ext 50 (0,20)] [SearchRepository]
+[Thu Jun 12 11:31:34.265 2014] 0.000 sec 0.000 sec [ext2/1/ext 52 (0,20)] [SearchRepository]
+[Thu Jun 12 11:32:05.471 2014] 0.000 sec 0.000 sec [ext2/2/ext 12 (0,20)] [SearchRepository]
+[Thu Jun 12 11:32:10.757 2014] 0.000 sec 0.000 sec [ext2/2/ext 12 (0,20)] [SearchRepository]
+[Thu Jun 12 11:34:11.938 2014] 0.000 sec 0.000 sec [ext2/2/ext 12 (0,20)] [SearchRepository]
+[Thu Jun 12 11:34:26.983 2014] 0.000 sec 0.000 sec [ext2/0/ext 10 (0,5)] [SearchRepository] *фот*
+[Thu Jun 12 11:34:42.336 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *190*
+[Thu Jun 12 11:34:43.324 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *1908*
+[Thu Jun 12 11:34:44.936 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,20)] [SearchRepository] *1908*
+[Thu Jun 12 11:34:47.736 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *1908*
+[Thu Jun 12 11:34:49.556 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *тре*
+[Thu Jun 12 11:34:52.783 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *треб*
+[Thu Jun 12 11:34:56.745 2014] 0.000 sec 0.000 sec [ext2/0/ext 4 (0,5)] [SearchRepository] *тере*
+[Thu Jun 12 11:34:58.804 2014] 0.000 sec 0.000 sec [ext2/0/ext 3 (0,5)] [SearchRepository] *тереб*
+[Thu Jun 12 11:34:59.565 2014] 0.000 sec 0.000 sec [ext2/0/ext 3 (0,5)] [SearchRepository] *теребун*
+[Thu Jun 12 11:35:04.930 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,20)] [SearchRepository] *Теребун В.В. - художник, скульптор,*
+[Thu Jun 12 11:35:11.830 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,20)] [SearchRepository] *Теребун В.В. - художник,*
+[Thu Jun 12 11:35:15.403 2014] 0.000 sec 0.000 sec [ext2/0/ext 3 (0,5)] [SearchRepository] *Теребун В.В. -*
+[Thu Jun 12 11:35:15.624 2014] 0.000 sec 0.000 sec [ext2/0/ext 3 (0,20)] [SearchRepository] *Теребун В.В. - *
+[Thu Jun 12 11:42:24.777 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *при*
+[Thu Jun 12 11:42:27.495 2014] 0.000 sec 0.000 sec [ext2/0/ext 15 (0,5)] [SearchRepository] *ис*
+[Thu Jun 12 11:42:28.189 2014] 0.000 sec 0.000 sec [ext2/0/ext 10 (0,5)] [SearchRepository] *ист*
+[Thu Jun 12 11:42:29.981 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *история*
+[Thu Jun 12 11:42:31.123 2014] 0.000 sec 0.000 sec [ext2/0/ext 5 (0,5)] [SearchRepository] *истор*
+[Thu Jun 12 11:42:33.144 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,20)] [SearchRepository] * исторических исследований Беларуси*
+[Thu Jun 12 11:42:35.049 2014] 0.001 sec 0.001 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *исторических исследований Беларуси*
+[Thu Jun 12 11:42:37.353 2014] 0.000 sec 0.000 sec [ext2/0/ext 15 (0,5)] [SearchRepository] *ис*
+[Thu Jun 12 11:42:37.737 2014] 0.000 sec 0.000 sec [ext2/0/ext 10 (0,5)] [SearchRepository] *ист*
+[Thu Jun 12 11:42:38.246 2014] 0.000 sec 0.000 sec [ext2/0/ext 8 (0,5)] [SearchRepository] *исто*
+[Thu Jun 12 11:42:42.054 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,20)] [SearchRepository] * источника публикации*
+[Thu Jun 12 11:42:44.672 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,20)] [SearchRepository] * источника публикации*
+[Thu Jun 12 11:42:45.936 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *источника публикации*
+[Thu Jun 12 11:42:49.106 2014] 0.000 sec 0.000 sec [ext2/0/ext 4 (0,5)] [SearchRepository] *фото*
+[Thu Jun 12 11:43:01.922 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *19*
+[Thu Jun 12 11:43:06.050 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,20)] [SearchRepository] *1908*
+[Thu Jun 12 11:43:08.111 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *1908*
+[Thu Jun 12 11:43:17.670 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *19*
+[Thu Jun 12 11:43:21.344 2014] 0.000 sec 0.000 sec [ext2/1/ext 2 (0,20)] [SearchRepository] *1908*
+[Thu Jun 12 11:43:27.041 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *1908*
+[Thu Jun 12 11:43:32.947 2014] 0.000 sec 0.000 sec [ext2/1/ext 2 (0,20)] [SearchRepository] *1908*
+[Thu Jun 12 12:47:14.337 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,20)] [SearchRepository] *хуй*
+[Thu Jun 12 12:47:19.203 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *хуй*
+[Thu Jun 12 12:47:23.267 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *2 х*
+[Thu Jun 12 12:47:24.037 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,20)] [SearchRepository] *2 хуя*
+[Thu Jun 12 12:47:51.556 2014] 0.000 sec 0.000 sec [ext2/1/ext 18 (0,20)] [SearchRepository]
+[Thu Jun 12 21:14:00.447 2014] 0.000 sec 0.000 sec [ext2/1/ext 52 (0,20)] [SearchRepository]
+[Thu Jun 12 22:05:44.800 2014] 0.000 sec 0.000 sec [ext2/1/ext 52 (0,1000)] [SearchRepository]
+[Thu Jun 12 22:05:48.398 2014] 0.000 sec 0.000 sec [ext2/1/ext 52 (0,1000)] [SearchRepository]
+[Thu Jun 12 22:05:50.998 2014] 0.000 sec 0.000 sec [ext2/1/ext 52 (0,1000)] [SearchRepository]
+[Thu Jun 12 22:05:56.367 2014] 0.000 sec 0.000 sec [ext2/1/ext 52 (0,1000)] [SearchRepository]
+[Thu Jun 12 22:06:11.206 2014] 0.000 sec 0.000 sec [ext2/1/ext 52 (0,1000)] [SearchRepository]
+[Thu Jun 12 22:06:15.338 2014] 0.000 sec 0.000 sec [ext2/1/ext 52 (0,1000)] [SearchRepository]
+[Thu Jun 12 22:06:18.165 2014] 0.000 sec 0.000 sec [ext2/1/ext 52 (0,1000)] [SearchRepository]
+[Thu Jun 12 22:23:48.994 2014] 0.012 sec 0.012 sec [ext2/0/ext 13 (0,5)] [SearchRepository] *art*
+[Thu Jun 12 22:23:51.513 2014] 0.000 sec 0.000 sec [ext2/0/ext 13 (0,5)] [SearchRepository] *artic*
+[Thu Jun 12 22:23:52.282 2014] 0.000 sec 0.000 sec [ext2/0/ext 13 (0,5)] [SearchRepository] *articl*
+[Thu Jun 12 22:23:53.004 2014] 0.000 sec 0.000 sec [ext2/0/ext 13 (0,20)] [SearchRepository] *article*
+[Thu Jun 12 22:23:57.698 2014] 0.000 sec 0.000 sec [ext2/0/ext 13 (0,20)] [SearchRepository] *article*
+[Thu Jun 12 22:24:08.468 2014] 0.000 sec 0.000 sec [ext2/0/ext 13 (0,5)] [SearchRepository] *art*
+[Thu Jun 12 22:24:09.608 2014] 0.000 sec 0.000 sec [ext2/0/ext 13 (0,5)] [SearchRepository] *artic*
+[Thu Jun 12 22:24:17.884 2014] 0.000 sec 0.000 sec [ext2/1/ext 13 (0,1000)] [SearchRepository] *article*
+[Thu Jun 12 22:26:27.170 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *ar*
+[Thu Jun 12 22:26:36.311 2014] 0.000 sec 0.000 sec [ext2/0/ext 13 (0,20)] [SearchRepository] *arti*
+[Thu Jun 12 22:26:40.880 2014] 0.000 sec 0.000 sec [ext2/0/ext 13 (0,5)] [SearchRepository] *art*
+[Thu Jun 12 22:27:03.255 2014] 0.000 sec 0.000 sec [ext2/0/ext 12 (0,5)] [SearchRepository] *art*
+[Thu Jun 12 22:27:08.884 2014] 0.000 sec 0.000 sec [ext2/1/ext 1 (0,1000)] [SearchRepository] *test*
+[Thu Jun 12 22:28:20.102 2014] 0.000 sec 0.000 sec [ext2/1/ext 1 (0,1000)] [SearchRepository] *test*
+[Thu Jun 12 22:28:27.199 2014] 0.000 sec 0.000 sec [ext2/1/ext 52 (0,1000)] [SearchRepository]
+[Thu Jun 12 22:28:31.537 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *te*
+[Thu Jun 12 22:28:33.675 2014] 0.000 sec 0.000 sec [ext2/1/ext 1 (0,1000)] [SearchRepository] *tes*
+[Thu Jun 12 22:28:36.332 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *tes*
+[Thu Jun 12 22:28:45.221 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *te*
+[Thu Jun 12 22:28:54.741 2014] 0.000 sec 0.000 sec [ext2/0/ext 14 (0,5)] [SearchRepository] *ли*
+[Thu Jun 12 22:29:57.619 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *tes*
+[Thu Jun 12 22:30:08.458 2014] 0.000 sec 0.000 sec [ext2/1/ext 1 (0,1000)] [SearchRepository] *tes*
+[Thu Jun 12 22:30:40.123 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *te*
+[Thu Jun 12 22:30:42.207 2014] 0.000 sec 0.000 sec [ext2/1/ext 1 (0,1000)] [SearchRepository] *test*
+[Thu Jun 12 22:30:46.023 2014] 0.000 sec 0.000 sec [ext2/1/ext 1 (0,1000)] [SearchRepository] *tes*
+[Thu Jun 12 22:30:47.214 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *tes*
+[Thu Jun 12 22:30:51.834 2014] 0.000 sec 0.000 sec [ext2/1/ext 1 (0,1000)] [SearchRepository] *tes*
+[Thu Jun 12 22:30:56.624 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *tes*
+[Thu Jun 12 22:31:23.854 2014] 0.000 sec 0.000 sec [ext2/1/ext 1 (0,1000)] [SearchRepository] *test*
+[Thu Jun 12 22:31:27.857 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *te*
+[Thu Jun 12 22:31:29.888 2014] 0.000 sec 0.000 sec [ext2/1/ext 1 (0,1000)] [SearchRepository] *test*
+[Thu Jun 12 22:31:34.567 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *tes*
+[Thu Jun 12 22:31:58.650 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *te*
+[Fri Jun 13 11:15:23.035 2014] 0.000 sec 0.000 sec [ext2/1/ext 52 (0,1000)] [SearchRepository]
+[Fri Jun 13 11:15:36.350 2014] 0.000 sec 0.000 sec [ext2/1/ext 52 (0,1000)] [SearchRepository]
+[Fri Jun 13 11:15:38.787 2014] 0.000 sec 0.000 sec [ext2/1/ext 52 (0,1000)] [SearchRepository]
+[Fri Jun 13 11:18:03.276 2014] 0.000 sec 0.000 sec [ext2/1/ext 52 (0,1000)] [SearchRepository]
+[Fri Jun 13 11:18:34.489 2014] 0.000 sec 0.000 sec [ext2/2/ext 0 (0,1000)] [SearchRepository]
+[Fri Jun 13 11:19:50.489 2014] 0.000 sec 0.000 sec [ext2/1/ext 16 (0,1000)] [SearchRepository]
+[Fri Jun 13 11:28:58.964 2014] 0.000 sec 0.000 sec [ext2/0/ext 52 (0,5)] [SearchRepository] *2014*
+[Fri Jun 13 11:29:02.136 2014] 0.000 sec 0.000 sec [ext2/0/ext 10 (0,20)] [SearchRepository] * 2014.- на бел. языке.*
+[Fri Jun 13 11:29:18.516 2014] 0.010 sec 0.010 sec [ext2/0/ext 10 (0,5)] [SearchRepository] *2014.- на бел. языке.*
+[Fri Jun 13 11:29:22.080 2014] 0.000 sec 0.000 sec [ext2/0/ext 10 (0,20)] [SearchRepository] * 2014.- на бел. языке.*
+[Fri Jun 13 11:46:53.173 2014] 0.000 sec 0.000 sec [ext2/0/ext 52 (0,20)] [SearchRepository]
+[Fri Jun 13 11:46:56.118 2014] 0.000 sec 0.000 sec [ext2/0/ext 52 (0,20)] [SearchRepository]
+[Fri Jun 13 11:47:03.744 2014] 0.000 sec 0.000 sec [ext2/0/ext 52 (0,20)] [SearchRepository]
+[Fri Jun 13 11:47:06.955 2014] 0.000 sec 0.000 sec [ext2/0/ext 52 (0,20)] [SearchRepository]
+[Fri Jun 13 11:47:09.248 2014] 0.000 sec 0.000 sec [ext2/0/ext 52 (0,20)] [SearchRepository]
+[Fri Jun 13 11:47:16.068 2014] 0.000 sec 0.000 sec [ext2/1/ext 52 (0,1000)] [SearchRepository]
+[Fri Jun 13 11:47:28.883 2014] 0.000 sec 0.000 sec [ext2/0/ext 52 (0,20)] [SearchRepository]
+[Fri Jun 13 15:47:04.341 2014] 0.000 sec 0.000 sec [ext2/2/ext 6 (0,1000)] [SearchRepository]
+[Fri Jun 13 15:55:18.756 2014] 0.000 sec 0.000 sec [ext2/1/ext 10 (0,1000)] [SearchRepository]
+[Fri Jun 13 16:02:24.186 2014] 0.000 sec 0.000 sec [ext2/0/ext 20 (0,5)] [SearchRepository] *су*
+[Fri Jun 13 16:02:30.539 2014] 0.000 sec 0.000 sec [ext2/0/ext 10 (0,5)] [SearchRepository] *сучк*
+[Fri Jun 13 16:02:41.430 2014] 0.001 sec 0.001 sec [ext2/1/ext 0 (0,1000)] [SearchRepository] * Сучкова Таццяна: біяграфічная лістоўка*
+[Fri Jun 13 16:02:45.824 2014] 0.001 sec 0.001 sec [ext2/1/ext 0 (0,1000)] [SearchRepository] * Сучкова Таццяна: біяграфічная лістоўка*
+[Fri Jun 13 16:02:55.683 2014] 0.000 sec 0.000 sec [ext2/0/ext 20 (0,5)] [SearchRepository] *су*
+[Fri Jun 13 16:02:56.137 2014] 0.000 sec 0.000 sec [ext2/0/ext 10 (0,5)] [SearchRepository] *суч*
+[Fri Jun 13 16:02:56.551 2014] 0.000 sec 0.000 sec [ext2/0/ext 10 (0,5)] [SearchRepository] *сучко*
+[Fri Jun 13 16:02:57.298 2014] 0.000 sec 0.000 sec [ext2/0/ext 6 (0,5)] [SearchRepository] *сучкова*
+[Fri Jun 13 16:02:59.916 2014] 0.000 sec 0.000 sec [ext2/1/ext 6 (0,1000)] [SearchRepository] *сучкова*
+[Fri Jun 13 16:03:32.855 2014] 0.000 sec 0.000 sec [ext2/0/ext 6 (0,5)] [SearchRepository] *сучкова*
+[Fri Jun 13 16:03:37.160 2014] 0.000 sec 0.000 sec [ext2/0/ext 4 (0,5)] [SearchRepository] *Тере*
+[Fri Jun 13 16:03:47.053 2014] 0.000 sec 0.000 sec [ext2/0/ext 3 (0,5)] [SearchRepository] *Теребун*
+[Fri Jun 13 16:03:52.006 2014] 0.000 sec 0.000 sec [ext2/1/ext 3 (0,1000)] [SearchRepository] *Теребун*
+[Fri Jun 13 16:50:34.010 2014] 0.000 sec 0.000 sec [ext2/1/ext 52 (0,1000)] [SearchRepository]
+[Fri Jun 13 16:51:17.824 2014] 0.000 sec 0.000 sec [ext2/1/ext 52 (0,1000)] [SearchRepository]
+[Fri Jun 13 21:24:20.866 2014] 0.000 sec 0.000 sec [ext2/2/ext 0 (0,1000)] [SearchRepository]
+[Fri Jun 13 21:26:57.104 2014] 0.000 sec 0.000 sec [ext2/0/ext 52 (0,20)] [SearchRepository]
+[Fri Jun 13 21:27:05.087 2014] 0.000 sec 0.000 sec [ext2/0/ext 52 (0,20)] [SearchRepository]
+[Wed Jun 18 09:30:51.012 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *xt*
+[Wed Jun 18 09:30:53.498 2014] 0.000 sec 0.000 sec [ext2/0/ext 7 (0,5)] [SearchRepository] *чер*
+[Wed Jun 18 09:30:54.523 2014] 0.001 sec 0.001 sec [ext2/0/ext 5 (0,5)] [SearchRepository] *черн*
+[Wed Jun 18 09:30:55.142 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *черня*
+[Wed Jun 18 09:31:05.132 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,20)] [SearchRepository] *Чернякевич, А., Вашкевич, А. *Красная*
+[Thu Jun 19 09:53:00.959 2014] 0.001 sec 0.001 sec [ext2/0/ext 27 (0,5)] [SearchRepository] *гро*
+[Thu Jun 19 09:53:01.410 2014] 0.000 sec 0.000 sec [ext2/0/ext 24 (0,5)] [SearchRepository] *гродн*
+[Thu Jun 19 09:53:02.582 2014] 0.000 sec 0.000 sec [ext2/0/ext 8 (0,5)] [SearchRepository] *гродненскі*
+[Thu Jun 19 09:53:04.460 2014] 0.000 sec 0.000 sec [ext2/0/ext 8 (0,5)] [SearchRepository] *гродненскі*
+[Thu Jun 19 09:53:06.461 2014] 0.000 sec 0.000 sec [ext2/0/ext 8 (0,5)] [SearchRepository] *гродненск*
+[Thu Jun 19 09:53:11.181 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *гродненски*
+[Thu Jun 19 09:53:12.378 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *гродненский*
+[Thu Jun 19 09:53:13.354 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *гродненский з*
+[Thu Jun 19 09:53:14.178 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *гродненский замо*
+[Thu Jun 19 09:53:15.222 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *гродненский замок*
+[Thu Jun 19 09:53:18.513 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,20)] [SearchRepository] *гродненский замок*
+[Thu Jun 19 09:53:25.636 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *гродненский замок*
+[Thu Jun 19 10:00:43.061 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *бры*
+[Thu Jun 19 10:00:43.593 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *брыг*
+[Thu Jun 19 10:00:44.208 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *брыгі*
+[Thu Jun 19 10:00:45.778 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *брыгітак*
+[Thu Jun 19 10:00:47.910 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,20)] [SearchRepository] *брыгітак*
+[Thu Jun 19 10:01:00.946 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *брыгітак*
+[Thu Jun 19 10:01:05.880 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *кір*
+[Thu Jun 19 10:01:17.780 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *кір*
+[Thu Jun 19 10:01:20.715 2014] 0.000 sec 0.000 sec [ext2/1/ext 0 (0,1000)] [SearchRepository] *кірха*
+[Thu Jun 19 10:01:23.517 2014] 0.000 sec 0.000 sec [ext2/1/ext 0 (0,1000)] [SearchRepository] *кірха*
+[Thu Jun 19 10:01:34.224 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *кір*
+[Thu Jun 19 10:01:43.565 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *кі*
+[Thu Jun 19 10:01:48.696 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,20)] [SearchRepository] *кірха*
+[Thu Jun 19 10:04:01.528 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *кірха*
+[Thu Jun 19 10:04:04.708 2014] 0.000 sec 0.000 sec [ext2/0/ext 16 (0,5)] [SearchRepository] *кл*
+[Thu Jun 19 10:04:05.444 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *кляшт*
+[Thu Jun 19 10:04:06.115 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *кляштар*
+[Thu Jun 19 10:04:10.897 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *кляштар ф*
+[Thu Jun 19 10:04:11.673 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *кляштар франц*
+[Thu Jun 19 10:04:12.530 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *кляштар францы*
+[Thu Jun 19 10:04:16.294 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *кляштар францыскан*
+[Thu Jun 19 10:04:16.802 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *кляштар францысканца*
+[Thu Jun 19 10:04:17.435 2014] 0.001 sec 0.001 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *кляштар францысканцаў*
+[Thu Jun 19 10:04:22.414 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *кірха*
+[Thu Jun 19 10:04:25.585 2014] 0.000 sec 0.000 sec [ext2/0/ext 16 (0,5)] [SearchRepository] *кл*
+[Thu Jun 19 10:04:25.988 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *кляш*
+[Thu Jun 19 10:04:27.083 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *кляштар*
+[Thu Jun 19 10:04:28.179 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *кляштар франц*
+[Thu Jun 19 10:04:28.707 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *кляштар францы*
+[Thu Jun 19 10:04:29.851 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *кляштар францысканц*
+[Thu Jun 19 10:04:30.491 2014] 0.001 sec 0.001 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *кляштар францысканцаў*
+[Thu Jun 19 10:04:32.678 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,20)] [SearchRepository] *кляштар францысканцаў*
+[Thu Jun 19 10:05:15.363 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *кляштар францысканцаў*
+[Thu Jun 19 10:05:20.132 2014] 0.001 sec 0.001 sec [ext2/0/ext 36 (0,5)] [SearchRepository] *ва*
+[Thu Jun 19 10:05:22.301 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *ваенныя могіл*
+[Thu Jun 19 10:05:23.256 2014] 0.001 sec 0.001 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *ваенныя могілкі*
+[Thu Jun 19 10:05:25.045 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,20)] [SearchRepository] *ваенныя могілкі*
+[Thu Jun 19 10:05:33.803 2014] 0.001 sec 0.001 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *ваенныя могілкі*
+[Thu Jun 19 10:05:37.603 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *бар*
+[Thu Jun 19 10:05:38.739 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *барысаг*
+[Thu Jun 19 10:05:39.507 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *барысагле*
+[Thu Jun 19 10:05:40.537 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *барысаглебска*
+[Thu Jun 19 10:05:41.020 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *барысаглебская*
+[Thu Jun 19 10:05:44.274 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,20)] [SearchRepository] *барысаглебская *
+[Thu Jun 19 10:05:49.544 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *барысаглебская*
+[Thu Jun 19 10:05:58.114 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *фут*
+[Thu Jun 19 10:05:59.004 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *футбол*
+[Thu Jun 19 10:06:03.155 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,20)] [SearchRepository] *футбол *
+[Thu Jun 19 10:06:07.071 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *футбол*
+[Thu Jun 19 10:06:10.989 2014] 0.000 sec 0.000 sec [ext2/0/ext 14 (0,5)] [SearchRepository] *бу*
+[Thu Jun 19 10:06:12.001 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *буктр*
+[Thu Jun 19 10:06:12.532 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *буктрэ*
+[Thu Jun 19 10:06:13.174 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *буктрэйл*
+[Thu Jun 19 10:06:13.724 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *буктрэйлер*
+[Thu Jun 19 10:06:15.774 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,20)] [SearchRepository] *буктрэйлер *
+[Thu Jun 19 10:06:27.800 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *буктрэйлер*
+[Thu Jun 19 10:07:00.037 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *кі*
+[Thu Jun 19 10:07:04.809 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,20)] [SearchRepository] * кішыка*
+[Thu Jun 19 10:08:26.412 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *кішыка*
+[Thu Jun 19 10:08:29.323 2014] 0.000 sec 0.000 sec [ext2/0/ext 11 (0,5)] [SearchRepository] *гу*
+[Thu Jun 19 10:08:30.387 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *губерт*
+[Thu Jun 19 10:08:32.554 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,20)] [SearchRepository] *губерт*
+[Thu Jun 19 10:10:29.953 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *паў*
+[Thu Jun 19 10:10:34.434 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,20)] [SearchRepository] *паўстанне*
+[Thu Jun 19 10:11:39.231 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *паўстанне*
+[Thu Jun 19 10:11:40.631 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *паўстанн*
+[Thu Jun 19 10:11:42.384 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,20)] [SearchRepository] *паўстанні*
+[Thu Jun 19 10:11:52.413 2014] 0.000 sec 0.000 sec [ext2/0/ext 27 (0,5)] [SearchRepository] *па*
+[Thu Jun 19 10:11:52.910 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *паўс*
+[Thu Jun 19 10:11:58.816 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,20)] [SearchRepository] *паўстанні*
+[Thu Jun 19 10:12:01.007 2014] 0.001 sec 0.001 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *паўстанні*
+[Thu Jun 19 10:12:04.228 2014] 0.000 sec 0.000 sec [ext2/0/ext 7 (0,5)] [SearchRepository] *вай*
+[Thu Jun 19 10:12:05.255 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *вайна*
+[Thu Jun 19 10:12:09.712 2014] 0.001 sec 0.001 sec [ext2/0/ext 0 (0,20)] [SearchRepository] * вайна 1812 года, развіццё гандлю i*
+[Thu Jun 19 10:12:12.623 2014] 0.001 sec 0.001 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *развіццё гандлю i*
+[Thu Jun 19 10:12:16.225 2014] 0.001 sec 0.001 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *вайна 1812 года*
+[Thu Jun 19 10:12:17.542 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,20)] [SearchRepository] * вайна 1812 года*
+[Thu Jun 19 10:12:43.272 2014] 0.001 sec 0.001 sec [ext2/0/ext 50 (0,5)] [SearchRepository] *Ка*
+[Thu Jun 19 10:12:43.693 2014] 0.000 sec 0.000 sec [ext2/0/ext 8 (0,5)] [SearchRepository] *Кар*
+[Thu Jun 19 10:12:44.150 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *Карч*
+[Thu Jun 19 10:12:44.629 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *Карчэ*
+[Thu Jun 19 10:12:45.725 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *Карчэўск*
+[Thu Jun 19 10:12:46.752 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *Карчэўскі*
+[Thu Jun 19 10:12:49.296 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,20)] [SearchRepository] *Карчэўскі*
+[Thu Jun 19 10:12:58.261 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *Карчэўскі*
+[Thu Jun 19 10:13:04.784 2014] 0.000 sec 0.000 sec [ext2/0/ext 27 (0,5)] [SearchRepository] *па*
+[Thu Jun 19 10:13:08.145 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *вайна*
+[Thu Jun 19 10:13:08.648 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *вайна 1*
+[Thu Jun 19 10:13:11.693 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,20)] [SearchRepository] *вайна 1812*
+[Thu Jun 19 10:13:51.501 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *вайна 1812*
+[Thu Jun 19 10:14:38.209 2014] 0.000 sec 0.000 sec [ext2/0/ext 6 (0,5)] [SearchRepository] *кам*
+[Thu Jun 19 10:14:39.272 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *камунікат*
+[Thu Jun 19 10:14:42.059 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,20)] [SearchRepository] *камунікат*
+[Thu Jun 19 10:14:58.957 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *клуб*
+[Thu Jun 19 10:15:01.136 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,20)] [SearchRepository] *клуб*
+[Thu Jun 19 10:15:38.513 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *клуб*
+[Thu Jun 19 10:15:42.064 2014] 0.000 sec 0.000 sec [ext2/0/ext 27 (0,5)] [SearchRepository] *па*
+[Thu Jun 19 10:15:43.397 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *паў*
+[Thu Jun 19 10:15:46.790 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,20)] [SearchRepository] *паўстанні*
+[Thu Jun 19 10:16:33.685 2014] 0.001 sec 0.001 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *паўстанні*
+[Thu Jun 19 10:16:38.396 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *Калож*
+[Thu Jun 19 10:16:39.660 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *Каложская*
+[Thu Jun 19 10:16:41.608 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,20)] [SearchRepository] *Каложская*
+[Thu Jun 19 10:16:44.131 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *Каложская*
+[Thu Jun 19 10:16:49.982 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *барыса*
+[Thu Jun 19 10:16:50.426 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *барысаг*
+[Thu Jun 19 10:16:51.127 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *барысагле*
+[Thu Jun 19 10:16:52.085 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *барысаглебская*
+[Thu Jun 19 10:16:53.828 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,20)] [SearchRepository] *барысаглебская*
+[Thu Jun 19 10:17:12.646 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *барысаглебская*
+[Thu Jun 19 10:17:17.530 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *кля*
+[Thu Jun 19 10:17:18.022 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *кляг*
+[Thu Jun 19 10:17:19.149 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *кляшт*
+[Thu Jun 19 10:17:19.659 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *кляштар*
+[Thu Jun 19 10:17:24.616 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *кляштар франц*
+[Thu Jun 19 10:17:25.218 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *кляштар францы*
+[Thu Jun 19 10:17:26.210 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *кляштар францысканц*
+[Thu Jun 19 10:17:27.101 2014] 0.001 sec 0.001 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *кляштар францысканцаў*
+[Thu Jun 19 10:17:29.053 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,20)] [SearchRepository] *кляштар францысканцаў*
+[Thu Jun 19 10:17:38.199 2014] 0.001 sec 0.001 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *кляштар францысканцаў*
+[Thu Jun 19 10:17:42.928 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *ваенныя м*
+[Thu Jun 19 10:17:43.881 2014] 0.001 sec 0.001 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *ваенныя могі*
+[Thu Jun 19 10:17:44.648 2014] 0.001 sec 0.001 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *ваенныя могілкі*
+[Thu Jun 19 10:17:46.669 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,20)] [SearchRepository] *ваенныя могілкі*
+[Thu Jun 19 10:17:53.270 2014] 0.001 sec 0.001 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *ваенныя могілкі*
+[Thu Jun 19 10:17:57.021 2014] 0.000 sec 0.000 sec [ext2/0/ext 4 (0,5)] [SearchRepository] *свята*
+[Thu Jun 19 10:17:57.542 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *свята-*
+[Thu Jun 19 10:18:04.489 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *свята-у*
+[Thu Jun 19 10:18:05.178 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *свята-уладз*
+[Thu Jun 19 10:18:06.163 2014] 0.001 sec 0.001 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *свята-уладзімір*
+[Thu Jun 19 10:18:07.727 2014] 0.001 sec 0.001 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *свята-уладзіміраўская*
+[Thu Jun 19 10:18:10.129 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,20)] [SearchRepository] *свята-уладзіміраўская*
+[Thu Jun 19 10:18:14.670 2014] 0.001 sec 0.001 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *свята-уладзіміраўская*
+[Thu Jun 19 10:18:16.989 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *свята-ула*
+[Thu Jun 19 10:18:17.740 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *свята-*
+[Thu Jun 19 10:18:21.908 2014] 0.001 sec 0.001 sec [ext2/0/ext 1 (0,20)] [SearchRepository] * Свята-Уладзімірская царква,*
+[Thu Jun 19 10:18:35.366 2014] 0.000 sec 0.000 sec [ext2/0/ext 14 (0,5)] [SearchRepository] *пе*
+[Thu Jun 19 10:18:36.052 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *песнап*
+[Thu Jun 19 10:18:37.027 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *песнапенні*
+[Thu Jun 19 10:18:38.930 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,20)] [SearchRepository] *песнапенні*
+[Thu Jun 19 10:18:46.779 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *песнапенні*
+[Thu Jun 19 10:18:56.322 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *песно*
+[Thu Jun 19 10:18:57.295 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *песнопения*
+[Thu Jun 19 10:19:07.005 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,20)] [SearchRepository] * песнопения являются ключом к душе*
+[Thu Jun 19 10:19:38.614 2014] 0.001 sec 0.001 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *песнопения являются ключом к душе*
+[Thu Jun 19 10:19:41.616 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *песнопения*
+[Thu Jun 19 10:19:45.191 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,20)] [SearchRepository] * песнопения*
+[Thu Jun 19 10:20:02.435 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *песнопения*
+[Thu Jun 19 10:20:05.727 2014] 0.000 sec 0.000 sec [ext2/0/ext 9 (0,5)] [SearchRepository] *би*
+[Thu Jun 19 10:20:07.568 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *бияграфия*
+[Thu Jun 19 10:20:09.102 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,20)] [SearchRepository] *бияграфия*
+[Thu Jun 19 10:20:12.257 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *бияграфия*
+[Thu Jun 19 10:20:15.836 2014] 0.000 sec 0.000 sec [ext2/0/ext 5 (0,5)] [SearchRepository] *био*
+[Thu Jun 19 10:20:16.918 2014] 0.000 sec 0.000 sec [ext2/0/ext 5 (0,5)] [SearchRepository] *биограф*
+[Thu Jun 19 10:20:17.724 2014] 0.000 sec 0.000 sec [ext2/0/ext 3 (0,5)] [SearchRepository] *биография*
+[Thu Jun 19 10:20:18.948 2014] 0.000 sec 0.000 sec [ext2/0/ext 3 (0,20)] [SearchRepository] *биография*
+[Thu Jun 19 10:22:57.226 2014] 0.000 sec 0.000 sec [ext2/0/ext 5 (0,5)] [SearchRepository] *био*
+[Thu Jun 19 10:22:58.069 2014] 0.000 sec 0.000 sec [ext2/0/ext 5 (0,5)] [SearchRepository] *биограф*
+[Thu Jun 19 10:22:58.834 2014] 0.000 sec 0.000 sec [ext2/0/ext 3 (0,5)] [SearchRepository] *биография*
+[Thu Jun 19 10:23:08.521 2014] 0.000 sec 0.000 sec [ext2/0/ext 3 (0,20)] [SearchRepository] *биография *
+[Thu Jun 19 10:25:01.121 2014] 0.000 sec 0.000 sec [ext2/0/ext 3 (0,5)] [SearchRepository] *биография*
+[Thu Jun 19 10:25:08.437 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *бі*
+[Thu Jun 19 10:25:13.333 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,20)] [SearchRepository] *біяграфія*
+[Thu Jun 19 10:26:01.726 2014] 0.001 sec 0.001 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *біяграфія*
+[Thu Jun 19 10:26:07.032 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *бія*
+[Thu Jun 19 10:26:10.199 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,20)] [SearchRepository] *біяграфія*
+[Thu Jun 19 10:26:12.456 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *біяграфія*
+[Thu Jun 19 10:26:18.176 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *бі*
+[Thu Jun 19 10:26:22.321 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,20)] [SearchRepository] *біяграфія*
+[Thu Jun 19 10:26:48.491 2014] 0.001 sec 0.001 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *біяграфія*
+[Thu Jun 19 10:26:55.312 2014] 0.000 sec 0.000 sec [ext2/0/ext 9 (0,5)] [SearchRepository] *би*
+[Thu Jun 19 10:26:56.991 2014] 0.000 sec 0.000 sec [ext2/0/ext 3 (0,5)] [SearchRepository] *биография*
+[Thu Jun 19 10:27:01.157 2014] 0.000 sec 0.000 sec [ext2/0/ext 3 (0,20)] [SearchRepository] *биография*
+[Thu Jun 19 10:27:03.895 2014] 0.000 sec 0.000 sec [ext2/0/ext 3 (0,5)] [SearchRepository] *биография*
+[Thu Jun 19 10:27:11.729 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *бі*
+[Thu Jun 19 10:27:16.520 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,20)] [SearchRepository] *біяграфія*
+[Thu Jun 19 10:27:45.143 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *біяграфія*
+[Thu Jun 19 10:30:21.539 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *бі*
+[Thu Jun 19 10:30:25.207 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,20)] [SearchRepository] *біяграфія*
+[Thu Jun 19 10:35:57.487 2014] 0.001 sec 0.001 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *біяграфія*
+[Thu Jun 19 10:36:01.683 2014] 0.000 sec 0.000 sec [ext2/0/ext 5 (0,5)] [SearchRepository] *био*
+[Thu Jun 19 10:36:02.897 2014] 0.000 sec 0.000 sec [ext2/0/ext 5 (0,5)] [SearchRepository] *биограф*
+[Thu Jun 19 10:36:03.603 2014] 0.000 sec 0.000 sec [ext2/0/ext 3 (0,5)] [SearchRepository] *биография*
+[Thu Jun 19 10:36:06.120 2014] 0.000 sec 0.000 sec [ext2/0/ext 3 (0,20)] [SearchRepository] *биография*
+[Thu Jun 19 10:40:57.543 2014] 0.000 sec 0.000 sec [ext2/0/ext 3 (0,5)] [SearchRepository] *биография*
+[Thu Jun 19 10:40:59.762 2014] 0.000 sec 0.000 sec [ext2/0/ext 3 (0,20)] [SearchRepository] *биография*
+[Thu Jun 19 10:41:54.802 2014] 0.000 sec 0.000 sec [ext2/0/ext 3 (0,5)] [SearchRepository] *биография*
+[Thu Jun 19 10:45:10.905 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *кало*
+[Thu Jun 19 10:45:11.858 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *каложски*
+[Thu Jun 19 10:45:13.735 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *каложс*
+[Thu Jun 19 10:45:19.523 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *каложскі*
+[Thu Jun 19 10:45:23.698 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,20)] [SearchRepository] * *Каложскі благавест*.*
+[Thu Jun 19 10:46:12.589 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] **Каложскі благавест*.*
+[Thu Jun 19 10:46:16.701 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *калож*
+[Thu Jun 19 10:46:17.181 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *каложа*
+[Thu Jun 19 10:46:19.182 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,20)] [SearchRepository] *каложа*
+[Thu Jun 19 10:46:22.366 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *каложа*
+[Thu Jun 19 10:46:24.025 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *калож*
+[Thu Jun 19 10:46:25.050 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *каложская*
+[Thu Jun 19 10:46:27.167 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,20)] [SearchRepository] *каложская*
+[Thu Jun 19 10:46:32.300 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *каложская*
+[Thu Jun 19 10:46:35.001 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *каложск*
+[Thu Jun 19 10:46:37.041 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *каложскскі*
+[Thu Jun 19 10:46:38.401 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,20)] [SearchRepository] *каложскскі*
+[Thu Jun 19 10:47:14.829 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *каложскскі*
+[Thu Jun 19 10:47:16.479 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *каложсскі*
+[Thu Jun 19 10:47:17.804 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *каложскі*
+[Thu Jun 19 10:47:20.203 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,20)] [SearchRepository] *каложскі*
+[Thu Jun 19 10:47:44.660 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *каложскі*
+[Thu Jun 19 10:47:47.581 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *паэ*
+[Thu Jun 19 10:47:48.317 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *паэзі*
+[Thu Jun 19 10:47:48.844 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *паэзія*
+[Thu Jun 19 10:47:51.772 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,20)] [SearchRepository] *паэзія*
+[Thu Jun 19 10:48:03.242 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *паэ*
+[Thu Jun 19 10:48:03.588 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *паэзі*
+[Thu Jun 19 10:48:04.085 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *паэзія*
+[Thu Jun 19 10:48:05.813 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,20)] [SearchRepository] *паэзія*
+[Thu Jun 19 10:49:37.492 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *паэ*
+[Thu Jun 19 10:49:38.153 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *паэзі*
+[Thu Jun 19 10:49:38.626 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *паэзія*
+[Thu Jun 19 10:49:42.696 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,20)] [SearchRepository] *паэзія*
+[Thu Jun 19 10:56:22.964 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *паэз*
+[Thu Jun 19 10:56:23.809 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *паэзія*
+[Thu Jun 19 10:56:26.106 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,20)] [SearchRepository] *паэзія*
+[Thu Jun 19 10:58:05.001 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *паэзія*
+[Thu Jun 19 10:58:07.534 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,20)] [SearchRepository] *паэзія*
+[Thu Jun 19 10:58:09.371 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *паэзія*
+[Thu Jun 19 10:58:13.809 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *паэ*
+[Thu Jun 19 10:58:14.890 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *паэзи*
+[Thu Jun 19 10:58:16.188 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,20)] [SearchRepository] *паэзия*
+[Thu Jun 19 10:58:18.859 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *паэзия*
+[Thu Jun 19 10:58:21.695 2014] 0.000 sec 0.000 sec [ext2/0/ext 25 (0,5)] [SearchRepository] *по*
+[Thu Jun 19 10:58:22.119 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *поэ*
+[Thu Jun 19 10:58:22.813 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *поэзия*
+[Thu Jun 19 10:58:24.824 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,20)] [SearchRepository] *поэзия*
+[Thu Jun 19 10:58:26.601 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *поэзия*
+[Thu Jun 19 10:58:50.857 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *паэ*
+[Thu Jun 19 10:58:51.789 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *паэзія*
+[Thu Jun 19 10:58:55.593 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,20)] [SearchRepository] *паэзія*
+[Thu Jun 19 11:00:03.629 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *паэзія*
+[Thu Jun 19 11:00:08.259 2014] 0.000 sec 0.000 sec [ext2/0/ext 25 (0,5)] [SearchRepository] *по*
+[Thu Jun 19 11:00:08.830 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *поэ*
+[Thu Jun 19 11:01:44.638 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *поэзи*
+[Thu Jun 19 11:01:45.874 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *поэзия*
+[Thu Jun 19 11:01:47.393 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,20)] [SearchRepository] * поэзия*
+[Thu Jun 19 11:01:55.439 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *поэзия*
+[Thu Jun 19 11:01:58.712 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *паэз*
+[Thu Jun 19 11:01:59.416 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *паэзи*
+[Thu Jun 19 11:02:15.930 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *паэзі*
+[Thu Jun 19 11:02:17.381 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *паэзія*
+[Thu Jun 19 11:02:19.556 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,20)] [SearchRepository] * паэзія*
+[Thu Jun 19 11:02:29.466 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *паэзія*
+[Thu Jun 19 11:02:31.336 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *паэзі*
+[Thu Jun 19 11:02:37.041 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,20)] [SearchRepository] * паэзія*
+[Thu Jun 19 11:02:53.913 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *паэзія*
+[Thu Jun 19 11:02:57.046 2014] 0.000 sec 0.000 sec [ext2/0/ext 25 (0,5)] [SearchRepository] *по*
+[Thu Jun 19 11:02:59.985 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *паме*
+[Thu Jun 19 11:03:00.517 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *памеэ*
+[Thu Jun 19 11:03:01.066 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *памеж*
+[Thu Jun 19 11:03:02.112 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *памежнікі*
+[Thu Jun 19 11:03:04.095 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,20)] [SearchRepository] *памежнікі*
+[Thu Jun 19 11:03:07.474 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *памежнікі*
+[Thu Jun 19 11:03:12.359 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *ві*
+[Thu Jun 19 11:03:16.973 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,20)] [SearchRepository] *відэарэсурс*
+[Thu Jun 19 11:03:39.534 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *відэарэсурс*
+[Thu Jun 19 11:03:48.188 2014] 0.000 sec 0.000 sec [ext2/1/ext 56 (0,1000)] [SearchRepository]
+[Thu Jun 19 11:04:03.003 2014] 0.000 sec 0.000 sec [ext2/1/ext 56 (0,1000)] [SearchRepository]
+[Thu Jun 19 11:04:14.024 2014] 0.000 sec 0.000 sec [ext2/1/ext 56 (0,1000)] [SearchRepository]
+[Thu Jun 19 11:05:15.141 2014] 0.000 sec 0.000 sec [ext2/1/ext 56 (0,1000)] [SearchRepository]
+[Thu Jun 19 11:08:16.786 2014] 0.000 sec 0.000 sec [ext2/1/ext 56 (0,1000)] [SearchRepository]
+[Thu Jun 19 11:08:37.167 2014] 0.000 sec 0.000 sec [ext2/1/ext 56 (0,1000)] [SearchRepository]
+[Thu Jun 19 11:08:54.447 2014] 0.000 sec 0.000 sec [ext2/1/ext 56 (0,1000)] [SearchRepository]
+[Thu Jun 19 11:09:34.318 2014] 0.000 sec 0.000 sec [ext2/1/ext 56 (0,1000)] [SearchRepository]
+[Thu Jun 19 11:09:47.250 2014] 0.000 sec 0.000 sec [ext2/1/ext 56 (0,1000)] [SearchRepository]
+[Thu Jun 19 11:09:58.898 2014] 0.000 sec 0.000 sec [ext2/1/ext 56 (0,1000)] [SearchRepository]
+[Thu Jun 19 11:10:43.558 2014] 0.000 sec 0.000 sec [ext2/0/ext 6 (0,5)] [SearchRepository] *фота*
+[Thu Jun 19 11:10:43.993 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *фотаа*
+[Thu Jun 19 11:10:45.966 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *фотааот*
+[Thu Jun 19 11:10:48.679 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *фотаальб*
+[Thu Jun 19 11:10:49.249 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *фотаальбом*
+[Thu Jun 19 11:10:51.946 2014] 0.000 sec 0.000 sec [ext2/1/ext 1 (0,1000)] [SearchRepository] *фотаальбом*
+[Thu Jun 19 11:10:53.795 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *фотаальбом*
+[Thu Jun 19 11:10:56.742 2014] 0.001 sec 0.001 sec [ext2/1/ext 1 (0,1000)] [SearchRepository] * фотаальбом з асабістага архіву:*
+[Thu Jun 19 11:11:47.753 2014] 0.001 sec 0.001 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *фотаальбом з асабістага архіву:*
+[Thu Jun 19 11:11:50.097 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *фотаальбом*
+[Thu Jun 19 11:11:50.902 2014] 0.000 sec 0.000 sec [ext2/1/ext 1 (0,1000)] [SearchRepository] * фотаальбом *
+[Thu Jun 19 11:11:52.497 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *фотаальбом*
+[Thu Jun 19 11:11:56.919 2014] 0.000 sec 0.000 sec [ext2/0/ext 11 (0,5)] [SearchRepository] *фот*
+[Thu Jun 19 11:11:57.469 2014] 0.000 sec 0.000 sec [ext2/0/ext 6 (0,5)] [SearchRepository] *фота*
+[Thu Jun 19 11:11:58.929 2014] 0.000 sec 0.000 sec [ext2/1/ext 4 (0,1000)] [SearchRepository] *фота *
+[Thu Jun 19 11:12:00.648 2014] 0.000 sec 0.000 sec [ext2/0/ext 6 (0,5)] [SearchRepository] *фота*
+[Thu Jun 19 11:12:11.229 2014] 0.000 sec 0.000 sec [ext2/0/ext 11 (0,5)] [SearchRepository] *фот*
+[Thu Jun 19 11:12:11.873 2014] 0.000 sec 0.000 sec [ext2/0/ext 6 (0,5)] [SearchRepository] *фота*
+[Thu Jun 19 11:12:28.911 2014] 0.000 sec 0.000 sec [ext2/1/ext 1 (0,1000)] [SearchRepository] * фотаздымкаў. Альманах адрасаваны ўсім,*
+[Thu Jun 19 11:12:31.299 2014] 0.000 sec 0.000 sec [ext2/1/ext 56 (0,1000)] [SearchRepository]
+[Thu Jun 19 11:12:35.032 2014] 0.000 sec 0.000 sec [ext2/0/ext 5 (0,5)] [SearchRepository] *фото*
+[Thu Jun 19 11:12:37.265 2014] 0.000 sec 0.000 sec [ext2/1/ext 5 (0,1000)] [SearchRepository] *фото*
+[Thu Jun 19 11:13:27.103 2014] 0.000 sec 0.000 sec [ext2/0/ext 5 (0,5)] [SearchRepository] *фото*
+[Thu Jun 19 11:13:28.653 2014] 0.000 sec 0.000 sec [ext2/0/ext 11 (0,5)] [SearchRepository] *фот*
+[Thu Jun 19 11:13:29.361 2014] 0.000 sec 0.000 sec [ext2/0/ext 6 (0,5)] [SearchRepository] *фота*
+[Thu Jun 19 11:13:30.686 2014] 0.000 sec 0.000 sec [ext2/1/ext 6 (0,1000)] [SearchRepository] *фота*
+[Thu Jun 19 11:17:31.414 2014] 0.000 sec 0.000 sec [ext2/0/ext 6 (0,5)] [SearchRepository] *фота*
+[Thu Jun 19 11:17:34.216 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *през*
+[Thu Jun 19 11:17:35.094 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *презентац*
+[Thu Jun 19 11:18:01.464 2014] 0.000 sec 0.000 sec [ext2/0/ext 25 (0,5)] [SearchRepository] *по*
+[Thu Jun 19 11:18:01.874 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *поэ*
+[Thu Jun 19 11:18:03.061 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *поэз*
+[Thu Jun 19 11:18:12.192 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *сборнику*
+[Thu Jun 19 11:18:16.104 2014] 0.000 sec 0.000 sec [ext2/0/ext 25 (0,5)] [SearchRepository] *по*
+[Thu Jun 19 11:18:17.430 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *поэ*
+[Thu Jun 19 11:18:20.802 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *поэзия*
+[Thu Jun 19 11:18:23.168 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,20)] [SearchRepository] *поэзия*
+[Thu Jun 19 11:18:25.583 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *поэзия*
+[Thu Jun 19 11:18:28.540 2014] 0.000 sec 0.000 sec [ext2/0/ext 5 (0,5)] [SearchRepository] *пре*
+[Thu Jun 19 11:18:29.564 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *презентац*
+[Thu Jun 19 11:18:30.243 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *презентация*
+[Thu Jun 19 11:18:32.063 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,20)] [SearchRepository] *презентация*
+[Thu Jun 19 11:18:35.864 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *презентация*
+[Thu Jun 19 11:18:50.821 2014] 0.000 sec 0.000 sec [ext2/0/ext 3 (0,5)] [SearchRepository] *до Н.Г.-*
+[Thu Jun 19 11:19:07.517 2014] 0.000 sec 0.000 sec [ext2/1/ext 56 (0,1000)] [SearchRepository]
+[Thu Jun 19 11:19:23.216 2014] 0.000 sec 0.000 sec [ext2/1/ext 56 (0,1000)] [SearchRepository]
+[Thu Jun 19 11:19:51.386 2014] 0.000 sec 0.000 sec [ext2/1/ext 56 (0,1000)] [SearchRepository]
+[Thu Jun 19 11:20:00.625 2014] 0.000 sec 0.000 sec [ext2/1/ext 56 (0,1000)] [SearchRepository]
+[Thu Jun 19 11:21:28.396 2014] 0.000 sec 0.000 sec [ext2/1/ext 56 (0,1000)] [SearchRepository]
+[Thu Jun 19 11:21:54.069 2014] 0.000 sec 0.000 sec [ext2/1/ext 56 (0,1000)] [SearchRepository]
+[Thu Jun 19 11:22:12.244 2014] 0.000 sec 0.000 sec [ext2/1/ext 56 (0,1000)] [SearchRepository]
+[Thu Jun 19 11:22:20.222 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *від*
+[Thu Jun 19 11:22:29.288 2014] 0.000 sec 0.000 sec [ext2/0/ext 10 (0,5)] [SearchRepository] *ви*
+[Thu Jun 19 11:22:30.651 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *видеорес*
+[Thu Jun 19 11:22:31.790 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *видеоресурс*
+[Thu Jun 19 11:22:35.866 2014] 0.000 sec 0.000 sec [ext2/1/ext 2 (0,1000)] [SearchRepository] *видеоресурс*
+[Thu Jun 19 11:22:57.178 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *видеоресурс*
+[Thu Jun 19 11:23:00.693 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *фотоа*
+[Thu Jun 19 11:23:01.806 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *фотоальбом*
+[Thu Jun 19 11:23:04.598 2014] 0.000 sec 0.000 sec [ext2/1/ext 1 (0,1000)] [SearchRepository] *фотоальбом*
+[Thu Jun 19 11:23:20.422 2014] 0.000 sec 0.000 sec [ext2/1/ext 56 (0,1000)] [SearchRepository]
+[Thu Jun 19 11:23:39.792 2014] 0.000 sec 0.000 sec [ext2/0/ext 6 (0,5)] [SearchRepository] *фота*
+[Thu Jun 19 11:23:45.221 2014] 0.000 sec 0.000 sec [ext2/1/ext 6 (0,1000)] [SearchRepository] *фота*
+[Thu Jun 19 11:23:48.959 2014] 0.000 sec 0.000 sec [ext2/0/ext 6 (0,5)] [SearchRepository] *фота*
+[Thu Jun 19 11:23:50.447 2014] 0.000 sec 0.000 sec [ext2/0/ext 11 (0,5)] [SearchRepository] *фот*
+[Thu Jun 19 11:23:51.046 2014] 0.000 sec 0.000 sec [ext2/0/ext 5 (0,5)] [SearchRepository] *фото*
+[Thu Jun 19 11:23:52.160 2014] 0.000 sec 0.000 sec [ext2/1/ext 5 (0,1000)] [SearchRepository] *фото*
+[Thu Jun 19 11:25:33.924 2014] 0.000 sec 0.000 sec [ext2/0/ext 5 (0,5)] [SearchRepository] *фото*
+[Thu Jun 19 11:25:37.280 2014] 0.000 sec 0.000 sec [ext2/1/ext 1 (0,1000)] [SearchRepository] * фотоальбом их личного архива:*
+[Thu Jun 19 11:25:39.600 2014] 0.001 sec 0.001 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *фотоальбом их личного архива:*
+[Thu Jun 19 11:25:42.120 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *фотоальбом*
+[Thu Jun 19 11:25:47.666 2014] 0.000 sec 0.000 sec [ext2/0/ext 11 (0,5)] [SearchRepository] *фот*
+[Thu Jun 19 11:25:48.639 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *фотаа*
+[Thu Jun 19 11:25:49.816 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *фотаальб*
+[Thu Jun 19 11:25:50.352 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *фотаальбо*
+[Thu Jun 19 11:25:50.883 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *фотаальбом*
+[Thu Jun 19 11:25:52.001 2014] 0.000 sec 0.000 sec [ext2/1/ext 1 (0,1000)] [SearchRepository] * фотаальбом*
+[Thu Jun 19 11:26:55.705 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *фотаальбом*
+[Thu Jun 19 11:26:57.907 2014] 0.000 sec 0.000 sec [ext2/0/ext 6 (0,5)] [SearchRepository] *фота*
+[Thu Jun 19 11:26:58.918 2014] 0.000 sec 0.000 sec [ext2/1/ext 6 (0,1000)] [SearchRepository] * фота*
+[Thu Jun 19 11:28:19.016 2014] 0.000 sec 0.000 sec [ext2/0/ext 6 (0,5)] [SearchRepository] *фота*
+[Thu Jun 19 11:28:22.439 2014] 0.000 sec 0.000 sec [ext2/0/ext 3 (0,5)] [SearchRepository] *вил*
+[Thu Jun 19 11:28:23.651 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *виленская*
+[Thu Jun 19 11:28:27.064 2014] 0.000 sec 0.000 sec [ext2/1/ext 2 (0,1000)] [SearchRepository] *виленская*
+[Thu Jun 19 11:28:30.393 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *виленская*
+[Thu Jun 19 11:28:33.443 2014] 0.000 sec 0.000 sec [ext2/1/ext 1 (0,1000)] [SearchRepository] * Виленская, 1 — лучшая городская*
+[Thu Jun 19 11:28:38.514 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *1 — лучшая городская*
+[Thu Jun 19 11:28:41.046 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *Виленская*
+[Thu Jun 19 11:28:41.785 2014] 0.000 sec 0.000 sec [ext2/1/ext 2 (0,1000)] [SearchRepository] * Виленская*
+[Thu Jun 19 11:28:52.740 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *Віленская*
+[Thu Jun 19 11:28:55.730 2014] 0.000 sec 0.000 sec [ext2/1/ext 0 (0,1000)] [SearchRepository] *Віленская*
+[Thu Jun 19 11:29:00.559 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *Віленская*
+[Thu Jun 19 11:29:02.355 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *вуВіленская*
+[Thu Jun 19 11:29:03.368 2014] 0.001 sec 0.001 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *вуліцаВіленская*
+[Thu Jun 19 11:29:04.121 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *вуліца Віленская*
+[Thu Jun 19 11:29:06.872 2014] 0.000 sec 0.000 sec [ext2/1/ext 2 (0,1000)] [SearchRepository] *вуліца Віленская*
+[Thu Jun 19 11:29:21.233 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *вуліца Віленская*
+[Thu Jun 19 11:29:27.744 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *вуліца*
+[Thu Jun 19 11:29:39.520 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *Гродзенскія ваенныя*
+[Thu Jun 19 11:29:47.756 2014] 0.000 sec 0.000 sec [ext2/0/ext 3 (0,5)] [SearchRepository] *вулі*
+[Thu Jun 19 11:29:48.384 2014] 0.000 sec 0.000 sec [ext2/0/ext 3 (0,5)] [SearchRepository] *вуліц*
+[Thu Jun 19 11:29:50.932 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *вуліца*
+[Thu Jun 19 11:29:53.213 2014] 0.000 sec 0.000 sec [ext2/1/ext 1 (0,1000)] [SearchRepository] *вуліца*
+[Thu Jun 19 11:29:59.446 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *вуліца*
+[Thu Jun 19 11:32:04.359 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *вуліца*
+[Thu Jun 19 11:32:10.966 2014] 0.000 sec 0.000 sec [ext2/0/ext 3 (0,20)] [SearchRepository] *вуліца *
+[Thu Jun 19 11:32:28.313 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *вуліца*
+[Thu Jun 19 11:32:32.495 2014] 0.000 sec 0.000 sec [ext2/0/ext 20 (0,5)] [SearchRepository] *ул*
+[Thu Jun 19 11:32:34.864 2014] 0.000 sec 0.000 sec [ext2/0/ext 3 (0,5)] [SearchRepository] *улі*
+[Thu Jun 19 11:32:43.869 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *улиц*
+[Thu Jun 19 11:32:44.506 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *улица*
+[Thu Jun 19 11:32:47.794 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,20)] [SearchRepository] *улица*
+[Thu Jun 19 11:33:34.972 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *улица*
+[Thu Jun 19 11:34:12.572 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *рекон*
+[Thu Jun 19 11:34:16.756 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,20)] [SearchRepository] * *реконструкции* центра Гродно,*
+[Thu Jun 19 11:34:25.494 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *ули*
+[Thu Jun 19 11:34:25.973 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *улиц*
+[Thu Jun 19 11:34:27.103 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *улица*
+[Thu Jun 19 11:34:51.894 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *улица Виленская*
+[Thu Jun 19 11:34:52.903 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,20)] [SearchRepository] * улица Виленская*
+[Thu Jun 19 11:34:57.849 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *улица Виленская*
+[Thu Jun 19 11:35:00.671 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *Виленская*
+[Thu Jun 19 11:35:01.863 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,20)] [SearchRepository] *Виленская*
+[Thu Jun 19 11:35:06.357 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *Виленская*
+[Thu Jun 19 11:35:15.073 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *Віленкск*
+[Thu Jun 19 11:35:18.012 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,20)] [SearchRepository] *Віленкская*
+[Thu Jun 19 11:36:16.818 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *Віленкская*
+[Thu Jun 19 11:36:19.877 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *вуліВіленкская*
+[Thu Jun 19 11:36:20.394 2014] 0.001 sec 0.001 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *вуліцаВіленкская*
+[Thu Jun 19 11:36:21.652 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *вуліца Віленкская*
+[Thu Jun 19 11:36:27.119 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *вуліца Віленская*
+[Thu Jun 19 11:36:31.801 2014] 0.001 sec 0.001 sec [ext2/0/ext 1 (0,20)] [SearchRepository] * вуліцы Віленская 1888 года збудавання*
+[Thu Jun 19 11:36:34.343 2014] 0.001 sec 0.001 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *вуліцы Віленская 1888 года збудавання*
+[Thu Jun 19 11:36:36.933 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *вуліцы Віленская*
+[Thu Jun 19 11:36:37.703 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,20)] [SearchRepository] * вуліцы Віленская*
+[Thu Jun 19 11:36:47.091 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *вуліцы Віленская*
+[Thu Jun 19 11:36:51.253 2014] 0.000 sec 0.000 sec [ext2/0/ext 6 (0,5)] [SearchRepository] *фота*
+[Thu Jun 19 11:36:51.963 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *фотаальб*
+[Thu Jun 19 11:36:52.591 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *фотаальбо*
+[Thu Jun 19 11:36:53.004 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *фотаальбом*
+[Thu Jun 19 11:36:57.114 2014] 0.001 sec 0.001 sec [ext2/0/ext 1 (0,20)] [SearchRepository] * фотаальбом з асабістага архіву:*
+[Thu Jun 19 11:37:01.235 2014] 0.001 sec 0.001 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *фотаальбом з асабістага архіву:*
+[Thu Jun 19 11:37:03.898 2014] 0.000 sec 0.000 sec [ext2/0/ext 11 (0,5)] [SearchRepository] *фот*
+[Thu Jun 19 11:37:04.713 2014] 0.000 sec 0.000 sec [ext2/0/ext 5 (0,5)] [SearchRepository] *фото*
+[Thu Jun 19 11:37:06.292 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *фотоальбом*
+[Thu Jun 19 11:37:08.253 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,20)] [SearchRepository] * фотоальбом*
+[Thu Jun 19 11:37:16.510 2014] 0.000 sec 0.000 sec [ext2/0/ext 5 (0,5)] [SearchRepository] *фото*
+[Thu Jun 19 11:37:21.876 2014] 0.000 sec 0.000 sec [ext2/0/ext 5 (0,20)] [SearchRepository] *фото*
+[Thu Jun 19 11:37:44.970 2014] 0.000 sec 0.000 sec [ext2/0/ext 5 (0,5)] [SearchRepository] *фото*
+[Thu Jun 19 11:37:47.109 2014] 0.000 sec 0.000 sec [ext2/0/ext 11 (0,5)] [SearchRepository] *фот*
+[Thu Jun 19 11:37:47.843 2014] 0.000 sec 0.000 sec [ext2/0/ext 6 (0,5)] [SearchRepository] *фота*
+[Thu Jun 19 11:37:50.506 2014] 0.000 sec 0.000 sec [ext2/0/ext 6 (0,20)] [SearchRepository] *фота*
+[Thu Jun 19 11:38:55.230 2014] 0.000 sec 0.000 sec [ext2/0/ext 6 (0,5)] [SearchRepository] *фота*
+[Thu Jun 19 11:38:57.057 2014] 0.000 sec 0.000 sec [ext2/0/ext 11 (0,5)] [SearchRepository] *фот*
+[Thu Jun 19 11:38:57.742 2014] 0.000 sec 0.000 sec [ext2/0/ext 5 (0,5)] [SearchRepository] *фото*
+[Thu Jun 19 11:39:03.214 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *фотографи*
+[Thu Jun 19 11:39:03.744 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *фотографии*
+[Thu Jun 19 11:39:06.375 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,20)] [SearchRepository] *фотографии*
+[Thu Jun 19 11:39:08.752 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *фотографии*
+[Thu Jun 19 11:39:11.231 2014] 0.000 sec 0.000 sec [ext2/0/ext 5 (0,5)] [SearchRepository] *фото*
+[Thu Jun 19 11:39:11.669 2014] 0.000 sec 0.000 sec [ext2/0/ext 5 (0,20)] [SearchRepository] *фото*
+[Thu Jun 19 11:39:14.893 2014] 0.000 sec 0.000 sec [ext2/0/ext 5 (0,5)] [SearchRepository] *фото*
+[Thu Jun 19 11:39:19.443 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,20)] [SearchRepository] * фотографией и списком персональных*
+[Thu Jun 19 11:39:24.157 2014] 0.001 sec 0.001 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *фотографией и списком персональных*
+[Thu Jun 19 11:39:27.249 2014] 0.000 sec 0.000 sec [ext2/0/ext 5 (0,5)] [SearchRepository] *фото*
+[Thu Jun 19 11:39:30.710 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,20)] [SearchRepository] * фотоальбом их личного архива:*
+[Thu Jun 19 11:39:34.473 2014] 0.001 sec 0.001 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *фотоальбом их личного архива:*
+[Thu Jun 19 11:39:36.965 2014] 0.000 sec 0.000 sec [ext2/0/ext 4 (0,5)] [SearchRepository] *фото:*
+[Thu Jun 19 11:39:37.716 2014] 0.000 sec 0.000 sec [ext2/0/ext 5 (0,5)] [SearchRepository] *фото*
+[Thu Jun 19 11:39:41.679 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,20)] [SearchRepository] * фото, издание к юбилею поэта*
+[Thu Jun 19 11:39:49.506 2014] 0.001 sec 0.001 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *издание к юбилею поэта*
+[Thu Jun 19 11:39:53.324 2014] 0.000 sec 0.000 sec [ext2/0/ext 9 (0,5)] [SearchRepository] *би*
+[Thu Jun 19 11:40:01.140 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,20)] [SearchRepository] * биографическая справка и список*
+[Thu Jun 19 11:40:06.417 2014] 0.001 sec 0.001 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *биографическая справка и список*
+[Thu Jun 19 11:40:11.776 2014] 0.000 sec 0.000 sec [ext2/0/ext 5 (0,5)] [SearchRepository] *биографи*
+[Thu Jun 19 11:40:16.572 2014] 0.001 sec 0.001 sec [ext2/0/ext 1 (0,20)] [SearchRepository] * биографию поэта: Татьяна Сучкова:*
+[Thu Jun 19 11:40:20.362 2014] 0.001 sec 0.001 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *биографию поэта: Татьяна Сучкова:*
+[Thu Jun 19 11:40:21.581 2014] 0.001 sec 0.001 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *биографипоэта: Татьяна Сучкова:*
+[Thu Jun 19 11:40:22.824 2014] 0.000 sec 0.000 sec [ext2/0/ext 5 (0,5)] [SearchRepository] *биографи*
+[Thu Jun 19 11:40:23.894 2014] 0.000 sec 0.000 sec [ext2/0/ext 3 (0,5)] [SearchRepository] *биография*
+[Thu Jun 19 11:40:25.024 2014] 0.000 sec 0.000 sec [ext2/0/ext 3 (0,20)] [SearchRepository] * биография*
+[Thu Jun 19 11:40:54.902 2014] 0.001 sec 0.001 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *біяграфія*
+[Thu Jun 19 11:40:57.082 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,20)] [SearchRepository] *біяграфія*
+[Thu Jun 19 11:41:16.860 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *біяграфія*
+[Thu Jun 19 11:41:21.509 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *паэ*
+[Thu Jun 19 11:41:31.354 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *паэ*
+[Thu Jun 19 11:41:31.987 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *паэзі*
+[Thu Jun 19 11:41:32.607 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *паэзія*
+[Thu Jun 19 11:41:34.384 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,20)] [SearchRepository] * паэзія*
+[Thu Jun 19 11:41:48.578 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *паэзія*
+[Thu Jun 19 11:41:54.510 2014] 0.000 sec 0.000 sec [ext2/0/ext 25 (0,5)] [SearchRepository] *по*
+[Thu Jun 19 11:41:54.988 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *поэ*
+[Thu Jun 19 11:41:55.438 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *поэз*
+[Thu Jun 19 11:41:56.041 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *поэзи*
+[Thu Jun 19 11:41:56.493 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *поэзия*
+[Thu Jun 19 11:41:58.021 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,20)] [SearchRepository] * поэзия*
+[Thu Jun 19 11:42:32.666 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *поэзия*
+[Thu Jun 19 11:42:37.985 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *прещ*
+[Thu Jun 19 11:42:38.683 2014] 0.000 sec 0.000 sec [ext2/0/ext 5 (0,5)] [SearchRepository] *пре*
+[Thu Jun 19 11:42:39.478 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *презен*
+[Thu Jun 19 11:42:40.136 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *презента*
+[Thu Jun 19 11:42:42.749 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,20)] [SearchRepository] * презента*
+[Thu Jun 19 11:45:06.723 2014] 0.000 sec 0.000 sec [ext2/1/ext 20 (0,1000)] [SearchRepository]
+[Thu Jun 19 11:45:27.431 2014] 0.000 sec 0.000 sec [ext2/1/ext 20 (0,1000)] [SearchRepository]
+[Thu Jun 19 12:12:28.550 2014] 0.000 sec 0.000 sec [ext2/1/ext 56 (0,1000)] [SearchRepository]
+[Thu Jun 19 12:13:01.315 2014] 0.000 sec 0.000 sec [ext2/1/ext 56 (0,1000)] [SearchRepository]
+[Thu Jun 19 12:15:28.021 2014] 0.000 sec 0.000 sec [ext2/1/ext 56 (0,1000)] [SearchRepository]
+[Thu Jun 19 12:22:58.809 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *буктре*
+[Thu Jun 19 12:22:59.689 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *буктрейлер*
+[Thu Jun 19 12:23:02.211 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,20)] [SearchRepository] *буктрейлер*
+[Thu Jun 19 12:23:08.431 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *буктрейлер*
+[Thu Jun 19 12:23:37.199 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *буктрэ*
+[Thu Jun 19 12:23:38.042 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *буктрэйл*
+[Thu Jun 19 12:23:38.670 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *буктрэйлер*
+[Thu Jun 19 12:24:24.842 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *буктрэйлер*
+[Thu Jun 19 12:24:26.164 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,20)] [SearchRepository] * буктрэйлер*
+[Thu Jun 19 12:24:37.443 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *буктрэйлер*
+[Thu Jun 19 13:52:51.978 2014] 0.000 sec 0.000 sec [ext2/0/ext 9 (0,5)] [SearchRepository] *би*
+[Thu Jun 19 13:52:54.829 2014] 0.000 sec 0.000 sec [ext2/0/ext 3 (0,20)] [SearchRepository] *биография*
+[Thu Jun 19 13:53:04.295 2014] 0.000 sec 0.000 sec [ext2/0/ext 5 (0,5)] [SearchRepository] *биогра*
+[Thu Jun 19 13:53:04.933 2014] 0.000 sec 0.000 sec [ext2/0/ext 5 (0,5)] [SearchRepository] *биограф*
+[Thu Jun 19 13:53:05.388 2014] 0.000 sec 0.000 sec [ext2/0/ext 5 (0,5)] [SearchRepository] *биографи*
+[Thu Jun 19 13:53:05.770 2014] 0.000 sec 0.000 sec [ext2/0/ext 3 (0,5)] [SearchRepository] *биография*
+[Thu Jun 19 13:53:06.726 2014] 0.000 sec 0.000 sec [ext2/0/ext 3 (0,20)] [SearchRepository] *биография*
+[Thu Jun 19 13:53:26.353 2014] 0.000 sec 0.000 sec [ext2/0/ext 4 (0,5)] [SearchRepository] *тере*
+[Thu Jun 19 13:53:29.968 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,20)] [SearchRepository] *Теребун В.В. - художник, скульптор,*
+[Thu Jun 19 13:53:35.033 2014] 0.000 sec 0.000 sec [ext2/0/ext 3 (0,5)] [SearchRepository] *тереб*
+[Thu Jun 19 13:53:35.789 2014] 0.000 sec 0.000 sec [ext2/0/ext 3 (0,20)] [SearchRepository] *теребун*
+[Thu Jun 19 13:54:55.406 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *паўстанне*
+[Thu Jun 19 13:54:56.371 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,20)] [SearchRepository] *паўстанне*
+[Thu Jun 19 13:54:57.948 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *паўстанне*
+[Thu Jun 19 13:56:19.081 2014] 0.000 sec 0.000 sec [ext2/0/ext 5 (0,20)] [SearchRepository] *фото*
+[Thu Jun 19 13:57:31.688 2014] 0.000 sec 0.000 sec [ext2/0/ext 5 (0,5)] [SearchRepository] *био*
+[Thu Jun 19 13:57:32.483 2014] 0.000 sec 0.000 sec [ext2/0/ext 5 (0,5)] [SearchRepository] *биогр*
+[Thu Jun 19 13:57:34.380 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *биогры*
+[Thu Jun 19 13:57:57.517 2014] 0.000 sec 0.000 sec [ext2/0/ext 5 (0,20)] [SearchRepository] *биогр*
+[Thu Jun 19 13:58:13.737 2014] 0.000 sec 0.000 sec [ext2/0/ext 5 (0,5)] [SearchRepository] *биогр*
+[Thu Jun 19 13:58:17.402 2014] 0.000 sec 0.000 sec [ext2/0/ext 5 (0,5)] [SearchRepository] *фото*
+[Thu Jun 19 13:58:17.693 2014] 0.000 sec 0.000 sec [ext2/0/ext 5 (0,20)] [SearchRepository] *фото*
+[Thu Jun 19 13:58:28.803 2014] 0.000 sec 0.000 sec [ext2/0/ext 5 (0,5)] [SearchRepository] *фото*
+[Thu Jun 19 13:58:30.080 2014] 0.000 sec 0.000 sec [ext2/0/ext 9 (0,5)] [SearchRepository] *би*
+[Thu Jun 19 13:58:31.023 2014] 0.000 sec 0.000 sec [ext2/0/ext 5 (0,5)] [SearchRepository] *биогр*
+[Thu Jun 19 13:58:31.450 2014] 0.000 sec 0.000 sec [ext2/0/ext 5 (0,5)] [SearchRepository] *биограф*
+[Thu Jun 19 13:58:32.524 2014] 0.000 sec 0.000 sec [ext2/0/ext 3 (0,5)] [SearchRepository] *биография*
+[Thu Jun 19 13:58:33.143 2014] 0.000 sec 0.000 sec [ext2/0/ext 3 (0,20)] [SearchRepository] *биография*
+[Thu Jun 19 13:58:51.796 2014] 0.000 sec 0.000 sec [ext2/0/ext 3 (0,5)] [SearchRepository] *биография*
+[Thu Jun 19 13:59:16.193 2014] 0.000 sec 0.000 sec [ext2/0/ext 9 (0,5)] [SearchRepository] *би*
+[Thu Jun 19 13:59:32.160 2014] 0.000 sec 0.000 sec [ext2/0/ext 9 (0,5)] [SearchRepository] *би*
+[Thu Jun 19 13:59:35.995 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,20)] [SearchRepository] * библиографический справочник [на*
+[Thu Jun 19 13:59:37.750 2014] 0.001 sec 0.001 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *библиографический справочник [на*
+[Thu Jun 19 13:59:50.451 2014] 0.000 sec 0.000 sec [ext2/0/ext 26 (0,5)] [SearchRepository] *по*
+[Thu Jun 19 13:59:51.021 2014] 0.000 sec 0.000 sec [ext2/0/ext 3 (0,5)] [SearchRepository] *поэ*
+[Thu Jun 19 13:59:51.706 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *поэз*
+[Thu Jun 19 13:59:52.123 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *поэзи*
+[Thu Jun 19 13:59:52.532 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *поэзия*
+[Thu Jun 19 13:59:58.559 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,20)] [SearchRepository] *поэзия*
+[Thu Jun 19 14:00:00.066 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *поэзия*
+[Thu Jun 19 14:00:02.076 2014] 0.000 sec 0.000 sec [ext2/0/ext 26 (0,5)] [SearchRepository] *по*
+[Thu Jun 19 14:00:44.234 2014] 0.000 sec 0.000 sec [ext2/0/ext 26 (0,5)] [SearchRepository] *по*
+[Thu Jun 19 14:00:46.162 2014] 0.000 sec 0.000 sec [ext2/0/ext 5 (0,5)] [SearchRepository] *поз*
+[Thu Jun 19 14:00:48.317 2014] 0.000 sec 0.000 sec [ext2/0/ext 5 (0,5)] [SearchRepository] *пози*
+[Thu Jun 19 14:00:49.785 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *позии*
+[Thu Jun 19 14:00:50.403 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,20)] [SearchRepository] *позии*
+[Thu Jun 19 14:03:38.799 2014] 0.000 sec 0.000 sec [ext2/1/ext 54 (0,1000)] [SearchRepository]
+[Thu Jun 19 14:03:42.436 2014] 0.000 sec 0.000 sec [ext2/1/ext 54 (0,1000)] [SearchRepository]
+[Thu Jun 19 14:03:49.743 2014] 0.000 sec 0.000 sec [ext2/1/ext 54 (0,1000)] [SearchRepository]
+[Thu Jun 19 14:03:55.926 2014] 0.000 sec 0.000 sec [ext2/1/ext 54 (0,1000)] [SearchRepository]
+[Thu Jun 19 14:04:01.636 2014] 0.000 sec 0.000 sec [ext2/1/ext 54 (0,1000)] [SearchRepository]
+[Thu Jun 19 14:04:09.225 2014] 0.000 sec 0.000 sec [ext2/1/ext 54 (0,1000)] [SearchRepository]
+[Thu Jun 19 14:04:14.233 2014] 0.000 sec 0.000 sec [ext2/1/ext 54 (0,1000)] [SearchRepository]
+[Thu Jun 19 14:04:25.027 2014] 0.000 sec 0.000 sec [ext2/1/ext 54 (0,1000)] [SearchRepository]
+[Thu Jun 19 14:04:27.396 2014] 0.000 sec 0.000 sec [ext2/1/ext 54 (0,1000)] [SearchRepository]
+[Thu Jun 19 14:12:08.654 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *бі*
+[Thu Jun 19 14:12:25.365 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,20)] [SearchRepository] *біяграфія*
+[Thu Jun 19 14:12:30.636 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *біяграфія*
+[Thu Jun 19 14:12:37.816 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *бі*
+[Thu Jun 19 14:12:43.914 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,20)] [SearchRepository] *біяграфія*
+[Thu Jun 19 14:12:48.647 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *біяграфія*
+[Thu Jun 19 14:12:55.268 2014] 0.000 sec 0.000 sec [ext2/0/ext 5 (0,5)] [SearchRepository] *биог*
+[Thu Jun 19 14:12:55.930 2014] 0.000 sec 0.000 sec [ext2/0/ext 5 (0,5)] [SearchRepository] *биогр*
+[Thu Jun 19 14:12:56.621 2014] 0.000 sec 0.000 sec [ext2/0/ext 5 (0,5)] [SearchRepository] *биогра*
+[Thu Jun 19 14:12:57.032 2014] 0.000 sec 0.000 sec [ext2/0/ext 5 (0,5)] [SearchRepository] *биограф*
+[Thu Jun 19 14:12:57.455 2014] 0.000 sec 0.000 sec [ext2/0/ext 5 (0,5)] [SearchRepository] *биографи*
+[Thu Jun 19 14:12:57.898 2014] 0.000 sec 0.000 sec [ext2/0/ext 3 (0,5)] [SearchRepository] *биография*
+[Thu Jun 19 14:13:00.970 2014] 0.000 sec 0.000 sec [ext2/0/ext 3 (0,20)] [SearchRepository] *биография*
+[Thu Jun 19 14:13:09.466 2014] 0.000 sec 0.000 sec [ext2/0/ext 3 (0,5)] [SearchRepository] *биография*
+[Thu Jun 19 14:13:13.573 2014] 0.000 sec 0.000 sec [ext2/0/ext 26 (0,5)] [SearchRepository] *по*
+[Thu Jun 19 14:13:13.986 2014] 0.000 sec 0.000 sec [ext2/0/ext 3 (0,5)] [SearchRepository] *поэ*
+[Thu Jun 19 14:13:14.542 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *поэз*
+[Thu Jun 19 14:13:15.140 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *поэзи*
+[Thu Jun 19 14:13:15.850 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *поэзия*
+[Thu Jun 19 14:13:25.808 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,20)] [SearchRepository] *поэзия*
+[Thu Jun 19 14:13:31.111 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *поэзия*
+[Thu Jun 19 14:13:38.361 2014] 0.000 sec 0.000 sec [ext2/0/ext 26 (0,5)] [SearchRepository] *па*
+[Thu Jun 19 14:13:39.230 2014] 0.000 sec 0.000 sec [ext2/0/ext 3 (0,5)] [SearchRepository] *паэ*
+[Thu Jun 19 14:13:40.014 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *паэз*
+[Thu Jun 19 14:13:40.626 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *паэзі*
+[Thu Jun 19 14:13:41.077 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *паэзія*
+[Thu Jun 19 14:13:45.757 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,20)] [SearchRepository] * паэзіі з альманахаў*
+[Thu Jun 19 14:13:49.411 2014] 0.001 sec 0.001 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *паэзіі з альманахаў*
+[Thu Jun 19 14:13:51.876 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *паэзі*
+[Thu Jun 19 14:13:53.016 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *паэзія*
+[Thu Jun 19 14:13:54.155 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,20)] [SearchRepository] * паэзія*
+[Thu Jun 19 14:14:31.833 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *паэзія*
+[Thu Jun 19 14:14:43.877 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *зборніку*
+[Thu Jun 19 16:51:26.970 2014] 0.000 sec 0.000 sec [ext2/0/ext 20 (0,5)] [SearchRepository] *су*
+[Thu Jun 19 16:51:30.523 2014] 0.000 sec 0.000 sec [ext2/1/ext 54 (0,1000)] [SearchRepository]
+[Thu Jun 19 16:51:34.464 2014] 0.000 sec 0.000 sec [ext2/0/ext 6 (0,5)] [SearchRepository] *сур*
+[Fri Jun 20 10:58:26.777 2014] 0.000 sec 0.000 sec [ext2/0/ext 20 (0,5)] [SearchRepository] *су*
+[Fri Jun 20 10:58:27.218 2014] 0.000 sec 0.000 sec [ext2/0/ext 10 (0,5)] [SearchRepository] *суч*
+[Fri Jun 20 10:58:29.447 2014] 0.001 sec 0.001 sec [ext2/0/ext 0 (0,20)] [SearchRepository] * Сучкова Таццяна: біяграфічная лістоўка*
+[Fri Jun 20 15:28:12.812 2014] 0.000 sec 0.000 sec [ext2/0/ext 31 (0,5)] [SearchRepository] *па*
+[Fri Jun 20 15:28:14.116 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *паўстанне*
+[Fri Jun 20 15:28:17.346 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *паўстанн*
+[Fri Jun 20 15:28:18.071 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *паўстан*
+[Fri Jun 20 15:28:18.940 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *паўста*
+[Fri Jun 20 15:28:19.784 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *паўст*
+[Fri Jun 20 15:28:20.688 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *паўс*
+[Fri Jun 20 15:28:24.916 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *паў*
+[Fri Jun 20 15:28:35.635 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *паўста*
+[Fri Jun 20 15:28:40.680 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,20)] [SearchRepository] *паўстанне*
+[Fri Jun 20 15:28:43.072 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *паўстанне*
+[Fri Jun 20 15:28:52.080 2014] 0.000 sec 0.000 sec [ext2/0/ext 31 (0,5)] [SearchRepository] *па*
+[Fri Jun 20 15:28:53.348 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *паўстанне*
+[Fri Jun 20 15:28:55.824 2014] 0.000 sec 0.000 sec [ext2/1/ext 0 (0,1000)] [SearchRepository] *паўстанне*
+[Fri Jun 20 15:28:58.783 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *паўстанне*
+[Fri Jun 20 15:29:15.586 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *восстаніе*
+[Fri Jun 20 15:29:20.736 2014] 0.001 sec 0.001 sec [ext2/1/ext 1 (0,1000)] [SearchRepository] * восстания 1794, 1830-1831, 1863 лет на*
+[Fri Jun 20 15:29:30.047 2014] 0.001 sec 0.001 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *1863 лет на*
+[Fri Jun 20 15:29:35.444 2014] 0.000 sec 0.000 sec [ext2/0/ext 23 (0,5)] [SearchRepository] *су*
+[Fri Jun 20 15:30:28.848 2014] 0.000 sec 0.000 sec [ext2/0/ext 29 (0,5)] [SearchRepository] *по*
+[Fri Jun 20 15:30:33.917 2014] 0.000 sec 0.000 sec [ext2/0/ext 5 (0,5)] [SearchRepository] *паэ*
+[Fri Jun 20 15:30:34.334 2014] 0.000 sec 0.000 sec [ext2/0/ext 4 (0,5)] [SearchRepository] *паэз*
+[Fri Jun 20 15:30:37.190 2014] 0.000 sec 0.000 sec [ext2/0/ext 4 (0,5)] [SearchRepository] *паэзі*
+[Fri Jun 20 15:30:38.160 2014] 0.000 sec 0.000 sec [ext2/0/ext 4 (0,5)] [SearchRepository] *паэзія*
+[Fri Jun 20 15:30:40.414 2014] 0.000 sec 0.000 sec [ext2/1/ext 4 (0,1000)] [SearchRepository] * паэзія*
+[Fri Jun 20 15:31:13.781 2014] 0.000 sec 0.000 sec [ext2/0/ext 4 (0,5)] [SearchRepository] *паэзія*
+[Fri Jun 20 15:31:18.983 2014] 0.000 sec 0.000 sec [ext2/0/ext 5 (0,5)] [SearchRepository] *поэ*
+[Fri Jun 20 15:31:20.075 2014] 0.000 sec 0.000 sec [ext2/0/ext 4 (0,5)] [SearchRepository] *поэз*
+[Fri Jun 20 15:31:36.689 2014] 0.000 sec 0.000 sec [ext2/0/ext 29 (0,5)] [SearchRepository] *по*
+[Fri Jun 20 15:31:38.048 2014] 0.000 sec 0.000 sec [ext2/0/ext 5 (0,5)] [SearchRepository] *поэ*
+[Fri Jun 20 15:31:38.763 2014] 0.000 sec 0.000 sec [ext2/0/ext 4 (0,5)] [SearchRepository] *поэз*
+[Fri Jun 20 15:31:39.440 2014] 0.000 sec 0.000 sec [ext2/0/ext 4 (0,5)] [SearchRepository] *поэзи*
+[Fri Jun 20 15:31:40.006 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *поэзия*
+[Fri Jun 20 15:31:41.515 2014] 0.000 sec 0.000 sec [ext2/1/ext 0 (0,1000)] [SearchRepository] *поэзия*
+[Fri Jun 20 15:32:22.055 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *поэзия*
+[Fri Jun 20 15:33:26.767 2014] 0.000 sec 0.000 sec [ext2/0/ext 12 (0,5)] [SearchRepository] *би*
+[Fri Jun 20 15:33:27.704 2014] 0.000 sec 0.000 sec [ext2/0/ext 5 (0,5)] [SearchRepository] *био*
+[Fri Jun 20 15:33:28.422 2014] 0.000 sec 0.000 sec [ext2/0/ext 5 (0,5)] [SearchRepository] *биограф*
+[Fri Jun 20 15:33:29.210 2014] 0.000 sec 0.000 sec [ext2/0/ext 3 (0,5)] [SearchRepository] *биография*
+[Fri Jun 20 15:33:33.171 2014] 0.000 sec 0.000 sec [ext2/1/ext 3 (0,1000)] [SearchRepository] *биография*
+[Fri Jun 20 15:37:18.115 2014] 0.000 sec 0.000 sec [ext2/0/ext 23 (0,5)] [SearchRepository] *су*
+[Fri Jun 20 15:37:28.004 2014] 0.000 sec 0.000 sec [ext2/0/ext 16 (0,5)] [SearchRepository] *тер*
+[Fri Jun 20 15:37:29.591 2014] 0.000 sec 0.000 sec [ext2/0/ext 4 (0,5)] [SearchRepository] *тере*
+[Fri Jun 20 15:37:43.313 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,20)] [SearchRepository] *Теребун В.В. - художник, скульптор:*
+[Fri Jun 20 15:37:47.152 2014] 0.000 sec 0.000 sec [ext2/0/ext 3 (0,5)] [SearchRepository] *скульптор:*
+[Fri Jun 20 15:37:52.536 2014] 0.000 sec 0.000 sec [ext2/0/ext 3 (0,5)] [SearchRepository] *птор:*
+[Fri Jun 20 15:37:56.278 2014] 0.000 sec 0.000 sec [ext2/0/ext 29 (0,5)] [SearchRepository] *по*
+[Fri Jun 20 15:37:57.288 2014] 0.000 sec 0.000 sec [ext2/0/ext 5 (0,5)] [SearchRepository] *поэ*
+[Fri Jun 20 15:38:06.795 2014] 0.000 sec 0.000 sec [ext2/0/ext 5 (0,20)] [SearchRepository] *поэ*
+[Fri Jun 20 15:45:07.803 2014] 0.000 sec 0.000 sec [ext2/0/ext 3 (0,5)] [SearchRepository] *тереб*
+[Fri Jun 20 15:45:08.566 2014] 0.000 sec 0.000 sec [ext2/0/ext 3 (0,5)] [SearchRepository] *теребун*
+[Fri Jun 20 15:45:11.818 2014] 0.000 sec 0.000 sec [ext2/1/ext 3 (0,1000)] [SearchRepository] *теребун*
+[Mon Jun 23 10:34:03.796 2014] 0.026 sec 0.026 sec [ext2/0/ext 22 (0,5)] [SearchRepository] *су*
+[Mon Jun 23 10:34:04.547 2014] 0.000 sec 0.000 sec [ext2/0/ext 10 (0,5)] [SearchRepository] *суч*
+[Mon Jun 23 10:34:08.346 2014] 0.024 sec 0.024 sec [ext2/0/ext 0 (0,20)] [SearchRepository] * Сучкова Таццяна: біяграфічная лістоўка*
+[Thu Jun 26 11:10:22.720 2014] 0.159 sec 0.159 sec [ext2/0/ext 22 (0,5)] [SearchRepository] *су*
+[Thu Jun 26 11:10:35.626 2014] 0.000 sec 0.000 sec [ext2/0/ext 10 (0,5)] [SearchRepository] *суч*
+[Sun Jun 29 16:19:44.207 2014] 0.123 sec 0.123 sec [ext2/0/ext 18 (0,5)] [SearchRepository] *пе*
+[Sun Jun 29 16:19:45.543 2014] 0.000 sec 0.000 sec [ext2/0/ext 4 (0,5)] [SearchRepository] *пет*
+[Sun Jun 29 16:19:46.447 2014] 0.009 sec 0.009 sec [ext2/0/ext 4 (0,5)] [SearchRepository] *петру*
+[Sun Jun 29 16:19:49.724 2014] 0.050 sec 0.050 sec [ext2/0/ext 1 (0,20)] [SearchRepository] *Петрушкевич, А. Образ Принеманского*
+[Sun Jun 29 16:19:56.911 2014] 0.001 sec 0.001 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *А. Образ Принеманского*
+[Sun Jun 29 16:19:59.895 2014] 0.000 sec 0.000 sec [ext2/0/ext 4 (0,5)] [SearchRepository] *петру*
+[Sun Jun 29 16:20:03.251 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,20)] [SearchRepository] *Петрушкевіч, А. Вобраз Прынёманскага*
+[Sun Jun 29 16:20:07.283 2014] 0.001 sec 0.001 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *А. Вобраз Прынёманскага*
+[Sun Jun 29 16:20:10.476 2014] 0.000 sec 0.000 sec [ext2/0/ext 4 (0,5)] [SearchRepository] *петр*
+[Sun Jun 29 16:20:12.817 2014] 0.000 sec 0.000 sec [ext2/0/ext 4 (0,5)] [SearchRepository] *пет*
+[Sun Jun 29 16:20:13.160 2014] 0.000 sec 0.000 sec [ext2/0/ext 4 (0,5)] [SearchRepository] *петру*
+[Sun Jun 29 16:20:16.851 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,20)] [SearchRepository] *Петрушкевич, А. Отклики песни и*
+[Sun Jun 29 16:20:19.412 2014] 0.001 sec 0.001 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *А. Отклики песни и*
+[Sun Jun 29 16:21:00.199 2014] 0.000 sec 0.000 sec [ext2/0/ext 4 (0,5)] [SearchRepository] *тере*
+[Sun Jun 29 16:21:08.309 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,20)] [SearchRepository] *Теребун В.В. - художник, скульптор,*
+[Sun Jun 29 16:35:11.960 2014] 0.001 sec 0.001 sec [ext2/0/ext 0 (0,20)] [SearchRepository] *Теребун В.В. - художник, скульптор,*
+[Sun Jun 29 16:36:34.612 2014] 0.001 sec 0.001 sec [ext2/0/ext 0 (0,20)] [SearchRepository] *Теребун В.В. - художник, скульптор,*
+[Sun Jun 29 16:36:40.340 2014] 0.001 sec 0.001 sec [ext2/0/ext 0 (0,20)] [SearchRepository] *Теребун В.В. - художник, скульптор*
+[Sun Jun 29 16:36:44.447 2014] 0.001 sec 0.001 sec [ext2/0/ext 0 (0,20)] [SearchRepository] *Теребун В.В. - художник, скульптор *
+[Sun Jun 29 16:36:58.238 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,20)] [SearchRepository] *Теребун В.В. - художник*
+[Sun Jun 29 16:37:03.558 2014] 0.000 sec 0.000 sec [ext2/0/ext 3 (0,20)] [SearchRepository] *Теребун В.В. - *
+[Sun Jun 29 16:37:14.616 2014] 0.001 sec 0.001 sec [ext2/0/ext 0 (0,20)] [SearchRepository] *Теребун В.В. - художник, скульптор,*
+[Sun Jun 29 16:38:37.355 2014] 0.001 sec 0.001 sec [ext2/0/ext 4 (0,5)] [SearchRepository] *тере*
+[Sun Jun 29 16:38:47.192 2014] 0.019 sec 0.019 sec [ext2/1/ext 0 (0,1000)] [SearchRepository] *Теребун В.В. - художник, скульптор,*
+[Sun Jun 29 16:39:15.786 2014] 0.001 sec 0.001 sec [ext2/0/ext 3 (0,20)] [SearchRepository] *Теребун В.В. * художник, скульптор,*
+[Sun Jun 29 16:42:29.124 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *ntht===*
+[Sun Jun 29 16:42:35.083 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *ntht=*
+[Sun Jun 29 16:42:57.819 2014] 0.000 sec 0.000 sec [ext2/0/ext 4 (0,5)] [SearchRepository] *тере*
+[Sun Jun 29 16:43:03.274 2014] 0.001 sec 0.001 sec [ext2/0/ext 3 (0,20)] [SearchRepository] *Теребун В.В. * художник, скульптор,*
+[Sun Jun 29 16:44:20.030 2014] 0.001 sec 0.001 sec [ext2/1/ext 3 (0,1000)] [SearchRepository] *Теребун В.В. * художник, скульптор,*
+[Sun Jun 29 16:47:27.527 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *pp*
+[Sun Jun 29 16:47:32.596 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,20)] [SearchRepository] *ppt*
+[Sun Jun 29 18:15:51.996 2014] 0.011 sec 0.011 sec [ext2/0/ext 50 (0,5)] [SearchRepository] *ст*
+[Mon Jun 30 10:59:59.855 2014] 0.000 sec 0.000 sec [ext2/0/ext 10 (0,5)] [SearchRepository] *суч*
+[Mon Jun 30 11:00:08.004 2014] 0.001 sec 0.001 sec [ext2/0/ext 0 (0,20)] [SearchRepository] * Сучкова Таццяна: біяграфічная лістоўка*
+[Mon Jun 30 11:00:11.983 2014] 0.001 sec 0.001 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *Сучкова Таццяна: біяграфічная лістоўка*
+[Mon Jun 30 11:00:14.798 2014] 0.001 sec 0.001 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *Ся лістоўка*
+[Mon Jun 30 11:00:15.724 2014] 0.001 sec 0.001 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *я лістоўка*
+[Mon Jun 30 11:00:28.338 2014] 0.000 sec 0.000 sec [ext2/0/ext 25 (0,5)] [SearchRepository] *бо*
+[Mon Jun 30 11:00:29.119 2014] 0.000 sec 0.000 sec [ext2/0/ext 6 (0,5)] [SearchRepository] *бон*
+[Mon Jun 30 11:00:33.772 2014] 0.013 sec 0.013 sec [ext2/0/ext 1 (0,20)] [SearchRepository] *Бондаренко А.В. Давно, давно это было:*
+[Mon Jun 30 11:00:40.807 2014] 0.001 sec 0.001 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *давно это было:*
+[Mon Jun 30 11:00:44.368 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *о было:*
+[Mon Jun 30 11:00:48.698 2014] 0.000 sec 0.000 sec [ext2/0/ext 31 (0,5)] [SearchRepository] *па*
+[Mon Jun 30 11:00:49.166 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *пащ*
+[Mon Jun 30 11:00:56.252 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,20)] [SearchRepository] * падборка вершаў Т.Сучковай ,*
+[Mon Jun 30 11:01:04.881 2014] 0.000 sec 0.000 sec [ext2/0/ext 22 (0,5)] [SearchRepository] *Су*
+[Mon Jun 30 11:01:06.101 2014] 0.000 sec 0.000 sec [ext2/0/ext 6 (0,5)] [SearchRepository] *Сучкова*
+[Mon Jun 30 11:01:10.189 2014] 0.016 sec 0.016 sec [ext2/0/ext 0 (0,20)] [SearchRepository] * Сучкова Таццяна: біяграфічная лістоўка*
+[Mon Jun 30 11:01:15.677 2014] 0.001 sec 0.001 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *Сучкова Таццяна: біяграфічная лістоўка*
+[Mon Jun 30 11:01:18.624 2014] 0.001 sec 0.001 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *лістоўка*
+[Mon Jun 30 11:01:21.049 2014] 0.000 sec 0.000 sec [ext2/0/ext 10 (0,5)] [SearchRepository] *суч*
+[Mon Jun 30 11:01:22.187 2014] 0.000 sec 0.000 sec [ext2/0/ext 6 (0,5)] [SearchRepository] *сучкова*
+[Mon Jun 30 11:01:36.498 2014] 0.000 sec 0.000 sec [ext2/0/ext 4 (0,5)] [SearchRepository] *тере*
+[Mon Jun 30 11:01:37.440 2014] 0.000 sec 0.000 sec [ext2/0/ext 3 (0,5)] [SearchRepository] *теребун*
+[Mon Jun 30 11:01:40.317 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,20)] [SearchRepository] *Теребун В.В. - художник, скульптор,*
+[Mon Jun 30 11:01:50.864 2014] 0.000 sec 0.000 sec [ext2/0/ext 3 (0,5)] [SearchRepository] *Тереб*
+[Mon Jun 30 11:01:51.584 2014] 0.000 sec 0.000 sec [ext2/0/ext 3 (0,5)] [SearchRepository] *Теребун*
+[Mon Jun 30 11:01:58.786 2014] 0.000 sec 0.000 sec [ext2/0/ext 3 (0,5)] [SearchRepository] *Теребун б*
+[Mon Jun 30 11:02:01.659 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *Теребун би*
+[Mon Jun 30 11:02:02.634 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *Теребун био*
+[Mon Jun 30 11:02:04.423 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *Теребун биог*
+[Mon Jun 30 11:02:04.812 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *Теребун биогр*
+[Mon Jun 30 11:02:06.362 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *Теребун биограф*
+[Mon Jun 30 11:02:07.035 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *Теребун биографм*
+[Mon Jun 30 11:02:08.546 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *Теребун биографи*
+[Mon Jun 30 11:02:09.012 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *Теребун биография*
+[Mon Jun 30 11:02:10.432 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,20)] [SearchRepository] *Теребун биография*
+[Mon Jun 30 11:02:12.389 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *Теребун биография*
+[Mon Jun 30 11:02:15.747 2014] 0.000 sec 0.000 sec [ext2/0/ext 3 (0,5)] [SearchRepository] *биография*
+[Mon Jun 30 11:02:16.165 2014] 0.000 sec 0.000 sec [ext2/0/ext 3 (0,20)] [SearchRepository] *биография*
+[Mon Jun 30 11:02:31.272 2014] 0.000 sec 0.000 sec [ext2/0/ext 3 (0,5)] [SearchRepository] *биография*
+[Mon Jun 30 11:02:41.159 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,20)] [SearchRepository] *Биография Татьяны Сучковой, стихи,*
+[Mon Jun 30 11:03:12.250 2014] 0.000 sec 0.000 sec [ext2/1/ext 20 (0,1000)] [SearchRepository]
+[Mon Jun 30 11:04:03.931 2014] 0.000 sec 0.000 sec [ext2/1/ext 60 (0,1000)] [SearchRepository]
+[Mon Jun 30 11:04:16.977 2014] 0.000 sec 0.000 sec [ext2/1/ext 60 (0,1000)] [SearchRepository]
+[Mon Jun 30 11:04:29.000 2014] 0.000 sec 0.000 sec [ext2/1/ext 60 (0,1000)] [SearchRepository]
+[Mon Jun 30 11:04:43.208 2014] 0.000 sec 0.000 sec [ext2/1/ext 60 (0,1000)] [SearchRepository]
+[Mon Jun 30 11:05:10.061 2014] 0.000 sec 0.000 sec [ext2/2/ext 10 (0,1000)] [SearchRepository]
+[Mon Jun 30 11:05:53.255 2014] 0.000 sec 0.000 sec [ext2/1/ext 8 (0,1000)] [SearchRepository]
+[Mon Jun 30 11:06:35.812 2014] 0.000 sec 0.000 sec [ext2/1/ext 60 (0,1000)] [SearchRepository]
+[Mon Jun 30 11:07:18.663 2014] 0.000 sec 0.000 sec [ext2/1/ext 60 (0,1000)] [SearchRepository]
+[Mon Jun 30 11:07:31.346 2014] 0.000 sec 0.000 sec [ext2/1/ext 60 (0,1000)] [SearchRepository]
+[Mon Jun 30 11:07:49.322 2014] 0.000 sec 0.000 sec [ext2/1/ext 60 (0,1000)] [SearchRepository]
+[Mon Jun 30 11:08:10.399 2014] 0.000 sec 0.000 sec [ext2/1/ext 60 (0,1000)] [SearchRepository]
+[Mon Jun 30 11:09:58.295 2014] 0.000 sec 0.000 sec [ext2/1/ext 8 (0,1000)] [SearchRepository]
+[Mon Jun 30 11:11:15.870 2014] 0.000 sec 0.000 sec [ext2/1/ext 8 (0,1000)] [SearchRepository]
+[Mon Jun 30 11:11:52.736 2014] 0.000 sec 0.000 sec [ext2/1/ext 60 (0,1000)] [SearchRepository]
+[Mon Jun 30 11:12:05.006 2014] 0.000 sec 0.000 sec [ext2/1/ext 60 (0,1000)] [SearchRepository]
+[Mon Jun 30 11:12:31.199 2014] 0.000 sec 0.000 sec [ext2/1/ext 4 (0,1000)] [SearchRepository]
+[Mon Jun 30 11:14:36.205 2014] 0.000 sec 0.000 sec [ext2/1/ext 60 (0,1000)] [SearchRepository]
+[Mon Jun 30 11:14:53.666 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *gh*
+[Mon Jun 30 11:15:00.444 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *при*
+[Mon Jun 30 11:15:03.081 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *прим*
+[Mon Jun 30 11:15:05.881 2014] 0.000 sec 0.000 sec [ext2/1/ext 0 (0,1000)] [SearchRepository] *пример*
+[Mon Jun 30 11:15:09.642 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *пример*
+[Mon Jun 30 11:15:14.014 2014] 0.000 sec 0.000 sec [ext2/0/ext 35 (0,5)] [SearchRepository] *пр*
+[Mon Jun 30 11:15:15.804 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *при*
+[Mon Jun 30 11:15:18.327 2014] 0.000 sec 0.000 sec [ext2/1/ext 1 (0,1000)] [SearchRepository] * Принеманского края в поэзии Дануты*
+[Mon Jun 30 11:15:21.076 2014] 0.001 sec 0.001 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *Принеманского края в поэзии Дануты*
+[Mon Jun 30 11:15:24.639 2014] 0.000 sec 0.000 sec [ext2/0/ext 5 (0,5)] [SearchRepository] *нуты*
+[Mon Jun 30 11:15:28.394 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *при*
+[Mon Jun 30 11:15:34.618 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *прин*
+[Mon Jun 30 11:15:35.117 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *прине*
+[Mon Jun 30 11:15:41.943 2014] 0.000 sec 0.000 sec [ext2/0/ext 12 (0,5)] [SearchRepository] *дан*
+[Mon Jun 30 11:40:43.730 2014] 0.000 sec 0.000 sec [ext2/0/ext 60 (0,20)] [SearchRepository]
+[Mon Jun 30 22:12:58.771 2014] 0.001 sec 0.001 sec [ext2/0/ext 6 (0,5)] [SearchRepository] *пре*
+[Mon Jun 30 22:13:05.949 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *прим*
+[Mon Jun 30 22:13:07.868 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,20)] [SearchRepository] *пример*
+[Mon Jun 30 22:14:33.728 2014] 0.001 sec 0.001 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *пример*
+[Mon Jun 30 22:14:41.911 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *при*
+[Mon Jun 30 22:14:42.610 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *прим*
+[Mon Jun 30 22:15:19.874 2014] 0.001 sec 0.001 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *при*
+[Mon Jun 30 22:15:21.223 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *прим*
+[Mon Jun 30 22:15:21.904 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *пример*
+[Mon Jun 30 22:19:33.697 2014] 0.043 sec 0.043 sec [ext2/0/ext 31 (0,5)] [SearchRepository] *па*
+[Mon Jun 30 22:19:42.326 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *вос*
+[Mon Jun 30 22:19:48.743 2014] 0.015 sec 0.015 sec [ext2/0/ext 0 (0,20)] [SearchRepository] * восстания 1794, 1830*1831, 1863 лет на*
+[Mon Jun 30 22:19:52.208 2014] 0.001 sec 0.001 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *1863 лет на*
+[Mon Jun 30 22:19:55.551 2014] 0.001 sec 0.001 sec [ext2/0/ext 0 (0,20)] [SearchRepository] * восстания 1794, 1830*1831,  1863 лет на территории Гродненской*
+[Mon Jun 30 22:19:57.068 2014] 0.001 sec 0.001 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *1863 лет на территории Гродненской*
+[Mon Jun 30 22:20:29.884 2014] 0.000 sec 0.000 sec [ext2/0/ext 4 (0,5)] [SearchRepository] *тере*
+[Mon Jun 30 22:20:32.479 2014] 0.000 sec 0.000 sec [ext2/0/ext 3 (0,20)] [SearchRepository] *Теребун В.В. * художник, скульптор,*
+[Mon Jun 30 22:21:12.076 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *вос*
+[Mon Jun 30 22:21:52.682 2014] 0.001 sec 0.001 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *1863 лет на*
+[Mon Jun 30 22:22:25.628 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *1863 лет на*
+[Mon Jun 30 22:22:31.321 2014] 0.001 sec 0.001 sec [ext2/0/ext 31 (0,5)] [SearchRepository] *во*
+[Mon Jun 30 22:22:33.392 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *вост*
+[Mon Jun 30 22:23:06.042 2014] 0.001 sec 0.001 sec [ext2/0/ext 0 (0,20)] [SearchRepository] *восстания 1794, 1830*1831, 1863 лет на*
+[Mon Jun 30 22:23:23.342 2014] 0.002 sec 0.002 sec [ext2/0/ext 0 (0,20)] [SearchRepository] *восстания 1794, 1830*1831, 1863 лет на*
+[Mon Jun 30 22:23:42.892 2014] 0.001 sec 0.001 sec [ext2/0/ext 0 (0,20)] [SearchRepository] *восстания 1794, 1830*1831, 1863 лет на*
+[Mon Jun 30 22:24:02.030 2014] 0.001 sec 0.001 sec [ext2/0/ext 0 (0,20)] [SearchRepository] *восстания 1794* 1830*1831* 1863 лет на*
+[Mon Jun 30 22:24:15.782 2014] 0.001 sec 0.001 sec [ext2/0/ext 1 (0,20)] [SearchRepository] *восстания 1794 * 1830 * 1831* 1863 лет на *
+[Mon Jun 30 22:24:27.101 2014] 0.001 sec 0.001 sec [ext2/0/ext 1 (0,20)] [SearchRepository] *восстания 1794 * 1830 * 1831* 1863 лет на*
+[Mon Jun 30 22:24:32.215 2014] 0.001 sec 0.001 sec [ext2/0/ext 0 (0,20)] [SearchRepository] *восстания 1794*1830 * 1831* 1863 лет на*
+[Mon Jun 30 22:28:19.083 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *вос*
+[Mon Jun 30 22:28:22.562 2014] 0.001 sec 0.001 sec [ext2/0/ext 1 (0,20)] [SearchRepository] * восстания 1794, 1830 * 1831, 1863 лет на*
+[Mon Jun 30 22:28:28.184 2014] 0.001 sec 0.001 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *1863 лет на*
+[Mon Jun 30 22:28:35.392 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *ю * *
+[Mon Jun 30 22:28:37.896 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *. * *
+[Mon Jun 30 22:28:54.722 2014] 0.000 sec 0.000 sec [ext2/0/ext 33 (0,5)] [SearchRepository] *грод*
+[Mon Jun 30 22:29:02.568 2014] 0.000 sec 0.000 sec [ext2/0/ext 14 (0,5)] [SearchRepository] *гродно*
+[Mon Jun 30 22:30:43.637 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *gtn*
+[Mon Jun 30 22:30:45.484 2014] 0.001 sec 0.001 sec [ext2/0/ext 18 (0,5)] [SearchRepository] *пе*
+[Mon Jun 30 22:30:46.151 2014] 0.000 sec 0.000 sec [ext2/0/ext 4 (0,5)] [SearchRepository] *петр*
+[Mon Jun 30 22:30:49.093 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,20)] [SearchRepository] *Петрушкевич, А. Отклики песни и*
+[Mon Jun 30 22:30:51.598 2014] 0.001 sec 0.001 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *А. Отклики песни и*
+[Mon Jun 30 22:30:53.783 2014] 0.000 sec 0.000 sec [ext2/0/ext 4 (0,5)] [SearchRepository] *петру*
+[Mon Jun 30 22:30:54.592 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *петруше*
+[Mon Jun 30 22:30:56.289 2014] 0.000 sec 0.000 sec [ext2/0/ext 4 (0,5)] [SearchRepository] *петруш*
+[Mon Jun 30 22:30:57.811 2014] 0.000 sec 0.000 sec [ext2/0/ext 4 (0,20)] [SearchRepository] *петруш*
+[Mon Jun 30 22:31:00.826 2014] 0.001 sec 0.001 sec [ext2/0/ext 4 (0,5)] [SearchRepository] *петруш*
+[Mon Jun 30 22:31:02.683 2014] 0.000 sec 0.000 sec [ext2/0/ext 4 (0,5)] [SearchRepository] *петру*
+[Mon Jun 30 22:31:07.185 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,20)] [SearchRepository] *Петрушкевіч, А. Вобраз Прынёманскага*
+[Tue Jul  1 16:02:59.706 2014] 0.000 sec 0.000 sec [ext2/0/ext 23 (0,5)] [SearchRepository] *те*
+[Tue Jul  1 16:03:00.482 2014] 0.000 sec 0.000 sec [ext2/0/ext 4 (0,5)] [SearchRepository] *тере*
+[Tue Jul  1 16:03:00.881 2014] 0.000 sec 0.000 sec [ext2/0/ext 3 (0,5)] [SearchRepository] *тереб*
+[Tue Jul  1 16:03:01.153 2014] 0.000 sec 0.000 sec [ext2/0/ext 3 (0,5)] [SearchRepository] *теребун*
+[Tue Jul  1 16:03:05.802 2014] 0.000 sec 0.000 sec [ext2/0/ext 3 (0,20)] [SearchRepository] *Теребун В.В.  *  художник, скульптор,*
+[Wed Jul  2 14:59:11.520 2014] 0.000 sec 0.000 sec [ext2/0/ext 10 (0,5)] [SearchRepository] *суч*
+[Wed Jul  2 14:59:16.005 2014] 0.001 sec 0.001 sec [ext2/0/ext 0 (0,20)] [SearchRepository] * Сучкова Таццяна *  біяграфічная лістоўка*
+[Wed Jul  2 14:59:18.672 2014] 0.001 sec 0.001 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *Сучкова Таццяна *  біяграфічная лістоўка*
+[Wed Jul  2 14:59:24.376 2014] 0.000 sec 0.000 sec [ext2/0/ext 10 (0,5)] [SearchRepository] *суч*
+[Wed Jul  2 14:59:25.083 2014] 0.000 sec 0.000 sec [ext2/0/ext 10 (0,5)] [SearchRepository] *сучк*
+[Wed Jul  2 14:59:25.688 2014] 0.000 sec 0.000 sec [ext2/0/ext 10 (0,5)] [SearchRepository] *сучков*
+[Wed Jul  2 14:59:26.333 2014] 0.000 sec 0.000 sec [ext2/0/ext 6 (0,5)] [SearchRepository] *сучкова*
+[Wed Jul  2 14:59:26.510 2014] 0.000 sec 0.000 sec [ext2/0/ext 6 (0,20)] [SearchRepository] * сучкова*
+[Wed Jul  2 15:05:27.061 2014] 0.000 sec 0.000 sec [ext2/0/ext 6 (0,5)] [SearchRepository] *сучкова*
+[Wed Jul  2 15:06:28.129 2014] 0.000 sec 0.000 sec [ext2/1/ext 8 (0,1000)] [SearchRepository]
+[Wed Jul  2 15:06:52.145 2014] 0.000 sec 0.000 sec [ext2/1/ext 61 (0,1000)] [SearchRepository]
+[Wed Jul  2 15:07:04.368 2014] 0.000 sec 0.000 sec [ext2/1/ext 61 (0,1000)] [SearchRepository]
+[Wed Jul  2 15:07:09.709 2014] 0.000 sec 0.000 sec [ext2/1/ext 61 (0,1000)] [SearchRepository]
+[Wed Jul  2 15:09:46.714 2014] 0.001 sec 0.001 sec [ext2/0/ext 25 (0,5)] [SearchRepository] *бо*
+[Wed Jul  2 15:09:47.927 2014] 0.000 sec 0.000 sec [ext2/0/ext 6 (0,5)] [SearchRepository] *бон*
+[Wed Jul  2 15:09:48.361 2014] 0.000 sec 0.000 sec [ext2/0/ext 6 (0,5)] [SearchRepository] *бонд*
+[Wed Jul  2 15:09:48.795 2014] 0.000 sec 0.000 sec [ext2/0/ext 6 (0,5)] [SearchRepository] *бонда*
+[Wed Jul  2 15:10:05.644 2014] 0.000 sec 0.000 sec [ext2/0/ext 4 (0,5)] [SearchRepository] *тере*
+[Wed Jul  2 15:10:08.747 2014] 0.000 sec 0.000 sec [ext2/1/ext 3 (0,1000)] [SearchRepository] *Теребун В.В.  *  художник, скульптор,*
+[Wed Jul  2 15:10:22.390 2014] 0.000 sec 0.000 sec [ext2/0/ext 3 (0,5)] [SearchRepository] *тереб*
+[Wed Jul  2 15:10:23.152 2014] 0.000 sec 0.000 sec [ext2/0/ext 3 (0,5)] [SearchRepository] *теребун*
+[Wed Jul  2 15:10:26.191 2014] 0.000 sec 0.000 sec [ext2/1/ext 3 (0,1000)] [SearchRepository] *Теребун В.В.  *  художник, скульптор * *
+[Wed Jul  2 15:10:45.855 2014] 0.000 sec 0.000 sec [ext2/0/ext 3 (0,5)] [SearchRepository] *скульптор * *
+[Wed Jul  2 15:10:49.116 2014] 0.001 sec 0.001 sec [ext2/1/ext 1 (0,1000)] [SearchRepository] *Теребун В.В.  *  художник,  скульптор. Родители художника Антонина*
+[Wed Jul  2 15:10:52.853 2014] 0.001 sec 0.001 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *скульптор. Родители художника Антонина*
+[Wed Jul  2 15:11:02.316 2014] 0.000 sec 0.000 sec [ext2/0/ext 16 (0,5)] [SearchRepository] *тер*
+[Wed Jul  2 15:11:03.027 2014] 0.000 sec 0.000 sec [ext2/0/ext 4 (0,5)] [SearchRepository] *тере*
+[Wed Jul  2 15:11:09.452 2014] 0.000 sec 0.000 sec [ext2/1/ext 3 (0,1000)] [SearchRepository] *Теребун В.В.  *  художник, скульптор * *
+[Wed Jul  2 15:11:13.317 2014] 0.000 sec 0.000 sec [ext2/0/ext 3 (0,5)] [SearchRepository] *скульптор * *
+[Wed Jul  2 15:12:06.774 2014] 0.000 sec 0.000 sec [ext2/0/ext 12 (0,5)] [SearchRepository] *би*
+[Wed Jul  2 15:12:07.802 2014] 0.000 sec 0.000 sec [ext2/0/ext 5 (0,5)] [SearchRepository] *биог*
+[Wed Jul  2 15:12:08.341 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *биога*
+[Wed Jul  2 15:12:24.674 2014] 0.000 sec 0.000 sec [ext2/0/ext 12 (0,5)] [SearchRepository] *би*
+[Wed Jul  2 15:15:28.534 2014] 0.000 sec 0.000 sec [ext2/0/ext 3 (0,5)] [SearchRepository] *Бичель*
+[Wed Jul  2 15:15:35.080 2014] 0.001 sec 0.001 sec [ext2/0/ext 1 (0,20)] [SearchRepository] * Бичель, Геннадия Пашкова, Юрки Голуба,*
+[Wed Jul  2 15:15:44.484 2014] 0.000 sec 0.000 sec [ext2/0/ext 12 (0,5)] [SearchRepository] *би*
+[Wed Jul  2 15:15:45.438 2014] 0.000 sec 0.000 sec [ext2/0/ext 3 (0,5)] [SearchRepository] *бич*
+[Wed Jul  2 15:18:47.722 2014] 0.000 sec 0.000 sec [ext2/1/ext 12 (0,1000)] [SearchRepository]
+[Wed Jul  2 15:28:19.757 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *при*
+[Wed Jul  2 15:28:21.757 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,20)] [SearchRepository] *Пример презентации*
+[Wed Jul  2 15:28:23.460 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *Пример презентации*
+[Wed Jul  2 15:36:19.041 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,20)] [SearchRepository] *Пример презентации*
+[Wed Jul  2 15:36:21.152 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,20)] [SearchRepository] *Пример презентации*
+[Wed Jul  2 15:36:22.160 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *Пример презентации*
+[Wed Jul  2 15:36:24.082 2014] 0.000 sec 0.000 sec [ext2/0/ext 61 (0,20)] [SearchRepository]
+[Wed Jul  2 15:36:34.074 2014] 0.000 sec 0.000 sec [ext2/0/ext 61 (0,20)] [SearchRepository]
+[Wed Jul  2 15:36:37.991 2014] 0.000 sec 0.000 sec [ext2/0/ext 61 (0,20)] [SearchRepository]
+[Wed Jul  2 15:36:40.655 2014] 0.000 sec 0.000 sec [ext2/0/ext 61 (0,20)] [SearchRepository]
+[Wed Jul  2 15:37:46.898 2014] 0.000 sec 0.000 sec [ext2/0/ext 4 (0,5)] [SearchRepository] *петру*
+[Wed Jul  2 15:37:49.015 2014] 0.000 sec 0.000 sec [ext2/0/ext 4 (0,20)] [SearchRepository] *петру*
+[Wed Jul  2 15:37:50.681 2014] 0.000 sec 0.000 sec [ext2/0/ext 4 (0,5)] [SearchRepository] *петру*
+[Wed Jul  2 15:37:52.201 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,20)] [SearchRepository] *Петрушкевич, А. Отклики песни и*
+[Wed Jul  2 15:37:53.546 2014] 0.001 sec 0.001 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *А. Отклики песни и*
+[Wed Jul  2 15:37:56.133 2014] 0.000 sec 0.000 sec [ext2/0/ext 4 (0,5)] [SearchRepository] *петру*
+[Wed Jul  2 15:37:58.210 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,20)] [SearchRepository] *Петрушкевіч, А. Вобраз Прынёманскага*
+[Wed Jul  2 15:38:05.959 2014] 0.001 sec 0.001 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *А. Вобраз Прынёманскага*
+[Wed Jul  2 15:38:07.664 2014] 0.001 sec 0.001 sec [ext2/0/ext 26 (0,5)] [SearchRepository] *от*
+[Wed Jul  2 15:38:09.423 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *отде*
+[Wed Jul  2 15:38:13.112 2014] 0.001 sec 0.001 sec [ext2/0/ext 1 (0,20)] [SearchRepository] * отделение Союза писателей Беларуси * *
+[Wed Jul  2 15:38:58.136 2014] 0.000 sec 0.000 sec [ext2/0/ext 4 (0,5)] [SearchRepository] *тере*
+[Wed Jul  2 15:38:59.834 2014] 0.000 sec 0.000 sec [ext2/0/ext 3 (0,20)] [SearchRepository] *теребун*
+[Wed Jul  2 15:49:21.526 2014] 0.000 sec 0.000 sec [ext2/0/ext 61 (0,20)] [SearchRepository]
+[Wed Jul  2 15:49:26.122 2014] 0.000 sec 0.000 sec [ext2/0/ext 61 (0,20)] [SearchRepository]
+[Wed Jul  2 15:49:41.802 2014] 0.000 sec 0.000 sec [ext2/0/ext 61 (0,20)] [SearchRepository]
+[Wed Jul  2 15:49:44.996 2014] 0.000 sec 0.000 sec [ext2/0/ext 61 (0,20)] [SearchRepository]
+[Wed Jul  2 16:42:31.011 2014] 0.000 sec 0.000 sec [ext2/0/ext 18 (0,5)] [SearchRepository] *вы*
+[Wed Jul  2 16:42:32.129 2014] 0.000 sec 0.000 sec [ext2/0/ext 4 (0,5)] [SearchRepository] *вып*
+[Wed Jul  2 16:42:33.588 2014] 0.000 sec 0.000 sec [ext2/0/ext 4 (0,20)] [SearchRepository] *вып*
+[Wed Jul  2 16:42:38.294 2014] 0.000 sec 0.000 sec [ext2/0/ext 4 (0,5)] [SearchRepository] *вып*
+[Wed Jul  2 16:42:39.619 2014] 0.000 sec 0.000 sec [ext2/0/ext 22 (0,5)] [SearchRepository] *до*
+[Wed Jul  2 16:42:40.105 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *доц*
+[Wed Jul  2 16:42:43.579 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,20)] [SearchRepository] * доцента кафедры белорусской литературы*
+[Wed Jul  2 16:45:46.669 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *при*
+[Wed Jul  2 16:45:49.161 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,20)] [SearchRepository] *Пример презентации*
+[Wed Jul  2 16:45:58.627 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *при*
+[Wed Jul  2 16:48:20.824 2014] 0.000 sec 0.000 sec [ext2/0/ext 61 (0,1000)] [SearchRepository]
+[Wed Jul  2 16:48:47.468 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *йцу*
+[Wed Jul  2 16:49:07.500 2014] 0.000 sec 0.000 sec [ext2/0/ext 4 (0,5)] [SearchRepository] *пет*
+[Wed Jul  2 16:49:18.355 2014] 0.000 sec 0.000 sec [ext2/0/ext 4 (0,1000)] [SearchRepository] *пет*
+[Wed Jul  2 16:52:31.333 2014] 0.000 sec 0.000 sec [ext2/1/ext 61 (0,1000)] [SearchRepository]
+[Wed Jul  2 16:52:37.024 2014] 0.000 sec 0.000 sec [ext2/1/ext 61 (0,1000)] [SearchRepository]
+[Thu Jul  3 23:31:07.701 2014] 0.000 sec 0.000 sec [ext2/0/ext 36 (0,5)] [SearchRepository] *пр*
+[Thu Jul  3 23:31:08.324 2014] 0.000 sec 0.000 sec [ext2/0/ext 7 (0,5)] [SearchRepository] *пре*
+[Thu Jul  3 23:31:13.771 2014] 0.001 sec 0.001 sec [ext2/0/ext 23 (0,5)] [SearchRepository] *те*
+[Thu Jul  3 23:31:14.803 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *тес*
+[Thu Jul  3 23:31:16.699 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,1000)] [SearchRepository] *тес*
+[Thu Jul  3 23:31:23.947 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *тес*
+[Thu Jul  3 23:31:25.733 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,1000)] [SearchRepository] *  * тест * *
+[Thu Jul  3 23:31:28.549 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] * * тест * *
+[Thu Jul  3 23:31:41.116 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *ф  * тест * *
+[Thu Jul  3 23:31:42.355 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *й  * тест * *
+[Thu Jul  3 23:31:43.444 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *ц  * тест * *
+[Thu Jul  3 23:31:44.181 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *у  * тест * *
+[Thu Jul  3 23:31:45.189 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *к  * тест * *
+[Thu Jul  3 23:31:46.012 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *е  * тест * *
+[Thu Jul  3 23:31:47.131 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *н  * тест * *
+[Thu Jul  3 23:31:47.979 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *г  * тест * *
+[Thu Jul  3 23:31:49.076 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *ш  * тест * *
+[Thu Jul  3 23:31:49.937 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *щ  * тест * *
+[Thu Jul  3 23:31:52.649 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *ы  * тест * *
+[Thu Jul  3 23:31:53.583 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *в  * тест * *
+[Thu Jul  3 23:31:54.546 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *а  * тест * *
+[Thu Jul  3 23:31:56.143 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *п  * тест * *
+[Thu Jul  3 23:31:56.947 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *р  * тест * *
+[Thu Jul  3 23:31:57.677 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *о  * тест * *
+[Thu Jul  3 23:31:58.487 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *л  * тест * *
+[Thu Jul  3 23:31:59.018 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *д  * тест * *
+[Thu Jul  3 23:32:00.318 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *ж  * тест * *
+[Thu Jul  3 23:32:01.628 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *я  * тест * *
+[Thu Jul  3 23:32:02.355 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *ч  * тест * *
+[Thu Jul  3 23:32:03.817 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *с  * тест * *
+[Thu Jul  3 23:32:06.798 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *тест * *
+[Thu Jul  3 23:32:09.758 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,1000)] [SearchRepository] *тест*
+[Thu Jul  3 23:32:25.650 2014] 0.001 sec 0.001 sec [ext2/0/ext 38 (0,5)] [SearchRepository] *ав*
+[Thu Jul  3 23:32:26.153 2014] 0.000 sec 0.000 sec [ext2/0/ext 3 (0,5)] [SearchRepository] *авт*
+[Thu Jul  3 23:32:26.678 2014] 0.000 sec 0.000 sec [ext2/0/ext 3 (0,5)] [SearchRepository] *авто*
+[Thu Jul  3 23:32:28.029 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *авторы*
+[Thu Jul  3 23:32:28.346 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,1000)] [SearchRepository] *авторы*
+[Thu Jul  3 23:32:31.900 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *авторы*
+[Fri Jul  4 12:45:03.611 2014] 0.000 sec 0.000 sec [ext2/0/ext 18 (0,5)] [SearchRepository] *пе*
+[Fri Jul  4 12:45:05.334 2014] 0.000 sec 0.000 sec [ext2/0/ext 4 (0,5)] [SearchRepository] *пет*
+[Fri Jul  4 12:45:09.021 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,1000)] [SearchRepository] *Петрушкевіч, А. Водгукі песні і замовы*
+[Fri Jul  4 12:45:19.341 2014] 0.001 sec 0.001 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *А. Водгукі песні і замовы*
+[Fri Jul  4 12:45:22.423 2014] 0.000 sec 0.000 sec [ext2/0/ext 18 (0,5)] [SearchRepository] *Пе*
+[Fri Jul  4 12:45:23.504 2014] 0.000 sec 0.000 sec [ext2/0/ext 4 (0,5)] [SearchRepository] *Петр*
+[Fri Jul  4 12:45:29.096 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,1000)] [SearchRepository] *Петрушкевич, А. Отклики песни и*
+[Fri Jul  4 12:45:34.835 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *А. Отклики песни и*
+[Fri Jul  4 12:45:40.735 2014] 0.000 sec 0.000 sec [ext2/0/ext 10 (0,5)] [SearchRepository] *суч*
+[Fri Jul  4 12:45:46.640 2014] 0.001 sec 0.001 sec [ext2/0/ext 2 (0,1000)] [SearchRepository] * Т.Сучковой о Гродно на русском и*
+[Fri Jul  4 12:46:00.438 2014] 0.001 sec 0.001 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *Т.Сучковой о Гродно на русском и*
+[Fri Jul  4 12:46:05.026 2014] 0.000 sec 0.000 sec [ext2/0/ext 12 (0,5)] [SearchRepository] *би*
+[Fri Jul  4 12:46:08.551 2014] 0.000 sec 0.000 sec [ext2/0/ext 5 (0,5)] [SearchRepository] *биогра*
+[Fri Jul  4 12:46:14.341 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,1000)] [SearchRepository] *Биография, творчество, планы Андрея*
+[Wed Jul  9 14:38:58.199 2014] 0.000 sec 0.000 sec [ext2/0/ext 18 (0,5)] [SearchRepository] *пе*
+[Wed Jul  9 14:38:59.234 2014] 0.000 sec 0.000 sec [ext2/0/ext 4 (0,5)] [SearchRepository] *пет*
+[Wed Jul  9 14:39:04.514 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,1000)] [SearchRepository] *Петрушкевіч, А. Водгукі песні і замовы*
+[Thu Jul 10 10:39:49.425 2014] 0.000 sec 0.000 sec [ext2/0/ext 12 (0,5)] [SearchRepository] *би*
+[Thu Jul 10 10:39:54.504 2014] 0.001 sec 0.001 sec [ext2/0/ext 2 (0,1000)] [SearchRepository] * Бичель  *  *  Регион. особенности лит * ры * *
+[Thu Jul 10 10:40:29.097 2014] 0.000 sec 0.000 sec [ext2/1/ext 20 (0,1000)] [SearchRepository]
+[Sun Jul 13 14:35:56.991 2014] 0.000 sec 0.000 sec [ext2/0/ext 6 (0,5)] [SearchRepository] *лите*
+[Sun Jul 13 14:35:58.241 2014] 0.000 sec 0.000 sec [ext2/0/ext 6 (0,5)] [SearchRepository] *литера*
+[Sun Jul 13 14:36:01.008 2014] 0.000 sec 0.000 sec [ext2/0/ext 6 (0,5)] [SearchRepository] *Литератур*
+[Sun Jul 13 14:38:58.446 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *лі*
+[Sun Jul 13 14:38:58.987 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *літе*
+[Sun Jul 13 14:39:09.755 2014] 0.021 sec 0.021 sec [ext2/0/ext 20 (0,5)] [SearchRepository] *ли*
+[Sun Jul 13 14:39:12.235 2014] 0.000 sec 0.000 sec [ext2/0/ext 6 (0,5)] [SearchRepository] *лите*
+[Sun Jul 13 14:39:14.222 2014] 0.000 sec 0.000 sec [ext2/0/ext 6 (0,5)] [SearchRepository] *литера*
+[Sun Jul 13 14:41:42.079 2014] 0.000 sec 0.000 sec [ext2/0/ext 20 (0,5)] [SearchRepository] *ли*
+[Sun Jul 13 14:41:43.176 2014] 0.000 sec 0.000 sec [ext2/0/ext 6 (0,5)] [SearchRepository] *лите*
+[Sun Jul 13 14:41:44.228 2014] 0.000 sec 0.000 sec [ext2/0/ext 6 (0,5)] [SearchRepository] *литера*
+[Sun Jul 13 14:46:27.636 2014] 0.000 sec 0.000 sec [ext2/0/ext 8 (0,5)] [SearchRepository] *лит*
+[Sun Jul 13 14:53:59.210 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *kbnt*
+[Sun Jul 13 14:54:01.898 2014] 0.000 sec 0.000 sec [ext2/0/ext 6 (0,5)] [SearchRepository] *лите*
+[Sun Jul 13 14:54:38.602 2014] 0.000 sec 0.000 sec [ext2/0/ext 9 (0,5)] [SearchRepository] *пи*
+[Sun Jul 13 14:54:43.066 2014] 0.001 sec 0.001 sec [ext2/0/ext 1 (0,1000)] [SearchRepository] *Описание памятника, фото,*
+[Sun Jul 13 14:54:53.023 2014] 0.001 sec 0.001 sec [ext2/0/ext 20 (0,5)] [SearchRepository] *ли*
+[Sun Jul 13 14:54:53.557 2014] 0.000 sec 0.000 sec [ext2/0/ext 8 (0,5)] [SearchRepository] *лит*
+[Sun Jul 13 14:55:12.248 2014] 0.000 sec 0.000 sec [ext2/1/ext 0 (0,1000)] [SearchRepository] *Литература. Гродно в литературе.*
+[Sun Jul 13 14:55:21.286 2014] 0.000 sec 0.000 sec [ext2/0/ext 6 (0,5)] [SearchRepository] *лите*
+[Sun Jul 13 14:55:31.266 2014] 0.000 sec 0.000 sec [ext2/1/ext 0 (0,1000)] [SearchRepository] *Литература. Гродно в литературе.*
+[Sun Jul 13 14:55:53.006 2014] 0.001 sec 0.001 sec [ext2/0/ext 23 (0,5)] [SearchRepository] *те*
+[Sun Jul 13 14:55:53.889 2014] 0.000 sec 0.000 sec [ext2/0/ext 16 (0,5)] [SearchRepository] *тер*
+[Sun Jul 13 14:55:54.405 2014] 0.000 sec 0.000 sec [ext2/0/ext 4 (0,5)] [SearchRepository] *тере*
+[Sun Jul 13 14:56:01.649 2014] 0.000 sec 0.000 sec [ext2/0/ext 3 (0,5)] [SearchRepository] *Теребун В.В.*
+[Sun Jul 13 14:56:03.297 2014] 0.000 sec 0.000 sec [ext2/0/ext 3 (0,5)] [SearchRepository] *Теребун В.В*
+[Sun Jul 13 14:56:09.140 2014] 0.000 sec 0.000 sec [ext2/1/ext 3 (0,1000)] [SearchRepository] *Теребун В.В*
+[Sun Jul 13 14:58:39.048 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *kbn*
+[Sun Jul 13 14:58:42.121 2014] 0.000 sec 0.000 sec [ext2/0/ext 6 (0,5)] [SearchRepository] *лите*
+[Sun Jul 13 14:59:41.056 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *Литература*
+[Fri Jul 18 00:02:30.928 2014] 0.000 sec 0.000 sec [ext2/0/ext 61 (0,1000)] [SearchRepository]
+[Fri Jul 18 00:02:36.817 2014] 0.000 sec 0.000 sec [ext2/1/ext 61 (0,1000)] [SearchRepository]
+[Fri Jul 18 00:02:41.129 2014] 0.000 sec 0.000 sec [ext2/1/ext 61 (0,1000)] [SearchRepository]
+[Sat Jul 19 16:02:04.564 2014] 0.000 sec 0.000 sec [ext2/1/ext 61 (0,1000)] [SearchRepository]
+[Mon Jul 28 14:37:41.357 2014] 0.000 sec 0.000 sec [ext2/0/ext 10 (0,5)] [SearchRepository] *суч*
+[Mon Jul 28 14:37:46.450 2014] 0.001 sec 0.001 sec [ext2/0/ext 0 (0,1000)] [SearchRepository] * Сучкова Таццяна *  біяграфічная лістоўка*
+[Mon Jul 28 14:38:00.435 2014] 0.000 sec 0.000 sec [ext2/0/ext 6 (0,5)] [SearchRepository] *бон*
+[Mon Jul 28 14:38:04.845 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,1000)] [SearchRepository] * Бондаренко “Князь Наваградскі”  *  *  * *
+[Mon Jul 28 14:38:17.928 2014] 0.000 sec 0.000 sec [ext2/0/ext 25 (0,5)] [SearchRepository] *бо*
+[Mon Jul 28 14:38:18.758 2014] 0.000 sec 0.000 sec [ext2/0/ext 6 (0,5)] [SearchRepository] *бон*
+[Mon Jul 28 14:38:22.200 2014] 0.001 sec 0.001 sec [ext2/0/ext 1 (0,1000)] [SearchRepository] * Бондаренко *  беседа с ним  *  беседу вела*
+[Mon Jul 28 14:38:33.447 2014] 0.000 sec 0.000 sec [ext2/0/ext 10 (0,5)] [SearchRepository] *суч*
+[Mon Jul 28 14:38:34.927 2014] 0.000 sec 0.000 sec [ext2/0/ext 10 (0,5)] [SearchRepository] *сучк*
+[Mon Jul 28 14:38:43.707 2014] 0.001 sec 0.001 sec [ext2/0/ext 0 (0,1000)] [SearchRepository] * Т.Сучковай , прысвечаныя Гродна на*
+[Mon Jul 28 14:39:01.912 2014] 0.000 sec 0.000 sec [ext2/0/ext 4 (0,5)] [SearchRepository] *петру*
+[Mon Jul 28 14:39:02.310 2014] 0.000 sec 0.000 sec [ext2/0/ext 4 (0,5)] [SearchRepository] *петруш*
+[Mon Jul 28 14:39:10.807 2014] 0.001 sec 0.001 sec [ext2/0/ext 1 (0,1000)] [SearchRepository] *Петрушкевич, А. Отклики песни и*
+[Mon Jul 28 14:39:59.987 2014] 0.001 sec 0.001 sec [ext2/0/ext 25 (0,5)] [SearchRepository] *ре*
+[Mon Jul 28 14:40:02.255 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *рефе*
+[Mon Jul 28 14:40:03.078 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *реферат*
+[Mon Jul 28 14:40:07.191 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,1000)] [SearchRepository] * реферат  *  Аверьянова Д.Ю. *  на рус.яз.*
+[Mon Jul 28 14:40:46.246 2014] 0.000 sec 0.000 sec [ext2/0/ext 12 (0,5)] [SearchRepository] *би*
+[Mon Jul 28 14:40:47.777 2014] 0.000 sec 0.000 sec [ext2/0/ext 3 (0,5)] [SearchRepository] *бич*
+[Mon Jul 28 14:40:57.573 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,1000)] [SearchRepository] * Бичель  *  *  Фольклористические*
+[Mon Jul 28 14:42:00.817 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *песня*
+[Mon Jul 28 14:43:02.146 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *Песня*
+[Mon Jul 28 14:43:06.263 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *бук*
+[Mon Jul 28 14:43:06.818 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *буктр*
+[Mon Jul 28 14:43:07.204 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *буктрей*
+[Mon Jul 28 14:43:08.179 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *буктрейлео*
+[Mon Jul 28 14:43:10.238 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *буктрейле*
+[Mon Jul 28 14:43:22.325 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *Буктрейлер*
+[Mon Jul 28 14:43:25.987 2014] 0.000 sec 0.000 sec [ext2/0/ext 10 (0,5)] [SearchRepository] *Суч*
+[Mon Jul 28 14:43:27.201 2014] 0.000 sec 0.000 sec [ext2/0/ext 6 (0,5)] [SearchRepository] *Сучкова*
+[Mon Jul 28 14:50:18.503 2014] 0.000 sec 0.000 sec [ext2/0/ext 6 (0,5)] [SearchRepository] *Сучкова*
+[Mon Jul 28 14:50:32.913 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,1000)] [SearchRepository] * Т.Сучковай, муз. А.Маркелава. *  на*
+[Mon Jul 28 14:50:36.687 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *муз. А.Маркелава. *  на*
+[Mon Jul 28 14:50:39.006 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *Т.Сучкова*
+[Mon Jul 28 14:50:40.694 2014] 0.000 sec 0.000 sec [ext2/0/ext 6 (0,1000)] [SearchRepository] * Т.Сучкова*
+[Mon Jul 28 14:50:52.183 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *Т.Сучкова*
+[Mon Jul 28 14:50:59.163 2014] 0.000 sec 0.000 sec [ext2/0/ext 6 (0,5)] [SearchRepository] *Сучкова*
+[Mon Jul 28 14:51:07.903 2014] 0.001 sec 0.001 sec [ext2/0/ext 0 (0,1000)] [SearchRepository] * Сучкова Таццяна *  біяграфічная лістоўка*
+[Mon Jul 28 14:51:31.630 2014] 0.001 sec 0.001 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *Сучкова Таццяна *  біяграфічная лістоўка*
+[Mon Jul 28 14:51:35.026 2014] 0.000 sec 0.000 sec [ext2/0/ext 6 (0,5)] [SearchRepository] *Сучкова*
+[Mon Jul 28 14:51:57.734 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *Сучкова Татьяна*
+[Mon Jul 28 14:52:02.480 2014] 0.000 sec 0.000 sec [ext2/0/ext 10 (0,5)] [SearchRepository] *суч*
+[Mon Jul 28 14:52:03.131 2014] 0.000 sec 0.000 sec [ext2/0/ext 10 (0,5)] [SearchRepository] *сучк*
+[Mon Jul 28 14:52:03.655 2014] 0.000 sec 0.000 sec [ext2/0/ext 10 (0,5)] [SearchRepository] *сучко*
+[Mon Jul 28 14:52:04.449 2014] 0.000 sec 0.000 sec [ext2/0/ext 6 (0,5)] [SearchRepository] *сучкова*
+[Mon Jul 28 14:52:26.493 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *Сучкова Татьяна*
+[Mon Jul 28 14:52:34.486 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *марке*
+[Mon Jul 28 14:52:43.680 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,1000)] [SearchRepository] * Маркелова. *  на рус. яз.*
+[Mon Jul 28 14:53:07.335 2014] 0.001 sec 0.001 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *Маркелова. *  на рус. яз.*
+[Mon Jul 28 14:53:11.416 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *фу*
+[Mon Jul 28 14:53:12.105 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *фут*
+[Mon Jul 28 14:53:54.530 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *Ві*
+[Mon Jul 28 14:54:03.355 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,1000)] [SearchRepository] *Віленская*
+[Mon Jul 28 14:54:08.486 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *Віленская*
+[Mon Jul 28 14:54:18.679 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *Віл*
+[Mon Jul 28 14:54:26.583 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *вуліВіленская*
+[Mon Jul 28 14:54:27.216 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *вуліцаВіленская*
+[Mon Jul 28 14:54:27.980 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *вуліца Віленская*
+[Mon Jul 28 14:54:31.736 2014] 0.027 sec 0.027 sec [ext2/0/ext 2 (0,1000)] [SearchRepository] * вуліца Віленская *  гісторыя вуліцы  *  * *
+[Mon Jul 28 14:56:38.322 2014] 0.001 sec 0.001 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *вуліца Віленская *  гісторыя вуліцы  *  * *
+[Mon Jul 28 14:56:41.600 2014] 0.000 sec 0.000 sec [ext2/0/ext 5 (0,5)] [SearchRepository] *цы  *  * *
+[Mon Jul 28 14:56:45.980 2014] 0.000 sec 0.000 sec [ext2/0/ext 10 (0,5)] [SearchRepository] *чы*
+[Mon Jul 28 14:56:47.616 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *чырвоная*
+[Mon Jul 28 14:56:54.734 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,1000)] [SearchRepository] *чырвоная*
+[Mon Jul 28 14:57:00.218 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *чырвоная*
+[Mon Jul 28 14:57:06.410 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *красная*
+[Mon Jul 28 14:57:09.481 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,1000)] [SearchRepository] *красная*
+[Mon Jul 28 14:57:21.055 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *красная*
+[Mon Jul 28 14:57:25.045 2014] 0.000 sec 0.000 sec [ext2/0/ext 6 (0,5)] [SearchRepository] *каф*
+[Mon Jul 28 14:57:25.677 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *кафей*
+[Mon Jul 28 14:57:26.211 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *кафейня*
+[Mon Jul 28 14:57:28.898 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,1000)] [SearchRepository] *кафейня*
+[Mon Jul 28 14:57:48.050 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *кафейня*
+[Mon Jul 28 14:57:51.448 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,1000)] [SearchRepository] * кафейня  *  *  Вячэрні Гродна. *  2013. *  13*
+[Mon Jul 28 14:58:04.869 2014] 0.000 sec 0.000 sec [ext2/0/ext 6 (0,5)] [SearchRepository] *каф*
+[Mon Jul 28 14:58:05.584 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *кафей*
+[Mon Jul 28 14:58:06.319 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *кафейня*
+[Mon Jul 28 14:58:09.448 2014] 0.001 sec 0.001 sec [ext2/0/ext 0 (0,1000)] [SearchRepository] * кафейня  *  *  Вячэрні Гродна. *  2013. *  13*
+[Mon Jul 28 14:58:57.414 2014] 0.001 sec 0.001 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *кафейня  *  *  Вячэрні Гродна. *  2013. *  13*
+[Mon Jul 28 14:59:00.922 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *кафейня*
+[Mon Jul 28 14:59:02.430 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,1000)] [SearchRepository] * кафейня*
+[Mon Jul 28 14:59:20.934 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *кафейня*
+[Mon Jul 28 14:59:40.878 2014] 0.000 sec 0.000 sec [ext2/0/ext 16 (0,5)] [SearchRepository] *Вя*
+[Mon Jul 28 14:59:41.858 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *Вячэр*
+[Mon Jul 28 14:59:42.627 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *Вячэрні*
+[Mon Jul 28 14:59:46.720 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,1000)] [SearchRepository] *Вячэрні*
+[Mon Jul 28 14:59:49.949 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *Вячэрні*
+[Mon Jul 28 14:59:53.657 2014] 0.001 sec 0.001 sec [ext2/0/ext 0 (0,1000)] [SearchRepository] * Вячэрні Гродна. *  2012. *  2 мая.  *  на*
+[Mon Jul 28 14:59:57.173 2014] 0.001 sec 0.001 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *Вячэрні Гродна. *  2012. *  2 мая.  *  на*
+[Mon Jul 28 15:00:05.014 2014] 0.000 sec 0.000 sec [ext2/0/ext 3 (0,5)] [SearchRepository] *Вяч*
+[Mon Jul 28 15:00:05.530 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *Вячэр*
+[Mon Jul 28 15:00:06.234 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *Вячэрні*
+[Mon Jul 28 15:00:10.751 2014] 0.001 sec 0.001 sec [ext2/0/ext 1 (0,1000)] [SearchRepository] * Вячэрні Гродна. *  2013. *  13 снежня.  * *
+[Mon Jul 28 15:00:53.272 2014] 0.001 sec 0.001 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *Вячэрні Гродна. *  2013. *  13 снежня.  * *
+[Mon Jul 28 15:00:55.869 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *Вячэрні Гродна*
+[Mon Jul 28 15:01:00.537 2014] 0.001 sec 0.001 sec [ext2/0/ext 0 (0,1000)] [SearchRepository] * Вячэрні Гродна. *  2012. *  2 мая.  *  на*
+[Mon Jul 28 15:01:51.086 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *Пі*
+[Mon Jul 28 15:01:52.984 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *Піс*
+[Mon Jul 28 15:01:53.345 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *Пісьм*
+[Mon Jul 28 15:01:54.688 2014] 0.001 sec 0.001 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *Пісьменнікі*
+[Mon Jul 28 15:02:35.174 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *Пісьменнікі*
+[Mon Jul 28 15:05:02.818 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *пісь*
+[Mon Jul 28 15:10:47.006 2014] 0.001 sec 0.001 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *Пісьменнік*
+[Mon Jul 28 15:10:51.174 2014] 0.000 sec 0.000 sec [ext2/0/ext 4 (0,5)] [SearchRepository] *Паэз*
+[Mon Jul 28 15:11:52.060 2014] 0.000 sec 0.000 sec [ext2/0/ext 4 (0,5)] [SearchRepository] *Паэзія*
+[Mon Jul 28 15:11:54.696 2014] 0.000 sec 0.000 sec [ext2/0/ext 5 (0,5)] [SearchRepository] *Паэ*
+[Mon Jul 28 15:13:08.074 2014] 0.000 sec 0.000 sec [ext2/0/ext 5 (0,5)] [SearchRepository] *Паэ*
+[Mon Jul 28 15:13:15.519 2014] 0.001 sec 0.001 sec [ext2/0/ext 1 (0,1000)] [SearchRepository] * паэзіі Дануты Бічэль  *  *  Рэгіян.*
+[Mon Jul 28 15:19:17.469 2014] 0.001 sec 0.001 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *паэзіі Дануты Бічэль  *  *  Рэгіян.*
+[Mon Jul 28 15:19:21.187 2014] 0.000 sec 0.000 sec [ext2/0/ext 22 (0,5)] [SearchRepository] *су*
+[Mon Jul 28 15:19:21.662 2014] 0.000 sec 0.000 sec [ext2/0/ext 10 (0,5)] [SearchRepository] *суч*
+[Mon Jul 28 15:19:22.089 2014] 0.000 sec 0.000 sec [ext2/0/ext 10 (0,5)] [SearchRepository] *сучко*
+[Mon Jul 28 15:19:27.271 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,1000)] [SearchRepository] * Сучковай  * па зборніку  * Цёплы*
+[Mon Jul 28 15:19:33.633 2014] 0.001 sec 0.001 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *паэзіі Дануты Бічэль  *  *  Рэгіян.*
+[Mon Jul 28 15:19:38.759 2014] 0.000 sec 0.000 sec [ext2/0/ext 10 (0,5)] [SearchRepository] *суч*
+[Mon Jul 28 15:19:40.015 2014] 0.000 sec 0.000 sec [ext2/0/ext 6 (0,5)] [SearchRepository] *сучкова*
+[Mon Jul 28 15:19:46.195 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,1000)] [SearchRepository] * Т.Сучковай , прысвечаныя Гродна на*
+[Mon Jul 28 15:20:19.030 2014] 0.001 sec 0.001 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *прысвечаныя Гродна на*
+[Mon Jul 28 15:20:27.900 2014] 0.000 sec 0.000 sec [ext2/0/ext 10 (0,5)] [SearchRepository] *суч*
+[Mon Jul 28 15:20:29.063 2014] 0.000 sec 0.000 sec [ext2/0/ext 6 (0,5)] [SearchRepository] *сучкова*
+[Mon Jul 28 15:20:32.871 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,1000)] [SearchRepository] * Т.Сучковай , прысвечаныя Гродна на*
+[Mon Jul 28 15:21:34.238 2014] 0.001 sec 0.001 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *прысвечаныя Гродна на*
+[Mon Jul 28 15:21:36.639 2014] 0.001 sec 0.001 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *прысвечаныя Гродна на*
+[Mon Jul 28 15:21:39.484 2014] 0.000 sec 0.000 sec [ext2/0/ext 5 (0,5)] [SearchRepository] *Сучковай*
+[Mon Jul 28 15:21:47.752 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *Сучковй*
+[Mon Jul 28 15:21:48.611 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *Сучков0й*
+[Mon Jul 28 15:21:52.230 2014] 0.000 sec 0.000 sec [ext2/0/ext 5 (0,5)] [SearchRepository] *Сучковой*
+[Mon Jul 28 15:22:08.118 2014] 0.000 sec 0.000 sec [ext2/0/ext 10 (0,5)] [SearchRepository] *Сучков*
+[Mon Jul 28 15:22:08.657 2014] 0.000 sec 0.000 sec [ext2/0/ext 6 (0,5)] [SearchRepository] *Сучкова*
+[Mon Jul 28 15:22:24.496 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *Сучкова Татьяна*
+[Mon Jul 28 15:22:33.410 2014] 0.000 sec 0.000 sec [ext2/0/ext 10 (0,5)] [SearchRepository] *суч*
+[Mon Jul 28 15:22:34.441 2014] 0.000 sec 0.000 sec [ext2/0/ext 6 (0,5)] [SearchRepository] *сучкова*
+[Mon Jul 28 15:22:40.683 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,1000)] [SearchRepository] * Т.Сучковай , прысвечаныя Гродна на*
+[Mon Jul 28 15:23:42.283 2014] 0.001 sec 0.001 sec [ext2/0/ext 0 (0,1000)] [SearchRepository] * Т.Сучковай , прысвечаныя Гродна на*
+[Mon Jul 28 15:23:52.285 2014] 0.001 sec 0.001 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *прысвечаныя Гродна на*
+[Mon Jul 28 15:23:54.766 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *Т.Сучкова*
+[Mon Jul 28 15:24:05.232 2014] 0.000 sec 0.000 sec [ext2/0/ext 10 (0,5)] [SearchRepository] *суч*
+[Mon Jul 28 15:24:15.231 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,1000)] [SearchRepository] * Т.Сучковай , прысвечаныя Гродна на*
+[Mon Jul 28 15:24:18.778 2014] 0.001 sec 0.001 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *прысвечаныя Гродна на*
+[Mon Jul 28 15:24:28.237 2014] 0.001 sec 0.001 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *прысвечаныя Гродна на*
+[Mon Jul 28 15:27:45.598 2014] 0.001 sec 0.001 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *прысвечаныя Гродна на*
+[Mon Jul 28 15:27:52.203 2014] 0.001 sec 0.001 sec [ext2/0/ext 55 (0,5)] [SearchRepository] *ка*
+[Mon Jul 28 15:27:52.583 2014] 0.000 sec 0.000 sec [ext2/0/ext 6 (0,5)] [SearchRepository] *кафе*
+[Mon Jul 28 15:27:53.200 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *кафейн*
+[Mon Jul 28 15:27:53.764 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *кафейня*
+[Mon Jul 28 15:28:01.680 2014] 0.000 sec 0.000 sec [ext2/0/ext 6 (0,5)] [SearchRepository] *каф*
+[Mon Jul 28 15:28:02.402 2014] 0.000 sec 0.000 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *кафей*
+[Mon Jul 28 15:28:08.182 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,1000)] [SearchRepository] * кафейня  *  *  Вячэрні Гродна. *  2013. *  13*
+[Mon Jul 28 15:28:10.978 2014] 0.001 sec 0.001 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *кафейня  *  *  Вячэрні Гродна. *  2013. *  13*
+[Mon Jul 28 15:28:15.863 2014] 0.000 sec 0.000 sec [ext2/0/ext 3 (0,5)] [SearchRepository] *Вяч*
+[Mon Jul 28 15:28:16.355 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *Вячэр*
+[Mon Jul 28 15:28:17.056 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *Вячэрни*
+[Mon Jul 28 15:28:19.976 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *Вячэрн*
+[Mon Jul 28 15:28:23.745 2014] 0.001 sec 0.001 sec [ext2/0/ext 0 (0,1000)] [SearchRepository] * Вячэрні Гродна. *  2012. *  2 мая.  *  на*
+[Mon Jul 28 15:28:28.224 2014] 0.001 sec 0.001 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *Вячэрні Гродна. *  2012. *  2 мая.  *  на*
+[Mon Jul 28 15:28:31.369 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *Вячэрні*
+[Mon Jul 28 15:28:34.727 2014] 0.001 sec 0.001 sec [ext2/0/ext 1 (0,1000)] [SearchRepository] * Вячэрні Гродна. *  2013. *  13 снежня.  * *
+[Tue Jul 29 22:15:59.484 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *прысвечаныя Гродна*
+[Tue Jul 29 22:16:02.708 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *ce*
+[Tue Jul 29 22:16:05.295 2014] 0.000 sec 0.000 sec [ext2/0/ext 22 (0,5)] [SearchRepository] *су*
+[Tue Jul 29 22:16:06.049 2014] 0.000 sec 0.000 sec [ext2/0/ext 10 (0,5)] [SearchRepository] *суч*
+[Tue Jul 29 22:16:07.785 2014] 0.000 sec 0.000 sec [ext2/0/ext 6 (0,5)] [SearchRepository] *сучкова*
+[Tue Jul 29 22:16:24.302 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,1000)] [SearchRepository] * Т.Сучковай , прысвечаныя Гродна на*
+[Tue Jul 29 22:16:26.647 2014] 0.001 sec 0.001 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *прысвечаныя Гродна на*
+[Tue Jul 29 22:16:32.501 2014] 0.000 sec 0.000 sec [ext2/0/ext 22 (0,5)] [SearchRepository] *су*
+[Tue Jul 29 22:16:33.487 2014] 0.000 sec 0.000 sec [ext2/0/ext 10 (0,5)] [SearchRepository] *суч*
+[Tue Jul 29 22:16:40.139 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,1000)] [SearchRepository] * Т.Сучковай , прысвечаныя Гродна на*
+[Tue Jul 29 22:16:41.720 2014] 0.001 sec 0.001 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *прысвечаныя Гродна на*
+[Tue Jul 29 22:16:44.970 2014] 0.001 sec 0.001 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *прысвечаныя Гродна на*
+[Tue Jul 29 22:16:45.481 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,1000)] [SearchRepository] *Т.Сучковай , прысвечаныя Гродна на*
+[Tue Jul 29 22:16:46.463 2014] 0.001 sec 0.001 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *прысвечаныя Гродна на*
+[Tue Jul 29 22:16:48.884 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *прысвечаныя Гродна*
+[Tue Jul 29 22:16:49.178 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,1000)] [SearchRepository] *Т.Сучковай , прысвечаныя Гродна*
+[Tue Jul 29 22:16:50.303 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *прысвечаныя Гродна*
+[Tue Jul 29 22:16:53.294 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *прысвечаныя*
+[Tue Jul 29 22:16:53.857 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,1000)] [SearchRepository] *Т.Сучковай , прысвечаныя*
+[Tue Jul 29 22:16:55.400 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *прысвечаныя*
+[Tue Jul 29 22:17:01.416 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,1000)] [SearchRepository] *Т.Сучковай, прысвечаныя*
+[Tue Jul 29 22:17:03.048 2014] 0.000 sec 0.000 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *прысвечаныя*
+[Tue Jul 29 22:17:05.167 2014] 0.001 sec 0.001 sec [ext2/0/ext 2 (0,5)] [SearchRepository] *прысвечаныя Гродна на рускай і*
+[Tue Jul 29 22:17:16.016 2014] 0.000 sec 0.000 sec [ext2/1/ext 0 (0,1000)] [SearchRepository]
+[Tue Jul 29 22:18:48.330 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *ce*
+[Tue Jul 29 22:18:49.860 2014] 0.000 sec 0.000 sec [ext2/0/ext 10 (0,5)] [SearchRepository] *суч*
+[Tue Jul 29 22:18:52.050 2014] 0.000 sec 0.000 sec [ext2/0/ext 10 (0,5)] [SearchRepository] *сучков*
+[Tue Jul 29 22:19:01.925 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,1000)] [SearchRepository] * Т.Сучковай , прысвечаныя Гродна на*
+[Tue Jul 29 22:19:03.785 2014] 0.001 sec 0.001 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *прысвечаныя Гродна на*
+[Tue Jul 29 22:19:16.931 2014] 0.001 sec 0.001 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *прысвечаныя Гродна на*
+[Tue Jul 29 22:19:19.597 2014] 0.000 sec 0.000 sec [ext2/0/ext 61 (0,1000)] [SearchRepository]
+[Tue Jul 29 22:19:23.206 2014] 0.000 sec 0.000 sec [ext2/0/ext 61 (0,1000)] [SearchRepository]
+[Tue Jul 29 22:19:27.358 2014] 0.000 sec 0.000 sec [ext2/0/ext 61 (0,1000)] [SearchRepository]
+[Fri Aug  1 12:49:02.427 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *Ші*
+[Fri Aug  1 12:49:09.485 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *Шид*
+[Fri Aug  1 12:49:15.388 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,1000)] [SearchRepository] *Шидловский*
+[Fri Aug  1 12:49:21.340 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,1000)] [SearchRepository] *Шидловский*
+[Fri Aug  1 12:53:14.573 2014] 0.000 sec 0.000 sec [ext2/0/ext 5 (0,5)] [SearchRepository] *чо*
+[Fri Aug  1 12:53:15.086 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *чоп*
+[Fri Aug  1 13:09:45.192 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *ші*
+[Fri Aug  1 13:09:47.010 2014] 0.000 sec 0.000 sec [ext2/0/ext 7 (0,5)] [SearchRepository] *шы*
+[Fri Aug  1 13:09:47.464 2014] 0.000 sec 0.000 sec [ext2/0/ext 0 (0,5)] [SearchRepository] *шыд*
+[Fri Aug  1 13:09:58.833 2014] 0.001 sec 0.001 sec [ext2/0/ext 1 (0,1000)] [SearchRepository] * вершы і проза пра Гродна на старонках*
+[Fri Aug  1 13:10:03.124 2014] 0.001 sec 0.001 sec [ext2/0/ext 1 (0,5)] [SearchRepository] *вершы і проза пра Гродна на старонках*
+[Fri Aug  1 13:10:09.471 2014] 0.000 sec 0.000 sec [ext2/0/ext 3 (0,5)] [SearchRepository] *вершы*
+[Fri Aug  1 13:10:26.143 2014] 0.000 sec 0.000 sec [ext2/0/ext 16 (0,5)] [SearchRepository] *вер*
+[Fri Aug  1 13:10:26.819 2014] 0.000 sec 0.000 sec [ext2/0/ext 5 (0,5)] [SearchRepository] *верш*

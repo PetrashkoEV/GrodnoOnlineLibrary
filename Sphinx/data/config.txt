@@ -1,0 +1,141 @@
+searchd
+{
+    listen      = 9306:mysql41
+    pid_file    = D:/SearchRepository/SearchProg/data/searchd.pid
+    log         = D:/SearchRepository/SearchProg/data/log/log.txt
+    query_log   = D:/SearchRepository/SearchProg/data/log/query_log.txt
+    binlog_path = D:/SearchRepository/SearchProg/data/binlog/
+    mysql_version_string = 5.0.0
+}
+
+source base
+{
+	type = mysql
+  	sql_host = localhost
+	sql_port = 3307
+  	sql_db = libdb
+  	sql_user = root
+  	sql_pass = %Mylibrarydatabase2014%
+  	sql_query_pre = SET NAMES utf8 #  одировка запроса
+    sql_query_pre = SET CHARACTER SET utf8
+}
+
+# выводимые значени€
+source search_base : base{
+	sql_field_string = title
+	sql_field_string = description
+	sql_field_string = tableId
+	sql_field_string = typeTable
+}
+
+# »ндексирование store таблицы
+
+source search_main : search_base {
+	sql_query = \
+		SELECT articleloc.id, article.id AS 'tableId', articleloc.title, \
+			articleloc.description, article.modified AS 'ModifiedDate', \
+	        'article' AS 'typeTable' \
+		  FROM article INNER JOIN articleloc ON articleloc.article = article.id \
+		  UNION ALL \
+		  SELECT sloc.id, s.id AS 'tablesId', sloc.title, sloc.description, \
+		    	s.modified AS 'ModifiedDate', 'store' \
+		    FROM store s INNER JOIN storeloc AS sloc ON sloc.store = s.id 
+
+  	sql_attr_multi = uint tagId from query; \
+        SELECT a.id, aht.tag_id \
+  			FROM articleloc AS a LEFT OUTER JOIN article_has_tag AS aht ON a.article = aht.article_id \
+		  UNION ALL \
+		SELECT sloc.id, sht.tag_id \
+		  			FROM storeloc AS sloc LEFT OUTER JOIN store_has_tag AS sht ON sloc.store = sht.store_id
+
+	sql_attr_multi = uint categoryId from query; \
+		SELECT a.id, artic.category \
+		  FROM article AS artic LEFT OUTER JOIN articleloc AS a ON artic.id = a.article \
+		UNION ALL \
+		  SELECT stloc.id, stor.category \
+		  FROM store AS stor LEFT OUTER JOIN storeloc AS stloc ON stor.id = stloc.store
+
+	sql_query_post_index = \
+        insert into searchindexlog (IsMain) values (1)
+}
+
+source search_delta : search_base {
+	sql_query = \
+		SELECT articleloc.id, article.id AS 'tableId', articleloc.title, \
+			articleloc.description, article.modified AS 'ModifiedDate', 'article' AS 'typeTable' \
+		  FROM article INNER JOIN articleloc ON articleloc.article = article.id \
+		  AND article.modified > (select max(Date) FROM searchindexlog where IsMain = 1)\
+		  UNION ALL \
+		  SELECT sloc.id, s.id AS 'tablesId', sloc.title, sloc.description, \
+		    	s.modified AS 'ModifiedDate', 'store' \
+		    FROM store s INNER JOIN storeloc AS sloc ON sloc.store = s.id \
+            AND s.modified > (select max(Date) FROM searchindexlog where IsMain = 1)
+
+  	sql_attr_multi = uint tagId from query; \
+        SELECT a.id, aht.tag_id \
+  			FROM articleloc AS a LEFT OUTER JOIN article_has_tag AS aht ON a.article = aht.article_id \
+		  UNION ALL \
+		SELECT sloc.id, sht.tag_id \
+		  			FROM storeloc AS sloc LEFT OUTER JOIN store_has_tag AS sht ON sloc.store = sht.store_id
+
+	sql_attr_multi = uint categoryId from query; \
+		SELECT a.id, artic.category \
+		  FROM article AS artic LEFT OUTER JOIN articleloc AS a ON artic.id = a.article \
+		UNION ALL \
+		  SELECT stloc.id, stor.category \
+		  FROM store AS stor LEFT OUTER JOIN storeloc AS stloc ON stor.id = stloc.store
+
+	sql_query_post_index = \
+        insert into searchindexlog (IsDelta) values (1)
+
+     sql_query_killlist = \
+        select aloc.id \
+        	FROM article a INNER JOIN articleloc AS aloc ON aloc.article = a.id \
+        	where modified > (select max(Date) from searchindexlog where IsMain = 1) \
+		UNION ALL \
+		select sloc.id \
+		        FROM store s INNER JOIN storeloc AS sloc ON sloc.store = s.id \
+		        where modified > (select max(Date) from searchindexlog where IsMain = 1)
+}
+
+index search_main 
+{
+    source       = search_main
+    path         = D:/SearchRepository/SearchProg/data/index/search_main
+    charset_table = 0..9, A..Z->a..z, _, a..z, \
+    	U+410..U+42F->U+430..U+44F, U+430..U+44F, U+401->U+451, U+451
+    ignore_chars = U+AD
+    morphology = stem_enru # вид поиска
+	expand_keywords = 1
+	index_exact_words = 1
+	min_word_len = 3
+	min_infix_len = 3
+}
+
+index search_delta 
+{
+    source       = search_delta
+    path         = D:/SearchRepository/SearchProg/data/index/search_delta
+    charset_table = 0..9, A..Z->a..z, _, a..z, \
+    	U+410..U+42F->U+430..U+44F, U+430..U+44F, U+401->U+451, U+451
+    ignore_chars = U+AD
+    morphology = stem_enru # вид поиска
+    expand_keywords = 1
+    index_exact_words = 1
+    min_word_len = 3
+    min_infix_len = 3
+}
+
+index SearchRepository
+{
+    type  = distributed
+    local = search_main
+    local = search_delta
+}
+
+
+# morphology = stem_enru # вид поиска
+# expand_keywords = 1 # јвтоматически расшир€ет поисковый запрос до трех запросов
+# index_exact_words = 1 # ѕозвол€ет на р€ду с морфологически нормализованной формой хранить и оригинальное слово в индексе
+# min_word_len = 3 # ћинимальный размер слова дл€ индексации
+# min_infix_len = 3 # ѕозвол€ет индексировать части слова инфиксы, и искать по ним с применением *
