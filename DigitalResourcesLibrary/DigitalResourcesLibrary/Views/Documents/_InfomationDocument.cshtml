@@ -5,12 +5,17 @@
         <div class="tag">
             @ViewRes.Resource.Shared_Template_Tags_Title :
         </div>
-
-        foreach (var tagModel in Model.TagDocument)
+        if (Model.TagDocument != null)
         {
-            <div class="tag">
-                @LinkExtensions.ActionLink(Html, tagModel.Name, "SearchByTag", "Search", new { searchValue = tagModel.Id, page = 1 }, new { @class = "label label-warning" })
-            </div>
+            foreach (var tagModel in Model.TagDocument)
+            {
+                <div class="tag">
+                    @if(tagModel != null)
+                    {
+                        @LinkExtensions.ActionLink(Html, tagModel.Name, "SearchByTag", "Search", new { searchValue = tagModel.Id, page = 1 }, new { @class = "label label-warning" })
+                    }
+                </div>
+            }
         }
     }
 </div>
